@@ -1,0 +1,20 @@
+{
+  "promptDelete": false,
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "rightToLeft": false,
+  "showIndentGuide": true,
+  "foldIndent": true,
+  "spellcheck": true,
+  "autoPairMarkdown": true,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "newFileLocation": "current",
+  "trashOption": "local",
+  "foldHeading": true,
+  "autoConvertHtml": true,
+  "vimMode": false,
+  "livePreview": true,
+  "focusNewTab": true
+}

@@ -1,0 +1,16 @@
+{
+  "theme": "obsidian",
+  "accentColor": "#4a4a4a",
+  "interfaceFontFamily": "",
+  "cssTheme": "Typomagical",
+  "textFontFamily": "Bookman Old Style",
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "Cascadia Code",
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "custom-code"
+  ],
+  "showRibbon": true
+}

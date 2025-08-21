@@ -1,0 +1,47 @@
+
+.cm-activeLine {
+  background-color: transparent !important;
+}
+
+/* Change the background color of code blocks */
+.markdown-preview-view pre {
+  background-color: #2b2b2b; /* Dark gray for a classic look */
+}
+
+/* General code text color */
+.markdown-preview-view code {
+  color: #dcdcdc; /* Light gray for general code text */
+}
+
+/* Comments */
+.cm-s-obsidian span.cm-comment {
+  color: #7f848e; /* Desaturated blue-gray for comments */
+  font-style: italic; /* Optional: Italicize comments */
+}
+
+/* Keywords (e.g., class, int) */
+.cm-s-obsidian span.cm-keyword {
+  color: #8da1b9; /* Soft cool blue for keywords */
+  font-weight: bold; /* Optional: Bold keywords */
+}
+
+/* Strings */
+.cm-s-obsidian span.cm-string {
+  color: #a3b09e; /* Muted green for strings */
+}
+
+/* Numbers */
+.cm-s-obsidian span.cm-number {
+  color: #b5a1c8; /* Pale purple for numbers */
+}
+
+/* Class properties (e.g., Name, School) */
+.cm-s-obsidian span.cm-property {
+  color: #c2aa8d; /* Desaturated gold for properties */
+}
+
+/* Class objects (e.g., Geralt) */
+.cm-s-obsidian span.cm-variable {
+  color: #b98d96; /* Same cool blue as keywords for objects */
+  font-weight: bold; /* Optional: Bold objects */
+}

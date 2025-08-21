@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.name.startsWith("AI")
+    order:
+      - file.name
+      - file.basename
+      - file.folder
+      - file.tags
