@@ -19,14 +19,13 @@ $$
 - - -
 ##### Variables
 
-| Symbol                        | Name                | Explanation                                                                                                  |
-| ----------------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------ |
-| $$x^\mu$$                     | Coordinates         | Position of the particle in spacetime. can be ($x,y,z$) or ($t,r,\theta$)                                    |
-| $$\tau$$                      | Proper time         | Time measured by a clock moving with the particle. For light, replaced by an *affine parameter*.             |
-| $$\frac{dx^\mu}{d\tau}$$      | Four-velocity       | Motion of the particle in spacetime.                                                                         |
-| $$\frac{d^2 x^\mu}{d\tau^2}$$ | Four-acceleration   | Change of four-velocity with respect to proper time. Vanishes in flat spacetime but not in curved spacetime. |
-| $$\Gamma^\mu_{\alpha\beta}$$  | Christoffel symbols | Encode spacetime curvature. Defined as:                                                                      |
-$$\Gamma^\mu_{\alpha\beta} = \tfrac{1}{2} g^{\mu\nu} ( \partial_\alpha g_{\nu\beta} + \partial_\beta g_{\nu\alpha} - \partial_\nu g_{\alpha\beta} )$$ 
+| Symbol                        | Name                | Explanation                                                                                                                                                                                  |
+| ----------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $$x^\mu$$                     | Coordinates         | Position of the particle in spacetime. can be ($x,y,z$) or ($t,r,\theta$)                                                                                                                    |
+| $$\tau$$                      | Proper time         | Time measured by a clock moving with the particle. For light, replaced by an *affine parameter*.                                                                                             |
+| $$\frac{dx^\mu}{d\tau}$$      | Four-velocity       | Motion of the particle in spacetime.                                                                                                                                                         |
+| $$\frac{d^2 x^\mu}{d\tau^2}$$ | Four-acceleration   | Change of four-velocity with respect to proper time. Vanishes in flat spacetime but not in curved spacetime.                                                                                 |
+| $$\Gamma^\mu_{\alpha\beta}$$  | Christoffel symbols | Encode spacetime curvature. Defined as: $\Gamma^\mu_{\alpha\beta} = \tfrac{1}{2} g^{\mu\nu} ( \partial_\alpha g_{\nu\beta} + \partial_\beta g_{\nu\alpha} - \partial_\nu g_{\alpha\beta} )$  |
 - - -
 ##### Key Cases
 
