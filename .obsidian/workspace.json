@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "33456f1088e6b9cb",
+        "id": "23580717a8d0a2da",
         "type": "tabs",
         "children": [
           {
-            "id": "8e1eae674765a667",
+            "id": "ceec886b1ced8aa1",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".trash/[Untitled Diagram.svg.md",
-                "bFile": ".trash/[Untitled Diagram.svg.md",
-                "aRef": ""
+                "file": "Science/Astronomy/Geodesic Equations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: [Untitled Diagram.svg"
+              "icon": "lucide-file",
+              "title": "Geodesic Equations"
             }
           }
         ]
@@ -161,19 +162,9 @@
               "icon": "links-coming-in",
               "title": "Backlinks for Geodesic Equations"
             }
-          },
-          {
-            "id": "1b5ad36997c09b8f",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "1e4f8f703f5341f0",
@@ -210,7 +201,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e1eae674765a667",
+  "active": "ceec886b1ced8aa1",
   "lastOpenFiles": [
     "Science/Astronomy/Geodesic Equations.md",
     "Intellect/i. The Julian Star and Intellectualism as a Category of People.md",
