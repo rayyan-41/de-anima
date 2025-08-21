@@ -30,6 +30,6 @@ $$\Gamma^\mu_{\alpha\beta} = \tfrac{1}{2} g^{\mu\nu} ( \partial_\alpha g_{\nu\be
 - - -
 ##### Key Cases
 
-i) **Flat Spacetime (Minkowski Equation)**: when spacetime is flat, as is the majority of empty space,  $\Gamma^\mu_{\alpha\beta} = 0$. This gives us  $\frac{d^2 x^\mu}{d \tau^2} = 0$, which means that the path followed by an object/light in space is a straight line path with a constant velocity 
+i) **Flat Spacetime (Minkowski Equation)**: when spacetime is flat, as is the majority of empty space,  $\Gamma^\mu_{\alpha\beta} = 0$. This gives us  $\frac{d^2 x^\mu}{d \tau^2} = 0$, which means that the path followed by an object/light in space is a straight line path with a constant velocity.
 
 ii) **Curved Spacetime**: where $\Gamma^\mu_{\alpha\beta} \neq 0$. Hence, the path followed by an object is a **geodesic**.

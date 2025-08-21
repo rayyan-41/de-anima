@@ -1,0 +1,14 @@
+# Ignore Obsidian workspace layouts (tabs, open files, UI state)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Ignore plugin configs and binaries (optional)
+.obsidian/plugins/
+.obsidian/community-plugins.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore cache / temp
+.obsidian/cache
