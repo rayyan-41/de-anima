@@ -6,6 +6,5 @@ This is what I realized early on and it made sense to me to think about the worl
 
 ***DATE:** 22nd August 2025* 
 - - - 
-
 - [[i. The Julian Star and Intellectualism as a Category of People]]
 - 
