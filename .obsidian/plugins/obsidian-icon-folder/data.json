@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiDivideSquare",
       "LiPlus",
       "LiBrainCircuit",
       "LiMoon",
-      "LiBookPlus",
-      "LiComputer"
+      "LiBookPlus"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,6 +36,6 @@
   },
   "Science/Astronomy": "LiMoon",
   "Science/Computer Science": "LiComputer",
-  "Science/Mathematics": "LiPlus",
+  "Science/Mathematics": "LiDivideSquare",
   "Chain Of Thoughts.md": "LiBrainCircuit"
 }

@@ -48,9 +48,6 @@ class Node {
 ```
 
 
-
-
-
 - ### Root Node:
     
     This is the first node from the top in a tree. A root node has no parent node. In the above example, 1 is the root node. It has two child nodes 2 and 3.
