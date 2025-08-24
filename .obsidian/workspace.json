@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "23580717a8d0a2da",
+        "id": "d3b24c7fdfbb66df",
         "type": "tabs",
         "children": [
           {
-            "id": "ceec886b1ced8aa1",
+            "id": "0bfb70cc00a5acae",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -206,29 +206,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ceec886b1ced8aa1",
+  "active": "0bfb70cc00a5acae",
   "lastOpenFiles": [
+    "Chain Of Thoughts.md",
+    "Science/Computer Science/AI/AI-2.0-Convolutional Neural Networks.md",
+    "Science/Computer Science/AI/AI-1.0-Neural Networks and Machine learning.md",
+    "Science/Computer Science/AI/AI-1.1-Neural Networks Expanded.md",
+    "Science/Astronomy/Astronomy Master List.md",
     "Science/Computer Science/Data Structures/Omar's Notes - Binary Trees.md",
     "Science/Computer Science/_Computer Science.md",
     "Science/Mathematics/Mathematics of Interest.md",
     "Science/Mathematics/The Riemann Hypothesis.md",
-    "Science/Astronomy/Astronomy Master List.md",
     "Science/Astronomy/Geodesic Equations.md",
-    "Chain Of Thoughts.md",
-    "Intellect/i. The Julian Star and Intellectualism as a Category of People.md",
+    "Reason/i. The Julian Star and Intellectualism as a Category of People.md",
     "Untitled Kanban.md",
     "New Text Document.txt",
     "New folder",
     "Untitled.base",
     "Science/Astronomy/Untitled Kanban.md",
-    "Science/Computer Science/AI/AI-1.0-Neural Networks and Machine learning.md",
     "Literature/Quotes.md",
     "Literature/Myths and Legends/Orpheus and Eurydice.md",
     "Literature/Short Stories/i. Caedis.md",
     "Science/Untitled.base",
     "Science/Mathematics",
-    "Science/Computer Science/AI/AI-1.1-Neural Networks Expanded.md",
-    "Science/Computer Science/AI/AI-2.0-Convolutional Neural Networks.md",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
     "Science/Astronomy/Chain of Thoughts.base",
     "2025-08-20.md",
