@@ -1,3 +1,2 @@
-
 contemporaneous
 idiosyncratic
