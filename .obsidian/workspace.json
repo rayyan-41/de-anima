@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/CS - Project Backlog.md",
+                "file": "History/The Ottoman Empire/Notable Battles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CS - Project Backlog"
+              "title": "Notable Battles"
+            }
+          },
+          {
+            "id": "d59e64d110f8fc2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "History/The Ottoman Empire/The Ottomans in the Balkans.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Ottomans in the Balkans"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,12 +227,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a92b4972c7c062e3",
+  "active": "d59e64d110f8fc2a",
   "lastOpenFiles": [
+    "History/The Ottoman Empire/Notable Battles.md",
+    "History/The Ottoman Empire/The Ottomans in the Balkans.md",
     "Stuff.md",
-    "Science/Computer Science/CS - Project Backlog.md",
+    "Science/Computer Science/CS - Projects Backlog.md",
     "Science/Computer Science/Projects Backlog",
-    "History/The Ottoman Empire/Ott - Notable Battles.md",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
     "History/The Ottoman Empire",
     "Literature/Lexicon.md",
@@ -249,7 +266,6 @@
     "2025-08-14.md",
     "Intellect/COT Notes",
     "Science/Computer Science/AI/Untitled.md",
-    "Personal Notes/7.18.2025.md",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled Diagram 1.svg",
     "Pasted image 20250513145111.png",
