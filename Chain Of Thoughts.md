@@ -1,3 +1,4 @@
+#personal
 Often times I find myself in wonder and in thought. 
 This is where I write about what I think about.
 - - -
@@ -10,4 +11,4 @@ This is what I realized early on and it made sense to me to think about the worl
 - - - 
 #### COTs
 - [[i. The Julian Star and Intellectualism as a Category of People]]
-- 
+

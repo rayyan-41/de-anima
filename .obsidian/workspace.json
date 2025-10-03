@@ -1,0 +1,308 @@
+{
+  "main": {
+    "id": "2282e786059d2808",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a6d72e685e81352",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a92b4972c7c062e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "History/The Ottoman Empire/Notable Battles.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Notable Battles"
+            }
+          },
+          {
+            "id": "d59e64d110f8fc2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "History/The Ottoman Empire/The Ottomans in the Balkans.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "The Ottomans in the Balkans"
+            }
+          },
+          {
+            "id": "12e46a2d775076dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Complete Graphics and Rendering Notebook"
+            }
+          },
+          {
+            "id": "0dfe2d5511de592f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Complete Graphics and Rendering Notebook"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1bc7049d1d209b2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "8822e85fd1461fa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7adb17c520de5016",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9865e682d2a9ebea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0cc7f2731f058fb8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 224.5
+  },
+  "right": {
+    "id": "9ff74f0d31edc521",
+    "type": "split",
+    "children": [
+      {
+        "id": "371e316ae69ebf68",
+        "type": "tabs",
+        "dimension": 49.307774227902016,
+        "children": [
+          {
+            "id": "1ee66af3cb611110",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "9ba1635c639316bc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Science/Astronomy/Geodesic Equations.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Geodesic Equations"
+            }
+          },
+          {
+            "id": "ce24617f706e980c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f25bd75d5550b87c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Science/Astronomy/Geodesic Equations.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Geodesic Equations"
+            }
+          },
+          {
+            "id": "cb1936487faf405b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Science/Astronomy/Geodesic Equations.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Geodesic Equations"
+            }
+          },
+          {
+            "id": "12ae8687aa7ee1d5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "1e4f8f703f5341f0",
+        "type": "tabs",
+        "dimension": 50.692225772097984,
+        "children": [
+          {
+            "id": "67ef2c190d841bcf",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-kanban:Create new board": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "0dfe2d5511de592f",
+  "lastOpenFiles": [
+    "Science/Computer Science/CS - Projects Backlog.md",
+    "Chain Of Thoughts.md",
+    "Stuff.md",
+    "History/The Ottoman Empire/The Ottomans in the Balkans.md",
+    "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
+    "History/The Ottoman Empire/Notable Battles.md",
+    "Science/Computer Science/Projects Backlog",
+    "History/Islamic Golden Age/Notable Scholars Master List.md",
+    "History/The Ottoman Empire",
+    "Literature/Lexicon.md",
+    "Science/Computer Science/AI/AI-2.0-Convolutional Neural Networks.md",
+    "Science/Computer Science/AI/AI-1.0-Neural Networks and Machine learning.md",
+    "Science/Computer Science/AI/AI-1.1-Neural Networks Expanded.md",
+    "Science/Astronomy/Astronomy Master List.md",
+    "Science/Computer Science/Data Structures/Omar's Notes - Binary Trees.md",
+    "Science/Computer Science/_Computer Science.md",
+    "Science/Mathematics/Mathematics of Interest.md",
+    "Science/Mathematics/The Riemann Hypothesis.md",
+    "Science/Astronomy/Geodesic Equations.md",
+    "Reason/i. The Julian Star and Intellectualism as a Category of People.md",
+    "Untitled Kanban.md",
+    "New Text Document.txt",
+    "New folder",
+    "Untitled.base",
+    "Science/Astronomy/Untitled Kanban.md",
+    "Literature/Quotes.md",
+    "Literature/Myths and Legends/Orpheus and Eurydice.md",
+    "Literature/Short Stories/i. Caedis.md",
+    "Science/Untitled.base",
+    "Science/Mathematics",
+    "Science/Astronomy/Chain of Thoughts.base",
+    "2025-08-20.md",
+    "Science.md",
+    "Science/Astronomy",
+    "Untitled.canvas",
+    "2025-08-14.md",
+    "Intellect/COT Notes",
+    "The Grounded Study/Science/Untitled Diagram.svg",
+    "Untitled Diagram 1.svg",
+    "Pasted image 20250513145111.png",
+    "Pasted image 20250513145109.png",
+    "Pasted image 20250513144915.png",
+    "Pasted image 20250513144825.png",
+    "Pasted image 20250513144907.png",
+    "Untitled 1.canvas"
+  ]
+}
