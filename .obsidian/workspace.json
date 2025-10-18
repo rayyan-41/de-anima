@@ -66,9 +66,24 @@
               "icon": "lucide-file",
               "title": "CS - Projects Backlog"
             }
+          },
+          {
+            "id": "6ac312d9460146f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science/Computer Science/how to eval WIP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "how to eval WIP"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -257,10 +272,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dfe2d5511de592f",
+  "active": "6ac312d9460146f9",
   "lastOpenFiles": [
-    "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
     "Science/Computer Science/CS - Projects Backlog.md",
+    "Science/Computer Science/how to eval WIP.md",
+    "STRATTON_FINANCE",
+    "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
     "Chain Of Thoughts.md",
     "Stuff.md",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
@@ -294,8 +311,6 @@
     "Science.md",
     "Science/Astronomy",
     "Untitled.canvas",
-    "2025-08-14.md",
-    "Intellect/COT Notes",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled Diagram 1.svg",
     "Pasted image 20250513145111.png",
