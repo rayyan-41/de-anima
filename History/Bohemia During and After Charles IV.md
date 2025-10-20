@@ -9,27 +9,28 @@ The Empire itself was less a coherent state than a political fiction maintained 
 
 But perhaps the deepest crisis afflicting the continent was [[The Great Western Schicism|spiritual in nature]]. In 1309, Pope Clement V, a Frenchman through and through, made a fateful decision. Rather than remain in Rome, he moved the entire papal court to Avignon, a city firmly under the shadow of the French crown. For seventy years, the papacy would remain there, and with each passing decade, it grew more entangled with French interests, more corrupt in its administration, more ruthless in extracting revenue from the faithful. To Germans, English, and Italians, the papacy had become a French puppet, and the universal Church they had known was dying.
 
-Then came the famines of 1315 to 1317, when crops failed across the continent and people starved in the streets. And in 1347, something far worse arrived: the Black Death. It swept through Europe like a scythe through wheat, killing between a third and half of the population. The world that emerged from this catastrophe was transformed—labor was scarce, wages rose, old certainties crumbled, and peasants began to question the order that had kept them in their place.
+Then came the famines of 1315 to 1317, when crops failed across the continent and people starved in the streets. And in 1347, something far worse arrived: the Black Death. It swept through Europe like a scythe through wheat, killing between a third and half of the population. The world that emerged from this catastrophe was transformed: labor was scarce, wages rose, old certainties crumbled, and peasants began to question the order that had kept them in their place.
 
-It was in this fractured, plague-haunted, spiritually adrift Europe that one principality began to shine with unusual brilliance: Bohemia, the jewel of Central Europe.
+It was in this fractured, plague-haunted, spiritually adrift Europe that one principality began to shine with unusual brilliance: **Bohemia, the jewel of Central Europe.**
 
 ## The Golden Age: Charles IV and the Making of Prague
 
-Charles of Luxembourg was born in 1316 to a world of courts and conflict. His father, John of Bohemia, was a warrior king who died gloriously at the Battle of Crécy. Charles himself was sent to France for his education, where he absorbed the cosmopolitan culture of the French court and mastered five languages. When he returned to claim his inheritance, he brought with him a vision: to transform Prague into something Europe had never seen—a capital worthy of an empire.
+Charles of Luxembourg was born in 1316 to a world of courts and conflict. His father, John of Bohemia, was a warrior king who died gloriously at the Battle of Crécy. Charles himself was sent to France for his education, where he absorbed the cosmopolitan culture of the French court and mastered five languages. When he returned to claim his inheritance, he brought with him a vision: to transform Prague into something Europe had never seen, a capital worthy of an empire.
 
 Charles became King of Bohemia in 1346 and Holy Roman Emperor in 1355, but his true achievement lay not in titles but in transformation. He understood that power in his age required more than armies; it required legitimacy, culture, and institutions that would outlast any single reign.
 
-In 1348, he founded Charles University in Prague, the first university in Central Europe. Scholars and students flooded in from across the continent. He rebuilt Prague Castle into a Gothic masterpiece and began construction of the bridge that still bears his name. Under his patronage, artists flourished, scribes copied manuscripts, and architects designed churches that seemed to reach toward heaven itself.
-
-But Charles was more than a patron of the arts. In 1356, he issued the Golden Bull, one of the most important constitutional documents of medieval Europe. This decree established once and for all how emperors would be chosen: by seven prince-electors, whose votes would be final and unchallengeable. The Bull brought order to what had often been chaotic successions, and crucially, it elevated the King of Bohemia to the first rank among the electors.
+In 1348, he founded Charles University in Prague, the first university in Central Europe. He rebuilt Prague Castle into a Gothic masterpiece and began construction of the bridge that still bears his name. Under his patronage, artists flourished, scribes copied manuscripts, and architects designed churches that seemed to reach toward heaven itself.
+In 1356, he issued the Golden Bull, one of the most important constitutional documents of medieval Europe. This decree established once and for all how emperors would be chosen: by seven prince-electors, whose votes would be final and unchallengeable. The Bull brought order to what had often been chaotic successions, and crucially, it elevated the King of Bohemia to the first rank among the electors.
 
 Bohemia under Charles IV became rich from its silver mines, powerful in imperial politics, and culturally vibrant beyond measure. When Charles died in 1378, he left behind what many considered a golden age. Bohemia stood at the center of European civilization.
 
 But golden ages, like all human things, do not last.
 
-## The Weak King: Wenceslas IV and the Unraveling
+**NOTE:** The game KCD is set after the death of Charles IV and the subsequent upheaval.
 
-Wenceslas IV inherited his father's throne but not his father's gifts. Where Charles had been decisive, Wenceslas hesitated. Where Charles had commanded respect, Wenceslas inspired contempt. He had been elected King of the Romans—the stepping stone to the imperial crown—while his father still lived, a sign of Charles's determination to secure the succession. But what Charles had built through vision and skill, Wenceslas began to lose through weakness and incompetence.
+## Wenceslas IV and the Unraveling
+
+Wenceslas IV inherited his father's throne but not his father's gifts. Where Charles had been decisive, Wenceslas hesitated. Where Charles had commanded respect, Wenceslas inspired contempt. He had been elected King of the Romans the stepping stone to the imperial crown while his father still lived, a sign of Charles's determination to secure the succession. But what Charles had built through vision and skill, Wenceslas began to lose through weakness and incompetence.
 
 The Bohemian nobility, always fractious, sensed vulnerability and pushed back against royal authority. The German princes who had supported his father grew frustrated with his indecision and inaction. In 1400, they took the unprecedented step of deposing him as King of the Romans, replacing him with Rupert of the Palatinate. Wenceslas retained his Bohemian crown, but the humiliation was complete.
 
