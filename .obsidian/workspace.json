@@ -73,13 +73,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/History of Bohemia.md",
+                "file": "History/History of Bohemia During and After Charles IV.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "History of Bohemia"
+              "title": "History of Bohemia During and After Charles IV"
             }
           },
           {
@@ -88,13 +88,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/History of Bohemia.md",
+                "file": "History/History of Bohemia During and After Charles IV.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "History of Bohemia"
+              "title": "History of Bohemia During and After Charles IV"
             }
           }
         ],
@@ -290,7 +290,7 @@
   "active": "cd34600d7610d4ac",
   "lastOpenFiles": [
     "History/The Holy Roman Empire.md",
-    "History/History of Bohemia.md",
+    "History/History of Bohemia During and After Charles IV.md",
     "STRATTON_FINANCE/how to eval WIP.md",
     "Stuff.md",
     "Science/Computer Science/CS - Projects Backlog.md",
