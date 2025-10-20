@@ -26,15 +26,12 @@
             "id": "94f73356d50730da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "History/King Sigismund and His Efforts to Control Bohemia.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Literature/Books/Tahafut-al-Falsafa.pdf"
               },
-              "icon": "lucide-file",
-              "title": "King Sigismund and His Efforts to Control Bohemia"
+              "icon": "lucide-file-text",
+              "title": "Tahafut-al-Falsafa"
             }
           }
         ],
@@ -229,9 +226,12 @@
   },
   "active": "94f73356d50730da",
   "lastOpenFiles": [
+    "Literature/Books/Ovid's-Metamorphosis.pdf",
+    "Literature/Books/Anna-Karenina.pdf",
+    "History/Islamic Golden Age/Notable Scholars Master List.md",
     "History/Bohemia During and After Charles IV.md",
-    "History/King Sigismund and His Efforts to Control Bohemia.md",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
+    "History/King Sigismund and His Efforts to Control Bohemia.md",
     "History/The Great Western Schicism.md",
     "History/The Holy Roman Empire.md",
     "STRATTON_FINANCE/how to eval WIP.md",
@@ -242,7 +242,6 @@
     "Chain Of Thoughts.md",
     "History/The Ottoman Empire/Notable Battles.md",
     "Science/Computer Science/Projects Backlog",
-    "History/Islamic Golden Age/Notable Scholars Master List.md",
     "History/The Ottoman Empire",
     "Literature/Lexicon.md",
     "Science/Computer Science/AI/AI-2.0-Convolutional Neural Networks.md",
@@ -260,11 +259,9 @@
     "New folder",
     "Untitled.base",
     "Science/Astronomy/Untitled Kanban.md",
-    "Literature/Quotes.md",
     "Science/Untitled.base",
     "Science/Mathematics",
     "Science/Astronomy/Chain of Thoughts.base",
-    "Science/Astronomy",
     "Untitled.canvas",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled Diagram 1.svg",
