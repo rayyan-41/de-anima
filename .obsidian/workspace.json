@@ -26,12 +26,15 @@
             "id": "94f73356d50730da",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Literature/Books/Tahafut-al-Falsafa.pdf"
+                "file": "History/King Sigismund and His Efforts to Control Bohemia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-file-text",
-              "title": "Tahafut-al-Falsafa"
+              "icon": "lucide-file",
+              "title": "King Sigismund and His Efforts to Control Bohemia"
             }
           }
         ],
@@ -226,6 +229,7 @@
   },
   "active": "94f73356d50730da",
   "lastOpenFiles": [
+    "Literature/Books/Tahafut-al-Falsafa.pdf",
     "Literature/Books/Ovid's-Metamorphosis.pdf",
     "Literature/Books/Anna-Karenina.pdf",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
@@ -261,7 +265,6 @@
     "Science/Astronomy/Untitled Kanban.md",
     "Science/Untitled.base",
     "Science/Mathematics",
-    "Science/Astronomy/Chain of Thoughts.base",
     "Untitled.canvas",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled Diagram 1.svg",
