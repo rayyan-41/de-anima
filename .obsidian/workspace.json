@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/King Sigismund and His Efforts to Control Bohemia.md",
+                "file": "History/The Holy Roman Empire.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "King Sigismund and His Efforts to Control Bohemia"
+              "title": "The Holy Roman Empire"
             }
           }
         ],
@@ -229,14 +229,14 @@
   },
   "active": "94f73356d50730da",
   "lastOpenFiles": [
+    "History/The Great Western Schicism.md",
+    "History/King Sigismund and His Efforts to Control Bohemia.md",
     "Literature/Books/Tahafut-al-Falsafa.pdf",
     "Literature/Books/Ovid's-Metamorphosis.pdf",
     "Literature/Books/Anna-Karenina.pdf",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
     "History/Bohemia During and After Charles IV.md",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
-    "History/King Sigismund and His Efforts to Control Bohemia.md",
-    "History/The Great Western Schicism.md",
     "History/The Holy Roman Empire.md",
     "STRATTON_FINANCE/how to eval WIP.md",
     "Stuff.md",
@@ -264,7 +264,6 @@
     "Untitled.base",
     "Science/Astronomy/Untitled Kanban.md",
     "Science/Untitled.base",
-    "Science/Mathematics",
     "Untitled.canvas",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled Diagram 1.svg",
