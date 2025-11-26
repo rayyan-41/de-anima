@@ -28,17 +28,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/The Holy Roman Empire.md",
+                "file": "19th Nov. Journey Begins.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Holy Roman Empire"
+              "title": "19th Nov. Journey Begins"
+            }
+          },
+          {
+            "id": "2418aa5f63645570",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -227,8 +239,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "94f73356d50730da",
+  "active": "2418aa5f63645570",
   "lastOpenFiles": [
+    "Chain Of Thoughts.md",
+    "19th Nov. Journey Begins.md",
+    "Stuff.md",
+    "History/The Holy Roman Empire.md",
+    "STRATTON_FINANCE/how to eval WIP.md",
     "History/The Great Western Schicism.md",
     "History/King Sigismund and His Efforts to Control Bohemia.md",
     "Literature/Books/Tahafut-al-Falsafa.pdf",
@@ -237,13 +254,9 @@
     "History/Islamic Golden Age/Notable Scholars Master List.md",
     "History/Bohemia During and After Charles IV.md",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
-    "History/The Holy Roman Empire.md",
-    "STRATTON_FINANCE/how to eval WIP.md",
-    "Stuff.md",
     "Science/Computer Science/CS - Projects Backlog.md",
     "STRATTON_FINANCE",
     "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
-    "Chain Of Thoughts.md",
     "History/The Ottoman Empire/Notable Battles.md",
     "Science/Computer Science/Projects Backlog",
     "History/The Ottoman Empire",
