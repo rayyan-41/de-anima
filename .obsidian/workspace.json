@@ -68,12 +68,15 @@
             "id": "1a6ac5c452890ec3",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "19th Nov. Journey Begins.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "19th Nov. Journey Begins"
             }
           }
         ],
