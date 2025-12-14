@@ -34,8 +34,8 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Science/Astronomy": "LiMoon",
-  "Science/Computer Science": "LiComputer",
-  "Science/Mathematics": "LiDivideSquare",
-  "Chain Of Thoughts.md": "LiBrainCircuit"
+  "Chain Of Thoughts.md": "LiBrainCircuit",
+  "Bait Al-Hikmah/Science/Computer Science": "LiComputer",
+  "Bait Al-Hikmah/Science/Mathematics": "LiDivideSquare",
+  "Bait Al-Hikmah/Science/Astronomy": "LiMoon"
 }

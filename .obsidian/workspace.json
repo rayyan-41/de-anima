@@ -8,79 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd34600d7610d4ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "History/Bohemia During and After Charles IV.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Bohemia During and After Charles IV"
-            }
-          },
-          {
-            "id": "94f73356d50730da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "19th Nov. Journey Begins.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "19th Nov. Journey Begins"
-            }
-          },
-          {
-            "id": "2418aa5f63645570",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
-            }
-          },
-          {
-            "id": "b2ed91da660031d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Science/Computer Science/Software Design Techniques.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Software Design Techniques"
-            }
-          },
-          {
             "id": "1a6ac5c452890ec3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "19th Nov. Journey Begins.md",
+                "file": "Literature/Quotes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "19th Nov. Journey Begins"
+              "title": "Quotes"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -271,42 +213,41 @@
   },
   "active": "1a6ac5c452890ec3",
   "lastOpenFiles": [
-    "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
-    "Science/Computer Science/Software Design Techniques.md",
-    "Chain Of Thoughts.md",
+    "Literature/Lexicon.md",
+    "History/The Holy Roman Empire/Bohemia During and After Charles IV.md",
     "19th Nov. Journey Begins.md",
+    "History/The Holy Roman Empire",
+    "Personal Notes",
+    "Bait Al-Hikmah",
+    "Bait Al-Hikmah/Science/Computer Science/Complete Graphics and Rendering Notebook.md",
+    "Bait Al-Hikmah/Science/Computer Science/Software Design Techniques.md",
+    "Chain Of Thoughts.md",
     "Stuff.md",
-    "History/The Holy Roman Empire.md",
+    "History/The Holy Roman Empire/The Holy Roman Empire.md",
     "STRATTON_FINANCE/how to eval WIP.md",
-    "History/The Great Western Schicism.md",
-    "History/King Sigismund and His Efforts to Control Bohemia.md",
+    "History/The Holy Roman Empire/The Great Western Schicism.md",
+    "History/The Holy Roman Empire/King Sigismund and His Efforts to Control Bohemia.md",
     "Literature/Books/Tahafut-al-Falsafa.pdf",
     "Literature/Books/Ovid's-Metamorphosis.pdf",
     "Literature/Books/Anna-Karenina.pdf",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
-    "History/Bohemia During and After Charles IV.md",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
-    "Science/Computer Science/CS - Projects Backlog.md",
+    "Bait Al-Hikmah/Science/Computer Science/CS - Projects Backlog.md",
     "STRATTON_FINANCE",
     "History/The Ottoman Empire/Notable Battles.md",
     "Science/Computer Science/Projects Backlog",
     "History/The Ottoman Empire",
-    "Literature/Lexicon.md",
-    "Science/Computer Science/AI/AI-2.0-Convolutional Neural Networks.md",
-    "Science/Computer Science/AI/AI-1.0-Neural Networks and Machine learning.md",
-    "Science/Computer Science/AI/AI-1.1-Neural Networks Expanded.md",
-    "Science/Astronomy/Astronomy Master List.md",
+    "Bait Al-Hikmah/Science/Computer Science/AI/AI-2.0-Convolutional Neural Networks.md",
+    "Bait Al-Hikmah/Science/Computer Science/AI/AI-1.0-Neural Networks and Machine learning.md",
+    "Bait Al-Hikmah/Science/Computer Science/AI/AI-1.1-Neural Networks Expanded.md",
+    "Bait Al-Hikmah/Science/Astronomy/Astronomy Master List.md",
     "Science/Computer Science/Data Structures/Omar's Notes - Binary Trees.md",
     "Science/Computer Science/_Computer Science.md",
-    "Science/Mathematics/Mathematics of Interest.md",
-    "Science/Mathematics/The Riemann Hypothesis.md",
-    "Science/Astronomy/Geodesic Equations.md",
+    "Bait Al-Hikmah/Science/Mathematics/Mathematics of Interest.md",
+    "Bait Al-Hikmah/Science/Mathematics/The Riemann Hypothesis.md",
+    "Bait Al-Hikmah/Science/Astronomy/Geodesic Equations.md",
     "Reason/i. The Julian Star and Intellectualism as a Category of People.md",
-    "Untitled Kanban.md",
     "New Text Document.txt",
-    "New folder",
-    "Untitled.base",
-    "Science/Untitled.base",
     "Untitled.canvas",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled Diagram 1.svg",
