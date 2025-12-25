@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "ART - Famous Painters and their works"
             }
+          },
+          {
+            "id": "4828f4c8b49d43b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arts/ARTH - Chevraul.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ARTH - Chevraul"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +227,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a6ac5c452890ec3",
+  "active": "4828f4c8b49d43b5",
   "lastOpenFiles": [
-    "Arts/paintings_source/School_Of_Athens.webp",
     "Arts/ART - Famous Painters and their works.md",
+    "Arts/ARTH - Chevraul.md",
+    "Arts/paintings_source/School_Of_Athens.webp",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png",
     "did-you-know-The-School-of-Athens-Raphael.webp",
