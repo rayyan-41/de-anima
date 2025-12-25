@@ -21,22 +21,16 @@ To ensure the library remains portable to a custom OS kernel (where standard lib
 
 The C++ Standard Template Library (STL) is **FORBIDDEN** inside the Core Engine.
 
-- **Banned:** `<vector>`, `<string>`, `<iostream>`, `<memory>`, `<thread>`, `<mutex>`
-- **Rationale:** These headers rely on OS-specific system calls (syscalls) for memory and I/O that do not exist in a bare-metal kernel.
-    
+- **Banned:** Any STL containers that are part of C++ std.
+- **Rationale:** These headers rely on OS-specific system calls (syscalls) for memory and I/O that do not exist in a bare-metal kernel. The entire idea of CRIS is that it is the most fundamental implementation of pixels. Therefore, it needs to be portable by nature.
 - **Exception:** STL is permitted **only** in the "Asset Cooker" (the offline toolset running on Windows).
-    
+
 
 ### 2.3 Feature Restrictions
 
-- **No Exceptions:** `try`, `catch`, and `throw` are forbidden. Error handling must be done via `bool` return values or error codes.
-    
-    - _Reason:_ Exception handling adds significant runtime overhead and bloat to the binary, which is unacceptable for a kernel.
-        
+- **No Exceptions:** `try`, `catch`, and `throw` are forbidden. Error handling must be done via `bool` return values or error codes.    
 - **No RTTI:** Run-Time Type Information (`dynamic_cast`, `typeid`) is disabled.
-    
 - **Memory:** No raw `new` or `delete`. All memory allocation must route through the `CRIS::Allocator` interface.
-    
 
 ---
 
