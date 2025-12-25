@@ -26,7 +26,7 @@ The C++ Standard Template Library (STL) is **FORBIDDEN** inside the Core Engine.
 - **Exception:** STL is permitted **only** in the "Asset Cooker" (the offline toolset running on Windows).
 
 
-### 2.3 Feature Restrictions
+### II-3 Feature Restrictions
 
 - **No Exceptions:** `try`, `catch`, and `throw` are forbidden. Error handling must be done via `bool` return values or error codes.    
 - **No RTTI:** Run-Time Type Information (`dynamic_cast`, `typeid`) is disabled.
@@ -34,11 +34,9 @@ The C++ Standard Template Library (STL) is **FORBIDDEN** inside the Core Engine.
 
 ---
 
-## 3. Directory Structure
+# III - Directory Structure
 
 The codebase is organized to separate "Pure Logic" from "Platform Specifics."
-
-Plaintext
 
 ```
 /CRIS
@@ -70,9 +68,9 @@ Plaintext
 
 ---
 
-## 4. The Core Modules
+# IV - The Core Modules
 
-### 4.1 Memory Management (`Core/Allocator.h`)
+### IV-1 Memory Management (`Core/Allocator.h`)
 
 CRIS must handle memory manually to support Kernel Paging or Linear Allocators.
 
@@ -91,7 +89,7 @@ namespace CRIS::Core {
 }
 ```
 
-### 4.2 Containers (`Core/Vector.h`)
+### IV-2 Containers (`Core/Vector.h`)
 
 A minimal, robust dynamic array.
 
@@ -100,7 +98,7 @@ A minimal, robust dynamic array.
 - **Growth Strategy:** Geometric growth (capacity * 1.5 or 2.0).
     
 
-### 4.3 Mathematics (`Core/Math.h`)
+### IV-3 Mathematics (`Core/Math.h`)
 
 Math structures must be POD (Plain Old Data) to ensure they can be `memcpy`'d and passed to SIMD registers.
 
@@ -114,11 +112,10 @@ struct Rect  { int32_t x, y, w, h; };
 
 ---
 
-## 5. The Graphics Pipeline (Software Rasterizer)
+# V - The Graphics Pipeline (Software Rasterizer)
 
 CRIS uses a "Soft-Backend" by default. It assumes no GPU is available.
-
-### 5.1 The Framebuffer
+### V-1 The Framebuffer
 
 The abstract representation of the screen.
 
@@ -133,36 +130,27 @@ struct Framebuffer {
 };
 ```
 
-### 5.2 The Renderer (`Graphics/Renderer.h`)
+### V-2 The Renderer (`Graphics/Renderer.h`)
 
 The engine that manipulates the framebuffer.
 
 - **`Clear(Color c)`**: Uses `memset` (or 64-bit wide fills) to wipe the screen.
-    
 - **`PutPixel(x, y, c)`**: Safety-checked pixel write.
-    
 - **`DrawLine(p1, p2, c)`**: Implementation of **Bresenham's Line Algorithm** (Integer math only).
-    
 - **`Blit(Texture* tex, Rect src, Rect dst)`**:
-    
     - The workhorse function.
-        
     - Must support Alpha Blending via the formula:
-        
-        $$Result = (Source \times \alpha) + (Dest \times (1 - \alpha))$$
-        
+      $$Result = (Source \times \alpha) + (Dest \times (1 - \alpha))$$
     - _Optimization:_ This function is the primary candidate for **SIMD (SSE/AVX)** optimization later.
-        
-
 ---
 
-## 6. The Asset Ecosystem (The "Cooker")
+# VI -  The Asset Ecosystem (The "Cooker")
 
 CRIS does not load PNGs. It loads "Cooked" binaries.
 
 Workflow: Source.png $\to$ [Asset Cooker Tool] $\to$ Asset.cris $\to$ [CRIS Engine]
 
-### 6.1 Texture Format (`.cris`)
+### VI-1 Texture Format (`.cris`)
 
 A flat binary dump designed for instant loading (`fread` $\to$ RAM).
 
@@ -175,23 +163,16 @@ A flat binary dump designed for instant loading (`fread` $\to$ RAM).
 |0x08|`uint16`|Height|Texture height in pixels|
 |0x0A|`byte[]`|Data|Raw Pixel Data (Size = W * H * BPP)|
 
-### 6.2 Font Atlas Format (`.cfnt`)
+### VI-2 Font Atlas Format (`.cfnt`)
 
 Pre-rasterized font data.
 
 - **Concept:** A single `.cris` texture containing a grid of all letters, plus a binary table (The "Glyph Map") describing the coordinates of each letter.
-    
 - **Benefit:** Allows using any font (Arial, Times New Roman) in the OS without needing a TrueType rasterizer.
-    
-
 ---
-
-## 7. The Hardware Abstraction Layer (HAL)
-
+# VI - The Hardware Abstraction Layer (HAL)
 To port CRIS, one simply implements the `IWindow` interface.
-
-### 7.1 The Interface
-
+### VII-1 The Interface
 C++
 
 ```
@@ -209,70 +190,32 @@ public:
 };
 ```
 
-### 7.2 Implementation Strategies
+### VII-2 Implementation Strategies
 
-|**Feature**|**Windows Implementation (Win32Window.cpp)**|**Custom OS Implementation (MetalWindow.cpp)**|
-|---|---|---|
-|**API**|`windows.h` (GDI)|VESA VBE / UEFI GOP|
-|**Input**|`PeekMessage` loop (WM_KEYDOWN)|PS/2 Keyboard Port (0x60) polling|
-|**Memory**|`VirtualAlloc`|Physical Memory Manager|
-|**Output**|`StretchDIBits` to HWND|`memcpy` to `0xE0000000` (LFB)|
+| **Feature** | **Windows Implementation (Win32Window.cpp)** | **Custom OS Implementation (MetalWindow.cpp)** |
+| ----------- | -------------------------------------------- | ---------------------------------------------- |
+| **API**     | `windows.h` (GDI)                            | VESA VBE / UEFI GOP                            |
+| **Input**   | `PeekMessage` loop (WM_KEYDOWN)              | PS/2 Keyboard Port (0x60) polling              |
+| **Memory**  | `VirtualAlloc`                               | Physical Memory Manager                        |
+| **Output**  | `StretchDIBits` to HWND                      | `memcpy` to `0xE0000000` (LFB)                 |
 
 ---
-
-## 8. Implementation Roadmap
+# VIII -  Implementation Roadmap
 
 ### Phase 1: The Foundation (Windows User-Mode)
-
 1. Implement `Core` (Vector, Math, Allocator).
-    
 2. Implement `Graphics/Renderer` (Software Rasterizer).
-    
 3. Implement `Platform/Win32` to open a Debug Window.
-    
 4. **Goal:** Draw a red rectangle on a black screen.
-    
-
 ### Phase 2: The Toolchain (The Cooker)
-
 1. Write a simple Console App (using `stb_image.h`).
-    
 2. Reads `.png`, writes `.cris`.
-    
 3. Update Engine to load `.cris` files.
-    
 4. **Goal:** Draw a sprite on the screen.
-    
-
 ### Phase 3: The Kernel Port (Bare Metal)
-
 1. Copy the `/Core` and `/Graphics` folders to the OS project.
-    
 2. Implement `Platform/Metal`.
-    
 3. Map the `Framebuffer` struct to the address provided by the Bootloader (GRUB/Limine).
-    
 4. **Goal:** The exact same "Draw Sprite" code works on the OS.
-    
-
 ---
 
-## 9. Coding Conventions
-
-- **Naming:**
-    
-    - Classes/Functions: `PascalCase` (`Texture::Load`, `Renderer::Draw`)
-        
-    - Variables: `camelCase` (`backBuffer`, `pixelIndex`)
-        
-    - Constants: `SCREAMING_SNAKE` (`MAX_SPRITES`, `SCREEN_WIDTH`)
-        
-    - Private Members: Prefix `m_` (`m_width`, `m_height`)
-        
-- **Safety:**
-    
-    - Always assert preconditions in Debug mode (`ASSERT(ptr != nullptr)`).
-        
-    - Use `nullptr` instead of `NULL`.
-        
-    - Use fixed-width integers (`uint32_t`) for binary file structures.
