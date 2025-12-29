@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arts/ARTH - Chevraul.md",
+                "file": "Science/Computer Science/CRIS - Chevreul's Raster Imaging System.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ARTH - Chevraul"
+              "title": "CRIS - Chevreul's Raster Imaging System"
             }
           }
         ],
@@ -244,8 +244,8 @@
   },
   "active": "880972105900c3ec",
   "lastOpenFiles": [
-    "Arts/ART - Famous Painters and their works.md",
     "Arts/ARTH - Chevraul.md",
+    "Arts/ART - Famous Painters and their works.md",
     "Science/Computer Science/CRIS - Chevreul's Raster Imaging System.md",
     "Science/Computer Science/Dev/Software Design Techniques.md",
     "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
