@@ -20,7 +20,6 @@ His masterpiece, A Sunday Afternoon on the Island of La Grande Jatte (1884-1886)
 This wasn't impressionism's loose spontaneity. This was *manual pixel rendering.* Seurat had discovered dithering—using patterns of discrete color values to simulate gradients and tones that don't exist in the limited palette. He understood anti-aliasing—softening edges by scattering complementary dots along boundaries. He was working with a framebuffer made of linen, updating it dot by dot, building an image from atomic color units that only resolved at viewing distance.
 
 His brain was the GPU. His brush was the write-head. The canvas was the display.
-
 ## The Legacy in Silicon
 
 Fast-forward to 2025. You're reading this on a screen—maybe a 4K monitor, maybe a phone. Zoom in close enough, and you'll see them: the RGB sub-pixels. Tiny rectangles of pure red, green, and blue light arranged in a grid. Each triplet is a pixel. Each pixel is a discrete unit of color information. 
