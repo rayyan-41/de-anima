@@ -22,13 +22,15 @@ CRIS assumes three things as axioms:
 2. A pixel is not a color, but a **proposal** to the visual cortex.
 3. Perception is programmable.
 
-While this is essentially universally true, the reason I'm restating it is so that you know the philosophy behind it. This project is meaningful to me in many ways. It's a gateway for me to understand low level memory management, a tool for me to make from the ground up and use for my other projects, including my custom OS, as well as a method through which I learn about computer graphics itself. 
-
-But let it be clear, **CRIS IS STILL A GRAPHICS LIBRARY**. My final goal is still to create a full fledge library that I can publicize and use for many different projects. Initially I will work with just the CPU, but once I have completed the main implementation, I will start to incorporate GPU acceleration to make it lightning fast.
-
-
-
+ This project is meaningful to me in many ways. It's a gateway for me to understand low level memory management, a tool for me to make from the ground up and use for my other projects, including my custom OS, as well as a method through which I learn about computer graphics itself.  But let it be clear, **CRIS IS STILL A GRAPHICS LIBRARY**. My final goal is still to create a full fledge library that I can publicize and use for many different projects. The scientific and optical aspect of CRIS is purely to do justice to the name.
 ## ii) Implementation
+Let's dissect CRIS. 
+
+
+
+
+
+
 
 
 
