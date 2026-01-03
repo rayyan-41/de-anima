@@ -24,7 +24,27 @@ CRIS assumes three things as axioms:
  This project is meaningful to me in many ways. It's a gateway for me to understand low level memory management, a tool for me to make from the ground up and use for my other projects, including my custom OS, as well as a method through which I learn about computer graphics itself.  But let it be clear, **CRIS IS STILL A GRAPHICS LIBRARY**. My final goal is still to create a full fledge library that I can publicize and use for many different projects. The scientific and optical aspect of CRIS is purely to do justice to the name.
 # III - Implementation
 
-## III-A) CRIS Documentation Pipeline & Standards
+## III-A) CRIS Development Phases
+The CRIS project is executed in four distinct phases. This phased approach is not arbitrary; it is designed to isolate complexity and validate architectural assumptions at each layer before proceeding.
+### Phase 1: The Foundation (Freestanding Architecture)
+- **Purpose:** To decouple the engine logic from the host operating system.
+- **Why:** Traditional engines rely heavily on OS syscalls (malloc, threads, file IO) scattered throughout the codebase. This makes porting to a custom kernel impossible without a total rewrite.
+- **Deliverable:** A functional memory arena and type system that compiles without the C++ Standard Library.
+### Phase 2: Chevreul's Software Rasterizer (CSR)
+- **Purpose:** To implement a graphics pipeline that writes color data directly to a linear memory buffer.
+- **Why:** Hardware APIs (OpenGL/Vulkan) hide the fundamental mechanics of image synthesis. By writing our own rasterizer, we gain total control over individual pixel data, which is a prerequisite for the sub-pixel manipulation required by Chevreul's Law.
+- **Deliverable:** A software renderer capable of drawing primitives (lines, triangles) to a windowed context.
+### Phase 3: Perception Programming (Chevreul's Law)
+- **Purpose:** To inject a post-processing pass that simulates simultaneous contrast perception.
+- **Why:** Standard rasterization is mathematically correct but perceptually sterile. This phase implements the core scientific hypothesis of the project: that algorithmic adjustment of adjacent pixel values can enhance perceived dynamic range without HDR hardware.
+- **Deliverable:** A real-time filter that adjusts RGB values based on local neighborhood sampling.
+### Phase 4: Sovereign Runtime (Kernel Mode)
+- **Purpose:** To execute the CRIS Core on bare metal or a custom kernel, removing the Windows/Linux host entirely.
+- **Why:** This is the ultimate validation of Phase 1. If the Core truly has no dependencies, it should run directly on hardware with only a thin bootloader or kernel shim. This proves the "Sovereignty" of the system.
+- **Deliverable:** The CRIS engine running as the primary interface of a custom OS environment.
+- - -
+
+## III-B) CRIS Documentation Pipeline & Standards
 
 ### 1. Core Philosophy: The "Living Specification"
 In the CRIS Engine, documentation is treated as a **Production Artifact**, equal in importance to the C++ Core.
@@ -48,54 +68,30 @@ Every header file in `Core/` must adhere to the **Strict Tagging Standard**. Thi
 void* Push(usize size_in_bytes);
 ```
 
-### Layer 2: Architectural Decision Records (ADRs)
-
+#### Layer 2: Architectural Decision Records (ADRs)
 We maintain a log of _why_ technical decisions were made, specifically deviations from standard C++ practices.
-
 - **ADR-001:** Rejection of STL (std::vector, std::string) for Kernel Portability.
-    
 - **ADR-002:** Usage of Linear Memory Arenas over Free Lists.
-    
 - **ADR-003:** Sub-pixel sampling strategy for Chevreul's Contrast.
-    
-
-### Layer 3: The Host Interface Specification
-
+#### Layer 3: The Host Interface Specification
 A standalone document defining what the Host OS (Windows, Linux, or Custom Kernel) _must_ provide to CRIS.
-
 - **Memory:** How to hand raw pages to `CRIS::MemoryArena`.
-    
 - **Input:** The specific struct format for mouse/keyboard events.
-    
 - **Video:** The contract for the physical framebuffer address.
-    
-
-## 3. Development Workflow
-
+### 3. Development Workflow
 The documentation follows the **Code-Lockstep** cycle.
-
 1. **Draft:** Before a new module (e.g., `Framebuffer`) is written, its Header Contract (@tags) is drafted.
-    
 2. **Implement:** The C++ implementation fulfills the drafted contract.
-    
 3. **Verify:** During code review, we verify that implementation details (like pointer arithmetic) match the `@warn` tags.
-    
-4. **Publish:** Doxygen (or standard parser) generates the HTML reference.
-    
-
-## 4. Definition of Done (DoD) for Documentation
-
+### 4. Definition of Done (DoD) for Documentation
 A feature is not "Done" until:
-
 1. All public methods have `@desc`, `@arg`, and `@ret`.
-    
 2. Any unsafe pointer operation is explained with a comment.
-    
 3. Memory ownership is explicitly stated (Who frees this? Answer: The Arena Reset).
 
 
 
-
+# IV) 
 
 
 
@@ -113,5 +109,4 @@ A feature is not "Done" until:
 
 - --
 **References**
-- **[Screens & 2D Graphics: Crash Course Computer Science #23](https://www.youtube.com/watch?v=7Jr0SFMQ4Rs)**
-- 
+- **[Screens & 2D Graphics: Crash Course Computer Science #23](https://www.youtube.com/watch?v=7Jr0SFMQ4Rs)
