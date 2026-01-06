@@ -3,10 +3,11 @@ This is a master list on some of the most notable scholars that lived and thrive
 2) To motivate myself and the Muslim world to study these people and strive to be like them, both in the fields of science, as well as piety and devotion to religion and the right cause.
 ---
 
-### Mathematicians 
-- Al-Karaji
-- Jamshid al-Kashi
-### Philosophers and More
-- Al-Ghazali
-- Ibn Rushd
-- Ibn Sina
+| **Name**             | **Field**                              |
+| -------------------- | -------------------------------------- |
+| **Al-Karaji**        | Mathematics                            |
+| **Jamshid al-Kishi** | Mathematics                            |
+| **Al-Ghazali**       | Philosophy, Sufism and more            |
+| **Ibn Sina**         | Philosophy, Medicine, Physics and more |
+| **Ibn Rushd**        |                                        |
+|                      |                                        |

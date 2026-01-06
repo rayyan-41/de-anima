@@ -1,6 +1,5 @@
-**DATE:** 20th October
+**DATE:** 20th October 2025
 **TAGS:** #History #HolyRomanEmpire 
-
 - --
 Playing Kingdom Come Deliverance nowadays. The game world is so immersive that I feel compelled to read up on the history of the time it is set during.
 Let's begin with the state of Europe at the time. To put it bluntly, Europe was more or less a **fractured continent**, a continent in perpetual motion; a shifting mosaic of ambitions, allegiances, and anxieties. There were no neat borders, no unified nations as we understand them today. Instead, kingdoms overlapped with duchies, church territories carved out their own domains, and the Holy Roman Empire stretched across Central Europe like a threadbare tapestry, impressive from a distance but fraying at every edge.

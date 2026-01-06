@@ -11,13 +11,15 @@
             "id": "fc972ebb4603dad6",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "History/Islamic Golden Age.base",
-                "viewName": "Table"
+                "file": "Science/Computer Science/CRIS - Chevreul's Raster Imaging System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "Islamic Golden Age"
+              "icon": "lucide-file",
+              "title": "CRIS - Chevreul's Raster Imaging System"
             }
           }
         ]
@@ -52,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:ComputerSience",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,9 +213,17 @@
   },
   "active": "fc972ebb4603dad6",
   "lastOpenFiles": [
-    "History/Islamic Golden Age/Al-Ghazali.md",
-    "History/Islamic Golden Age.base",
+    "Literature/Quotes.md",
+    "Literature/Lexicon.md",
+    "History/The Ottoman Empire/The Ottomans in the Balkans.md",
+    "History/The Ottoman Empire/Notable Battles.md",
+    "History/The Holy Roman Empire/The Holy Roman Empire.md",
+    "History/The Holy Roman Empire/The Great Western Schicism.md",
+    "History/The Holy Roman Empire/King Sigismund and His Efforts to Control Bohemia.md",
+    "History/The Holy Roman Empire/Bohemia During and After Charles IV.md",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
+    "History/Islamic Golden Age/Al-Ghazali.md",
+    "History/Islamic History.base",
     "ComputerScience.base",
     "Science/Computer Science/CRIS - Chevreul's Raster Imaging System.md",
     "Personal Notes/19th Nov. Journey Begins.md",
@@ -225,8 +235,6 @@
     "Science/Astronomy/Astronomy Master List.md",
     "Science/Astronomy/Geodesic Equations.md",
     "Personal Notes/Chain Of Thoughts.md",
-    "Literature/Quotes.md",
-    "Literature/Lexicon.md",
     "Literature/Short Stories/i. Caedis.md",
     "Art/ARTH - Chevraul.md",
     "Art/ART - Famous Painters and their works.md",
@@ -250,12 +258,7 @@
     "Art/paintings_source",
     "Science/Mathematics/Mathematics of Interest.md",
     "Arts & History/Arts",
-    "Science/Mathematics/The Riemann Hypothesis.md",
-    "History/The Holy Roman Empire/Bohemia During and After Charles IV.md",
     "History/The Holy Roman Empire",
-    "Stuff.md",
-    "History/The Holy Roman Empire/The Holy Roman Empire.md",
-    "STRATTON_FINANCE/how to eval WIP.md",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled 1.canvas"
   ]
