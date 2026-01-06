@@ -1,5 +1,5 @@
 **DATE:** Between the 18th and the 20th of August 2025
-**TAGS:**  #ChainOfThoughs #Romans #Astronomy 
+**TAGS:**  #ChainOfThoughs #RomanEmpire #Astronomy 
 - - -
 I was sitting in my Multi-Var Calculus class during my summer semester when I started reminiscing the conversation I had the previous night with a friend of mine. A very good friend of mine. Her name was Marzia and its important I type it down right now so that I remember, years after I look back at these documents, provided I continue to write. I had talked to her about how I'm so passionate about history, that Romeo and Juliet reminds me of Cleopatra and Mark Antony. I explained to her how their death reminds me of the Shakespearean play. Naturally I started my story from Caesar's ascension to power and took her an entire historical journey. 
 

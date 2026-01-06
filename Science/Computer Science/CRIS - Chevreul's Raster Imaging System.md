@@ -44,6 +44,7 @@ The CRIS project is executed in four distinct phases. This phased approach is no
 - **Deliverable:** The CRIS engine running as the primary interface of a custom OS environment.
 - - -
 
+
 ## III-B) CRIS Documentation Pipeline & Standards
 
 ### 1. Core Philosophy: The "Living Specification"
