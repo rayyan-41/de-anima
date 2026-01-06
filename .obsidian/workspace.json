@@ -11,10 +11,13 @@
             "id": "fc972ebb4603dad6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "bases",
+              "state": {
+                "file": "History/Islamic Golden Age.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Islamic Golden Age"
             }
           }
         ]
@@ -206,8 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7adb17c520de5016",
+  "active": "fc972ebb4603dad6",
   "lastOpenFiles": [
+    "History/Islamic Golden Age/Al-Ghazali.md",
+    "History/Islamic Golden Age.base",
+    "History/Islamic Golden Age/Notable Scholars Master List.md",
     "ComputerScience.base",
     "Science/Computer Science/CRIS - Chevreul's Raster Imaging System.md",
     "Personal Notes/19th Nov. Journey Begins.md",
@@ -222,7 +228,6 @@
     "Literature/Quotes.md",
     "Literature/Lexicon.md",
     "Literature/Short Stories/i. Caedis.md",
-    "History/Islamic Golden Age/Notable Scholars Master List.md",
     "Art/ARTH - Chevraul.md",
     "Art/ART - Famous Painters and their works.md",
     "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
@@ -248,11 +253,9 @@
     "Science/Mathematics/The Riemann Hypothesis.md",
     "History/The Holy Roman Empire/Bohemia During and After Charles IV.md",
     "History/The Holy Roman Empire",
-    "Personal Notes",
     "Stuff.md",
     "History/The Holy Roman Empire/The Holy Roman Empire.md",
     "STRATTON_FINANCE/how to eval WIP.md",
-    "History/The Holy Roman Empire/The Great Western Schicism.md",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled 1.canvas"
   ]
