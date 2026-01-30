@@ -8,15 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc972ebb4603dad6",
+            "id": "42f2488e7b99ddae",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Art/paintings_source/School_Of_Athens.webp"
+                "file": "History/People/Luca Pacioli.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-image",
-              "title": "School_Of_Athens"
+              "icon": "lucide-file",
+              "title": "Luca Pacioli"
             }
           }
         ]
@@ -208,10 +211,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc972ebb4603dad6",
+  "active": "42f2488e7b99ddae",
   "lastOpenFiles": [
-    "Science/Computer Science/CRIS - Chevreul's Raster Imaging System.md",
+    "History/Islamic Golden Age/Al-Ghazali.md",
+    "History/People/Luca Pacioli.md",
+    "Untitled",
     "Literature/Quotes.md",
+    "History/People",
+    "Art/paintings_source/School_Of_Athens.webp",
+    "Science/Computer Science/CRIS - Chevreul's Raster Imaging System.md",
     "Literature/Lexicon.md",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
     "History/The Ottoman Empire/Notable Battles.md",
@@ -220,7 +228,6 @@
     "History/The Holy Roman Empire/King Sigismund and His Efforts to Control Bohemia.md",
     "History/The Holy Roman Empire/Bohemia During and After Charles IV.md",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
-    "History/Islamic Golden Age/Al-Ghazali.md",
     "History/Islamic History.base",
     "ComputerScience.base",
     "Personal Notes/19th Nov. Journey Begins.md",
@@ -238,7 +245,6 @@
     "Science/Computer Science/Complete Graphics and Rendering Notebook.md",
     "Science/Computer Science/Dev",
     "Science/Computer Science/Dev/CS - Projects Backlog.md",
-    "Art/paintings_source/School_Of_Athens.webp",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
     "Art/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png",
     "did-you-know-The-School-of-Athens-Raphael.webp",
@@ -250,12 +256,9 @@
     "Arts/paintings_source/Untitled.md",
     "Arts/paintings_source/Untitled 1.md",
     "Art",
-    "History/Untitled",
+    "History/People",
     "History/History",
     "Art/paintings_source",
-    "Science/Mathematics/Mathematics of Interest.md",
-    "Arts & History/Arts",
-    "History/The Holy Roman Empire",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled 1.canvas"
   ]
