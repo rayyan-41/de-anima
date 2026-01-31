@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/People/Luca Pacioli.md",
+                "file": "Literature/Quotes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Luca Pacioli"
+              "title": "Quotes"
             }
           }
         ]
@@ -213,8 +213,8 @@
   },
   "active": "42f2488e7b99ddae",
   "lastOpenFiles": [
-    "History/Islamic Golden Age/Al-Ghazali.md",
     "History/People/Luca Pacioli.md",
+    "History/Islamic Golden Age/Al-Ghazali.md",
     "Untitled",
     "Literature/Quotes.md",
     "History/People",
