@@ -1,3 +1,4 @@
+**TAGS:** #history #personality #europe  
 ## The Crusader Who Would Be Emperor
 
 In the autumn of 1396, Sigismund of Luxembourg stood at what should have been his moment of triumph. At thirty-eight years old, he had assembled one of the largest crusading armies in a generation—perhaps 100,000 warriors from across Christendom—and marched them to the fortress of Nicopolis on the Danube. Pope Boniface IX had blessed this crusade. The flower of French chivalry had answered the call. This was to be Sigismund's grand debut on the European stage, his chance to prove himself worthy of the Luxembourg name his father Charles IV had made so illustrious.
