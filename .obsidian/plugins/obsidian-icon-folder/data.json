@@ -34,8 +34,8 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Personal Notes/Chain Of Thoughts.md": "LiBrainCircuit",
   "Science/Astronomy": "LiMoon",
   "Science/Mathematics": "LiDivideSquare",
-  "Science/Computer Science": "LiComputer"
+  "Science/Computer Science": "LiComputer",
+  "Reason/Chain Of Thoughts.md": "LiBrainCircuit"
 }

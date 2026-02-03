@@ -1,7 +1,7 @@
 **DATE:** Between the 18th and the 20th of August 2025
 **TAGS:**  #ChainOfThoughs #RomanEmpire #Astronomy 
 - - -
-I was sitting in my Multi-Var Calculus class during my summer semester when I started reminiscing the conversation I had the previous night with a friend of mine. A very good friend of mine. Her name was Marzia and its important I type it down right now so that I remember, years after I look back at these documents, provided I continue to write. I had talked to her about how I'm so passionate about history, that Romeo and Juliet reminds me of Cleopatra and Mark Antony. I explained to her how their death reminds me of the Shakespearean play. Naturally I started my story from Caesar's ascension to power and took her an entire historical journey. 
+I was sitting in my Multi-Variable Calculus class during my summer semester when I started reminiscing the conversation I had the previous night with a friend of mine. I had talked to her about how I'm so passionate about history, that Romeo and Juliet reminds me of Cleopatra and Mark Antony. I explained to her how their death reminds me of the Shakespearean play. Naturally I started my story from Caesar's ascension to power and took her an entire historical journey. 
 
 You cannot talk about the death of the Egyptian Queen and the Roman General without attributing it to the **man** **himself**, Octavius (Later Augustus). When I talked to her about this, I was fascinated by her depth of interest. I didn't start right away with the love story. No, I talked to her about Caesar's assassination, Octavian's rise to power and ultimately his war against Antony. These things are boring, very boring for the average Gen Z kid. But she listened and took avid interest in each development. 
 
