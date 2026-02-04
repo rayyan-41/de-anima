@@ -1,5 +1,5 @@
 **DATE:** Between the 18th and the 20th of August 2025
-**TAGS:**  #ChainOfThoughs #RomanEmpire #Astronomy 
+**TAGS:**  #ChainOfThoughs #RomanEmpire #Astronomy
 - - -
 I was sitting in my Multi-Variable Calculus class during my summer semester when I started reminiscing the conversation I had the previous night with a friend of mine. I had talked to her about how I'm so passionate about history, that the Shakespearean play Romeo and Juliet reminds me of the fate of Cleopatra and Mark Antony. I told her that I see a parallel between the tragic fate of both couples, though I find the latter's death more interesting given the historical context.
 
