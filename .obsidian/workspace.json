@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "a563d4a1ffce3d91",
+        "id": "e1036eb910875a4c",
         "type": "tabs",
         "children": [
           {
-            "id": "42f2488e7b99ddae",
+            "id": "233177cc539b6fab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reason/Chain Of Thoughts.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Chain Of Thoughts"
-            }
-          },
-          {
-            "id": "91341b84260b918b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reason/i. The Julian Star and Intellectualism as a Category of People..md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "i. The Julian Star and Intellectualism as a Category of People."
+              "title": "GEMINI"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,8 +212,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "91341b84260b918b",
+  "active": "233177cc539b6fab",
   "lastOpenFiles": [
+    "GEMINI.md",
     "Reason/i. The Julian Star and Intellectualism as a Category of People..md",
     "Reason/II. From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "Reason/Chain Of Thoughts.md",
@@ -253,7 +238,7 @@
     "History/The Holy Roman Empire/The Great Western Schicism.md",
     "History/Islamic History.base",
     "ComputerScience.base",
-    "Untitled.md",
+    "GEMINI.md",
     "Master Database.base",
     "Untitled.canvas",
     "Science/Computer Science/Dev/Software Design Techniques.md",
@@ -271,7 +256,6 @@
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte..jpg",
     "did-you-know-The-School-of-Athens-Raphael 2.webp",
     "did-you-know-The-School-of-Athens-Raphael 1.webp",
-    "Arts/paintings_source/Untitled.md",
     "Art",
     "History/People",
     "History/History",
