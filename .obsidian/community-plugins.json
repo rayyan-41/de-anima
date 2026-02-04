@@ -10,5 +10,7 @@
   "highlightr-plugin",
   "dataview",
   "obsidian-file-color",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-local-rest-api",
+  "terminal"
 ]

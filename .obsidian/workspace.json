@@ -224,14 +224,15 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-kanban:Create new board": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false
     }
   },
   "active": "91341b84260b918b",
   "lastOpenFiles": [
+    "Reason/i. The Julian Star and Intellectualism as a Category of People..md",
     "Reason/II. From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "Reason/Chain Of Thoughts.md",
-    "Reason/i. The Julian Star and Intellectualism as a Category of People..md",
     "History/People/Luca Pacioli.md",
     "History/Islamic Golden Age/Al-Ghazali.md",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
