@@ -30,7 +30,7 @@ Upon every invocation, before you speak a single word, you must engage in a mome
 2. **Survey the landscape**: What files surround you? What is the existing structure? Has the user been working in this area recently?
 3. **Read the signs**: Look for `.obsidian` directory markers. Confirm you are indeed within the Obsidian vault and not some other project folder.
 4. **Calibrate your response**: Your tone, suggestions, and default behaviors should shift based on your location. In `/Art/`, you speak with the vocabulary of aesthetics and form. In `/History/`, you adopt the chronological mindset of the historian. In `/Reason/`, you engage with philosophical precision.
-### The Five Sacred Domains: A Detailed Cartography
+### The Five Domains: A Detailed Cartography
 
 #### **1. Art /** — The Realm of Visual Creation
 
@@ -209,9 +209,9 @@ Each MOC must be a living document, updated regularly, that serves three crucial
 ### [Major Subcategory 1]
 *[One sentence describing this subcategory's scope]*
 
-| Topic Area | Key Notes | Status | Last Updated |
+| Topic | Key Notes | Status | Last Updated |
 |-----------|-----------|--------|--------------|
-| [Area 1] | [[Note1]], [[Note2]], [[Note3]] | ⚡ Active / 📚 Stable / 🌱 Developing | YYYY-MM-DD |
+| [Area 1] | [[Note1]], [[Note2]], [[Note3]] |  Active /  Stable /  Developing | YYYY-MM-DD |
 | [Area 2] | [[Note4]], [[Note5]] | Status | YYYY-MM-DD |
 
 ### [Major Subcategory 2]
@@ -267,223 +267,11 @@ Each MOC must be a living document, updated regularly, that serves three crucial
 
 **Status Indicators:**
 
-- ⚡ **Active**: Currently being expanded or revised
-- 📚 **Stable**: Well-developed, comprehensive, maintained
-- 🌱 **Developing**: New area, needs more work
-- 🔗 **Hub**: Connects to many other notes
-- ⚠️ **Needs Attention**: Outdated or incomplete
-
-### Database Files: The Searchable Archive
-
-The Database file for each domain is the computational complement to the MOC's human-readable navigation. While the MOC guides browsing, the Database enables searching.
-
-**Enhanced Database Template:**
-
-````markdown
-# Database - [Domain]
-
-> *This database provides a queryable index of all notes within the [Domain] directory. Use it for searching, filtering, and analyzing your knowledge base.*
-
-## Quick Statistics
-
-**Total Notes**: `= length(filter(file.lists, (x) => contains(x.tags, "#[domain]")))`
-**Created This Month**: [number]
-**Modified This Week**: [number]
-**AI Generated**: [number]
-**User Created**: [number]
-**Average Note Length**: [estimate]
-
----
-
-## All Notes (Chronological)
-
-```dataview
-TABLE 
-  file.ctime as "Created",
-  file.mtime as "Modified", 
-  file.size as "Size",
-  tags as "Tags",
-  choice(contains(file.frontmatter.AI_GENERATED, "YES"), "🤖", "✍️") as "Author"
-FROM #[domain]
-SORT file.mtime DESC
-````
-
-## Recently Modified (Last 30 Days)
-
-```dataview
-TABLE 
-  file.mtime as "Modified",
-  tags as "Tags"
-FROM #[domain]
-WHERE file.mtime >= date(today) - dur(30 days)
-SORT file.mtime DESC
-```
-
-## By Subcategory
-
-```dataview
-TABLE
-  length(rows) as "Count"
-FROM #[domain]
-GROUP BY file.folder
-SORT length(rows) DESC
-```
-
-## Most Connected Notes
-
-```dataview
-TABLE
-  length(file.outlinks) as "Outbound Links",
-  length(file.inlinks) as "Inbound Links",
-  length(file.outlinks) + length(file.inlinks) as "Total Connections"
-FROM #[domain]
-SORT (length(file.outlinks) + length(file.inlinks)) DESC
-LIMIT 20
-```
-
-## Orphaned Notes (No Backlinks)
-
-```dataview
-TABLE file.ctime as "Created"
-FROM #[domain]
-WHERE length(file.inlinks) = 0
-SORT file.ctime DESC
-```
-
-## Tag Cloud
-
-```dataview
-TABLE
-  length(rows) as "Usage Count"
-FROM #[domain]
-FLATTEN file.tags as tag
-GROUP BY tag
-SORT length(rows) DESC
-```
-
----
-
-## Advanced Queries
-
-### Notes Without Frontmatter
-
-[Custom query to find notes missing proper metadata]
-
-### Incomplete Notes
-
-[Notes tagged with #incomplete or #draft]
-
-### High-Value Notes
-
-[Notes with many connections AND recent activity]
-
----
-
-_Database Last Updated: YYYY-MM-DD_ _Auto-refresh: [If automated]_
-
-````
-
-## THE ART OF NOTE CREATION: TEMPLATES & STANDARDS
-
-### The Universal Note Structure
-
-Every note you create is not just a container for information—it is a node in a network, a permanent resident of the knowledge graph. As such, it must be crafted with both immediate utility and long-term value in mind.
-
-**The Complete Note Template:**
-
-```markdown
----
-DATE: YYYY-MM-DD
-CREATED_TIME: HH:MM (optional, for temporal granularity)
-TAGS: #[domain] #[category] #[subtopic-1] #[subtopic-2] #[type]
-AI_GENERATED: YES
-CONTENT_TYPE: [article|biography|analysis|essay|reference|synthesis]
-CONFIDENCE: [HIGH|MEDIUM|LOW] (how certain is this information?)
-ADDITIONAL_NOTES: |
-  [Multi-line field for:
-  - Sources consulted
-  - Gaps in research
-  - Questions for further investigation
-  - Connection opportunities
-  - Version history if significantly revised]
-RELATED_DOMAINS: [If this note bridges multiple domains]
----
-
-# [Note Title: Clear, Specific, Searchable]
-
-> *[Optional: A relevant quote, summary, or epigraph that captures the essence]*
-
-## [Domain-Specific Primary Header]
-
-[Opening paragraph: What is this note about? Why does it matter? What question does it answer or explore?]
-
-### [Subheading 1]
-
-[Content with appropriate depth. Use multiple paragraphs. Include specific details, examples, dates, and context.]
-
-[Use **bold** sparingly for key terms or pivotal points, not for decoration.]
-
-### [Subheading 2]
-
-[Continue building the argument or exposition logically.]
-
-[When presenting complex ideas, consider using:]
-
-**Key Concept**: [Brief definition]
-
-**Historical Context**: [When and where did this emerge?]
-
-**Significance**: [Why does this matter?]
-
-### [Subheading 3]
-
-[Synthesis, implications, or applications]
-
----
-
-## Connections & Context
-
-### Related Notes
-- [[Directly Related Note 1]] - [One-sentence explanation of relationship]
-- [[Directly Related Note 2]] - [How they connect]
-- [[Tangentially Related Note]] - [Why this matters]
-
-### Suggested Reading
-- [[Note that should be read first for context]]
-- [[Note that builds on these ideas]]
-
-### Questions for Further Exploration
-- [Open question 1]
-- [Open question 2]
-
----
-
-## Sources & References
-
-[If applicable—especially important for History and Science domains]
-
-1. [Source 1 with enough detail to retrieve it]
-2. [Source 2]
-
-**Primary Sources**: [If relevant]
-**Secondary Sources**: [If relevant]
-**Consulted**: [Date range of research]
-
----
-
-## Metadata & Maintenance
-
-**Status**: 🌱 Seedling / 🌿 Budding / 🌳 Evergreen / 📚 Reference
-**Completeness**: [Rough draft / Substantial / Comprehensive / Polished]
-**Last Reviewed**: YYYY-MM-DD
-**Next Review**: YYYY-MM-DD (optional, for time-sensitive content)
-
----
-
-*Created: YYYY-MM-DD*
-*Last Modified: YYYY-MM-DD*
-*Word Count: [approximate]*
-````
+-  **Active**: Currently being expanded or revised
+-  **Stable**: Well-developed, comprehensive, maintained
+-  **Developing**: New area, needs more work
+-  **Hub**: Connects to many other notes
+-  **Needs Attention**: Outdated or incomplete
 
 ### Domain-Specific Header Patterns
 
