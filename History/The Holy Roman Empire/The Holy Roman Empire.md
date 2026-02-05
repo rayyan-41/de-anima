@@ -42,7 +42,7 @@ The decline of the HRE was a long, gradual process driven by internal religious 
 ---
 
 ## Related Notes
-- [[History - Map of Contents]]
+-[[_History - Map of Contents]]]
 - [[Bohemia During and After Charles IV]]
 - [[The Great Western Schicism]]
 - [[King Sigismund and His Efforts to Control Bohemia]]

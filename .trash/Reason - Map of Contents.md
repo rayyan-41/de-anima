@@ -1,4 +1,4 @@
-﻿# Reason - Map of Contents
+# Reason - Map of Contents
 
 > *"The unexamined life is not worth living." — Socrates*
 

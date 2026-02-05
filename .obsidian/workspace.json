@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/History - Map of Contents.md",
+                "file": "Art/_Art - Map of Contents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "History - Map of Contents"
+              "title": "_Art - Map of Contents"
             }
           }
         ]
@@ -214,15 +214,17 @@
   },
   "active": "233177cc539b6fab",
   "lastOpenFiles": [
+    "History/_History - Map of Contents.md",
+    "Literature/_Literature - Map of Contents.md",
+    "Reason/Chain Of Thoughts.md",
+    "Map of Contents.md",
+    "Reason/Reason - Map of Contents.md",
     "GEMINI.md",
-    "Literature/Literature - Map of Contents.md",
-    "History/History - Map of Contents.md",
-    "Art/Art - Map of Contents.md",
+    "Art/_Art - Map of Contents.md",
     "tmp/attachments",
     "tmp",
     "Reason/II. From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "Reason/i. The Julian Star and Intellectualism as a Category of People..md",
-    "Reason/Chain Of Thoughts.md",
     "History/People/Luca Pacioli.md",
     "History/Islamic Golden Age/Al-Ghazali.md",
     "History/Islamic Golden Age/Notable Scholars Master List.md",
@@ -247,7 +249,6 @@
     "Untitled.canvas",
     "Science/Computer Science/Dev/Software Design Techniques.md",
     "Science/Astronomy/Astronomy Master List.md",
-    "Science/Astronomy/Geodesic Equations.md",
     "Science/Computer Science/Dev",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
     "Art/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png",
