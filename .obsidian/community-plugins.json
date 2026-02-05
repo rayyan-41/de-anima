@@ -11,5 +11,6 @@
   "dataview",
   "obsidian-file-color",
   "obsidian-git",
-  "terminal"
+  "terminal",
+  "obsidian-local-rest-api"
 ]
