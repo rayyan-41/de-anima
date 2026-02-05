@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "History/History - Map of Contents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "History - Map of Contents"
             }
           }
         ]
@@ -214,12 +214,14 @@
   },
   "active": "233177cc539b6fab",
   "lastOpenFiles": [
+    "GEMINI.md",
+    "Literature/Literature - Map of Contents.md",
+    "History/History - Map of Contents.md",
     "Art/Art - Map of Contents.md",
     "tmp/attachments",
     "tmp",
     "Reason/II. From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "Reason/i. The Julian Star and Intellectualism as a Category of People..md",
-    "GEMINI.md",
     "Reason/Chain Of Thoughts.md",
     "History/People/Luca Pacioli.md",
     "History/Islamic Golden Age/Al-Ghazali.md",
@@ -241,14 +243,11 @@
     "History/The Holy Roman Empire/The Great Western Schicism.md",
     "History/Islamic History.base",
     "ComputerScience.base",
-    "GEMINI.md",
     "Master Database.base",
     "Untitled.canvas",
     "Science/Computer Science/Dev/Software Design Techniques.md",
     "Science/Astronomy/Astronomy Master List.md",
     "Science/Astronomy/Geodesic Equations.md",
-    "Literature/Short Stories/i. Caedis.md",
-    "Art/ART - Famous Painters and their works.md",
     "Science/Computer Science/Dev",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
     "Art/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png",
