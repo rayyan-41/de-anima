@@ -6,7 +6,7 @@ In the autumn of 1396, Sigismund of Luxembourg stood at what should have been hi
 
 Instead, it became a catastrophe that would haunt him for the rest of his life.
 
-The battle took place on September 25, 1396, and resulted in the rout of the allied Crusader army at the hands of Ottoman forces under Sultan Bayezid I, known as "the Thunderbolt" for the swift movement of his troops. What went wrong was a story of arrogance meeting competence, of noble pride colliding with military reality. The crusaders were riven by disputes of precedence and status from the outset, with many leading officers refusing to accept Sigismund's authority. The young French nobles, particularly John of Nevers (who would later be known as John the Fearless), insisted on the honor of leading the first charge. They dismissed Sigismund's pleas for caution, his suggestions for careful reconnaissance, his knowledge of Ottoman tactics.  
+The battle took place on September 25, 1396, and resulted in the rout of the allied Crusader army at the hands of Ottoman forces under Sultan Bayezid I, known as "the Thunderbolt" for the swift movement of his troops. What went wrong was a story of arrogance meeting competence, of noble pride colliding with military reality. The crusaders were riven by disputes of precedence and status from the outset, with many leading officers refusing to accept Sigismund's authority. The young French nobles, particularly John of Nevers (who would later be known as John the Fearless), insisted on the honor of leading the first charge. They dismissed Sigismund's pleas for caution, his suggestions for careful reconnaissance, his knowledge of Ottoman tactics.
 
 They charged. And they were destroyed.
 
@@ -50,138 +50,70 @@ Sigismund tried what every medieval king would try: he collected mercenaries fro
 ## The One-Eyed Prophet of War
 Jan Žižka was born around 1360 in the village of Trocnov into a family of lower Czech nobility. His name meant "one-eyed," though whether he was born with this feature or acquired it through injury remains debated. By his teens, he was involved in banditry and mercenary work, operating on the margins of Bohemian society. He fought in the Battle of Grunwald in July 1410, defending against the Teutonic Order alongside Polish-Lithuanian forces.
 
-  
-
 Sometime before 1419, Žižka attached himself to the court of King Wenceslas IV and became a follower of Jan Hus. When the Hussite Wars began, he became a leader of the Taborites, one of the newly formed peasant military communities that, with their tight discipline and religious and nationalistic fervor, formed the backbone of Hussite resistance.
-
-  
 
 Žižka understood something fundamental: his peasant army could never defeat professional cavalry in open battle using conventional tactics. So he invented new ones.
 
-  
-
 Žižka used armored wagons, known as wagon forts, fitted with small cannons and hand cannons, anticipating the tank of five hundred years later. These weren't just defensive positions—they were mobile fortresses. The wagons served multiple purposes: protection for troops, mobile firing platforms for archers and gunners, and barriers to control enemy movement. When faced with superior forces, the Hussites would form these vehicles into a circle or square formation, creating what we call today a 'wagon fort'.
-
-  
 
 But the wagons were only part of his genius. In an age when feudal levies would scatter at first bloodshed or loot upon victory instead of pursuing retreating foes, Žižka instilled iron-clad military discipline within his Taborite forces. He was one of the first commanders to handle infantry, cavalry, and artillery as one tactical body, becoming a master at forcing his enemies to attack at a disadvantage.
 
-  
-
 ### Vítkov Hill: The Impossible Victory
-
-  
 
 In July 1420, Sigismund attempted to cut off Prague from the lands and fields which fed it by seizing Vítkov Hill, which overlooked the city. His mercenary forces vastly outnumbered the Hussite defenders. The outcome seemed foreordained.
 
-  
-
 It was not.
-
-  
 
 During the Battle of Vítkov Hill, there were only 12,000-30,000 mainly badly armed and trained Hussite warriors defending Prague. Žižka commanded a small detachment on the hill itself—sources suggest only a few hundred men. They faced thousands of heavily armored crusaders advancing up the slope.
 
-  
-
 Žižka chose his ground brilliantly. The crusaders had to attack uphill, exhausting themselves before they reached the defenders. The Hussites had prepared fortifications, using their wagons to create defensive positions. When the crusaders finally reached the summit, they found themselves facing disciplined ranks of peasants wielding flails, crossbows, and primitive firearms, all fighting with religious fervor for their homes and their martyred prophet.
-
-  
 
 The crusaders broke.
 
-  
-
 After his mercenaries were defeated on Prague's Vitkov Hill, Sigismund's intention of winning the crusade against the Hussites lay in ruins. He retreated, humiliated, while Žižka became a legend. This peasant general had defeated the King of Hungary, the would-be Holy Roman Emperor, the commander of professional armies.
-
-  
 
 And he was just getting started.
 
-  
-
 ### Kutná Hora: The Blind Commander's Masterpiece
-
-  
 
 At the 1422 Diet of Nuremberg, Sigismund and German territorial princes collaborated to organize two armies against the Hussite rebels. In December 1421, King Sigismund launched a new crusade, and at Kutná Hora, Žižka's outnumbered Hussites faced encirclement by a motley army of German, Hungarian, and mercenary forces.
 
-  
-
 By this time, Žižka was completely blind. He had lost an eye in his youth, and another just a few months before the legendary battle of Kutná Hora. Yet he continued to lead his forces to victory, becoming a master at forcing his enemies to attack at a disadvantage despite his blindness.
-
-  
 
 At Kutná Hora, Žižka pulled off what may have been his greatest tactical achievement. Using fortified wagon forts and strategic withdrawals, the Hussites inflicted heavy losses before escaping encirclement—a tactical retreat that preserved their core army. Jan Žižka defeated the Imperial force at the Battle of Kutná Hora and then at the Battle of Německý Brod, ending the first Imperial and Catholic attempt to crush the Bohemian 'heretic rebellion'.
 
-  
-
 Losing the sight of his remaining eye did not stop him from leading his forces to victory against both Roman Catholics and rival Hussite elements. How does a blind man command an army? Through intimate knowledge of terrain gained from scouts, through delegating to trusted subordinates, through building such discipline and tactical doctrine into his forces that they could execute complex maneuvers without constant oversight. Žižka had transformed his peasant militia into something Europe had never seen: a professional revolutionary army.
-
-  
 
 Žižka's system proved practically unbeatable. Crusade after crusade crashed against the Hussite wagon forts. The almost uninterrupted series of victories of the Hussites rendered vain all hope of subduing them by force of arms.
 
-  
-
 Žižka finally died of plague on October 11, 1424, while campaigning. According to legend, he requested that his skin be made into war drums so that even in death he could lead the Hussites to victory. Despite his obvious success, Europe failed to heed Žižka's military system for 200 years, only incorporating it with the advent of Swedish King Gustav II Adolf and his reintroduction of mobile artillery in the 17th century.
-
-  
 
 ## Sigismund's Long Road to Acceptance
 
-  
-
 The man who had promised safe-conduct to Hus now spent years trying to undo the consequences of breaking that promise. After defeating a crusade at Domažlice in 1431, Sigismund began negotiating with the Hussites, and even under pressure of defeats by the Turks, he started to approach the reform movement differently in 1429.
-
-  
 
 Sigismund was crowned Holy Roman Emperor on May 31, 1433, finally achieving the title that had motivated so many of his actions. But Bohemia still eluded him. The Battle of Lipany in 1434 marked the defeat of the radical Hussite brotherhoods and greatly facilitated Sigismund's negotiations with the Czech nobility. Moderate Hussites, fearing the extremism of the Taborites, had turned on their former allies. The revolution was eating itself.
 
-  
-
 After the promulgation of the Basel Compacts, which recognized the dual faith, Sigismund was accepted as King of Bohemia on August 14, 1436. It was a unique time in the Czech Kingdom, when everyone was given a choice to profess either the Hussite or the Catholic faith. This was an astonishing concession for its time—religious toleration enforced by treaty.
-
-  
 
 But Sigismund's reign in Bohemia did not last long. His position in the Czech Lands was difficult, and till the end of his life he had to fight for at least some respect. He was an old man by then, suffering from gout, called a 'royal' illness in those times, caused by eating too much meat and not enough vegetables and fruit.
 
-  
-
 Sigismund set out for a journey to his beloved Hungary, but he died on his way, in December 1437 in the town of Znojmo—the same month as the winter solstice, the same season of darkness in which so many of his ambitions had foundered.
-
-  
 
 ## The Legacy of Compromise and Betrayal
 
-  
-
 Sigismund's life was a study in contradictions. Historian Thomas Brady Jr. remarked that Sigismund "possessed a breadth of vision and a sense of grandeur unseen in a German monarch since the thirteenth century," realizing the need to carry out reforms of both the empire and the Church simultaneously. Yet external difficulties, self-inflicted mistakes, and the extinction of the Luxembourg male line made this vision unfulfilled.
-
-  
 
 Recent scholarship, especially from East-Central Europe, has grown greatly interested in Sigismund's reign, and the setbacks which have been seen as his major failures are now generally considered by most scholars to be the results of the lack of financial resources and other heavy constraints, rather than personal failings. This is a more charitable interpretation than his contemporaries afforded him.
 
-  
-
 The Czechs never forgave him for Hus. For most Czech historians, Sigismund of Luxembourg is a controversial figure, and many were extremely critical of him. His broken promise at Constance became a symbol of imperial treachery, of German oppression, of Catholic persecution. When Czech nationalists in the 19th and 20th centuries sought historical heroes, they found them in Hus and Žižka—and their villain in Sigismund.
-
-  
 
 Yet Sigismund survived. Through all the defeats, the humiliations, the rebellions, and the crusades that failed, he endured. He outlived Žižka. He outlived the radical Hussites. He became emperor. He died in possession of three kingdoms, having crafted the Basel Compacts that—for a brief moment—created space for religious diversity in Central Europe.
 
-  
-
 Whether this makes him a visionary statesman or merely a tenacious survivor depends on whom you ask. The Hungarians, who remember his long reign and his defense against the Ottomans, tend toward the former. The Czechs, who remember Hus burning while Sigismund did nothing, tend toward the latter.
-
-  
 
 Perhaps both are true. Sigismund was a man of his brutal age, playing by its brutal rules, seeking power through any means necessary—Cuman cavalry, crusading orders, broken promises, and negotiated compromises. He won three crowns but lost his reputation. He united the Church but shattered Bohemia. He crushed religious radicalism yet had to accept religious toleration.
 
-  
-
 In the end, his greatest legacy may have been what he tried to prevent: the Hussite movement survived him, proving that reform movements cannot be burned away, that religious truth cannot be settled by councils and crusaders, that the future belonged not to compromising kings but to those willing to die for what they believed.
-
-  
 
 The fires of Constance lit a path that would lead, a century later, to Wittenberg and Luther's theses. Hus's ashes scattered on the wind, but they seeded the Reformation.

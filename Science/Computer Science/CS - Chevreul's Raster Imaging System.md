@@ -9,7 +9,7 @@ Every photograph, movie, video game, UI element - it's all an elaborate con job 
 
 Before I was inspired to create CRIS, I long had a fascination with computer graphics. Man's greatest invention, the computer, is incomplete without a display that manifests its power. We enable the computer to speak to us, by placing millions of tiny led lights in groups of 3: red, blue and green.
 
-I was inspired to create this graphics library when I saw a friend of mine create his own. I asked GPT to give me a list of artists that used painting techniques akin to pixels on a display. I stumbled upon Georges Seurat and his textbook technique of pointillism/divisionism. Seurat was inspired by the works of Chevreul, which I have covered [[ARTH - Chevreul and Color Theory|here]].
+I was inspired to create this graphics library when I saw a friend of mine create his own. I asked GPT to give me a list of artists that used painting techniques akin to pixels on a display. I stumbled upon Georges Seurat and his textbook technique of pointillism/divisionism. Seurat was inspired by the works of Chevreul, which I have covered [[ARTB - Chevreul|here]].
 
 ## II - The Philosophy
 

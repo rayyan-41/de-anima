@@ -6,17 +6,15 @@ TAGS: #history #islamic-golden-age #scholar #reference #ai-generated
 This master list chronicles the lives and contributions of the intellectual giants who thrived during the Islamic Golden Age. Their work served as a bridge between classical antiquity and the modern world.
 ## The Master List
 
-| **Name**                 | **Primary Fields**           | **Key Contribution / Note**                                                |
+| **Name** | **Primary Fields** | **Key Contribution / Note** |
 | :----------------------- | :--------------------------- | :------------------------------------------------------------------------- |
-| **[[BIO - Al-Ghazali]]** | Philosophy, Sufism, Theology | Author of *Tahafut al-Falsafa*; reconciled Sufism with Orthodoxy.          |
-| **Al-Karaji**            | Mathematics                  | Freed algebra from its geometric heritage; pioneered induction.            |
-| **Jamshid al-Kishi**     | Mathematics, Astronomy       | Advanced decimal fractions; calculated 2π to 16 decimal places.            |
-| **Ibn Sina (Avicenna)**  | Medicine, Philosophy         | Author of *The Canon of Medicine*; developed the Flying Man argument.      |
-| **Ibn Rushd (Averroes)** | Philosophy, Law              | The \"Great Commentator\" on Aristotle; author of *The Decisive Treatise*. |
-| **Al-Khwarizmi**         | Mathematics, Geography       | The \"Father of Algebra\"; source of the term \"Algorithm.\"               |
-| **Ibn al-Haytham**       | Optics, Physics              | The \"Father of Optics\"; established the scientific method of empiricism. |
+| **[[BIO - Al-Ghazali]]** | Philosophy, Sufism, Theology | Author of *Tahafut al-Falsafa*; reconciled Sufism with Orthodoxy. |
+| **Al-Karaji** | Mathematics | Freed algebra from its geometric heritage; pioneered induction. |
+| **Jamshid al-Kishi** | Mathematics, Astronomy | Advanced decimal fractions; calculated 2π to 16 decimal places. |
+| **Ibn Sina (Avicenna)** | Medicine, Philosophy | Author of *The Canon of Medicine*; developed the Flying Man argument. |
+| **Ibn Rushd (Averroes)** | Philosophy, Law | The \"Great Commentator\" on Aristotle; author of *The Decisive Treatise*. |
+| **Al-Khwarizmi** | Mathematics, Geography | The \"Father of Algebra\"; source of the term \"Algorithm.\" |
+| **Ibn al-Haytham** | Optics, Physics | The \"Father of Optics\"; established the scientific method of empiricism. |
 
 - - -
 *Last Update: 2026-02-06 by GeminiCLI*
-
-

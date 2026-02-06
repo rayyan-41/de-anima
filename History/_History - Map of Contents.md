@@ -12,5 +12,3 @@
 - - -
 *Last MOC Update: 2026-02-06 by [GeminiCLI]*
 *Next Review: 2026-03-06*
-
-
