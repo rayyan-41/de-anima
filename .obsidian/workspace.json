@@ -16,8 +16,21 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "1478bc61e640f60b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,7 +220,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "233177cc539b6fab",
+  "active": "1478bc61e640f60b",
   "lastOpenFiles": [
     "Art/_Art - Map of Contents.md",
     "Art/Database - Art.md",
