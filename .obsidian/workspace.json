@@ -124,6 +124,54 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "107b4cc5ab26d28a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "GEMINI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for GEMINI"
+            }
+          },
+          {
+            "id": "ae3971d108ddafb5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "GEMINI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from GEMINI"
+            }
+          },
+          {
+            "id": "07272588c94fc352",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "GEMINI.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of GEMINI"
+            }
           }
         ],
         "currentTab": 2
@@ -164,8 +212,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "12ae8687aa7ee1d5",
+  "active": "ad32e99b45b4fe2d",
   "lastOpenFiles": [
+    "tmp/attachments",
+    "tmp",
     "GEMINI.md",
     "History/_History - Map of Contents.md",
     "Science/Science - Map of Contents.md",
@@ -178,8 +228,6 @@
     "Reason/Chain Of Thoughts.md",
     "Map of Contents.md",
     "Reason/Reason - Map of Contents.md",
-    "tmp/attachments",
-    "tmp",
     "Reason/II. From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "Reason/i. The Julian Star and Intellectualism as a Category of People..md",
     "History/People/Luca Pacioli.md",
@@ -197,7 +245,6 @@
     "Art/paintings_source/School_Of_Athens.webp",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
     "History/The Ottoman Empire/Notable Battles.md",
-    "History/The Holy Roman Empire/The Holy Roman Empire.md",
     "History/Islamic History.base",
     "ComputerScience.base",
     "Master Database.base",

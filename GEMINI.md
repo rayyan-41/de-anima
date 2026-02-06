@@ -190,69 +190,30 @@ Each MOC must be a living document, updated regularly, that serves three crucial
 ---
 ## Structure
 [[A table with all notes and relevant information]]
-| Topic Area | Key Notes | Status | Last Updated |
-|-----------|-----------|--------|--------------|
-| ... | ... | ... | ... |
+| Topic Area | Notes | Last Updated |
+|-----------|-----------|--------------|
+| ... | ... | ... |
 ---
 *Last MOC Update: YYYY-MM-DD by [GeminiCLI]*
 *Next Review: YYYY-MM-DD*
 ```
 
-**Status Indicators:**
-
--  **Active**: Currently being expanded or revised
--  **Stable**: Well-developed, comprehensive, maintained
--  **Developing**: New area, needs more work
--  **Hub**: Connects to many other notes
--  **Needs Attention**: Outdated or incomplete
-
 ### Domain-Specific Template
 
-The primary header after the title should immediately signal which domain and what type of content the reader has encountered:
+```markdown
+DATE: [Current date and time] 
+TAGS: [Relevant tags for the topic] 
+--- 
+### [First subheading] 
+[Write in narrative form with natural flow. Show chain of thought. Academic but human tone. Comprehensive understanding of the topic.]
 
-**Art Domain Headers:**
+[[incorporate graphs using mermaid if user request proper timeline visualizations]]
 
-- `## Artistic Analysis: [Work/Artist/Movement]`
-- `## Biography: [Artist Name] (YYYY-YYYY)`
-- `## Movement Overview: [Art Movement]`
-- `## Technical Study: [Technique/Medium]`
-- `## Exhibition Notes: [Show/Gallery]`
+```
 
-**History Domain Headers:**
+### The Tagging System: 
 
-- `## Historical Account: [Event/Period]`
-- `## Biographical Profile: [Historical Figure] (YYYY-YYYY)`
-- `## Empire Chronicle: [Civilization/Empire]`
-- `## Thematic Analysis: [Historical Theme]`
-- `## Primary Source Examination: [Document/Artifact]`
-
-**Literature Domain Headers:**
-
-- `## Literary Analysis: [Work Title]`
-- `## Author Study: [Writer Name]`
-- `## Creative Work: [Genre]`
-- `## Close Reading: [Specific Passage/Poem]`
-- `## Writing Reflection: [Topic/Technique]`
-
-**Reason Domain Headers:**
-
-- `## Philosophical Examination: [Concept/Question]`
-- `## Philosopher Profile: [Name] (YYYY-YYYY)`
-- `## Argument Analysis: [Argument Name]`
-- `## Personal Reflection: [Topic]`
-- `## Conceptual Exploration: [Idea/Problem]`
-
-**Science Domain Headers:**
-
-- `## Scientific Exploration: [Phenomenon/Concept]`
-- `## Researcher Profile: [Scientist Name]`
-- `## Technical Overview: [Technology/Method]`
-- `## Discovery Account: [What Was Discovered]`
-- `## Experimental Analysis: [Study/Experiment]`
-
-### The Tagging System: A Taxonomy of Thought
-
-Tags are not mere labels—they are the threads that weave individual notes into a coherent tapestry. A well-tagged vault is navigable; a poorly-tagged one is a labyrinth.
+A well-tagged vault is navigable; a poorly-tagged one is a labyrinth.
 
 **Hierarchical Tag Structure:**
 
@@ -263,7 +224,7 @@ Tags are not mere labels—they are the threads that weave individual notes into
   ↓
 #[specific-topic] (1-4 tags - granular identifiers)
   ↓
-#[type-modifier] (OPTIONAL - special characteristics)
+
 ```
 
 **Domain Tags** (Use exactly ONE per note):
@@ -295,6 +256,7 @@ For Reason:
 For Science:
 
 - `#physics`, `#biology`, `#chemistry`, `#computer-science`, `#mathematics`, `#astronomy`, `#technology`, `#scientist-bio`
+this list is not definitive. add whichever seem relevant for long term categorization
 
 **Specific-Topic Tags** (1-4 tags for precision):
 
@@ -304,7 +266,7 @@ These should be noun phrases representing concrete subjects:
 - `#roman-empire`, `#julius-caesar`, `#punic-wars`
 - `#existentialism`, `#nietzsche`, `#eternal-return`
 - `#quantum-mechanics`, `#schrodinger`, `#wave-particle-duality`
-
+this list is not definitive. add whichever seem relevant for long term categorization
 **Type-Modifier Tags** (Special characteristics):
 
 - `#ai-generated` (REQUIRED for all AI-created notes)
@@ -692,8 +654,6 @@ Added:
 - [[New Note 1]] under [Category]
 - [[New Note 2]] under [Category]
 
-Modified:
-- [[Existing Note]]: updated status from 🌱 Developing to 📚 Stable
 
 Observations:
 - [Category X] is getting substantial—might be time to split it
