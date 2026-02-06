@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "Literature/_Literature - Map of Contents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "_Literature - Map of Contents"
             }
           }
         ]
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GEMINI.md",
+                "file": "Literature/_Literature - Map of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GEMINI"
+              "title": "Backlinks for _Literature - Map of Contents"
             }
           },
           {
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GEMINI.md",
+                "file": "Literature/_Literature - Map of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GEMINI"
+              "title": "Outgoing links from _Literature - Map of Contents"
             }
           },
           {
@@ -164,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GEMINI.md",
+                "file": "Literature/_Literature - Map of Contents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GEMINI"
+              "title": "Outline of _Literature - Map of Contents"
             }
           }
         ],
@@ -214,8 +214,15 @@
   },
   "active": "ad32e99b45b4fe2d",
   "lastOpenFiles": [
-    "Reason/Epistemology/REAS - Innate Divinity - Descartes to Darwin.md",
     "Reason/Ethics/REAS - Intellectualism and the Julian Star.md",
+    "Reason/REAS - Innate Divinity - Descartes to Darwin.md",
+    "Reason/REAS - Intellectualism and the Julian Star.md",
+    "Reason/REAS - Chain Of Thoughts.md",
+    "Literature/_Literature - Map of Contents.md",
+    "Literature/Short Stories/LIT - Short Story - i. Caedis.md",
+    "History/_History - Map of Contents.md",
+    "GEMINI.md",
+    "Reason/Epistemology/REAS - Innate Divinity - Descartes to Darwin.md",
     "Reason/Meta-Notes/REAS - Chain Of Thoughts.md",
     "Reason/Epistemology",
     "Reason/Ethics",
@@ -228,7 +235,6 @@
     "Literature/Reference/LIT - Lexicon.md",
     "Literature/Reference",
     "Literature/Myths and Legends/LIT - Orpheus and Eurydice.md",
-    "Literature/Short Stories/LIT - Short Story - i. Caedis.md",
     "Science/Astronomy/SCI - Astronomy Master List.md",
     "Science/Mathematics/MATH - The Riemann Hypothesis.md",
     "Science/Mathematics/MATH - Mathematics of Interest.md",
@@ -240,12 +246,6 @@
     "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
     "History/The Holy Roman Empire/HIST - The Great Western Schism.md",
     "History/The Holy Roman Empire/HIST - King Sigismund and Bohemia.md",
-    "History/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
-    "History/The Ottoman Empire/HIST - Ottomans in the Balkans.md",
-    "History/The Ottoman Empire/HIST - Ottoman Notable Battles.md",
-    "History/Islamic Golden Age/HIST - Islamic Golden Age Scholars.md",
-    "History/The Holy Roman Empire/EMP - The Holy Roman Empire.md",
-    "History/HIST - Ottoman Notable Battles.md",
     "tmp/attachments",
     "tmp",
     "Untitled 1",
