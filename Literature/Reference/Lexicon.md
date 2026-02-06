@@ -1,8 +1,6 @@
 DATE: 2026-02-06
 TAGS: #literature #linguistics #vocabulary
 - - -
-### LIT - Lexicon
-
 A personal repository of linguistically significant words and their usage.
 
 - **Contemporaneous**: Existing or occurring in the same period of time.
