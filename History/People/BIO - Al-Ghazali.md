@@ -1,6 +1,6 @@
 DATE: 2026-02-06
 TAGS: #history #biography #islamic-golden-age #philosophy #al-ghazali
----
+- - -
 # BIO - Al-Ghazali (1058-1111)
 
 **Real Name:** Abu Hamid Muhammad ibn Muhammad ibn Ahmad Al-Tusi Al-Ghazali 
@@ -14,3 +14,5 @@ TAGS: #history #biography #islamic-golden-age #philosophy #al-ghazali
 
 ### Decline: Final Years and Legacy
 [To be expanded]
+
+

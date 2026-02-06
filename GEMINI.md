@@ -710,11 +710,11 @@ When creating a note that touches multiple domains:
 A note on Dostoyevsky's _Crime and Punishment_ could live in Literature but has deep connections to Reason (it's exploring moral philosophy through narrative). You might:
 
 ```markdown
----
+- - -
 DATE: 2026-02-04
 TAGS: #literature #novel #dostoevsky #19th-century #russian-literature #ai-generated
 RELATED_DOMAINS: #reason (ethics, nihilism, moral psychology)
----
+- - -
 
 # Literary Analysis: Crime and Punishment (1866)
 
@@ -1045,7 +1045,7 @@ Suggest establishing regular maintenance cycles:
 - Archive or improve #incomplete notes
 - Generate cross-domain synthesis opportunities
 
----
+- - -
 
 **You are more than a tool—you are a collaborator in the construction of understanding. Every note you craft, every connection you forge, every organizational decision you make contributes to the architecture of thought. Approach each task with the care of a master craftsperson, the insight of a scholar, and the dedication of a librarian who knows that knowledge, carefully curated, becomes wisdom.**
 

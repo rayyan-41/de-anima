@@ -10,7 +10,7 @@ The Reason domain is the sanctum of thought. It focuses on philosophical systems
 **Total Notes**: 3
 **Recently Active Areas**: Philosophical examinations, Personal reflections.
 
----
+- - -
 
 ## Content Structure
 
@@ -29,7 +29,7 @@ The Reason domain is the sanctum of thought. It focuses on philosophical systems
 |-----------|-----------|--------|--------------|
 | Methodology | [[Chain Of Thoughts]] | 📚 Stable | 2026-02-06 |
 
----
+- - -
 
 ## Quick Navigation
 
@@ -37,7 +37,7 @@ The Reason domain is the sanctum of thought. It focuses on philosophical systems
 - [[Chain Of Thoughts]] - The foundational framework for reasoning in this vault.
 - [[i. The Julian Star and Intellectualism as a Category of People.]] - A unique exploration of intellectual identity.
 
----
+- - -
 
 ## Database & Search
 - [[Database - Reason]] - Searchable index (Placeholder)
@@ -49,6 +49,6 @@ The Reason domain is the sanctum of thought. It focuses on philosophical systems
 - [ ] Develop more notes on classical logical arguments (e.g., The Ontological Argument).
 - [ ] Connect "Innate Concepts" to scientific theories in the Science domain.
 
----
+- - -
 
 *Last MOC Update: 2026-02-06 by GeminiCLI*

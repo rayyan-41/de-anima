@@ -1,6 +1,6 @@
 DATE: 2026-02-06
 TAGS: #history #biography #renaissance #mathematics #pacioli
----
+- - -
 # BIO - Luca Pacioli (1447–1517)
 
 ### Inception: The Franciscan Friar of Mathematics
@@ -11,3 +11,5 @@ Pacioli is best known as the "Father of Accounting and Bookkeeping" because he w
 
 ### Decline: Final Years and Legacy
 [To be expanded]
+
+
