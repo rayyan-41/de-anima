@@ -1,12 +1,9 @@
-﻿---
-DATE: 2025-08-20
+DATE: 2026-02-06
 TAGS: #reason #ethics #intellectualism #augustus #socrates #ibn-rushd #personal-reflection #ai-generated
-RELATED_DOMAINS: #history #philosophy
 ---
+### REAS - Intellectualism and the Julian Star
 
-# Philosophical Examination: Intellectualism and the Julian Star
-
-> *"The unexamined life is not worth living." — Socrates*
+> *\"The unexamined life is not worth living.\" — Socrates*
 
 ## Personal Reflection: A Parallel of Tragedy and Intellect
 
@@ -33,6 +30,6 @@ This lineage of thought motivates me to challenge both myself and the world. I a
 
 ---
 ## Related Notes
-- [[Chain Of Thoughts]]
-- [[The Holy Roman Empire]]
-- [[Notable Scholars Master List]]
+- [[REAS - Chain Of Thoughts]]
+- [[HIST - The Holy Roman Empire]]
+- [[HIST - Islamic Golden Age Scholars]]

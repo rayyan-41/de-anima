@@ -1,1 +1,0 @@
-#OttomanEmpire #history #Battles

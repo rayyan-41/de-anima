@@ -1,8 +1,0 @@
-
-| Quote                                                                                                                                                                                               | By                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| *Fortune resists half-hearted prayers*                                                                                                                                                              | **Ovid**                    |
-| *I am, somehow, less interested in the weight and convolutions of Einstein's brain than in the near certainty that people of equal talent have lived and died in cotton fields and sweatshop*s      | **Stephen Jay Gould**       |
-| *I am busy, tell her to wait* (upon being informed that her wife was dying and told to come to her)                                                                                                 | **Carl Friedrich Gauss**    |
-| "I will die rich." (He created the world's first news service to get market data before his competitors. He once loaned so much money to the Emperor that he was allowed to mint his own currency.) | **Jakob Fugger "The Rich"** |
- 
