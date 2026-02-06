@@ -8,29 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "233177cc539b6fab",
+            "id": "ad32e99b45b4fe2d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "1478bc61e640f60b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "GEMINI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "GEMINI"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -49,7 +41,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTime",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -109,20 +101,6 @@
             }
           },
           {
-            "id": "9ba1635c639316bc",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Science/Astronomy/Geodesic Equations.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from Geodesic Equations"
-            }
-          },
-          {
             "id": "ce24617f706e980c",
             "type": "leaf",
             "state": {
@@ -138,40 +116,6 @@
             }
           },
           {
-            "id": "f25bd75d5550b87c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Science/Astronomy/Geodesic Equations.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Geodesic Equations"
-            }
-          },
-          {
-            "id": "cb1936487faf405b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Science/Astronomy/Geodesic Equations.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks for Geodesic Equations"
-            }
-          },
-          {
             "id": "12ae8687aa7ee1d5",
             "type": "leaf",
             "state": {
@@ -182,7 +126,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       },
       {
         "id": "1e4f8f703f5341f0",
@@ -209,27 +153,31 @@
     "hiddenItems": {
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "workspaces:Manage workspace layouts": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "workspaces:Manage workspace layouts": true,
       "obsidian-kanban:Create new board": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false
     }
   },
-  "active": "1478bc61e640f60b",
+  "active": "12ae8687aa7ee1d5",
   "lastOpenFiles": [
+    "GEMINI.md",
+    "History/_History - Map of Contents.md",
+    "Science/Science - Map of Contents.md",
+    "Untitled.md",
+    "Untitled 1",
+    "Untitled",
     "Art/_Art - Map of Contents.md",
     "Art/Database - Art.md",
-    "History/_History - Map of Contents.md",
     "Literature/_Literature - Map of Contents.md",
     "Reason/Chain Of Thoughts.md",
     "Map of Contents.md",
     "Reason/Reason - Map of Contents.md",
-    "GEMINI.md",
     "tmp/attachments",
     "tmp",
     "Reason/II. From Descartes to Darwin; Why God's Existence is an innate concept..md",
@@ -245,18 +193,15 @@
     "Literature/Lexicon.md",
     "Personal Notes/19th Nov. Journey Begins.md",
     "Literature/Quotes.md",
-    "Untitled",
     "History/People",
     "Art/paintings_source/School_Of_Athens.webp",
     "History/The Ottoman Empire/The Ottomans in the Balkans.md",
     "History/The Ottoman Empire/Notable Battles.md",
     "History/The Holy Roman Empire/The Holy Roman Empire.md",
-    "History/The Holy Roman Empire/The Great Western Schicism.md",
     "History/Islamic History.base",
     "ComputerScience.base",
     "Master Database.base",
     "Untitled.canvas",
-    "Science/Computer Science/Dev/Software Design Techniques.md",
     "Science/Computer Science/Dev",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
     "Art/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png",
@@ -267,7 +212,6 @@
     "did-you-know-The-School-of-Athens-Raphael 2.webp",
     "did-you-know-The-School-of-Athens-Raphael 1.webp",
     "Art",
-    "History/People",
     "The Grounded Study/Science/Untitled Diagram.svg",
     "Untitled 1.canvas"
   ]
