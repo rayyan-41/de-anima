@@ -1,11 +1,7 @@
 DATE: 2026-02-06
 TAGS: #art #history/art #painter #masterpiece #ai-generated
 - - -
-### Master Painters and Their Works
-
 I would like to believe that I am a fan of art. It's a beautiful form of personal expression. Here, I will list down some works that I find inspirational and truly spectacular in either influence, impact or technical ability.
-
-- - -
 # A Sunday Afternoon on the Island of La Grande Jatte
 ![[A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png]]
 **Painter:** Georges Seurat

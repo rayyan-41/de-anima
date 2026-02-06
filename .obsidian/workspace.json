@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/_Literature - Map of Contents.md",
+                "file": "History/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "_Literature - Map of Contents"
+              "title": "HIST - Bohemia and Charles IV"
             }
           }
         ]
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Literature/_Literature - Map of Contents.md",
+                "file": "History/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _Literature - Map of Contents"
+              "title": "Backlinks for HIST - Bohemia and Charles IV"
             }
           },
           {
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Literature/_Literature - Map of Contents.md",
+                "file": "History/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _Literature - Map of Contents"
+              "title": "Outgoing links from HIST - Bohemia and Charles IV"
             }
           },
           {
@@ -164,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Literature/_Literature - Map of Contents.md",
+                "file": "History/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _Literature - Map of Contents"
+              "title": "Outline of HIST - Bohemia and Charles IV"
             }
           }
         ],
@@ -214,38 +214,38 @@
   },
   "active": "ad32e99b45b4fe2d",
   "lastOpenFiles": [
+    "History/The Holy Roman Empire/The Great Western Schicism.md",
+    "History/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
+    "History/The Holy Roman Empire/HIST - King Sigismund and Bohemia.md",
+    "Reason/The Julian Star and Intellectualism as a Category of People..md",
+    "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
+    "History/The Holy Roman Empire/EMP - The Holy Roman Empire.md",
+    "History/The Ottoman Empire/HIST - Ottoman Notable Battles.md",
+    "History/The Ottoman Empire/HIST - Ottomans in the Balkans.md",
+    "History/The Holy Roman Empire/HIST - The Great Western Schism.md",
+    "History/People/BIO - Al-Ghazali.md",
+    "History/People/BIO - Luca Pacioli.md",
+    "Art/_Art - Map of Contents.md",
+    "Art/Theory/ARTH - Chevreul and Color Theory.md",
+    "Art/Art History/ARTH - Master Painters and Works.md",
+    "History/Islamic Golden Age/HIST - Islamic Golden Age Scholars.md",
+    "Reason/Chain Of Thoughts.md",
+    "Literature/_Literature - Map of Contents.md",
     "Literature/Myths and Legends/Orpheus and Eurydice.md",
     "Literature/Reference/Lexicon.md",
     "Literature/Reference/Quotes.md",
-    "Literature/_Literature - Map of Contents.md",
     "Literature/Short Stories/i. Caedis.md",
-    "Reason/I. The Julian Star and Intellectualism as a Category of People..md",
-    "Reason/II. From Descartes to Darwin; Why God's Existence is an innate concept..md",
-    "Reason/Chain Of Thoughts.md",
     "Reason/_Reason - Map of Contents.md",
     "Reason/REAS - Intellectualism and the Julian Star.md",
     "Reason/Ethics/REAS - Intellectualism and the Julian Star.md",
     "Reason/REAS - Innate Divinity - Descartes to Darwin.md",
     "Reason/REAS - Chain Of Thoughts.md",
-    "History/_History - Map of Contents.md",
-    "GEMINI.md",
-    "Reason/Epistemology/REAS - Innate Divinity - Descartes to Darwin.md",
-    "Reason/Meta-Notes/REAS - Chain Of Thoughts.md",
     "Reason/Epistemology",
     "Reason/Ethics",
     "Reason/Meta-Notes",
-    "Art/Theory/ARTH - Chevreul and Color Theory.md",
-    "Art/Art History/ARTH - Master Painters and Works.md",
     "Art/Theory",
     "Art/Art History",
     "Literature/Reference",
-    "Science/Astronomy/SCI - Astronomy Master List.md",
-    "Science/Mathematics/MATH - The Riemann Hypothesis.md",
-    "Science/Mathematics/MATH - Mathematics of Interest.md",
-    "Science/Mathematics/MATH - Geodesic Equations.md",
-    "Science/Computer Science/Dev/CS - Software Design Techniques.md",
-    "Science/Computer Science/CS - Chevreul's Raster Imaging System.md",
-    "Science/Computer Science/AI/AI - 2.0 - CNNs.md",
     "tmp/attachments",
     "tmp",
     "Untitled 1",
