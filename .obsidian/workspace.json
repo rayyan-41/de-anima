@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "History/_History - Map of Contents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "_History - Map of Contents"
             }
           }
         ]
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GEMINI.md",
+                "file": "History/_History - Map of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for GEMINI"
+              "title": "Backlinks for _History - Map of Contents"
             }
           },
           {
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GEMINI.md",
+                "file": "History/_History - Map of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from GEMINI"
+              "title": "Outgoing links from _History - Map of Contents"
             }
           },
           {
@@ -164,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GEMINI.md",
+                "file": "History/_History - Map of Contents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GEMINI"
+              "title": "Outline of _History - Map of Contents"
             }
           }
         ],
@@ -214,11 +214,11 @@
   },
   "active": "ad32e99b45b4fe2d",
   "lastOpenFiles": [
+    "GEMINI.md",
     "Science/_Science - Map of Contents.md",
     "Reason/_Reason - Map of Contents.md",
     "tmp/attachments",
     "tmp",
-    "GEMINI.md",
     "History/_History - Map of Contents.md",
     "Science/Science - Map of Contents.md",
     "Untitled.md",
