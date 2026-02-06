@@ -187,13 +187,13 @@ Each MOC must be a living document, updated regularly, that serves three crucial
 **Metadata:**
 - Last Major Reorganization: YYYY-MM-DD
 - Total Notes: [number]
----
+- - -
 ## Structure
 [[A table with all notes and relevant information]]
 | Topic Area | Notes | Last Updated |
 |-----------|-----------|--------------|
 | ... | ... | ... |
----
+- - -
 *Last MOC Update: YYYY-MM-DD by [GeminiCLI]*
 *Next Review: YYYY-MM-DD*
 ```
@@ -203,7 +203,7 @@ Each MOC must be a living document, updated regularly, that serves three crucial
 ```markdown
 DATE: [Current date and time] 
 TAGS: [Relevant tags for the topic] 
---- 
+- - - 
 ### [First subheading] 
 [Write in narrative form with natural flow. Show chain of thought. Academic but human tone. Comprehensive understanding of the topic.]
 

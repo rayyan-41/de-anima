@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/_History - Map of Contents.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "_History - Map of Contents"
+              "title": "GEMINI"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#history",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "History/_History - Map of Contents.md",
+                "file": "GEMINI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for _History - Map of Contents"
+              "title": "Backlinks for GEMINI"
             }
           },
           {
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "History/_History - Map of Contents.md",
+                "file": "GEMINI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from _History - Map of Contents"
+              "title": "Outgoing links from GEMINI"
             }
           },
           {
@@ -164,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "History/_History - Map of Contents.md",
+                "file": "GEMINI.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _History - Map of Contents"
+              "title": "Outline of GEMINI"
             }
           }
         ],
@@ -214,6 +214,9 @@
   },
   "active": "ad32e99b45b4fe2d",
   "lastOpenFiles": [
+    "History/HIST - Ottoman Notable Battles.md",
+    "History/HIST - Ottomans in the Balkans.md",
+    "History/_History - Map of Contents.md",
     "Science/MATH - The Riemann Hypothesis.md",
     "Science/MATH - Mathematics of Interest.md",
     "Science/CS - Software Design Techniques.md",
@@ -230,8 +233,6 @@
     "Literature/LIT - Orpheus and Eurydice.md",
     "Literature/LIT - Quotes.md",
     "Literature/LIT - Lexicon.md",
-    "History/HIST - Ottoman Notable Battles.md",
-    "History/HIST - Ottomans in the Balkans.md",
     "History/HIST - The Great Western Schism.md",
     "History/HIST - King Sigismund and Bohemia.md",
     "History/HIST - Bohemia and Charles IV.md",
@@ -239,7 +240,6 @@
     "History/People/BIO - Luca Pacioli.md",
     "History/HIST - Islamic Golden Age Scholars.md",
     "History/People/BIO - Al-Ghazali.md",
-    "Art/ARTH - Chevreul and Color Theory.md",
     "tmp/attachments",
     "tmp",
     "Untitled 1",
