@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/_Science - Map of Contents.md",
+                "file": "Science/Mathematics/MATH - The Riemann Hypothesis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "_Science - Map of Contents"
+              "title": "MATH - The Riemann Hypothesis"
             }
           }
         ],
@@ -230,6 +230,9 @@
   },
   "active": "4072d4aa19785e2c",
   "lastOpenFiles": [
+    "Science/Mathematics/MATH - Mathematics of Interest.md",
+    "Science/_Science - Map of Contents.md",
+    "Science/Astronomy/SCI - Astronomy Master List.md",
     "History/People/BIO- Euclid.md",
     "Science/Mathematics/Geometry/GEO - Distance Metrics.md",
     "Science/Mathematics/MATH - The Riemann Hypothesis.md",
@@ -240,8 +243,7 @@
     "History/Islamic Golden Age/Untitled.md",
     "History/Islamic Golden Age/HIST - Islamic Golden Age Scholars.md",
     "History/_History - Map of Contents.md",
-    "Science/Mathematics/MATH - Geodesic Equations.md",
-    "Science/Astronomy/SCI - Astronomy Master List.md",
+    "Science/Astronomy/MATH - Geodesic Equations.md",
     "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "Science/Mathematics/Geometry",
     "Reason/The Julian Star and Intellectualism as a Category of People..md",
@@ -257,8 +259,6 @@
     "History/The Ottoman Empire/HIST - Ottomans in the Balkans.md",
     "History/People/BIO - Al-Ghazali.md",
     "History/People/BIO - Luca Pacioli.md",
-    "Art/_Art - Map of Contents.md",
-    "Literature/_Literature - Map of Contents.md",
     "Reason/Epistemology",
     "Reason/Ethics",
     "Reason/Meta-Notes",
