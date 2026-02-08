@@ -10,11 +10,12 @@
   "autoPairMarkdown": true,
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "newFileLocation": "current",
+  "newFileLocation": "folder",
   "trashOption": "local",
   "foldHeading": true,
   "autoConvertHtml": true,
   "vimMode": false,
   "livePreview": true,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "newFileFolderPath": "/"
 }
