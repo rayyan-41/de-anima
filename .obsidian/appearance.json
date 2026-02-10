@@ -7,7 +7,7 @@
   "baseFontSize": 16,
   "baseFontSizeAction": true,
   "monospaceFontFamily": "Cascadia Code",
-  "showViewHeader": false,
+  "showViewHeader": true,
   "nativeMenus": false,
   "enabledCssSnippets": [
     "custom-code"
