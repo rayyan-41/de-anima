@@ -104,12 +104,3 @@ Galileo was a man of intense passion, biting wit, and a famously prickly persona
 | Discovery of Phases of Venus | 1610 | Direct proof that planets revolve around the Sun. |
 | Letters on Sunspots | 1613 | Proved the Sun rotates and is not a "perfect" body. |
 | Two New Sciences | 1638 | Foundation of modern mechanics and the study of materials. |
-
-- - -
-
-## Related Notes
-*   [[_History - Map of Contents]]
-*   [[BIO - Al-Ghazali]]
-*   [[HIST - Islamic Golden Age Scholars]]
-*   [[BIO - Euler]]
-*   [[BIO - Luca Pacioli]]

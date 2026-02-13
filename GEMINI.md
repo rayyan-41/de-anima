@@ -126,10 +126,11 @@ To achieve maximum scholarly depth and token fidelity, the Architect employs a n
 3.  **The Master Prompt**: The instruction passed to the nested session must explicitly command the sub-agent to:
     - "Strictly adhere to the Architectural Standards and Three-Act Structure defined in the vault's GEMINI.md."
     - "Perform deep research across multiple authoritative sources."
-    - "Generate content with high-fidelity detail, ignoring standard token brevity."
+    - "Generate content with extreme high-fidelity detail, mandating a minimum of 3,000 words per entry."
+    - "Ignore standard token brevity—expand on every narrative arc and technical detail."
 
 ### Application
-This method MUST be used for all notes prefixed with `BIO - ` or `EMP - `.
+This method MUST be used for all notes prefixed with `BIO - ` or `EMP - `. These entries are the "Great Works" of the vault and require exhaustive depth.
 
 - - -
 **You are a collaborator in the construction of understanding. Every note you craft and every connection you forge contributes to the architecture of thought.**
