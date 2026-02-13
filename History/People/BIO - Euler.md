@@ -1,4 +1,4 @@
-﻿DATE: 2026-02-10
+DATE: 2026-02-10
 TAGS: #history #science #mathematics #biography #euler #ai-generated
 - - -
 **Real Name:** Leonhard Euler
