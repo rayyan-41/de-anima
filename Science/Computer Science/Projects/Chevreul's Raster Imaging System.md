@@ -1,8 +1,6 @@
 DATE: 2026-02-06
 TAGS: #science #computer-science #graphics #rasterization #cris #ai-generated
 - - -
-### CS - Chevreul's Raster Imaging System (CRIS)
-
 ## I - The Idea
 
 Every photograph, movie, video game, UI element - it's all an elaborate con job exploiting the specific quirks of human trichromatic vision. Magenta doesn't exist at all, its perception. Brown is just a desaturated orange, again, perception. The beauty of the constraint of human vision is that despite only being able to naturally absorb the color spectrum directly, our eyes are able to see a multitude of colors purely based on our perception.
@@ -17,8 +15,8 @@ Essentially, the screen is just a chunk of memory in the RAM, which we call the 
 
 CRIS assumes three things as axioms:
 1. A screen is a contiguous block of memory.
-2. A pixel is not a color, but a **proposal** to the visual cortex.
-3. Perception is programmable.
+2. A pixel is not a color, but a **proposal** to the visual cortex, which results in a 'perception'.
+3. Said perception is programmable.
 
 ## III - Implementation
 
