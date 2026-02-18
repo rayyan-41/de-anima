@@ -11,15 +11,10 @@
             "id": "4072d4aa19785e2c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "History/People/BIO - Galileo Galilei.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "BIO - Galileo Galilei"
+              "title": "New tab"
             }
           }
         ]
@@ -214,12 +209,19 @@
   },
   "active": "4072d4aa19785e2c",
   "lastOpenFiles": [
+    "Science/Computer Science/Dev/CS - Comparison of Node, Next, and React.js.md",
+    "Science/Computer Science/Dev/WEB - Comparison of Node, Next, and React.js.md",
+    "Science/Computer Science/Dev/WEB - JavaScript Frameworks.md",
+    "Science/Computer Science/Dev/WEB - Evolution of Web Development.md",
+    "Science/Computer Science/Dev/CS - Software Design Techniques.md",
+    "Science/Computer Science/Dev/CS - Evolution of Web Development.md",
+    "Science/Computer Science/Dev/CS - JavaScript Frameworks.md",
+    "History/People/BIO - Galileo Galilei.md",
     "History/People/BIO - Euclid.md",
     "History/People/BIO - Euler.md",
     "History/People/BIO - Luca Pacioli.md",
     "History/People/BIO - Al-Ghazali.md",
     "History/People/BIO - Jacob Bernoulli.md",
-    "History/People/BIO - Galileo Galilei.md",
     "Literature/Myths and Legends/Orpheus and Eurydice.md",
     "tmp/attachments",
     "tmp",
@@ -233,17 +235,10 @@
     "History/Islamic Golden Age/HIST - Islamic Golden Age Scholars.md",
     "Science/Astronomy/SCI - Astronomy Master List.md",
     "Science/Computer Science/CS - Chevreul's Raster Imaging System.md",
-    "Science/Computer Science/Dev/CS - Software Design Techniques.md",
     "Art/Theory/ARTB - Chevreul.md",
     "Art/Art History/ARTH - Master Painters and Works.md",
     "History/Islamic Golden Age/Untitled.md",
-    "History/_History - Map of Contents.md",
-    "Science/Astronomy/MATH - Geodesic Equations.md",
-    "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "Science/Mathematics/Geometry",
-    "Reason/The Julian Star and Intellectualism as a Category of People..md",
-    "History/The Holy Roman Empire/EMP - The Holy Roman Empire.md",
-    "History/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
     "Reason/Epistemology",
     "Reason/Ethics",
     "Reason/Meta-Notes",
