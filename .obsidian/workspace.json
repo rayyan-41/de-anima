@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/People/BIO - Ibn e Sina.md",
+                "file": "History/People/BIO - Ibn Sina.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BIO - Ibn e Sina"
+              "title": "BIO - Ibn Sina"
             }
           }
         ],
@@ -245,9 +245,9 @@
   },
   "active": "a6b9814d7fb10bbb",
   "lastOpenFiles": [
+    "History/People/BIO - Ibn e Sina.md",
     "History/People/BIO - Ibn Sina.md",
     "Science/Computer Science/Projects/AVALsys n8n workflow.md",
-    "History/People/BIO - Ibn e Sina.md",
     "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
     "Science/Computer Science/Web-Dev/WEB - Comparison of Node, Next, and React.js.md",
     "Science/Computer Science/Web-Dev/WEB - JavaScript Frameworks.md",
