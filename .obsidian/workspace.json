@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/People/BIO - Ibn Sina.md",
+                "file": "Reason/The Julian Star and Intellectualism as a Category of People..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BIO - Ibn Sina"
+              "title": "The Julian Star and Intellectualism as a Category of People."
             }
           }
         ],
@@ -245,8 +245,10 @@
   },
   "active": "a6b9814d7fb10bbb",
   "lastOpenFiles": [
-    "History/People/BIO - Ibn e Sina.md",
+    "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
+    "Reason/Chain Of Thoughts.md",
     "History/People/BIO - Ibn Sina.md",
+    "History/People/BIO - Ibn e Sina.md",
     "Science/Computer Science/Projects/AVALsys n8n workflow.md",
     "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
     "Science/Computer Science/Web-Dev/WEB - Comparison of Node, Next, and React.js.md",
@@ -274,8 +276,6 @@
     "Literature/_Literature - Map of Contents.md",
     "Science/_Science - Map of Contents.md",
     "Science/Mathematics/MATH - Mathematics of Interest.md",
-    "Science/Mathematics/MATH - The Riemann Hypothesis.md",
-    "Science/Mathematics/Geometry/GEO - Distance Metrics in Mathematics and Computing.md",
     "Science/Mathematics/Geometry",
     "Reason/Epistemology",
     "Reason/Ethics",
