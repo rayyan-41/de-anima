@@ -25,7 +25,7 @@ His brain was the GPU. His brush was the write-head. The canvas was the display.
 
 ## The Legacy in Silicon
 
-Fast-forward to 2025. You're reading this on a screen—maybe a 4K monitor, maybe a phone. Zoom in close enough, and you'll see them: the RGB sub-pixels. Tiny rectangles of pure red, green, and blue light arranged in a grid. Each triplet is a pixel. Each pixel is a discrete unit of color information.
+Fast-forward to 2025. You're reading this on a screen, maybe a 4K monitor, maybe a phone. Zoom in close enough, and you'll see them: the RGB sub-pixels. Tiny rectangles of pure red, green, and blue light arranged in a grid. Each triplet is a pixel. Each pixel is a discrete unit of color information.
 
 *You are looking at a dynamic Seurat painting.*
 
@@ -34,11 +34,8 @@ Every image on your screen is pointillist. A photograph, a video, a gradient, a 
 The technical terms we use in computer graphics are the same problems Seurat solved by hand:
 
 - *Dithering*: Seurat scattered orange and blue dots to create the illusion of brown where he had no brown pigment. Your printer does the same thing with CMYK dots.
-
 - *Anti-aliasing*: Seurat softened the edge between a woman's parasol and the sky by placing intermediate colors along the boundary. Your GPU does this by calculating sub-pixel color values to eliminate jagged edges.
-
 - *Optical mixing*: Seurat relied on additive color blending in the eye. Your screen does the same, using RGB light emission rather than pigment reflection.
-
 - *Framebuffer architecture*: Seurat's canvas was a 2D array of discrete color samples. So is your screen's memory.
 
 The engineers who built the first digital displays probably never looked at La Grande Jatte. But they rediscovered the same fundamental truth Chevreul articulated and Seurat implemented: *human vision has a resolution limit.* Exceed that limit—make your samples small enough and dense enough—and you can hack perception itself. You can make discrete elements disappear into continuous experience.

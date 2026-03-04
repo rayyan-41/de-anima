@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Art/Art Theory/ARTB - Chevreul.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ARTB - Chevreul"
+              "title": "GEMINI"
             }
           }
         ]
@@ -214,6 +214,7 @@
   },
   "active": "782a0ab928ab5810",
   "lastOpenFiles": [
+    "Art/Art Theory/Chevreul to Seurat.md",
     "History/_History - Map of Contents.md",
     "History/People/BIO - Jacob Bernoulli.md",
     "History/People/BIO - Ibn Sina.md",
@@ -243,7 +244,6 @@
     "Science/Computer Science/CS - Software Design Techniques.md",
     "Science/Computer Science/Web-Dev/WEB - Evolution of Web Development.md",
     "Science/Computer Science/Dev",
-    "Science/Computer Science/Dev/CS - Comparison of Node, Next, and React.js.md",
     "tmp/attachments",
     "tmp",
     "Literature/Books/Ovid's-Metamorphosis.pdf",
