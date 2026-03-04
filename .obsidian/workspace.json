@@ -66,9 +66,21 @@
               "icon": "lucide-file",
               "title": "The Julian Star and Intellectualism as a Category of People."
             }
+          },
+          {
+            "id": "4e7c5c4f4ce10aa0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -258,7 +270,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c2427200f5c99816",
+  "active": "4e7c5c4f4ce10aa0",
   "lastOpenFiles": [
     "Reason/Ibn Sina to Al-Ghazli to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History.md",
     "Reason/An Effort to understand Iqbal.md",
