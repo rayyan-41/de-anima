@@ -145,3 +145,54 @@ This method MUST be used for ALL notes created or modified by GeminiCLI.
 
 - - -
 **You are a collaborator in the construction of understanding. Every note you craft and every connection you forge contributes to the architecture of thought.**
+
+# VI. GEOPOLITICAL & MODERN NATION-STATE PROTOCOL
+
+### Trigger Conditions
+Apply this template whenever a note request:
+- Concerns a country, regime, leader, or geopolitical event in the modern era (post-1800, post-WWI).
+- Involves revolutions, coups, civil wars, foreign interventions, ideological movements, Cold War proxy conflicts, or post-colonial state formation.
+- Is filed within the `History/` folder.
+
+### 🗂 Note Metadata (Frontmatter)
+Every geopolitical note must begin with:
+```yaml
+---
+title: "{{Topic Title}}"
+aliases: []
+tags:
+  - history
+  - geopolitics
+  - {{region}}
+  - {{era}}
+date_created: {{YYYY-MM-DD}}
+date_modified: {{YYYY-MM-DD}}
+related_people: []
+related_events: []
+related_countries: []
+status: draft | review | complete
+word_count_target: "5000+"
+---
+```
+
+### 📐 Mandatory Structure Template
+1. **🗺 Historical Prologue**: Geographic/ethnic overview, colonial history, pre-event conditions, foreign interests. *Required: Timeline Table.*
+2. **👤 Figure Introduction**: Neutral anchor portrait (if leader-centric). Link to full BIO.
+3. **⚡ Rise to Power**: Mechanism of ascent, factions, foreign role, popular sentiment. *Required: Faction Map Table.*
+4. **🎯 Vision & Stated Goals**: Official ideology, economic model, foreign policy, social agenda.
+5. **✅ The Good**: Living standards, infrastructure, reforms. *Required: Metrics Table (Before/After).*
+6. **❌ The Bad**: Mismanagement, institutional decay, failed wars, structural dependencies.
+7. **🩸 The Ugly**: Repression, atrocities, mechanisms of control. Multiple perspectives required (Western, Regional, International, Domestic).
+8. **🌍 Geopolitical Dimensions**: 
+    - **8a. Western Perspective**: Strategic interests, diplomatic history, rhetoric vs. action.
+    - **8b. Eastern / Non-Western Perspective**: Soviet/Sino/Non-aligned views, regional powers.
+    - **8c. View of the People**: Diversity of internal opinion, class/ethnic divisions.
+9. **📉 The Downfall**: Sequence of collapse, internal/external drivers, hubris, power vacuum. *Required: Collapse Timeline.*
+10. **🔮 Legacy & Long-Term Consequences**: Post-period condition, memory, ongoing crises.
+11. **📚 Further Reading & Vault Links**: Academic, journalism, and primary sources.
+
+### ✍️ Standards & Naming
+- **Minimum Word Count**: 5,000 words.
+- **Tone**: Neutral, factual primacy, no ideological bias, no hagiography.
+- **Execution**: ALWAYS use the **Secondary Execution Architecture** (nested YOLO-Prompt) for these notes.
+- **Naming Convention**: `history/geopolitics/{{Country}}_{{Subject}}_{{YYYY}}.md`
