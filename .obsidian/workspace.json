@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/_History - Map of Contents.md",
+                "file": "Art/Art Theory/ARTB - Chevreul.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "_History - Map of Contents"
+              "title": "ARTB - Chevreul"
             }
           }
         ]
@@ -214,8 +214,8 @@
   },
   "active": "782a0ab928ab5810",
   "lastOpenFiles": [
-    "History/People/BIO - Jacob Bernoulli.md",
     "History/_History - Map of Contents.md",
+    "History/People/BIO - Jacob Bernoulli.md",
     "History/People/BIO - Ibn Sina.md",
     "History/People/BIO - Al-Ghazali.md",
     "GEMINI.md",
