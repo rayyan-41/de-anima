@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/Contemporary/HIST - The Libyan Revolution.md",
+                "file": "History/Contemporary/HIST - The Arab Spring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "HIST - The Libyan Revolution"
+              "title": "HIST - The Arab Spring"
             }
           }
         ]
@@ -214,11 +214,11 @@
   },
   "active": "782a0ab928ab5810",
   "lastOpenFiles": [
+    "History/_History - Map of Contents.md",
     "History/Contemporary/HIST - The Arab Spring.md",
     "History/Contemporary/HIST - The Libyan Revolution.md",
     "GEMINI.md",
     "Art/Art Theory/Chevreul to Seurat.md",
-    "History/_History - Map of Contents.md",
     "History/People/BIO - Jacob Bernoulli.md",
     "History/People/BIO - Ibn Sina.md",
     "History/People/BIO - Al-Ghazali.md",
