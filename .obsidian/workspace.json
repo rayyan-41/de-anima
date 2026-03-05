@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/Contemporary/HIST - The Libyan Revolution.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "HIST - The Libyan Revolution"
+              "title": "GEMINI"
             }
           }
         ]
@@ -215,9 +215,10 @@
   "active": "782a0ab928ab5810",
   "lastOpenFiles": [
     "History/Contemporary/HIST - The Arab Spring.md",
-    "History/_History - Map of Contents.md",
-    "History/Contemporary/HIST - The Libyan Revolution.md",
     "GEMINI.md",
+    "History/Contemporary/HIST - The Libyan Revolution.md",
+    "GEMINI2.md",
+    "History/_History - Map of Contents.md",
     "Art/Art Theory/Chevreul to Seurat.md",
     "History/People/BIO - Jacob Bernoulli.md",
     "History/People/BIO - Ibn Sina.md",
@@ -240,7 +241,6 @@
     "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
     "History/People/BIO - Ibn e Sina.md",
     "Science/Computer Science/Web-Dev/WEB - Comparison of Node, Next, and React.js.md",
-    "Science/Computer Science/Web-Dev/WEB - JavaScript Frameworks.md",
     "Science/Computer Science/Web-Dev/WEB - JavaScript Frameworks.md",
     "Science/Computer Science/Projects",
     "Science/Computer Science/Dev",

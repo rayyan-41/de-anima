@@ -124,29 +124,44 @@ Before responding to any request:
 3. **Verify**: After the agent completes, confirm the note meets vault standards.
 4. **Connect**: Suggest cross-domain links if relevant.
 
-### Note Creation — Agent Pipeline
-Every note created in this vault goes through the agent's **YOLO Two-Pass Protocol**:
+### Note Creation — Section-by-Section Decomposition
+
+Every note created in this vault goes through the agent's **Section-by-Section Execution Protocol**. This architecture solves the output-length ceiling by decomposing topics into independent headings, each written in its own dedicated YOLO session:
 
 ```
-┌──────────────────────────────────────────────────────────┐
-│  User Request                                            │
-│       ↓                                                  │
-│  Orchestrator (you) → identifies domain → delegates      │
-│       ↓                                                  │
-│  Agent receives request                                  │
-│       ↓                                                  │
-│  PASS 1: Agent spawns `gemini -y -p "..."` for raw       │
-│          deep research (2,000+ words of raw material)    │
-│       ↓                                                  │
-│  PASS 2: Agent refines, structures, expands, polishes    │
-│          into the domain-specific template               │
-│       ↓                                                  │
-│  Final note: ≥ 2,500 words (≥ 5,000 for geopolitical)   │
-│  Vault standards applied, MOC updated, links created     │
-└──────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│  User Request                                                │
+│       ↓                                                      │
+│  Orchestrator (you) → identifies domain → delegates          │
+│       ↓                                                      │
+│  Agent receives request                                      │
+│       ↓                                                      │
+│  STEP 1: Agent generates comprehensive HEADING OUTLINE       │
+│          (5–13 headings depending on topic complexity)        │
+│       ↓                                                      │
+│  STEP 2: For EACH heading, agent spawns a dedicated          │
+│          `gemini -y -p "..."` session writing ~1,000 words   │
+│          on that heading alone, with full context             │
+│       ↓                                                      │
+│          Heading 1 → YOLO → ~1,000 words                     │
+│          Heading 2 → YOLO → ~1,000 words                     │
+│          Heading 3 → YOLO → ~1,000 words                     │
+│          ...                                                  │
+│          Heading N → YOLO → ~1,000 words                     │
+│       ↓                                                      │
+│  STEP 3: Agent ASSEMBLES all sections into one cohesive      │
+│          note — adds transitions, formatting, wikilinks,     │
+│          frontmatter, and updates the MOC                    │
+│       ↓                                                      │
+│  Final note: 5 headings × 1k = ~5,000 words                 │
+│              11 headings (geopolitical) × 1k = ~11,000 words │
+│  Maximum fidelity per section. No output-length ceiling.     │
+└──────────────────────────────────────────────────────────────┘
 ```
 
 ### Note Creation Checklist (Enforced by Agents)
+- [ ] Heading outline generated before any writing begins.
+- [ ] Each heading written via its own dedicated YOLO session (~1,000 words).
 - [ ] Frontmatter complete (DATE, TAGS).
 - [ ] Correct categorical subfolder used (Except for Reason).
 - [ ] Naming convention followed (`EMP - `, `BIO - `, etc.).
@@ -155,7 +170,6 @@ Every note created in this vault goes through the agent's **YOLO Two-Pass Protoc
 - [ ] Domain-specific template applied.
 - [ ] "Related Notes" section populated at the bottom.
 - [ ] MOC updated with the new note.
-- [ ] Minimum 2,500 words met.
 
 ### Writing Philosophy
 - **Factual Primacy**: History notes are documentary. No dramatization unless requested.
