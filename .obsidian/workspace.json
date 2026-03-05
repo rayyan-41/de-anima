@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/AI/AI - Large Language Models - Architecture and Mechanics.md",
+                "file": "History/Contemporary/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI - Large Language Models - Architecture and Mechanics"
+              "title": "HIST - The Arab Spring - A Decade of Upheaval and Transformation"
             }
           }
         ]
@@ -214,8 +214,9 @@
   },
   "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
-    "Science/_Science - Map of Contents.md",
     "Science/Computer Science/AI/AI - Large Language Models - Architecture and Mechanics.md",
+    "History/Contemporary/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
+    "Science/_Science - Map of Contents.md",
     "Science/Computer Science/AI/AI - Large Language Models",
     "History/Contemporary/HIST - The Arab Spring.md",
     "GEMINI.md",
@@ -242,7 +243,6 @@
     "History/Medieval/The Holy Roman Empire/HIST - The Great Western Schism.md",
     "Reason/Chain Of Thoughts.md",
     "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
-    "History/People/BIO - Ibn e Sina.md",
     "Science/Computer Science/Projects",
     "Science/Computer Science/Dev",
     "tmp/attachments",
