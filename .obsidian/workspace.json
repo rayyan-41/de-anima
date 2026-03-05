@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "History/Contemporary/HIST - The Arab Spring.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "HIST - The Arab Spring"
             }
           }
         ]
@@ -212,10 +212,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "12ae8687aa7ee1d5",
+  "active": "782a0ab928ab5810",
   "lastOpenFiles": [
-    "History/Contemporary/HIST - The Arab Spring.md",
     "GEMINI.md",
+    "History/Contemporary/HIST - The Arab Spring.md",
     "History/Contemporary/HIST - The Libyan Revolution.md",
     "GEMINI2.md",
     "History/_History - Map of Contents.md",
