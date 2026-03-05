@@ -34,17 +34,17 @@ While the GPC and BPC system appeared democratic on paper, **Gaddafi** maintaine
 
 ```mermaid
 graph TD
-    A[Gaddafi: Brotherly Leader]
-    B[Revolutionary Committees]
-    C[Surveillance & Enforcement]
-    D[Basic People's Congresses]
-    E[General People's Congress]
-    F[Formal State Administration]
+    A["Gaddafi: Brotherly Leader"]
+    B["Revolutionary Committees"]
+    C["Surveillance & Enforcement"]
+    D["Basic People's Congresses"]
+    E["General People's Congress"]
+    F["Formal State Administration"]
     
     A --- B
     B --> C
-    B -- Controls -- E
-    B -- Bypasses -- F
+    B -->|Controls| E
+    B -->|Bypasses| F
     D --> E
     E --> F
 ```
