@@ -91,6 +91,6 @@ Following a chaotic year under **Mohamed Morsi**, the military under **Abdel Fat
 
 **4. Existential Civil War (The Syrian Model):**
 The **Assad** regime's refusal to step down, combined with regional proxy intervention, transformed Syria into the 21st century's most severe humanitarian catastrophe.
-
 - - -
-*Created on 2026-03-05 by GeminiCLI (Agent: Machiavelli)*
+#### **References**
+- [[HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]
