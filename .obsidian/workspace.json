@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "History/Contemporary/HIST - The Libyan Revolution.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "HIST - The Libyan Revolution"
             }
           }
         ]
@@ -214,12 +214,14 @@
   },
   "active": "782a0ab928ab5810",
   "lastOpenFiles": [
+    "History/Contemporary/HIST - The Arab Spring.md",
+    "History/Contemporary/HIST - The Libyan Revolution.md",
+    "GEMINI.md",
     "Art/Art Theory/Chevreul to Seurat.md",
     "History/_History - Map of Contents.md",
     "History/People/BIO - Jacob Bernoulli.md",
     "History/People/BIO - Ibn Sina.md",
     "History/People/BIO - Al-Ghazali.md",
-    "GEMINI.md",
     "History/Contemporary",
     "History/Medieval",
     "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
@@ -241,8 +243,6 @@
     "Science/Computer Science/Web-Dev/WEB - JavaScript Frameworks.md",
     "Science/Computer Science/Web-Dev/WEB - JavaScript Frameworks.md",
     "Science/Computer Science/Projects",
-    "Science/Computer Science/CS - Software Design Techniques.md",
-    "Science/Computer Science/Web-Dev/WEB - Evolution of Web Development.md",
     "Science/Computer Science/Dev",
     "tmp/attachments",
     "tmp",
