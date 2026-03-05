@@ -1,12 +1,8 @@
 DATE: 2026-03-05
 TAGS: #science #computer-science #ai #llm #ai-generated
 - - -
-### AI - Large Language Models - Architecture and Mechanics
-
-- - -
 **Abstract:**
 A comprehensive examination of the underlying systems that power modern Large Language Models (LLMs). This note dissects the journey from raw data to tokenization, the mathematical core of the Transformer architecture, and the competitive landscape of current frontier models.
-
 - - -
 
 ## 1. Introduction: The Paradigm Shift of Generative AI
