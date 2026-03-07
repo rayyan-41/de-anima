@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
+                "file": "History/People/BIO - Stefan Lazarevic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AI - 1.0 - Neural Networks"
+              "title": "BIO - Stefan Lazarevic"
             }
           }
         ]
@@ -214,10 +214,11 @@
   },
   "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
+    "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
+    "History/People/BIO - Stefan Lazarevic.md",
     "Science/Computer Science/AI/AI - 1.1 - Neural Networks Expanded.md",
     "Science/Computer Science/AI/AI - 2.0 - CNNs.md",
     "Science/Astronomy/MATH - Geodesic Equations.md",
-    "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
     "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
     "Science/Computer Science/Projects/AVALsys n8n workflow.md",
     "Science/Computer Science/AI/AI - Large Language Models - Architecture and Mechanics.md",
@@ -242,7 +243,6 @@
     "Reason/The Julian Star and Intellectualism as a Category of People..md",
     "Reason/An Effort to understand Iqbal.md",
     "History/People/BIO - Galileo Galilei.md",
-    "History/People/BIO - Euclid.md",
     "Science/Computer Science/Projects",
     "Science/Computer Science/Dev",
     "tmp/attachments",
