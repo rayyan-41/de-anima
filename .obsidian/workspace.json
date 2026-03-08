@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/People/BIO - Stefan Lazarevic.md",
+                "file": "History/_History - Map of Contents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BIO - Stefan Lazarevic"
+              "title": "_History - Map of Contents"
             }
           }
         ]
@@ -214,8 +214,8 @@
   },
   "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
-    "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
     "History/People/BIO - Stefan Lazarevic.md",
+    "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
     "Science/Computer Science/AI/AI - 1.1 - Neural Networks Expanded.md",
     "Science/Computer Science/AI/AI - 2.0 - CNNs.md",
     "Science/Astronomy/MATH - Geodesic Equations.md",
