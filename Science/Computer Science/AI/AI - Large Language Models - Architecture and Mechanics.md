@@ -9,7 +9,6 @@ aliases:
 **Abstract:**
 A comprehensive examination of the underlying systems that power modern Large Language Models (LLMs). This note dissects the journey from raw data to tokenization, the mathematical core of the Transformer architecture, and the competitive landscape of current frontier models.
 - - -
-
 ## 1. Introduction: The Paradigm Shift of Generative AI
 
 The emergence of Large Language Models (LLMs) represents a fundamental shift in the history of computing: the transition from **deterministic, rule-based logic** to **probabilistic, emergent prediction**. For decades, artificial intelligence was constrained by the "knowledge bottleneck"—the requirement that humans manually encode rules, grammars, and facts into a machine-readable format. Traditional Natural Language Processing (NLP) relied on complex linguistic trees and hand-crafted features. LLMs have dismantled this paradigm by demonstrating that intelligence can be "learned" through massive-scale statistical correlation.

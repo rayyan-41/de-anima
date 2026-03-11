@@ -1,13 +1,11 @@
 ---
 date: 2026-02-06
 tags:
-  - -
   - science
 aliases:
   - "1.0 - Neural Networks"
 ---
 
-- - -
 - - -
 ###### %%  Personal Note:
 For my MT1008 Multi-Variable Calculus function, I was on a severe time crunch. I had about 4 hours to submit a 10 page Word report on how mathematical concepts such as **gradient descent** and **function optimization** are used in fields of machine learning. I was severely sleep deprived and mentally exhausted but somehow managed to finish it. Admittedly, I used a considerable amount of AI to help me with my work and while that may get me the grade I want for this project, I am not satisfied with my research. This is partially the motivation for this entire section dedicated to the fundamentals of neural networks and machine learning. Here, I'll be properly documenting each and every single thing I learn about in this vast field.  %%

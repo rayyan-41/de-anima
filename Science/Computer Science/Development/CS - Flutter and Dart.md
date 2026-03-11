@@ -1,7 +1,6 @@
 ---
 date: 2025-01-01
 tags:
-  - -
   - computer-science
 aliases:
   - "Flutter and Dart"
