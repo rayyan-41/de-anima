@@ -1,8 +1,16 @@
 ---
-aliases: [Flutter, Dart, Mobile Development, UI Framework]
-tags: [computer-science, software-engineering, web-dev, framework, dart, flutter]
+aliases:
+  - Flutter and Dart
+tags:
+  - computer-science
+  - software-engineering
+  - web-dev
+  - framework
+  - dart
+  - flutter
 creation date: 2025-01-01
 modification date: 2025-01-01
+date: 2025-01-01
 ---
 ## 1. Introduction and Historical Context
 

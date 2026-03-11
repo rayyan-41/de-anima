@@ -1,3 +1,8 @@
+---
+date: 2026-03-05
+aliases:
+  - Large Language Models - Architecture and Mechanics
+---
 DATE: 2026-03-05
 TAGS: #science #computer-science #ai #llm #ai-generated
 - - -

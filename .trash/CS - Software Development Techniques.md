@@ -111,13 +111,5 @@ As a project matures, the architectural requirements often shift. A common path 
 1. **Phase 1 (The Vertical MVP)**: Build quick, independent features as vertical slices.
 2. **Phase 2 (The Refactor)**: Identify common patterns across those slices (e.g., Auth, Validation) and extract them into horizontal shared layers.
 3. **Phase 3 (The Stabilization)**: Move toward a Clean Architecture where the extracted layers and the feature logic are strictly decoupled by interfaces.
-
-- - -
-
-**Related Notes:**
-- [[CS - Software Design Techniques]]
-- [[WEB - JavaScript Frameworks]]
-- [[MATH - Mathematics of Interest]]
-
 - - -
 *Note: This technical analysis was generated with scientific precision by @haytham.*
