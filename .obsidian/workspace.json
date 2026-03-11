@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Development/CS - Flutter and Dart.md",
+                "file": "Science/Computer Science/Development/CS - Vite and Tauri.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CS - Flutter and Dart"
+              "title": "CS - Vite and Tauri"
             }
           }
         ]
@@ -212,8 +212,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "7adb17c520de5016",
+  "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
+    "Science/Computer Science/Development/CS - Flutter and Dart.md",
+    "Science/Computer Science/Development/CS - Vite and Tauri.md",
     "final-fix.js",
     "fix.js",
     "Science/Mathematics/MATH - The Riemann Hypothesis.md",
@@ -226,7 +228,6 @@
     "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
     "standardize.js",
     "Science/Computer Science/Projects/AVALsys n8n workflow.md",
-    "Science/Computer Science/Development/CS - Flutter and Dart.md",
     "History/People/BIO - Euler.md",
     "History/People/BIO - Gauss.md",
     "Science/Computer Science/Dev/CS - Software Development Techniques.md",
@@ -249,7 +250,6 @@
     "Science/Computer Science/Development",
     "tmp/attachments",
     "tmp",
-    "Literature/Books/Ovid's-Metamorphosis.pdf",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
