@@ -102,16 +102,20 @@ The combination of Rust Core, TAO, and WRY forms a lightweight, robust shell tha
 ### Tauri Architectural Diagram
 
 ```mermaid
-architecture-beta
-    group OS [Operating System Layer]
-    group Core [Tauri Rust Core]
-    group FE [Frontend UI]
+flowchart TD
+    subgraph OS[Operating System Layer]
+        W[Edge WebView2 / WebKit / WebKitGTK]
+    end
 
-    service W [Edge WebView2 / WebKit / WebKitGTK] in OS
-    service T [TAO: Window Management] in Core
-    service R [WRY: Webview Binding] in Core
-    service M [Rust Main Logic / State] in Core
-    service JS [HTML / CSS / JS (Vite)] in FE
+    subgraph Core[Tauri Rust Core]
+        T[TAO: Window Management]
+        R[WRY: Webview Binding]
+        M[Rust Main Logic / State]
+    end
+
+    subgraph FE[Frontend UI]
+        JS[HTML / CSS / JS - Vite]
+    end
 
     JS -- IPC --> R
     R -- Controls --> W
