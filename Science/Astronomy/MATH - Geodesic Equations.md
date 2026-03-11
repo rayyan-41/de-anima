@@ -1,3 +1,15 @@
+---
+date: 2026-02-06
+tags:
+  - science
+  - physics
+  - mathematics
+  - relativity
+  - geodesic
+  - ai-generated
+aliases:
+  - Geodesic Equations
+---
 DATE: 2026-02-06
 TAGS: #science #physics #mathematics #relativity #geodesic #ai-generated
 - - -
