@@ -1,5 +1,13 @@
-DATE: 2026-02-06
-TAGS: #science #mathematics #reference
+---
+date: 2026-02-06
+tags:
+  - science
+  - mathematics
+  - reference
+aliases:
+  - "Mathematics of Interest"
+---
+
 - - -
 Mathematical concepts that I find interesting or want to know more about, tabularized for convenience.
 

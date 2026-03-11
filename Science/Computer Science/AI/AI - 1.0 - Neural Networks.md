@@ -1,16 +1,12 @@
 ---
 date: 2026-02-06
 tags:
+  - -
   - science
-  - computer-science
-  - ai
-  - neural-networks
-  - machine-learning
 aliases:
-  - 1.0 - Neural Networks
+  - "1.0 - Neural Networks"
 ---
-DATE: 2026-02-06
-TAGS: #science #computer-science #ai #neural-networks #machine-learning
+
 - - -
 - - -
 ###### %%  Personal Note:

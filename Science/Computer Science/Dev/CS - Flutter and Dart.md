@@ -1,17 +1,12 @@
 ---
-aliases:
-  - Flutter and Dart
-tags:
-  - computer-science
-  - software-engineering
-  - web-dev
-  - framework
-  - dart
-  - flutter
-creation date: 2025-01-01
-modification date: 2025-01-01
 date: 2025-01-01
+tags:
+  - -
+  - computer-science
+aliases:
+  - "Flutter and Dart"
 ---
+
 ## 1. Introduction and Historical Context
 
 Flutter is not merely another framework in the crowded landscape of frontend development; it represents a fundamental paradigm shift in how we conceive of and render user interfaces across multiple platforms. Unlike traditional cross-platform solutions that rely on web views (like Cordova or Ionic) or those that act as wrappers around OEM widgets (like React Native or Xamarin), Flutter chooses a radically different approach: it paints every single pixel to the screen itself, bypassing the platform's native UI controls entirely.

@@ -1,5 +1,13 @@
-DATE: 2026-02-06
-TAGS: #science #mathematics #geometry
+---
+date: 2026-02-06
+tags:
+  - science
+  - mathematics
+  - geometry
+aliases:
+  - "Distance Metrics in Mathematics and Computing"
+---
+
 - - -
 ## Historical Development
 

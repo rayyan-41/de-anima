@@ -1,7 +1,17 @@
 ---
-DATE: 2026-02-18
-TAGS: #science #computer-science #javascript #frameworks #ai-generated #architecture #history
+date: 2026-02-18
+tags:
+  - science
+  - computer-science
+  - javascript
+  - frameworks
+  - ai-generated
+  - architecture
+  - history
+aliases:
+  - "JavaScript Frameworks"
 ---
+
 # WEB - JavaScript Frameworks: The Architecture of Modern Interfaces
 
 JavaScript frameworks are the "Great Architects" of the digital age. They are not merely collections of functions; they are cohesive systems that define the relationship between state, data, and the user interface. This note explores the dominant paradigms, the historical "why" behind their inception, and the theoretical logic that powers the modern frontend.

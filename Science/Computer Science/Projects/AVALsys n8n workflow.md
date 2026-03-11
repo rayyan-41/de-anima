@@ -1,7 +1,10 @@
 ---
-aliases: []
 date: 2026-02-18
+tags: []
+aliases:
+  - "AVALsys n8n workflow"
 ---
+
 The **AVALsys Project** is an AI-native financial reconciliation engine engineered specifically for the chaotic reality of the Pakistani B2B market. We are building a system that can "read" messy bank PDFs, Roman Urdu descriptions (e.g., _"Paisa mil gaya"_), and informal ledgers to autonomously match transactions with high precision.
 
 ### The Tech Stack & "The Why"

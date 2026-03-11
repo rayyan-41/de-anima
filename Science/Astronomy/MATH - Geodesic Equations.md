@@ -1,17 +1,12 @@
 ---
 date: 2026-02-06
 tags:
+  - -
   - science
-  - physics
-  - mathematics
-  - relativity
-  - geodesic
-  - ai-generated
 aliases:
-  - Geodesic Equations
+  - "Geodesic Equations"
 ---
-DATE: 2026-02-06
-TAGS: #science #physics #mathematics #relativity #geodesic #ai-generated
+
 - - -
 #### **What are Geodesic Equations?** 
 Whilst studying black holes, I found out that light bends around them. I have yet to study more extensively on the nature of light itself but I intend to code the black hole project before that study (though when do I ever follow my own convictions) and so I went ahead and studied more on how they bend on black holes. It has to do with a metric used by mathematicians and physicists to understand the path that light takes around a black hole

@@ -11,14 +11,15 @@
             "id": "3ddbe10ecaa54e19",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Science/Computer Science/AI/AI - Large Language Models - Architecture and Mechanics.md",
-                "bFile": "Science/Computer Science/AI/AI - Large Language Models - Architecture and Mechanics.md",
-                "aRef": ""
+                "file": "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: AI - Large Language Models - Architecture and Mechanics"
+              "icon": "lucide-file",
+              "title": "AI - 1.0 - Neural Networks"
             }
           }
         ]
@@ -213,22 +214,23 @@
   },
   "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
+    "standardize.js",
+    "Science/Computer Science/AI/AI - 1.1 - Neural Networks Expanded.md",
+    "Science/Computer Science/AI/AI - 2.0 - CNNs.md",
+    "Science/Computer Science/AI/AI - Large Language Models - Architecture and Mechanics.md",
+    "Science/Computer Science/Projects/AVALsys n8n workflow.md",
+    "Science/Computer Science/Dev/CS - Flutter and Dart.md",
     "History/People/BIO - Euler.md",
     "History/People/BIO - Gauss.md",
     "Science/Mathematics/MATH - The Riemann Hypothesis.md",
     "Science/Mathematics/MATH - Mathematics of Interest.md",
-    "Science/Computer Science/Projects/AVALsys n8n workflow.md",
-    "Science/Computer Science/Dev/CS - Flutter and Dart.md",
     "Science/Computer Science/Dev/CS - Software Development Techniques.md",
     "GEMINI.md",
     "History/_History - Map of Contents.md",
     "History/People/BIO - Stefan Lazarevic.md",
     "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
-    "Science/Computer Science/AI/AI - 1.1 - Neural Networks Expanded.md",
-    "Science/Computer Science/AI/AI - 2.0 - CNNs.md",
     "Science/Astronomy/MATH - Geodesic Equations.md",
     "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
-    "Science/Computer Science/AI/AI - Large Language Models - Architecture and Mechanics.md",
     "History/Contemporary/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
     "History/Contemporary/HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md",
     "History/People/BIO - Muammar Gaddafi.md",
@@ -239,7 +241,6 @@
     "History/Contemporary/HIST - The Libyan Revolution.md",
     "GEMINI2.md",
     "Art/Art Theory/Chevreul to Seurat.md",
-    "History/People/BIO - Jacob Bernoulli.md",
     "History/Contemporary",
     "History/Medieval",
     "Science/Computer Science/Projects",

@@ -1,7 +1,10 @@
 ---
-DATE: 2026-02-18
-TAGS: #science #computer-science #node #react #nextjs #ai-generated #architecture #history
+date: 2026-02-18
+tags: []
+aliases:
+  - "Comparison of Node, Next, and React.js"
 ---
+
 # WEB - Comparison of Node.js, React.js, and Next.js: The Full-Stack Ecosystem
 
 The modern JavaScript ecosystem is defined by three interconnected yet distinct technologies: **Node.js**, **React.js**, and **Next.js**. These tools do not exist in isolation; they are parts of a symbiotic architecture that spans the server, the browser, and the "Edge." This note explores their individual logic, their historical inception, and the synergy that powers the world's most performant web applications.

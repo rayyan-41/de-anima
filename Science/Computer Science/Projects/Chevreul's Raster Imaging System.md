@@ -1,5 +1,10 @@
-DATE: 2026-02-06
-TAGS: #science #computer-science #graphics #rasterization #cris #ai-generated
+---
+date: 2026-02-06
+tags: []
+aliases:
+  - "Chevreul's Raster Imaging System"
+---
+
 - - -
 ## I - The Idea
 
