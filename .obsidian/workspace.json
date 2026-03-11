@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/_History - Map of Contents.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "_History - Map of Contents"
+              "title": "GEMINI"
             }
           }
         ]
@@ -214,6 +214,8 @@
   },
   "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
+    "Science/Computer Science/Dev/CS - Flutter and Dart.md",
+    "History/_History - Map of Contents.md",
     "Science/Computer Science/Dev/CS - Software Development Techniques.md",
     "History/People/BIO - Stefan Lazarevic.md",
     "Science/Computer Science/AI/AI - 1.0 - Neural Networks.md",
@@ -233,7 +235,6 @@
     "GEMINI.md",
     "History/Contemporary/HIST - The Libyan Revolution.md",
     "GEMINI2.md",
-    "History/_History - Map of Contents.md",
     "Art/Art Theory/Chevreul to Seurat.md",
     "History/People/BIO - Jacob Bernoulli.md",
     "History/People/BIO - Ibn Sina.md",
@@ -242,7 +243,6 @@
     "History/Medieval",
     "Reason/Ibn Sina to Al-Ghazli to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History.md",
     "Reason/The Julian Star and Intellectualism as a Category of People..md",
-    "Reason/An Effort to understand Iqbal.md",
     "Science/Computer Science/Projects",
     "Science/Computer Science/Dev",
     "tmp/attachments",
