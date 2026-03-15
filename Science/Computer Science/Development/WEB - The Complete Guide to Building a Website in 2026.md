@@ -5,7 +5,7 @@ tags:
   - #web-dev
   - #ai-generated
 ---
-# WEB - The Complete Guide to Building a Website in 2026
+
 
 ## The State of Web Development in 2026 (Architecture & Paradigms)
 
