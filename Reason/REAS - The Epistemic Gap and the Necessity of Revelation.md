@@ -71,8 +71,3 @@ To fully appreciate this synthesis of reason and revelation, I must consider alt
 My journey begins with the mind and ends with the heart’s submission to the revealed word. Avicenna gives me the intellectual foundation; Al-Ghazali and Kant show me where my intellect must stop; and revelation provides the answers I could never generate myself. Acknowledging the limits of my reason is the most reasonable thing I can do.
 
 - - -
-
-### Related Notes
-- [[Chain Of Thoughts]]
-- [[Ibn Sina to Al-Ghazli to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History]]
-- [[From Descartes to Darwin; Why God's Existence is an innate concept.]]

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Development/WEB - The Complete Guide to Building a Website in 2026.md",
+                "file": "Reason/REAS - The Epistemic Gap and the Necessity of Revelation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "WEB - The Complete Guide to Building a Website in 2026"
+              "title": "REAS - The Epistemic Gap and the Necessity of Revelation"
             }
           }
         ]
@@ -214,6 +214,7 @@
   },
   "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
+    "Science/Computer Science/Development/WEB - The Complete Guide to Building a Website in 2026.md",
     "Reason/_ Reason - Map of Contents.md",
     "Reason/REAS - The Epistemic Gap and the Necessity of Revelation.md",
     "Science/Computer Science/Development/CS - Vite and Tauri.md",
@@ -243,7 +244,6 @@
     "Literature/Reference/LIT - The Green Book.md",
     "Science/Computer Science/AI/AI - Large Language Models",
     "History/Contemporary/HIST - The Arab Spring.md",
-    "History/Contemporary/HIST - The Libyan Revolution.md",
     "History/Contemporary",
     "History/Medieval",
     "Science/Computer Science/Projects",

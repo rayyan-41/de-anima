@@ -168,7 +168,6 @@ Every note created in this vault goes through the agent's **Section-by-Section E
 - [ ] Horizontal separators are `- - -`.
 - [ ] At least 2 meaningful wikilinks (Backlinks).
 - [ ] Domain-specific template applied.
-- [ ] "Related Notes" section populated at the bottom.
 - [ ] MOC updated with the new note.
 
 ### Writing Philosophy
