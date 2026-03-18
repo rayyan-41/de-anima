@@ -11,10 +11,15 @@
             "id": "3ddbe10ecaa54e19",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Reason/Chain Of Thoughts.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Chain Of Thoughts"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rust",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,13 +212,14 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9865e682d2a9ebea",
+  "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
+    "Reason/_ Reason - Map of Contents.md",
+    "Reason/Chain Of Thoughts.md",
     "Reason/An Effort to Understand Iqbal.md",
     "Reason/Ibn Sina to Al-Ghazli to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History.md",
     "Reason/The Epistemic Gap and the Necessity of Revelation.md",
     "Science/Computer Science/Development/WEB - The Complete Guide to Building a Website in 2026.md",
-    "Reason/_ Reason - Map of Contents.md",
     "Science/Computer Science/Development/CS - Vite and Tauri.md",
     "History/Contemporary/HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md",
     "Science/Computer Science/Development/CS - Flutter and Dart.md",
@@ -238,7 +243,6 @@
     "History/People/BIO - Stefan Lazarevic.md",
     "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
     "History/Contemporary/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
-    "History/People/BIO - Muammar Gaddafi.md",
     "Science/Computer Science/AI/AI - Large Language Models",
     "History/Contemporary",
     "History/Medieval",

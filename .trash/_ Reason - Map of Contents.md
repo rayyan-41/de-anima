@@ -1,4 +1,4 @@
-# Reason - Map of Contents
+
 
 Welcome to the Map of Contents for the Reason domain.
 

@@ -8,44 +8,44 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "file:_History",
-      "color": {
-        "a": 1,
-        "rgb": 7030548
-      }
-    },
-    {
       "query": "file:_Science",
       "color": {
         "a": 1,
-        "rgb": 5166167
+        "rgb": 8563923
       }
     },
     {
       "query": "file:_Literature",
       "color": {
         "a": 1,
-        "rgb": 14670112
+        "rgb": 14013052
       }
     },
     {
       "query": "file:_Art",
       "color": {
         "a": 1,
-        "rgb": 3573725
+        "rgb": 12609658
+      }
+    },
+    {
+      "query": "file:_History",
+      "color": {
+        "a": 1,
+        "rgb": 8085303
       }
     }
   ],
-  "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": -0.4,
-  "nodeSizeMultiplier": 2.59466145833333,
-  "lineSizeMultiplier": 2.64721791177123,
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 3.29069767441861,
+  "lineSizeMultiplier": 1.15615428247306,
   "collapse-forces": false,
-  "centerStrength": 0.775625962239689,
+  "centerStrength": 0.568187343002998,
   "repelStrength": 20,
-  "linkStrength": 0.340004861842638,
-  "linkDistance": 314,
-  "scale": 0.2185381965453347,
-  "close": false
+  "linkStrength": 0.604489101369419,
+  "linkDistance": 500,
+  "scale": 0.09421214411102376,
+  "close": true
 }
