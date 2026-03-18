@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reason/Chain Of Thoughts.md",
+                "file": "History/Medieval/The Ottoman Empire/HIST - Ottomans in the Balkans.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Chain Of Thoughts"
+              "title": "HIST - Ottomans in the Balkans"
             }
           }
         ]
@@ -214,10 +214,15 @@
   },
   "active": "3ddbe10ecaa54e19",
   "lastOpenFiles": [
-    "Reason/_ Reason - Map of Contents.md",
+    "History/Medieval/The Ottoman Empire/HIST - Ottoman Notable Battles.md",
+    "Art/Art Theory/Chevreul to Seurat.md",
+    "Art/Art History/ARTH - Master Painters and Works.md",
+    "History/_History - Map of Contents.md",
+    "Literature/Short Stories/i. Caedis.md",
     "Reason/Chain Of Thoughts.md",
+    "Reason/Ibn Sina to Al-Ghazali to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History.md",
+    "Reason/_ Reason - Map of Contents.md",
     "Reason/An Effort to Understand Iqbal.md",
-    "Reason/Ibn Sina to Al-Ghazli to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History.md",
     "Reason/The Epistemic Gap and the Necessity of Revelation.md",
     "Science/Computer Science/Development/WEB - The Complete Guide to Building a Website in 2026.md",
     "Science/Computer Science/Development/CS - Vite and Tauri.md",
@@ -238,11 +243,6 @@
     "History/People/BIO - Euler.md",
     "History/People/BIO - Gauss.md",
     "Science/Computer Science/Dev/CS - Software Development Techniques.md",
-    "GEMINI.md",
-    "History/_History - Map of Contents.md",
-    "History/People/BIO - Stefan Lazarevic.md",
-    "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
-    "History/Contemporary/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
     "Science/Computer Science/AI/AI - Large Language Models",
     "History/Contemporary",
     "History/Medieval",

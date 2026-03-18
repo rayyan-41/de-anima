@@ -12,7 +12,7 @@ This is what I realized early on and it made sense to me to think about the worl
 #### COTs
 - [[The Julian Star and Intellectualism as a Category of People.]]
 - [[From Descartes to Darwin; Why God's Existence is an innate concept.]]
-- [[Ibn Sina to Al-Ghazli to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History]]
+- [[Ibn Sina to Al-Ghazali to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History]]
 - [[The Epistemic Gap and the Necessity of Revelation]]
 - [[An Effort to Understand Iqbal]]
 
