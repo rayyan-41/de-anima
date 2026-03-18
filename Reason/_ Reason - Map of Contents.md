@@ -8,5 +8,5 @@ Welcome to the Map of Contents for the Reason domain.
 - [[From Descartes to Darwin; Why God's Existence is an innate concept.]]
 
 ## General
-- [[An Effort to understand Iqbal]]
+- [[An Effort to Understand Iqbal]]
 - [[The Julian Star and Intellectualism as a Category of People.]]
