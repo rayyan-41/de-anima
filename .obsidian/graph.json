@@ -6,7 +6,36 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "file:_History",
+      "color": {
+        "a": 1,
+        "rgb": 7030548
+      }
+    },
+    {
+      "query": "file:_Science",
+      "color": {
+        "a": 1,
+        "rgb": 5166167
+      }
+    },
+    {
+      "query": "file:_Literature",
+      "color": {
+        "a": 1,
+        "rgb": 14670112
+      }
+    },
+    {
+      "query": "file:_Art",
+      "color": {
+        "a": 1,
+        "rgb": 3573725
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": -0.4,
@@ -17,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 0.340004861842638,
   "linkDistance": 314,
-  "scale": 0.23327476088347407,
-  "close": true
+  "scale": 0.2185381965453347,
+  "close": false
 }
