@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "HIST - Ottomans in the Balkans"
             }
+          },
+          {
+            "id": "74f5c74c8d733f9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "History/People/BIO - Rumi.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "BIO - Rumi"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,8 +228,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3ddbe10ecaa54e19",
+  "active": "74f5c74c8d733f9e",
   "lastOpenFiles": [
+    "History/Medieval/The Ottoman Empire/HIST - Ottomans in the Balkans.md",
+    "History/People/BIO - Rumi.md",
     "History/Medieval/The Ottoman Empire/HIST - Ottoman Notable Battles.md",
     "Art/Art Theory/Chevreul to Seurat.md",
     "Art/Art History/ARTH - Master Painters and Works.md",
@@ -241,8 +259,6 @@
     "standardize.js",
     "Science/Computer Science/Projects/AVALsys n8n workflow.md",
     "History/People/BIO - Euler.md",
-    "History/People/BIO - Gauss.md",
-    "Science/Computer Science/Dev/CS - Software Development Techniques.md",
     "Science/Computer Science/AI/AI - Large Language Models",
     "History/Contemporary",
     "History/Medieval",
