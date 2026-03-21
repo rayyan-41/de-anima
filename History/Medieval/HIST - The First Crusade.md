@@ -194,3 +194,74 @@ Kerbogha's army, though massive, was politically fractured. It was a fragile coa
 Seeing the crusader resolve and unwilling to bleed their own forces to secure Kerbogha's hegemony, several key emirs, including Duqaq of Damascus, abandoned the field. The Seljuk coalition collapsed into a disorganized rout. The crusaders overran the Muslim camp, securing vast quantities of provisions, horses, and wealth. The citadel subsequently surrendered, bringing the entirety of Antioch under crusader control.
 
 The victory at Antioch was the military climax of the First Crusade. However, it immediately sparked a bitter, months-long political dispute between Bohemond, who claimed the city by right of conquest, and Raymond of Toulouse, who argued it must be returned to the Byzantines in accordance with their oaths. This dispute halted the crusade's advance for nearly a year.
+
+## The March South and the Siege of Jerusalem
+
+Following the grueling victory at Antioch in June 1098, the crusading army remained stalled in northern Syria for nearly a year. This delay was driven by a combination of political infighting among the leadership, epidemic disease (which claimed the life of the papal legate, Adhemar of Le Puy), and the logistical necessity of securing the surrounding territory. It was only the threat of open mutiny from the rank-and-file, who demanded to fulfill their vows at the Holy Sepulchre, that finally forced the advance to resume in the spring of 1099.
+
+### The Advance into the Levant
+The march south through the Levant was remarkably swift and relatively unopposed compared to the campaign in Anatolia. The geopolitical fragmentation of the region worked to the crusaders' advantage. The local Arab and Seljuk emirs of coastal cities such as Tripoli, Beirut, and Tyre, deeply divided and intimidated by the crusaders' reputation after the fall of Antioch, opted to provide tribute, supplies, and safe passage rather than risk a siege. 
+
+Raymond of Toulouse, having lost Antioch to Bohemond (who remained behind to consolidate his new principality), assumed de facto leadership of the march. The crusade essentially bypassed the major inland power centers like Damascus, maintaining a coastal route supported by naval contingents from Genoa and England that had secured the Mediterranean sea lanes.
+
+During this period, the political landscape shifted again. The Shia [[Fatimid Caliphate]] of Egypt, taking advantage of the Seljuk distraction caused by the crusade, launched a sudden offensive and captured Jerusalem from its Sunni Seljuk garrison in August 1098. Thus, when the crusaders finally approached their ultimate objective, they were facing Fatimid Egyptian defenders, not the Seljuks who had been the original casus belli. Fatimid attempts to negotiate a division of the Levant with the crusaders were categorically rejected; the Franks had not marched thousands of miles to accept a diplomatic compromise over the Holy City.
+
+### The Siege of Jerusalem (June - July 1099)
+On June 7, 1099, the crusader army—now reduced by casualties, garrisons left behind, and desertions to a hardened core of perhaps 1,200 knights and 12,000 infantry—arrived before the walls of Jerusalem. The Fatimid governor, Iftikhar ad-Daula, had prepared extensively. He expelled the city's Christian population to conserve food, poisoned the wells outside the walls, and heavily fortified the massive defenses.
+
+The initial crusader assault on June 13, driven by religious zeal rather than sound engineering, failed disastrously against the formidable walls. The crusaders quickly realized that without siege engines, capturing Jerusalem was impossible. Their situation was precarious; a massive Fatimid relief army was assembling in Egypt, creating a strict operational deadline. 
+
+The logistical crisis was alleviated by the arrival of a Genoese fleet at Jaffa, which brought vital supplies and skilled engineers, notably Guglielmo Embriaco. Utilizing timber scavenged from the distant forests of Samaria, the crusaders constructed two massive, multi-story siege towers. One was commanded by Raymond of Toulouse on the southern wall (Mount Zion), and the other by Godfrey of Bouillon on the northern wall.
+
+### The Final Assault and the Massacre
+In early July, to unify the fractured army and invoke divine assistance, the crusaders engaged in a solemn penitential procession around the city walls, led by the clergy, reminiscent of the biblical Siege of Jericho. 
+
+The final, coordinated assault began on July 13. The fighting was intensely fierce, involving heavy use of Greek fire by the defenders. On the night of July 14, Godfrey of Bouillon executed a brilliant tactical maneuver, dismantling his siege tower and moving it under the cover of darkness to a weaker, less defended section of the northern wall. 
+
+On the morning of July 15, 1099, Godfrey's tower reached the wall. The drawbridge was lowered, and two Flemish knights, Lethald and Engelbert of Tournai, were the first to breach the defenses, followed immediately by Godfrey and his retinue. The northern defenses collapsed, and the crusader army poured into the city. Recognizing that the city was lost, Iftikhar ad-Daula negotiated a surrender with Raymond of Toulouse in the south, exchanging the Tower of David for safe passage to Ascalon for himself and his immediate bodyguard.
+
+However, no quarter was offered to the general population. The capture of Jerusalem culminated in one of the most infamous massacres in medieval history. Over the next two days, the crusaders systematically slaughtered the city's Muslim and Jewish inhabitants—men, women, and children. Jews who had sought refuge in the central synagogue were burned alive, and Muslims were killed in the streets and atop the Temple Mount (the Haram al-Sharif). While medieval chronicles on both sides routinely exaggerated casualty figures (often citing tens of thousands, which exceeds the city's estimated population), the scale and brutality of the violence were profound and deeply traumatized the Islamic world. The crusaders justified the massacre through an extreme interpretation of holy war, viewing the \"cleansing\" of the city as the violent culmination of their penitential vow.
+
+## The Battle of Ascalon and the Establishment of the Crusader States
+
+The capture of Jerusalem represented the fulfillment of the crusader vow, but it did not secure the geopolitical reality of the conquest. The primary strategic threat—the Fatimid relief army from Egypt—was still advancing. 
+
+### The Battle of Ascalon (August 1099)
+In early August, a massive Fatimid army commanded by the vizier al-Afdal Shahanshah encamped near the coastal fortress of Ascalon, south of Jerusalem. The crusaders, displaying the aggressive tactical doctrine that had defined their campaign, decided against waiting out a siege within Jerusalem.
+
+Commanded by Godfrey of Bouillon, the crusader army marched out to meet the Fatimid threat. On August 12, 1099, the crusaders achieved tactical surprise, catching the Fatimid army unprepared in its camp at dawn. The crusader heavy cavalry, operating with practiced cohesion, launched a devastating charge that shattered the Fatimid lines before they could fully deploy. The Fatimid army routed completely, suffering heavy casualties and abandoning their camp, treasury, and siege equipment. 
+
+The Battle of Ascalon definitively secured the conquest of Jerusalem. The Fatimid threat was neutralized for a generation, and the immediate military objectives of the First Crusade were achieved. However, due to political squabbling—Raymond of Toulouse and Godfrey of Bouillon could not agree on who would control the city of Ascalon—the fortress itself was not taken, remaining a thorn in the side of the crusaders for decades.
+
+### The Foundation of the Crusader States
+Following the victory at Ascalon, the majority of the surviving crusaders, considering their vows fulfilled, returned to Europe, bringing back relics, wealth, and immense prestige. The monumental task of defending and organizing the newly conquered territories fell to a tiny fraction of the original army who chose to remain in the Levant, establishing four distinct geopolitical entities known as the Crusader States (Outremer).
+
+1. **The Kingdom of Jerusalem:** The preeminent Crusader State. Raymond of Toulouse had refused the crown, arguing he could not wear a crown of gold where Christ had worn a crown of thorns. Godfrey of Bouillon accepted leadership, taking the modest title *Advocatus Sancti Sepulchri* (Defender of the Holy Sepulchre). Upon Godfrey's death in 1100, his brother Baldwin of Boulogne arrived from Edessa and was formally crowned King Baldwin I of Jerusalem, firmly establishing a secular monarchy.
+2. **The Principality of Antioch:** Founded by Bohemond of Taranto in 1098. It dominated northern Syria and functioned as a heavily militarized frontier state, in constant conflict with the Seljuks of Aleppo and the [[Byzantine Empire]], which continually sought to reclaim it based on the crusaders' original oaths.
+3. **The County of Edessa:** The first Crusader State, established by Baldwin of Boulogne in 1098 after he splintered from the main army and exploited local Armenian political rivalries. Situated east of the Euphrates, it was heavily populated by Armenian Christians and served as a crucial buffer state against the Seljuks of Mosul and Mesopotamia.
+4. **The County of Tripoli:** Founded slightly later (established systematically between 1102 and 1109) by Raymond of Toulouse and his successors, occupying the coastal strip between the Principality of Antioch and the Kingdom of Jerusalem.
+
+The Crusader States functioned as a European colonial outpost, importing Western feudal structures, law, and ecclesiastical organization into the Levant. However, they were demographically precarious. The Franks constituted a tiny ruling elite superimposed over a vast, heterogeneous population of Eastern Orthodox Christians, Syrian Jacobites, Armenians, Muslims, and Jews. Consequently, the crusaders were forced to adopt a highly pragmatic approach to governance, largely tolerating local religious practices and relying heavily on indigenous populations for agriculture and administration. 
+
+Militarily, the defense of Outremer relied on the construction of massive concentric castles (like Krak des Chevaliers) to control territory with minimal manpower, and the eventual creation of the Military Orders—the Knights Templar and the Knights Hospitaller—who combined monastic vows with elite martial prowess to provide a permanent standing army.
+
+## Legacy, Historiography, and Influence in Literature and Media
+
+The First Crusade profoundly altered the geopolitical and cultural trajectory of both Europe and the Middle East, leaving a legacy that resonates into the modern era.
+
+### Geopolitical and Cultural Legacy
+For Western Europe, the success of the First Crusade validated the ideology of holy war and elevated the prestige of the [[Papacy]] to its zenith. It demonstrated the military viability of a united Latin Christendom and stimulated increased trade, cultural exchange, and intellectual contact with the East, subtly laying the groundwork for the Renaissance. The Crusade also finalized the schism between the Catholic West and the Orthodox East; the betrayal and violence of the campaign poisoned relations between Constantinople and Rome permanently.
+
+For the Islamic world, the sudden intrusion of the "Franks" (Ifranj) into the Levant was initially viewed not as a unified religious war, but as an expansion of the ongoing Byzantine-Seljuk border conflicts. However, the massacre at Jerusalem and the establishment of permanent Western states deeply traumatized the region. It catalyzed the slow but powerful development of a unified Islamic counter-crusade (Jihad), a movement that would eventually be realized under leaders like Zengi, Nur ad-Din, and ultimately Saladin, who recaptured Jerusalem in 1187.
+
+### Historiography
+The historiography of the First Crusade has evolved dramatically. 
+* **Medieval Chronicles:** Early Western accounts (e.g., Fulcher of Chartres, William of Tyre) framed the crusade providentially, as the manifest will of God executed by pious warriors. Islamic chroniclers (like Ibn al-Athir) documented the tragedy and framed the Franks as brutal, uncultured barbarians.
+* **The Enlightenment:** Thinkers like Edward Gibbon and Voltaire viewed the crusades with profound disdain, characterizing them as outbreaks of savage fanaticism, superstition, and greed that interrupted the progress of civilization.
+* **19th Century Romanticism:** The Victorian era witnessed a romantic rehabilitation of the crusades, heavily influenced by authors like Sir Walter Scott. The crusader knight was idealized as a paragon of chivalry and noble intent.
+* **Modern Scholarship:** Contemporary historians emphasize the extreme complexity of crusader motivations, moving away from monocausal explanations (like pure greed or pure piety). Scholars analyze the deep intertwining of genuine religious anxiety with socioeconomic pressures, feudal obligations, and demographic expansion.
+
+### Influence in Literature and Media
+The imagery and narrative of the First Crusade have deeply permeated Western cultural consciousness. 
+* **Literature:** The epic poems of the medieval period, such as the *Chanson d'Antioche* and Torquato Tasso’s Renaissance masterpiece *Jerusalem Delivered* (1581), romanticized the heroes of the First Crusade (particularly Godfrey of Bouillon and Tancred). Sir Walter Scott’s *The Talisman* (though technically set during the Third Crusade) cemented the romantic image of crusading chivalry in the popular mind.
+* **Modern Media:** The term "crusade" itself has been heavily secularized to denote any vigorous moral campaign. In visual media, the Crusades are frequently depicted, though often focusing on later conflicts (like Ridley Scott’s *Kingdom of Heaven*). The First Crusade specifically remains a touchstone for exploring themes of religious extremism, cultural collision, and the devastating human cost of ideological warfare.
