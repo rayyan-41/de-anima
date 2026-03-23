@@ -5,9 +5,6 @@ tags:
   - crusades
   - ai-generated
 ---
-
-# HIST - The First Crusade
-
 ## The State of the World: 11th Century Geopolitics (Byzantines, Seljuks, the Papacy)
 
 The geopolitical landscape of the late eleventh century was characterized by significant realignments of power across the Mediterranean and the broader Near East, setting the structural preconditions for the First Crusade. The primary actors in this theater were the [[Byzantine Empire]], the ascendant [[Seljuk Empire]], and the [[Papacy]] in Western Europe, each navigating internal crises and external pressures that culminated in the events of 1095.
