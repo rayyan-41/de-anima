@@ -55,6 +55,11 @@ When the user makes a request:
 - **Templates**: Empires (Three-Tier Architecture), Biographies (Three-Act), Geopolitical (11-section chronological), General Historical.
 - **Naming**: `EMP - ` for Empires, `BIO - ` for Biographies, `HIST - ` for general.
 - **Tone**: Strictly factual. No dramatization unless user explicitly requests it.
+- **Formatting (Subtle & Structured)**:
+    - **At-a-Glance**: Clean, minimal Markdown tables at the top of `EMP` and `BIO` notes for quick facts.
+    - **Visual Flow**: Minimalist Mermaid timelines for major eras or successions, used sparingly.
+    - **Prose Breaks**: Bulleted lists for "Causes/Effects" and subtle use of `> [!quote]` callouts for primary sources.
+    - **Link Restraint**: Apply the "First-Mention" rule for `[[wikilinks]]` per heading to avoid the "blue wall of text."
 - **Delegate**: ALL history-related note requests.
 
 ### 3. Literature / → `@tolstoy`
