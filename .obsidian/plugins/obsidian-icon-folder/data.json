@@ -38,10 +38,25 @@
   "Science/Mathematics": "LiDivideSquare",
   "Science/Computer Science": "LiComputer",
   "Reason/Chain Of Thoughts.md": "LiBrainCircuit",
-  "Islam": "LiMoon",
+  "Islam": {
+    "iconName": "LiMoon",
+    "iconColor": "#6bc610"
+  },
   "Reason": "LiBrain",
-  "Science": "LiStar",
-  "Literature": "LiBook",
-  "History": "LiSword",
-  "Art": "LiPaintbrush"
+  "Science": {
+    "iconName": "LiStar",
+    "iconColor": "#99560b"
+  },
+  "Literature": {
+    "iconName": "LiBook",
+    "iconColor": "#27639b"
+  },
+  "History": {
+    "iconName": "LiSword",
+    "iconColor": "#553e0c"
+  },
+  "Art": {
+    "iconName": "LiPaintbrush",
+    "iconColor": "#921c55"
+  }
 }
