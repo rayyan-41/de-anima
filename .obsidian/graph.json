@@ -11,41 +11,48 @@
       "query": "file:_Science",
       "color": {
         "a": 1,
-        "rgb": 8563923
+        "rgb": 13728297
       }
     },
     {
       "query": "file:_Literature",
       "color": {
         "a": 1,
-        "rgb": 14013052
+        "rgb": 6250073
       }
     },
     {
       "query": "file:_Art",
       "color": {
         "a": 1,
-        "rgb": 12609658
+        "rgb": 13578357
       }
     },
     {
       "query": "file:_History",
       "color": {
         "a": 1,
-        "rgb": 8085303
+        "rgb": 7031583
+      }
+    },
+    {
+      "query": "file:_Islam",
+      "color": {
+        "a": 1,
+        "rgb": 3132186
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -0.8,
+  "textFadeMultiplier": -1.3,
   "nodeSizeMultiplier": 3.29069767441861,
   "lineSizeMultiplier": 1.15615428247306,
   "collapse-forces": false,
-  "centerStrength": 0.568187343002998,
+  "centerStrength": 0.677011587391621,
   "repelStrength": 20,
-  "linkStrength": 0.604489101369419,
+  "linkStrength": 0,
   "linkDistance": 500,
-  "scale": 0.09421214411102376,
+  "scale": 0.23951567205508875,
   "close": true
 }
