@@ -7,129 +7,159 @@ tags:
   - maliki
   - shafii
   - hanbali
-  - ai-generated
+  - ibadat
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn
 
+## Introduction and Etymology
 
-## 1. Introduction: The Linguistic and Juristic Paradigm of Raf' al-Yadayn
+The term *Raf' al-Yadayn* (Arabic: رفع اليدين) translates literally to "raising the two hands." In the context of Islamic jurisprudence (Fiqh), it refers specifically to the physical act of raising the hands during the performance of the ritual prayer (*Salah*). The performance of *Salah* is not merely a spiritual exercise but a physical embodiment of submission to the Creator, and as such, every movement and utterance has been meticulously preserved and scrutinized by the scholars of the Islamic tradition.
 
-In the Name of Allah, the Most Merciful, the Most Compassionate. To understand the intricacies of *Raf' al-Yadayn* (raising the hands during prayer), one must first strip away the cultural dogmatism and sectarian vitriol that has clouded this discourse in the modern era, particularly in South Asian and Middle Eastern contexts. As with all matters of *Fiqh* (Islamic jurisprudence), our pursuit is not to validate our inherited customs, but to ascend to a clearer understanding of the Prophetic practice. The *deen* is a divine revelation; culture is human invention. When the two are confused, the masses mistake their geographical habits for divine mandates.
+The Prophet Muhammad (peace be upon him) commanded the believers: "Pray as you have seen me praying" (Sahih al-Bukhari). This imperative forms the foundational basis for the obsessive documentation of his actions during prayer by the Sahabah (Companions). Because the Prophet (peace be upon him) prayed in public five times a day for years, his prayer was observed by thousands. Yet, minor variations in how he prayed were reported, leading to profound and exhaustive juristic discussions among the early generations and the founders of the four recognized Sunni schools of thought (Madhahib): the Hanafi, Maliki, Shafi'i, and Hanbali schools.
 
-Linguistically, *Raf'* (رفع) signifies elevation or raising, and *al-Yadayn* (اليدين) is the dual form for hands. In the specific context of the Islamic ritual prayer (*Salah*), it denotes the physical act of raising both hands to the level of the shoulders or the earlobes at specific junctures of the prayer. This physical movement is not merely a kinetic motion; the early jurists and spiritual masters, including those who drank from the well of Prophetic wisdom, understood it as a symbol of surrendering worldly attachments. By raising the hands, the worshipper symbolically throws the *Dunya* (the material world) behind their back, entering into a state of *Khushu'* (submissive humility) before the Divine.
+The discussion surrounding *Raf' al-Yadayn* typically centers on four distinct postures within the prayer:
+1.  **Takbirat al-Ihram:** At the very beginning of the prayer.
+2.  **Before going into Ruku':** When saying the Takbir to transition into the bowing posture.
+3.  **Rising from Ruku':** When saying "Sami' Allahu liman hamidah" and standing up straight.
+4.  **Rising to the third Rak'ah:** After the first Tashahhud, when standing up for the third unit of prayer.
 
-The primary point of absolute consensus (Ijma') among all recognized scholars of *Ahl al-Sunnah wal-Jama'ah* is that raising the hands during the initial *Takbir* (*Takbirat al-Ihram*) is a heavily established Sunnah. No major school of thought disputes this initial elevation. [[Imam Abu Hanifa]], [[Imam Malik]], Imam al-Shafi'i, and Imam Ahmad bin Hanbal all concur that when one initiates the prayer by saying "Allahu Akbar," the hands are to be raised. This action inaugurates the sanctity of the prayer, transitioning the individual from the profane to the sacred.
-
-However, the divergence of opinion (*Ikhtilaf*)—which early Muslims viewed as a mercy rather than a pretext for division—arises concerning the raising of the hands at other specific junctures in the Salah. The primary junctures of contention are:
-1. Upon bowing down for *Ruku'*.
-2. Upon rising from *Ruku'* (saying *Sami' Allahu liman hamidah*).
-3. Upon standing up for the third *Rak'ah* (after the middle Tashahhud).
-
-This divergence is deeply rooted in the [[Hadith Methodology]] of the respective schools and how they reconcile apparently conflicting reports from the Companions of the Prophet (peace be upon him). In our intellectual history, differences in juristic outcome are almost entirely the result of methodological differences in evidence evaluation, rather than a willful disregard for the Sunnah. 
-
-To the untrained eye, or to the dogmatist who relies on translated snippets of Hadith collections rather than rigorous *Usul al-Fiqh* (principles of jurisprudence), it might appear that one side is overtly violating an explicit command. This simplistic, binary thinking is a modern plague. The reality is that the Companions themselves differed in their practice based on what they observed of the Prophet over a twenty-three-year period of revelation and legislation. Some companions, like Abdullah bin Umar, observed and meticulously recorded the raising of the hands at multiple points. Others, like Abdullah bin Masud, recorded a different practice, emphasizing the raising of the hands only at the beginning.
-
-Therefore, our exploration of *Raf' al-Yadayn* must be situated within the broader epistemological framework of Islamic law. It is a study of how early legal theorists navigated complex, sometimes contradictory textual evidence. The Hanbali and Shafi'i schools, prioritizing a preponderance of individual authentic narrations (*Ahad*), lean towards the continuous practice of *Raf' al-Yadayn*. The Hanafi school, analyzing the structural coherence of abrogation (*Naskh*) and the practice of the Kufan scholars, restricts it. The Maliki school relies heavily on the 'Amal (living tradition) of the people of Medina. 
-
-In this note, we will dissect each of these methodologies. We will not seek to declare a 'winner' in the manner of tribal warfare, for such an approach is alien to the spirit of the early Imams. Instead, we aim to map the topography of this debate, honoring the scholarly rigor of the past while simultaneously identifying and dismantling the rigid fanaticism (*Ta'assub*) that plagues contemporary discourse. Only by understanding the *why* behind the *what* can a believer attain true intellectual and spiritual peace in their worship.
+There is unanimous consensus (Ijma') among the four Sunni Madhahib that raising the hands during the opening *Takbirat al-Ihram* is an established Sunnah. However, the subsequent three instances are matters of significant and rich scholarly disagreement. This document will comprehensively deconstruct these positions, evaluating the evidences, the underlying principles of jurisprudence (*Usool al-Fiqh*), and the historical context of each view.
 
 - - -
 
-## 2. The Core Evidences: An Examination of the Hadith Corpus
+## Historical Context and the Companions' Positions
 
-To approach the issue of *Raf' al-Yadayn* honestly, one must immerse oneself in the ocean of Hadith literature. The Prophetic traditions on this matter are numerous, multifaceted, and have been subject to intense scrutiny by the *Muhaddithin* (traditionists) and *Fuqaha* (jurists). The differing juristic conclusions are not born of ignorance of these texts, but rather of differing criteria for weighing and contextualizing them.
+The period following the passing of the Prophet Muhammad (peace be upon him) saw the geographical expansion of the Islamic empire. The Companions dispersed to different regions—such as Kufa, Basra, Madinah, Mecca, and Damascus—taking with them the specific practices they had observed.
 
-The most famous and widely cited tradition supporting the continuous raising of the hands is the Hadith of Abdullah bin 'Umar (may Allah be pleased with him). Recorded in Sahih al-Bukhari and Sahih Muslim, Ibn 'Umar narrates: "I saw the Messenger of Allah (peace be upon him) when he stood for the prayer, raise his hands until they were parallel to his shoulders. He did that when he said the Takbir for bowing, and he did that when he raised his head from bowing, and he said, 'Sami' Allahu liman hamidah.' But he did not do that when prostrating." This Hadith is categorized as *Mutawatir* (mass-transmitted) in its meaning by some scholars, such as Imam al-Suyuti, signifying an absolute certainty that the Prophet practiced this at some point. For the Shafi'i and Hanbali scholars, this clear, unambiguous text forms the bedrock of their methodology. It describes a visible, repeated action in the prayer.
+1.  **The School of Kufa:** Prominent Companions like 'Abdullah ibn Mas'ud and 'Ali ibn Abi Talib settled or influenced the region of Iraq. Ibn Mas'ud, being one of the senior-most companions who spent immense amounts of time with the Prophet (peace be upon him), taught the people of Kufa a prayer that did not include *Raf' al-Yadayn* except at the beginning. This profoundly influenced the later Hanafi school.
+2.  **The School of Madinah:** The city of the Prophet remained the bastion of his continuous practice (*'Amal Ahl al-Madinah*). Companions like 'Abdullah ibn 'Umar were famously meticulous about copying every single action of the Prophet. Ibn 'Umar vehemently supported raising the hands in multiple places. Imam Malik later systematized the Fiqh of Madinah.
+3.  **The School of Mecca and Others:** Companions like Ibn 'Abbas, Abu Hurayrah, and others shared their observations, which often corroborated the practice of multiple raisings.
 
-Conversely, the bedrock of the opposing view—primarily held by the Hanafi school—is the narration of 'Abdullah bin Mas'ud (may Allah be pleased with him). Recorded in Sunan al-Tirmidhi, Sunan Abu Dawud, and Sunan al-Nasa'i, Ibn Mas'ud states: "Shall I not pray with you the prayer of the Messenger of Allah (peace be upon him)?" He then prayed and did not raise his hands except the first time. Imam al-Tirmidhi classified this Hadith as *Hasan* (fair/good), and prominent scholars of Hadith, including Ibn Hazm and later Hanafi titans like 'Allamah Anwar Shah Kashmiri, strongly defended its authenticity. Ibn Mas'ud was among the most senior and knowledgeable of the Companions, a constant shadow to the Prophet. The Hanafi methodology argues that a senior Companion of his caliber would not omit such a visible action unless he knew it had been abrogated (*Naskh*).
-
-Adding complexity to this corpus are the narrations of Malik bin al-Huwayrith and Wa'il bin Hujr. Malik bin al-Huwayrith, who visited the Prophet towards the end of his life (around the 9th year of Hijrah), reported that the Prophet raised his hands when saying the Takbirat al-Ihram, when bowing, and when rising from bowing (recorded in Sahih Muslim). Wa'il bin Hujr similarly reports observing the Prophet raising his hands at these junctures. Those advocating for continuous *Raf' al-Yadayn* point to the late conversion of these Companions as evidence that the practice was not abrogated, as it was observed in the final years of the Prophet's life.
-
-However, the Hanafis respond to this chronologically. They cite narrations like that of Bara' bin 'Azib, who observed the Prophet raising his hands only at the beginning. They also rely heavily on the principle of *Ta'arud al-Adillah* (apparent conflict of evidences). When a positive action (raising hands) and a negative action (not raising hands) are both authentically reported, the Hanafi *Usul* often dictates that the negative action implies the later abrogation of the positive action, especially when narrated by an insider like Ibn Mas'ud. The assumption is that it is easier to unknowingly continue an abrogated physical action than to deliberately cease an action unless explicitly commanded.
-
-Furthermore, we must examine the Hadith of Jabir bin Samurah, often deployed in this debate, though somewhat controversially. He narrates: "The Messenger of Allah (peace be upon him) came out to us and said: 'Why do I see you raising your hands as if they were the tails of restive horses? Be tranquil in prayer.'" (Sahih Muslim). Hanafis often utilize this to argue against the raising of hands within the prayer. However, Shafi'i and Hanbali scholars fiercely counter this interpretation, pointing out from other narrations that this incident specifically referred to people raising their hands during the final *Taslim* (the turning of the head to conclude the prayer), not during *Ruku'*. This highlights a crucial principle: citing a Hadith without understanding its *Sabab al-Wurud* (context of occurrence) is a recipe for theological error.
-
-The Maliki school approaches the corpus from yet another angle. While recognizing the Ahadith of Ibn 'Umar and others, Imam Malik in the *Mudawwanah* is reported to have considered the raising of the hands (other than the opening Takbir) as weak or unpracticed in Medina. For Imam Malik, the normative practice of the thousands of Companions and their successors residing in Medina (*'Amal Ahl al-Madinah*) was a stronger evidentiary basis than an isolated transmission, even if the transmission possessed a strong chain. If the Prophet had continuously raised his hands, the entire city of Medina would have mirrored it in their daily congregations. The absence of this mass practice in the city of the Prophet suggested to Malik that the isolated reports did not reflect the final or binding Sunnah.
-
-In evaluating these core texts, we see that the Companions themselves functioned as different lenses, capturing different aspects of the Prophetic reality. The Prophet (peace be upon him) led thousands of prayers over decades. To assume a robotic uniformity in his physical movements ignores the organic nature of revelation and pedagogical practice. He may have performed *Raf' al-Yadayn* to teach it as a permissible act, and omitted it to demonstrate that it is not obligatory. 
-
-The intellectual tragedy occurs when a modern student reads the Hadith of Ibn 'Umar in isolation and immediately dismisses the Hanafi position as "anti-Hadith," or when one reads Ibn Mas'ud's narration and declares the Shafi'is to be practicing "abrogated" forms. Such conclusions betray a profound ignorance of *Ilm al-Hadith* and *Usul al-Fiqh*. The core evidences do not form a singular, flat narrative; they form a complex, multi-dimensional tapestry that requires the masterful synthesis provided by the Mujtahid Imams.
+The scholars of Hadith mention that the Hadith regarding *Raf' al-Yadayn* in the three places (before Ruku', after Ruku', and rising for the third Rak'ah) reaches the level of *Mutawatir* (mass-transmitted) according to some scholars like Imam Suyuti, as it was narrated by over fifty Companions, including the ten promised Paradise. Conversely, the Kufan scholars argue that the practice was later abrogated (Naskh) by the Prophet (peace be upon him) in favor of greater stillness (*Khushu'*) in prayer.
 
 - - -
 
-## 3. Points of Agreement and Contention: A Kinematic Breakdown of the Prayer
+## The Four Madhabs: An Exhaustive Breakdown
 
-To navigate the discourse surrounding *Raf' al-Yadayn*, it is imperative to dissect the physical movements of the *Salah* into discrete junctures. The ritual prayer is not a singular, unbroken motion, but a sequenced liturgy comprising standing (*Qiyam*), bowing (*Ruku'*), and prostrating (*Sujud*). By examining each juncture, we can precisely identify where the four major Sunni schools of thought converge and where their methodologies lead them to diverge. This granular analysis prevents the intellectually lazy habit of making sweeping generalizations about any particular *Madhab* (school of jurisprudence).
+### 1. The Shafi'i and Hanbali Position (And Ahl al-Hadith)
 
-**1. Takbirat al-Ihram (The Opening Takbir)**
-This is the locus of absolute, universally binding agreement (*Ijma'*). When a believer stands to initiate the prayer, facing the Qiblah, and pronounces "Allahu Akbar," raising the hands is an established Sunnah across all four schools—Hanafi, Maliki, Shafi'i, and Hanbali. Whether the hands are raised to the level of the earlobes (as preferred by the Hanafis, citing narrations of Wa'il bin Hujr and Anas bin Malik) or to the shoulders (as preferred by the Shafi'is and Hanbalis, based on the Hadith of Ibn 'Umar), the core action of *Raf' al-Yadayn* is undisputed. The underlying wisdom here is the physical manifestation of casting the world behind oneself, an act of psychological and spiritual severing required to enter the Divine presence. To omit this intentionally, while not nullifying the prayer, is universally considered a neglect of a highly emphasized Prophetic practice.
+The Shafi'i and Hanbali schools hold that it is an emphasized Sunnah (*Sunnah Mu'akkadah*) to raise the hands in all four places:
+1.  Upon the initial Takbir.
+2.  Upon bowing for Ruku'.
+3.  Upon rising from Ruku'.
+4.  Upon standing for the third Rak'ah.
 
-**2. Descending into Ruku' (Bowing)**
-The first major point of contention arises at the transition from standing to bowing. When the recitations of the Quran are complete, and the worshipper says "Allahu Akbar" to bend into *Ruku'*, do the hands rise again? 
-The Shafi'i and Hanbali schools assert that raising the hands here is a recommended Sunnah. Their primary reliance is on the aforementioned *Mutawatir* (in meaning) transmission of Ibn 'Umar and others. For them, this physical elevation is an act of veneration, renewing the focus of the worshipper as they change postures. 
-The Hanafi school, conversely, maintains that the hands should not be raised at this juncture. They posit that the hands should remain at the sides (or folded, depending on the micro-posture immediately preceding) as the worshipper descends smoothly into the bow. They rely on the practice of Abdullah bin Mas'ud and the broader Kufan tradition, asserting that the continuous raising was an earlier practice that was eventually abrogated (*mansukh*) to foster greater physical stillness (*Sukun*) in the prayer.
+#### Primary Evidences
 
-**3. Rising from Ruku' (Standing after Bowing)**
-As the worshipper straightens their back from the bow, uttering "*Sami' Allahu liman hamidah*" (Allah hears those who praise Him), the second point of contention occurs. 
-Again, the Shafi'i and Hanbali jurists rule in favor of *Raf' al-Yadayn* at this moment. They argue that this posture, known as *I'tidal*, is a distinct transition requiring its own marker of veneration, supported by the exact same authentic corpus utilized for the descent into *Ruku'*. 
-The Hanafi and Maliki schools (in the dominant transmission of the *Mudawwanah*) dictate that the hands remain down. The Hanafis reiterate the principle of *Sukun* (tranquility), arguing that excessive movement detracts from the internal focus (*Khushu'*). The Malikis, drawing on the '*Amal* (living practice) of Medina, argue that the absence of this widespread practice among the immediate successors in the Prophet's city is the most potent evidence that it was not meant to be a permanent, universal Sunnah.
+The bedrock of the Shafi'i and Hanbali position is the incredibly authentic and widely transmitted reports describing the Prophet's complete prayer.
 
-**4. Descending into Sujud (Prostration) and Rising from it**
-Here, we find another powerful convergence of opinion, though rooted in the absence of an action. Across the Hanafi, Shafi'i, and Hanbali schools, there is widespread agreement that the hands are *not* raised when going down into the first prostration, nor when rising from it to the sitting position (*Jalsah*), nor when going down for the second prostration. The Shafi'i and Hanbali reliance on the Hadith of Ibn 'Umar explicitly notes: "But he did not do that [raise his hands] when prostrating." Therefore, the textual evidence explicitly curtails the action here. 
-It is worth noting, however, that in the vast compendiums of Hadith, there are isolated, anomalous narrations (*Shadh*) suggesting the Prophet may have raised his hands at every single *Takbir*, even in prostration. However, the *Usul* of all four schools reject these anomalous reports in favor of the overwhelmingly stronger transmissions that prohibit it during *Sujud*. This shared rejection demonstrates that no school blindly follows every text they find; all employ rigorous filtering mechanisms.
+*   **The Hadith of 'Abdullah ibn 'Umar:**
+    Recorded in Sahih al-Bukhari and Sahih Muslim:
+    *"I saw the Messenger of Allah (peace be upon him) when he stood for prayer, he raised his hands until they were level with his shoulders. He did the same when he said the Takbir for Ruku', and he did the same when he raised his head from Ruku' and said 'Sami' Allahu liman hamidah'. But he did not do that in Sujud (prostration)."*
+    In another narration in Bukhari, Ibn 'Umar added: *"And when he stood from the two Rak'ahs (i.e., after the first Tashahhud), he raised his hands."*
 
-**5. Rising for the Third Rak'ah (After the First Tashahhud)**
-The final point of major kinematic contention occurs in prayers of three or four cycles. After sitting for the first *Tashahhud*, the worshipper stands up for the third *Rak'ah*. 
-The Shafi'i school, and a strong narration within the Hanbali school, recommend raising the hands upon achieving the standing position (or while rising, according to some nuances). They cite the narration of Nafi' from Ibn 'Umar, recorded in Sahih al-Bukhari, which specifies that when the Prophet "stood up from the two Rak'ahs, he raised his hands." 
-The Hanafi school maintains its stance of stillness, arguing that the prayer after the initial *Takbirat al-Ihram* should be characterized by minimal physical motion, based on the practice of the Kufan companions. The Malikis, consistent with their methodology regarding the 'Amal of Medina, also generally do not observe *Raf' al-Yadayn* here.
+*   **The Hadith of Malik ibn al-Huwayrith:**
+    *"The Messenger of Allah (peace be upon him) used to raise his hands until they were parallel to the lobes of his ears when he said the Takbir, when he bowed, and when he raised his head from bowing."* (Sahih Muslim)
 
-In synthesizing these points of agreement and contention, a profound reality of Islamic jurisprudence emerges. The points of agreement (the opening Takbir, the omission during Sujud) form the structural skeleton of the prayer, ensuring that a Muslim from Cordoba and a Muslim from Samarkand recognize each other's worship. The points of contention (Ruku' and the third Rak'ah) represent the flexible tissue of the *Fiqh*, allowing for varying interpretations of the Prophet's multifaceted legacy. To elevate a point of legitimate contention to the level of a core, identity-defining doctrine is to commit a grave epistemological error, betraying the very framework established by the Imams of the *Salaf*.
+*   **The Hadith of Wa'il ibn Hujr:**
+    Wa'il came to Madinah in the final years of the Prophet's life (around 9 AH). He explicitly observed the Prophet raising his hands before and after Ruku'. This is a crucial piece of evidence for the Shafi'is and Hanbalis, as it proves that *Raf' al-Yadayn* was practiced late in the Prophet's life, negating the claim that it was abrogated earlier.
 
-- - -
-
-## 4. The Hanafi School: Evidences, Epistemology, and Kufan Praxis
-
-To comprehend the position of the Hanafi school—the largest and arguably most systematically structured of the Sunni legal traditions—one must look beyond a superficial reading of isolated Hadiths and delve into their underlying epistemology. The Hanafi rejection of continuous *Raf' al-Yadayn* (except at the *Takbirat al-Ihram*) is not an act of rebellion against the Sunnah, as simplistic modern polemics often suggest. Rather, it is the result of a rigorous methodological process that prioritizes chronological analysis, the principle of abrogation (*Naskh*), and the transmitted practice of the earliest, most senior Companions embedded in the intellectual hub of Kufa.
-
-The cornerstone of the Hanafi argument rests upon the illustrious figure of 'Abdullah bin Mas'ud (may Allah be pleased with him). Ibn Mas'ud was not merely a companion; he was a foundational pillar of Islamic scholarship. The Prophet (peace be upon him) explicitly instructed the ummah to take their recitation and understanding of the Quran from him, alongside a select few others. He was an "insider," one who was granted access to the Prophet's private quarters and observed the minutiae of his daily life, including his prayers, over decades. 
-
-The pivotal Hadith, recorded by Imam al-Tirmidhi, Abu Dawud, and al-Nasa'i, quotes Alqamah narrating that Ibn Mas'ud said to his students: "Shall I not pray with you the prayer of the Messenger of Allah (peace be upon him)?" Alqamah reports: "So he prayed and did not raise his hands except the first time." Imam al-Tirmidhi, a master of Hadith evaluation, graded this narration as *Hasan* (fair/good) and noted that many scholars among the Companions and their successors acted upon it. For [[Imam Abu Hanifa]] and his foremost students, Imam Abu Yusuf and Imam Muhammad al-Shaybani, this was not merely a textual transmission; it was the lived reality of Kufa, the city where Ibn Mas'ud had settled and taught thousands.
-
-The Hanafi methodology (*Usul*) approaches conflicting texts regarding the Prophet's physical actions through the lens of progressive legislation. The early days of Islam in Mecca and early Medina were marked by practices that were later refined or abrogated as the religion reached maturity. The Hanafis argue that continuous *Raf' al-Yadayn* was a feature of the earlier period of Islamic history. The Prophet (peace be upon him) utilized the raising of the hands to command attention, to visually instruct new converts on the transitions of the prayer, or, as some narrations suggest, to ensure that the hypocrites were not hiding idols under their armpits during the early tensions in Medina. 
-
-However, as the community matured and the imperative shifted from outward physical instruction to profound inward tranquility, the practice was abrogated (*mansukh*). The Quranic injunction, "And stand before Allah with devout obedience [Qanitin]" (2:238), was interpreted by many early exegetes as a command for stillness (*Sukun*) and the cessation of unnecessary movement. The Hanafis cite the Hadith of Jabir bin Samurah in Sahih Muslim—"Why do I see you raising your hands as if they were the tails of restive horses? Be tranquil in prayer"—as a general principle establishing stillness, even if its immediate context was the *Taslim*.
-
-The epistemological weight given to Ibn Mas'ud's practice is critical. If the Prophet (peace be upon him) had continued to raise his hands at every *Ruku'* until his death, it is inconceivable to Hanafi jurists that a companion of Ibn Mas'ud's stature and proximity would be ignorant of it. Furthermore, it is equally inconceivable that he would know of the continuous practice and deliberately choose to abandon it when demonstrating the "prayer of the Messenger" to his students. Therefore, his deliberate omission is viewed as positive proof that he witnessed the Prophet's final, abrogating action—the cessation of raising the hands.
-
-The Hanafis also bolster their position with the actions of other senior Companions. They cite narrations indicating that 'Umar bin al-Khattab and 'Ali bin Abi Talib (may Allah be pleased with them) did not raise their hands except at the beginning. When 'Ali relocated the capital of the Caliphate to Kufa, his practice reinforced the teachings already established by Ibn Mas'ud. Thus, the Hanafi position is not merely textual; it is geographical and historical, representing the synthesized legal tradition of Kufa, built upon the consensus of its highest-ranking Sahaba.
-
-Critics often point to the narrations of Malik bin al-Huwayrith and Wa'il bin Hujr—who visited Medina late in the Prophet's life and reported seeing him raise his hands—as proof against the abrogation theory. The Hanafi scholars respond with surgical precision. Imam al-Tahawi and later masters like 'Allamah Badr al-Din al-'Ayni explain that these late-arriving delegates were visitors, not residents. The Prophet may have exaggerated his movements to teach them the basic mechanics of the prayer in a short timeframe, a pedagogical technique suitable for bedouin delegates but not reflective of the normative, matured practice of the settled Medinan or Kufan communities.
-
-Furthermore, Hanafis apply the principle of *Ta'arud al-Adillah* (reconciling conflicting evidences). When a physical action is reported to have been done, and also reported to have been abandoned, logic and legal theory dictate that the abandonment must have occurred *after* the action. One cannot abrogate an omission with an action; one abrogates an action with an omission. The transition from movement to stillness is the logical progression of spiritual maturation.
-
-In conclusion, the Hanafi stance on *Raf' al-Yadayn* is a masterclass in holistic jurisprudence. It refuses to be bullied by isolated, albeit authentic, narrations that contradict the established, inherited practice of senior Companions. It is a methodology that values the living transmission of Kufa, the pedagogical context of Prophetic actions, and the overarching Quranic mandate for stillness in the Divine presence. To dismiss this deeply reasoned position as "un-Islamic" or "contrary to Hadith" is a reflection of the critic's own methodological poverty, not a defect in Imam Abu Hanifa's majestic legal edifice.
+#### Usool (Juristic Principles) applied by Shafi'is and Hanbalis
+Imam al-Shafi'i (d. 204 AH) and Imam Ahmad ibn Hanbal (d. 241 AH) relied heavily on the authenticity of the solitary reports (Ahad) when they were sound. To them, the sheer volume of narrators confirming the raising of the hands overpowered any reports of omission. Imam al-Shafi'i famously debated the Hanafis on this issue, asserting that the affirmative (*al-Muthbit*) takes precedence over the negator (*al-Nafi*). If Ibn 'Umar saw it and Ibn Mas'ud didn't, Ibn 'Umar's positive observation is taken as an addition of knowledge.
 
 - - -
 
-## 5. The Maliki School: The Supremacy of 'Amal Ahl al-Madinah
+### 2. The Hanafi Position
 
-To engage with the Maliki school on the issue of *Raf' al-Yadayn* is to confront an entirely different epistemological universe. While the Shafi'is and Hanbalis obsess over the continuous, unbroken chain of textual transmission (*Isnad*), and the Hanafis focus on chronological abrogation and the Kufan intellectual legacy, the Maliki approach is rooted in the living, breathing reality of the Prophet's city: Medina. For [[Imam Malik]] bin Anas, the founder of the school, the ultimate arbiter of normative Prophetic practice was not merely what was written on parchment or whispered in isolated chains, but what was demonstrably acted upon by the thousands of scholars, successors (*Tabi'in*), and common folk residing in the City of Light.
+The Hanafi school, founded by Imam Abu Hanifah (d. 150 AH), holds that raising the hands is Sunnah **only** at the *Takbirat al-Ihram* (the opening of the prayer). Raising the hands at any other juncture (before Ruku', after Ruku', etc.) is considered abrogated (*Mansukh*) and is either makruh (disliked) or contrary to the optimal manner of prayer (Khilaf al-Awla).
 
-This concept, known as *'Amal Ahl al-Madinah* (the normative practice of the people of Medina), is the absolute bedrock of early Maliki jurisprudence. Medina was not just a city; it was the physical repository of the Revelation. The Prophet (peace be upon him) lived his final, most legislatively active ten years there. He prayed thousands of times in the Prophet's Mosque. The Companions learned from him by direct, mass observation. They, in turn, taught their children and students. Imam Malik, who lived in the century following the Prophet, argued that if a practice like continuously raising the hands at every *Ruku'* was an established, binding, and final Sunnah, the entire congregation of Medina would have been doing it visibly, five times a day, without interruption. 
+#### Primary Evidences
 
-However, Imam Malik looked at the prayer rows of Medina in his era and saw a different reality. The dominant, mass-transmitted physical action of the Medinan community was to raise the hands *only* at the initial *Takbirat al-Ihram*, and to keep them down for the remainder of the prayer. For Imam Malik, this mass, uninterrupted physical transmission (transmission by action) possessed a higher degree of epistemological certainty than an *Ahad* (solitary or isolated) Hadith, even if that Hadith possessed a flawlessly authentic chain of narrators. 
+The Hanafis rely on the practice of the major Companions of Kufa, principally 'Abdullah ibn Mas'ud, one of the most knowledgeable scholars among the Sahabah.
 
-In his magnum opus, the *Muwatta*, Imam Malik actually records the Hadith of Abdullah bin 'Umar which explicitly mentions the raising of the hands before and after *Ruku'*. This is a crucial point often weaponized by shallow polemicists who accuse Malikis of "abandoning the Muwatta." Why would Imam Malik record a Hadith and then rule contrary to it? The answer lies in his profound understanding of the difference between a historical report and a normative, binding legal ruling. By including it, he acknowledged its historical validity—yes, the Prophet did do this at some point. But by not adopting it in his primary fatwa (as recorded in the *Mudawwanah* by his chief student Ibn al-Qasim), he signaled that this specific action did not survive as the final, universally practiced *Sunnah* of the Medinan community. It may have been a temporary practice, an optional allowance, or a pedagogical tool, but it was not the definitive, final command.
+*   **The Hadith of 'Abdullah ibn Mas'ud:**
+    Recorded by Imam al-Tirmidhi, Abu Dawud, and al-Nasa'i. Ibn Mas'ud said:
+    *"Shall I not pray with you the prayer of the Messenger of Allah (peace be upon him)?" So he prayed and he did not raise his hands except the first time.*
+    Imam al-Tirmidhi graded this Hadith as *Hasan* (fair/good). For the Hanafis, Ibn Mas'ud's intimate proximity to the Prophet gives his practice immense weight.
 
-The *Mudawwanah al-Kubra*, the most authoritative compilation of Maliki *Fiqh*, states unequivocally regarding Imam Malik: "He considered raising the hands to be weak [in practice], except in the first Takbir of the prayer." Imam Ibn al-Qasim, the primary narrator of the *Mudawwanah*, noted that Imam Malik did not recognize the raising of the hands during the descent to *Ruku'* or the ascent from it in the obligatory (*Fard*) prayers. 
+*   **The Hadith of Al-Bara' ibn 'Azib:**
+    Recorded by Abu Dawud:
+    *"When the Messenger of Allah (peace be upon him) would begin the prayer, he would raise his hands to his ears, then he would not repeat it."*
+    (Note: Scholars of other madhabs, like Abu Dawud himself and Sufyan al-Thawri, criticized the authenticity of the phrase "then he would not repeat it," but Hanafi scholars like 'Allamah Badr al-Din al-'Ayni and Zafar Ahmad al-'Uthmani vigorously defend its chains).
 
-It is intellectually dishonest, however, to present the Maliki school as a monolith on this issue. Because Imam Malik recorded the Hadith of Ibn 'Umar in the *Muwatta*, a secondary opinion emerged within the Maliki tradition, championed by scholars who leaned more heavily toward textualism than the sheer weight of *'Amal*. Scholars like Ibn 'Abd al-Barr (though often characterized by his independent, Zahiri-leaning tendencies) and some later Andalusian and Maghrebi Maliki jurists acknowledged the validity of *Raf' al-Yadayn*. There are even reports suggesting Imam Malik himself may have permitted it in voluntary (*Nafl*) prayers, or that he practiced it privately but discouraged it publicly to prevent the masses from viewing it as an absolute obligation (*Wajib*).
+*   **The Principle of Stillness (Sukoon) in Prayer:**
+    Hanafis point to the Quranic verse: *"And stand before Allah in devout obedience."* (2:238) and the Hadith in Sahih Muslim where the Prophet (peace be upon him) saw people raising their hands in prayer (during salam) and said: *"What is the matter with you that you raise your hands as if they were the tails of restive horses? Be tranquil in prayer."* While Shafi'is argue this Hadith specifically refers to the Tashahhud/Salam, Hanafis argue it establishes a general principle that superfluous movement in prayer was progressively abrogated in favor of absolute stillness.
 
-Nevertheless, the *Mashhur* (dominant and relied-upon) position of the Maliki school, particularly as it solidified in North Africa and West Africa, remains the restriction of *Raf' al-Yadayn* to the opening *Takbir*. This is not out of a rejection of the Prophet's command, but out of a profound, almost romantic loyalty to the living legacy of the Prophet's immediate community. 
-
-For the Maliki jurist, the sight of ten thousand Medinans praying without raising their hands during *Ruku'*—a practice inherited from their fathers, who inherited it from the Companions—is a living, breathing, unassailable Hadith. It is a "transmission of the many from the many." If Ibn 'Umar's isolated report conflicts with the mass practice of the very city where Ibn 'Umar lived, the Maliki methodology dictates that the mass practice takes precedence. The omission of the act is viewed as the final, settled state of the law.
-
-In a modern context, where textual fundamentalism often seeks to erase contextual and historical jurisprudence, the Maliki approach serves as a vital corrective. It reminds us that Islam was not transmitted merely as a book of legal codes or a collection of isolated sayings, but as a living, breathing civilization. The *'Amal* of Medina is the social memory of the Prophet's presence, and for the Maliki school, that memory dictates a prayer of profound, physical stillness after the opening declaration of Divine Greatness.
+#### Usool applied by Hanafis
+The Hanafis favor the normative practice of the Kufan scholars. They argue that it is inconceivable that a figure like 'Abdullah ibn Mas'ud—who was the Prophet's personal valet and shadowed him constantly—would be ignorant of *Raf' al-Yadayn* if it were a permanent Sunnah. Therefore, the Hanafis conclude that *Raf' al-Yadayn* was an early practice in Islam that was eventually abrogated, and Ibn Mas'ud transmitted the final, abrogating practice. Furthermore, the Hanafis apply the principle that omitting an action to maintain stillness aligns better with the universal requirement of *Khushu'* (concentration).
 
 - - -
+
+### 3. The Maliki Position
+
+The Maliki school, originating with Imam Malik ibn Anas (d. 179 AH), presents a nuanced and sometimes bifurcated view due to differing transmissions from Imam Malik himself.
+
+#### The Transmissions from Imam Malik
+
+1.  **The Transmission of Ibn al-Qasim (The Mashhur/Dominant View):**
+    In the *Mudawwanah* (the foundational text of Maliki Fiqh compiled by Sahnun from 'Abd al-Rahman ibn al-Qasim), Imam Malik is reported to have said:
+    *"I do not know of raising the hands in any of the Takbirs of the prayer, neither rising nor bowing, except in the opening Takbir... And Malik considered raising the hands in prayer to be weak."*
+    Based on this, the predominant view taught in traditional Maliki seminaries (especially in North and West Africa) is that one **does not** raise the hands except at the beginning. It is considered *Makruh* (disliked) to do so elsewhere.
+
+2.  **The Transmission of Ibn Wahb and the Muwatta:**
+    Paradoxically, in Imam Malik's own magnum opus, the *Muwatta*, he narrates the Hadith of Ibn 'Umar confirming *Raf' al-Yadayn* before and after Ruku'. Many Andalusian and Iraqi Malikis (and later scholars like Qadi 'Iyad and Ibn 'Abd al-Barr) assert that Imam Malik's final or alternate position was to affirm *Raf' al-Yadayn*, aligning him with the Shafi'is and Hanbalis.
+
+#### Usool applied by Malikis
+The foundational principle of Imam Malik was *'Amal Ahl al-Madinah* (The Practice of the People of Madinah). If Ibn al-Qasim's narration is taken as the final word, it implies that despite the presence of the Hadith of Ibn 'Umar, the inherited, normative, communal practice of the inhabitants of Madinah during Malik's time did not include raising the hands before and after Ruku'. For Imam Malik, a continuous, mass-transmitted physical practice of an entire city of scholars and descendants of the Sahabah carried more weight than solitary Hadith chains (*Ahad*), even if authentic.
+
+- - -
+
+## Points of Agreement and Contention
+
+### Agreements:
+1.  **Takbirat al-Ihram:** All four schools universally agree that raising the hands at the very opening of the prayer is a confirmed Sunnah.
+2.  **Validity of the Prayer:** No major scholar from the four schools ever claimed that omitting or performing *Raf' al-Yadayn* nullifies the prayer. The prayer is completely valid either way.
+3.  **Nature of the Act:** It is considered a Sunnah (recommended act) or an Adab (etiquette), not a Fard (mandatory) or Wajib (obligatory) pillar. Therefore, no Sujud al-Sahw (prostration of forgetfulness) is required if it is left out.
+
+### Contentions:
+1.  **Abrogation (Naskh):** Did the Prophet (peace be upon him) stop raising his hands in the latter part of his life? The Hanafis say yes; the Shafi'is, Hanbalis, and Ahl al-Hadith say no, citing Wa'il ibn Hujr's late observation.
+2.  **Evaluating Conflicting Reports:** When Ibn Mas'ud's practice contradicts Ibn 'Umar's, which takes precedence? Hanafis prioritize Ibn Mas'ud due to his seniority and the principle of preserving stillness. Shafi'is prioritize Ibn 'Umar due to the sheer volume of supporting narrations.
+3.  **'Amal vs. Hadith:** In the Maliki school, the tension lies in whether a solitary authenticated text (like the one in the Muwatta) overrides the silent communal transmission reported by Ibn al-Qasim.
+
+- - -
+
+## Contemporary Scholars and Modern Discourse
+
+In the contemporary era, the discourse on *Raf' al-Yadayn* has frequently transcended classical madhab boundaries, heavily influenced by the Salafi methodology which emphasizes direct interaction with Hadith texts over strict Madhab adherence.
+
+*   **Shaykh Muhammad Nasir al-Din al-Albani:** In his famous work *Sifat Salat al-Nabi* (The Prophet's Prayer Described), Albani forcefully argues for the absolute necessity of raising the hands in the three/four places, dismissing the Hanafi arguments of abrogation as lacking authentic, chronological proof. He treats the issue almost as a dividing line between following the Sunnah and following blind partisanship (Taqlid).
+*   **Shaykh 'Abd al-'Aziz ibn Baz and Shaykh Muhammad ibn Salih al-'Uthaymeen:** Both prominent Saudi scholars aligned with the Hanbali/Salafi tradition, they strongly encourage *Raf' al-Yadayn*, viewing it as an emphasized Sunnah that brings great reward and perfectly emulates the Prophet (peace be upon him).
+*   **Mufti Muhammad Taqi Usmani:** A titan of contemporary Hanafi scholarship, in his encyclopedic commentary *Dars Tirmidhi* and *In'am al-Bari*, Taqi Usmani provides an incredibly erudite defense of the Hanafi position. He acknowledges the strength of the Shafi'i proofs but meticulously deconstructs them using the science of Hadith grading, pointing out subtleties in chains and arguing that the Hanafi position is a valid, heavily evidenced Sunnah, not merely a stubborn adherence to Kufan tradition.
+*   **Shaykh 'Abdullah bin Bayyah:** As a preeminent modern Maliki jurist, he emphasizes tolerance and recognizing the validity of both performing and omitting *Raf' al-Yadayn*, reflecting the internal variance within the Maliki tradition itself.
+
+- - -
+
+## Bid'ah Watch: Distinguishing Deen from Cultural Invention
+
+When dealing with Fiqh, one must rigorously separate authentic *Deen* (religion) from *Bid'ah* (unfounded innovation) or localized cultural habits.
+
+**What is NOT Bid'ah in this context:**
+*   A Hanafi praying with his hands firmly at his sides before Ruku' is **not** committing a Bid'ah. He is following an authentic juristic methodology tracing back to 'Abdullah ibn Mas'ud.
+*   A Shafi'i raising his hands vigorously at every transition is **not** committing a Bid'ah. He is following the meticulously recorded physical actions of the Prophet as transmitted by Ibn 'Umar.
+
+**What crosses into the realm of Bid'ah or reprehensible cultural invention:**
+1.  **Condemning the Other Side:** The greatest modern *Bid'ah* surrounding this issue is the weaponization of *Raf' al-Yadayn*. When individuals declare the prayer of a Hanafi "deficient" or call a Shafi'i a "show-off," they are violating the scholarly consensus (Ijma') of mutual respect (*Adab al-Ikhtilaf*). Imam Ahmad famously prayed behind those who did not raise their hands and never demanded they repeat their prayers.
+2.  **Raising the Hands in Sujud:** Aside from highly specific, weak, or anomalous narrations, raising the hands when going down into prostration (Sujud) or between the two prostrations is generally considered an innovation by the vast majority of classical scholars across all four Madhahib. The Sunnah is explicitly *not* to raise hands there, as explicitly stated by Ibn 'Umar.
+3.  **Exaggerated Movements:** Flinging the arms backward rapidly or swinging them wildly is a cultural accretion contrary to the dignified stillness (*Khushu'*) required in prayer. The classical texts specify raising them calmly to the shoulders or earlobes.
+4.  **Sectarian Grouping:** Forming mosques or cliques exclusively based on whether one does or does not practice *Raf' al-Yadayn* is a modern sociological aberration, entirely foreign to the classical Islamic spirit where Imams of different schools routinely prayed in the same rows.
+
+- - -
+
+## Conclusion
+
+The discourse on *Raf' al-Yadayn* is a beautiful microcosm of Islamic jurisprudence. It highlights the diversity within the boundaries of orthodox Islam. The Shafi'i and Hanbali approach showcases a breathtaking commitment to preserving the exact physical geometry of the Prophet's worship. The Hanafi approach demonstrates a profound analytical depth, prioritizing underlying principles of spiritual focus (*Khushu'*) and evaluating the historical chronological context of Prophetic actions. The Maliki approach highlights the sociological genius of relying on mass communal practice over isolated texts.
+
+Ultimately, both raising the hands and keeping them still are established actions within the vast ocean of Prophetic inheritance. A Muslim is encouraged to learn the evidences of their chosen school, practice it with devotion, and extend complete theological grace to those who practice the alternate valid opinion.
+
+*See also: [[FIQH - The Rulings of Salah]], [[BIO - Al-Ghazali]]*

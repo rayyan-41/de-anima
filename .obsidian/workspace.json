@@ -11,10 +11,10 @@
             "id": "98ad38a5c76234ba",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -207,12 +207,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "98ad38a5c76234ba",
+  "active": "7adb17c520de5016",
   "lastOpenFiles": [
-    "Islam/Fiqh/Ibadat/FIQH - The Ruling on Raf' al-Yadayn.md",
-    "Islam/Fiqh/Ibadat/chunk4.md",
-    "Islam/_Islam   - Map of Contents.md",
     "Islam/Fiqh/Ibadat/chunk3.md",
+    "Islam/Fiqh/Ibadat/chunk4.md",
+    "Islam/Fiqh/Ibadat/FIQH - The Ruling on Raf' al-Yadayn.md",
+    "Islam/_Islam   - Map of Contents.md",
     "Islam/Fiqh/Ibadat/chunk2.md",
     "GEMINI.md",
     "Islam/Fiqh/Ibadat/chunk1.md",
