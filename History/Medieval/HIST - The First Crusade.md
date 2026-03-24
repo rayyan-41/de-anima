@@ -40,7 +40,7 @@ While the Seljuks presented a formidable threat to the Byzantines, the Seljuk Em
 
 In Anatolia, Kilij Arslan I ruled the Sultanate of Rum, frequently at odds with the Great Seljuks in Persia and other independent Turkic warlords such as the Danishmendids. Further south, in Syria and Palestine, the political situation was even more chaotic. The region was a contested frontier zone between the Sunni Seljuks and the Shia Fatimid Caliphate based in Egypt. Cities like Antioch, Aleppo, and Damascus were controlled by rival Seljuk emirs (such as Ridwan and Duqaq) who were often more concerned with fighting one another than addressing external threats.
 
-> [!info] The Status of Jerusalem
+> [!info]- The Status of Jerusalem
 > Jerusalem, a city of profound religious significance to Judaism, Christianity, and Islam, had changed hands multiple times. Captured by the Seljuks from the Fatimids in the 1070s, traditional pilgrimage routes for Western Christians were disrupted. Although historical evidence suggests outright persecution was sporadic rather than systemic, the political instability made the journey significantly more dangerous, fueling the narrative of Christian suffering utilized by the Papacy.
 
 ### The Papacy and Western European Dynamics
@@ -72,7 +72,7 @@ On November 27, 1095, in a field outside the eastern gate of Clermont, Urban II 
 
 Urban systematically utilized graphic, often exaggerated, accounts of Seljuk atrocities against Eastern Christians and the desecration of holy sites to evoke outrage. He explicitly framed the [[Byzantine Empire]] as a defensive bulwark of Christendom that was currently failing. The papacy shifted the strategic objective away from mere mercenary assistance for Alexios; instead, the ultimate goal was defined as the liberation of Jerusalem and the Church of the Holy Sepulchre.
 
-> [!quote] The Rallying Cry
+> [!quote]- The Rallying Cry
 > The crowd reportedly responded with the spontaneous chant, *"Deus vult!"* ("God wills it!"), which became the rallying cry of the movement.
 
 Crucially, Urban II inextricably linked military service with spiritual salvation. He promised a full remission of temporal penalties for sins—the plenary indulgence—for those who undertook the journey with pious intent. This theological innovation merged the traditions of pilgrimage (a penitential act) with holy war (previously justified primarily for defense, as seen in the Iberian Reconquista). 
@@ -107,7 +107,7 @@ This mass migration was characterized by a distinct lack of logistical preparati
 ### The Rhineland Massacres
 The ideological fervor of the People's Crusade quickly mutated into localized violence against non-Christian populations within Europe, specifically the Jewish communities of the Rhineland. If the objective was to destroy the "enemies of Christ" in the distant Levant, elements within the crusade—most notably bands led by Count Emicho of Leiningen and other minor nobles—reasoned that they should first eliminate the perceived enemies in their immediate vicinity.
 
-> [!summary] The Earliest Pogroms
+> [!summary]- The Earliest Pogroms
 > In the spring of 1096, these contingents initiated a systematic campaign of pogroms against the Jewish populations of Speyer, Worms, Mainz, and Cologne. Despite the protective interventions of local bishops, the crusader mobs breached the episcopal palaces and slaughtered thousands. These massacres represent some of the earliest recorded instances of widespread, ideologically driven anti-Semitic violence in medieval Europe.
 
 ### The Journey Through the Balkans
@@ -209,7 +209,7 @@ The crusader army poured into Antioch. In the ensuing chaos, Yaghi-Siyan fled bu
 ### The Second Siege and the Holy Lance
 The crusaders' victory was immediately followed by a profound reversal of fortune. On June 4, merely two days after taking the city, Kerbogha's massive relief army arrived and besieged the crusaders within Antioch. The besiegers were now the besieged. The city had been stripped of provisions during the eight-month blockade, and starvation immediately set in among the crusader ranks. Morale collapsed, and desertions (the "rope-dancers" who fled over the walls at night) increased.
 
-> [!info] The Discovery of the Holy Lance
+> [!info]- The Discovery of the Holy Lance
 > In this atmosphere of extreme physical deprivation and psychological despair, a Provençal peasant named Peter Bartholomew claimed to have received visions from St. Andrew, revealing the location of the Holy Lance—the spear that pierced the side of Christ—buried beneath the Cathedral of St. Peter in Antioch. On June 14, after extensive excavation, Peter "discovered" a piece of iron in the dirt. While the papal legate Adhemar of Le Puy viewed the discovery with profound skepticism, the relic exerted an electrifying psychological effect on the rank-and-file. It was interpreted as a definitive sign of divine favor.
 
 ### The Battle of Antioch (June 28, 1098)

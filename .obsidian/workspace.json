@@ -36,9 +36,21 @@
               "icon": "lucide-file",
               "title": "HIST - The First Crusade"
             }
+          },
+          {
+            "id": "5ee355181b0e2143",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -228,7 +240,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "74f5c74c8d733f9e",
+  "active": "5ee355181b0e2143",
   "lastOpenFiles": [
     "Untitled Kanban.md",
     "History/Medieval/HIST - The First Crusade.md",
