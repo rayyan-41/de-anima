@@ -162,4 +162,3 @@ The discourse on *Raf' al-Yadayn* is a beautiful microcosm of Islamic jurisprude
 
 Ultimately, both raising the hands and keeping them still are established actions within the vast ocean of Prophetic inheritance. A Muslim is encouraged to learn the evidences of their chosen school, practice it with devotion, and extend complete theological grace to those who practice the alternate valid opinion.
 
-*See also: [[FIQH - The Rulings of Salah]], [[BIO - Al-Ghazali]]*
