@@ -27,7 +27,6 @@ The discussion surrounding *Raf' al-Yadayn* typically centers on four distinct p
 There is unanimous consensus (Ijma') among the four Sunni Madhahib that raising the hands during the opening *Takbirat al-Ihram* is an established Sunnah. However, the subsequent three instances are matters of significant and rich scholarly disagreement. This document will comprehensively deconstruct these positions, evaluating the evidences, the underlying principles of jurisprudence (*Usool al-Fiqh*), and the historical context of each view.
 
 - - -
-
 ## Historical Context and the Companions' Positions
 
 The period following the passing of the Prophet Muhammad (peace be upon him) saw the geographical expansion of the Islamic empire. The Companions dispersed to different regions—such as Kufa, Basra, Madinah, Mecca, and Damascus—taking with them the specific practices they had observed.
