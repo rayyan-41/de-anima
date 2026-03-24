@@ -1,0 +1,22 @@
+## 3. Detailed Methodology of the Hanafi School: Three Rak'ahs, Connection, and the Wajib Qunut
+
+The Hanafi school's approach to the physical structure of the Witr prayer is perhaps the most distinct among the four Madhabs. Driven by their foundational text-critical methodologies, the Hanafis insist on a highly standardized format: exactly three continuous Rak'ahs with two Tashahhuds (sitting for the testification of faith) and an obligatory *Qunut* supplication in the final Rak'ah.
+
+### The Strict Requirement of Three Rak'ahs (Wasl)
+In Hanafi Fiqh, praying a single, solitary Rak'ah by itself is fundamentally invalid. They argue that in the entire corpus of Islamic prayer, there is no precedent for a one-Rak'ah prayer. Every prayer must consist of at least two units. Therefore, when the Prophet (ﷺ) commanded the Witr (the odd number), the minimum valid fulfillment of "odd" that respects the structural integrity of prayer is three.
+
+The Hanafis rely heavily on the practice of leading companions. It is reported by Ubayy ibn Ka'b and Abdullah ibn Mas'ud (RA) that the Prophet (ﷺ) would read *Sabbihisma Rabbikal-A'la* in the first Rak'ah, *Qul ya ayyuhal-Kafirun* in the second, and *Qul Huwallahu Ahad* in the third, and he would not say the Taslim (the exiting salam) except at the very end of the third Rak'ah (Sunan al-Nasa'i). 
+
+Furthermore, A'isha (RA) narrated: *"The Messenger of Allah (ﷺ) used to pray three Rak'ahs of Witr, not separating them with a greeting of peace (Taslim)"* (Musnad Ahmad). Based on these narrations, Imam Abu Hanifa codified the ruling of *Wasl* (connection). The worshipper prays two Rak'ahs, sits for the first Tashahhud (reciting *Attahiyat*), stands up for the third Rak'ah without saying the Taslim, completes the third Rak'ah, and then performs the final Tashahhud and Taslim. Structurally, it is completely identical to the Maghrib prayer.
+
+### Reconciling the Prohibition of Resembling Maghrib
+A significant theological hurdle for this structural format is the explicit Hadith where the Prophet (ﷺ) commanded: *"Do not pray Witr as three Rak'ahs; rather, pray it as five or seven, and do not make it resemble the Maghrib prayer"* (Sunan al-Daraqutni, Al-Hakim). 
+
+How do the Hanafis, who mandate a three-Rak'ah prayer identical to Maghrib, reconcile this? The Hanafi scholars, including Al-Sarakhsi in *Al-Mabsut*, argue that the "resemblance" prohibited here is not the *number* of Rak'ahs or the two Tashahhuds, but rather the *content* and *action* of the third Rak'ah. In Maghrib, the third Rak'ah consists only of reciting Surah Al-Fatiha silently, and it contains no extra supplication. In the Hanafi Witr, the third Rak'ah requires reciting Surah Al-Fatiha *and* another Surah, followed by the mandatory Qunut supplication. This addition of a Surah and the Qunut completely severs the resemblance to Maghrib, fulfilling the prophetic command while maintaining the structural necessity of a minimum two-Rak'ah foundation.
+
+### The Wajib Qunut and the Takbeer of Tahrimah
+The most defining feature of the Hanafi Witr is the *Qunut*. While the majority view the Qunut as a recommended Sunnah, the Hanafis elevate it to the status of *Wajib*. If a Hanafi forgets the Qunut, they must perform *Sajdat al-Sahw* (prostration of forgetfulness) at the end of the prayer.
+
+The physical execution of the Qunut is also unique. After reciting the Fatiha and a Surah in the third Rak'ah, the worshipper says *"Allahu Akbar"*, raises their hands to their earlobes (the *Takbeer of Tahrimah*, identical to the opening of the prayer), and then folds their hands again below the navel. Only then do they recite the Qunut supplication silently. 
+
+This raising of the hands before Ruku' is heavily sourced from the practice of Abdullah ibn Mas'ud (RA) and the prominent Tabi'in of Kufa, such as Ibrahim al-Nakha'i. The preferred supplication is the famous Dua: *"Allahumma inna nasta'inuka wa nastaghfiruka..."* (O Allah, we seek Your help and Your forgiveness). Only after completing this silent supplication does the worshipper bow for Ruku'. This highly formalized, uninterrupted three-Rak'ah sequence reflects the Hanafi prioritization of structural continuity and regional (Iraqi) companion practice.
