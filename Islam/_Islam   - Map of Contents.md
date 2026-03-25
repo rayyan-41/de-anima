@@ -1,6 +1,6 @@
 ---
-last_major_reorganization: 2026-03-25
-total_notes: 4
+date: 2026-03-25
+tags: [islam, moc]
 ---
 # Islam - Map of Contents
 

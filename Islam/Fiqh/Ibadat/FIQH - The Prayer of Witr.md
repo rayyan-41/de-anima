@@ -1,10 +1,6 @@
 ---
 date: 2026-03-24
 tags: [islam, fiqh, ibadat, hanafi, maliki, shafii, hanbali, ai-generated]
-aliases: ["Salat al-Witr", "The Witr Prayer", "Fiqh of Witr"]
-author: "@ghazali (De Anima Vault)"
-status: "#ai-generated"
-domain: "Islam / Fiqh / Ibadat"
 ---
 
 # FIQH - The Prayer of Witr: Rulings, Methodologies, and Variations Across the Four Madhabs
@@ -70,7 +66,7 @@ The most defining feature of the Hanafi Witr is the *Qunut*. While the majority 
 
 The physical execution of the Qunut is also unique. After reciting the Fatiha and a Surah in the third Rak'ah, the worshipper says *"Allahu Akbar"*, raises their hands to their earlobes (the *Takbeer of Tahrimah*, identical to the opening of the prayer), and then folds their hands again below the navel. Only then do they recite the Qunut supplication silently. 
 
-This raising of the hands before Ruku' is heavily sourced from the practice of Abdullah ibn Mas'ud (RA) and the prominent Tabi'in of Kufa, such as Ibrahim al-Nakha'i. The preferred supplication is the famous Dua: *"Allahumma inna nasta'inuka wa nastaghfiruka..."* (O Allah, we seek Your help and Your forgiveness). Only after completing this silent supplication does the worshipper bow for Ruku'. This highly formalized, uninterrupted three-Rak'ah sequence reflects the Hanafi prioritization of structural continuity and regional (Iraqi) companion practice.
+This raising of the hands before Ruku' is heavily sourced from the practice of Abdullah ibn Mas'ud (RA) and the prominent Tabi'in of Kufa, such as Ibrahim al-Nakha'i. The preferred supplication is the famous Dua: *"Allahumma inna nasta'inuka wa nastaghfiruka..."* (O Allah, we seek Your help and Your forgiveness). Only after completing this silent supplication does the worshipper bow for Ruku' has been reached. This highly formalized, uninterrupted three-Rak'ah sequence reflects the Hanafi prioritization of structural continuity and regional (Iraqi) companion practice.
 
 - - -
 
@@ -158,7 +154,7 @@ For the contemporary Muslim, navigating these differences should be grounded in 
 3. **Internalization of the Ritual:** Above all, the believer must not let the mechanical details of the *Usul* obscure the spiritual magnitude of the *Witr*. Whether prayed as one Rak'ah or eleven, with Qunut or without, the ultimate purpose is the affirmation of Divine Oneness in the quiet of the night. 
 
 ### References and Authentication
-The rulings and methodologies detailed in this exhaustive note are authenticated through the following definitive texts of the four schools:
+The rulings and methodologies detailed in this note are authenticated through the following definitive texts of the four schools:
 1. **Al-Hidayah fi Sharh Bidayat al-Mubtadi** by Al-Marghinani: For the definitive Hanafi codification of Wujub, Wasl, and the mandatory Qunut before Ruku'.
 2. **Al-Muwatta** by Imam Malik ibn Anas & **Al-Mudawwana**: For the Maliki reliance on *Amal Ahl al-Madinah*, the necessity of Fasl, and the rejection of Qunut in Witr.
 3. **Al-Umm** by Imam Al-Shafi'i & **Minhaj al-Talibin** by Imam Al-Nawawi: For the Shafi'i categorization as Sunnah Mu'akkadah, structural flexibility, and the restriction of Qunut to the latter half of Ramadan.

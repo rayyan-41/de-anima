@@ -1,17 +1,6 @@
 ---
 date: 2026-03-24
-tags:
-  - islam
-  - fiqh
-  - hanafi
-  - maliki
-  - shafii
-  - hanbali
-  - ibadat
-  - ai-generated
-author: "@ghazali (De Anima Vault)"
-status: "#ai-generated"
-domain: "Islam / Fiqh / Ibadat"
+tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, ibadat, ai-generated]
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn

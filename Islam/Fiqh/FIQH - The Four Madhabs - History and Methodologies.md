@@ -1,10 +1,6 @@
 ---
 date: 2026-03-24
 tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, ai-generated]
-aliases: ["The Four Madhabs", "History of Islamic Jurisprudence", "Usul al-Fiqh of the Four Schools"]
-author: "@ghazali (De Anima Vault)"
-status: "#ai-generated"
-domain: "Islam / Fiqh"
 ---
 
 # FIQH - The Four Madhabs: History, Methodologies, and Interactions
