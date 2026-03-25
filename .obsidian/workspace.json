@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "Islam/Fiqh/Ibadat/FIQH - The Prayer of Witr.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "FIQH - The Prayer of Witr"
             }
           }
         ]
@@ -214,6 +214,7 @@
   },
   "active": "98ad38a5c76234ba",
   "lastOpenFiles": [
+    "GEMINI.md",
     "combine.js",
     "Islam/Fiqh/Ibadat/chunk5.md",
     "Islam/Fiqh/Ibadat/chunk4.md",
@@ -233,7 +234,6 @@
     "History/Medieval/Islamic Golden Age/HIST - Islamic Golden Age Scholars.md",
     "Islam/Fiqh/FIQH - The Four Madhabs - History and Methodologies.md",
     "Islam/_Islam   - Map of Contents.md",
-    "GEMINI.md",
     "Islam/Fiqh/Ibadat",
     "Islam/Fiqh",
     "GEMINI - Copy.md",
@@ -249,7 +249,6 @@
     "standardize.js",
     "Science/Computer Science/AI/AI - Large Language Models",
     "History/Contemporary",
-    "History/Medieval",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
