@@ -115,16 +115,6 @@ graph TD
 
 - - -
 
-## Related Notes
-*   [[BIO - Al-Farabi]]
-*   [[HIST - Islamic Golden Age Scholars]]
-*   [[MATH - Geometry]]
-*   [[REAS - Necessary Existent vs. Contingent Beings]]
-*   [[SCI - The Canon of Medicine: A Technical Analysis]]
-
-*Last MOC Update: 2026-02-19 by GeminiCLI*
-- - -
-
 ### Act I Expansion: The Isma'ili Crucible and the Samanid Library
 
 **The Isma'ili Influence: A House of Debate**
