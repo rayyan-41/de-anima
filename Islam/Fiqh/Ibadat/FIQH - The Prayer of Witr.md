@@ -2,15 +2,12 @@
 date: 2026-03-24
 tags: [islam, fiqh, ibadat, hanafi, maliki, shafii, hanbali, ai-generated]
 aliases: ["Salat al-Witr", "The Witr Prayer", "Fiqh of Witr"]
+author: "@ghazali (De Anima Vault)"
+status: "#ai-generated"
+domain: "Islam / Fiqh / Ibadat"
 ---
 
 # FIQH - The Prayer of Witr: Rulings, Methodologies, and Variations Across the Four Madhabs
-
-**Metadata:**
-- **Author:** @ghazali (De Anima Vault)
-- **Status:** #ai-generated
-- **Domain:** Islam / Fiqh / Ibadat
-- - -
 
 ## 1. Linguistic Definition, Spiritual Significance, and the Concept of Witr in Islamic Tradition
 
@@ -91,7 +88,7 @@ For the Malikis, this separation is not merely an option; it is a highly emphasi
 ### The Dislike of Qunut in Witr
 Perhaps the most striking departure of the Maliki school from the other three Madhabs is their ruling regarding the *Qunut* supplication in the Witr prayer. While the Hanafis consider it Wajib, and the Shafi'is and Hanbalis consider it Sunnah in varying degrees, the Malikis consider reciting Qunut in Witr to be *Makruh* (disliked).
 
-Why does Imam Malik reject a practice supported by Hadith narrations, such as the Dua taught to Hasan ibn Ali? The answer lies in the *Amal* of Madinah. Despite the existence of these solitary narrations, Imam Malik observed that the thousands of scholars, successors (*Tabi'in*), and common folk in Madinah—the children and grandchildren of the Sahabah—did not practice Qunut in their nightly Witr. For Malik, the absence of a mass-transmitted communal practice in the very city of the Prophet negated the practical applicability of the solitary Hadith. 
+Why does Imam Malik reject a practice supported by Hadith narrations, such as the Dua taught to Hasan ibn Ali? The answer lies in the *Amal of Madinah. Despite the existence of these solitary narrations, Imam Malik observed that the thousands of scholars, successors (*Tabi'in*), and common folk in Madinah—the children and grandchildren of the Sahabah—did not practice Qunut in their nightly Witr. For Malik, the absence of a mass-transmitted communal practice in the very city of the Prophet negated the practical applicability of the solitary Hadith. 
 
 Instead, the Maliki school strictly reserves the Qunut for the *Fajr* prayer. In Fajr, the Qunut is a highly recommended Sunnah, recited silently *before* going into Ruku' in the second Rak'ah. By isolating the Qunut entirely to the obligatory morning prayer, the Malikis maintain a distinct, uncluttered structure for the night prayers. The Witr, therefore, is a swift, solitary Rak'ah, unburdened by additional structural obligations, serving as a pure numerical seal to the night's devotion.
 
@@ -112,7 +109,7 @@ When praying the standard three Rak'ahs, both schools explicitly prefer the meth
 However, unlike the Malikis, neither the Shafi'is nor the Hanbalis consider *Wasl* (connection) to be disliked (*Makruh*). If a worshipper chooses to connect the three Rak'ahs, they must do so with only *one* Tashahhud at the very end of the third Rak'ah. By omitting the middle sitting, they avoid the "resemblance to Maghrib" that the Prophet (ﷺ) explicitly forbade. Thus, a three-Rak'ah Witr in these schools is either a [2 + 1] structure or a fluid [3] structure with no middle sitting, standing in stark contrast to the Hanafi [2 + sitting + 1] structure.
 
 ### Divergence on the Qunut Supplication
-While the Shafi'i and Hanbali schools share structural flexibility, they diverge significantly regarding the *Qunut* supplication, reflecting nuanced differences in their evaluation of Hadith.
+While the Shafi'i and Hanbali schools share structural flexibility, they diverge significantly regarding the *Qunut* supplication, reflecting novelist differences in their evaluation of Hadith.
 
 **The Shafi'i Position:** Imam Al-Shafi'i restricted the Qunut in Witr to the last half of the month of Ramadan. In his foundational text *Al-Umm*, he bases this on the practice of the Sahabah during the caliphate of Umar ibn al-Khattab (RA). During the rest of the year, a Shafi'i does not recite Qunut in Witr. When it is performed in the last 15 days of Ramadan, it is done *after* rising from Ruku', and the Imam recites it aloud while the congregation says "Ameen." Like the Malikis, the Shafi'is maintain a year-round Qunut in the Fajr prayer, but they place it after Ruku'.
 
@@ -169,4 +166,3 @@ The rulings and methodologies detailed in this exhaustive note are authenticated
 5. **Sahih al-Bukhari & Sahih Muslim**: The primary authenticators for the fundamental Hadiths regarding the limitation of obligatory prayers and the physical format of the Prophet's night vigils.
 
 - - -
-

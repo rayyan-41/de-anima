@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Aqeedah/AQEEDAH - Orthodox Sunni Critique of Shia Practices.md",
+                "file": "Islam/Fiqh/Ibadat/FIQH - The Prayer of Witr.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AQEEDAH - Orthodox Sunni Critique of Shia Practices"
+              "title": "FIQH - The Prayer of Witr"
             }
           }
         ]
@@ -214,8 +214,8 @@
   },
   "active": "98ad38a5c76234ba",
   "lastOpenFiles": [
-    "Islam/Fiqh/Ibadat/FIQH - The Prayer of Witr.md",
     "Islam/Aqeedah/AQEEDAH - Orthodox Sunni Critique of Shia Practices.md",
+    "Islam/Fiqh/Ibadat/FIQH - The Prayer of Witr.md",
     "Islam/Aqeedah",
     "GEMINI.md",
     "combine.js",

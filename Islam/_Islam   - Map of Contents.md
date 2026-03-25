@@ -1,9 +1,8 @@
+---
+last_major_reorganization: 2026-03-25
+total_notes: 4
+---
 # Islam - Map of Contents
-
-**Metadata:**
-- **Last Major Reorganization:** 2026-03-25
-- **Total Notes:** 4
-- - -
 
 ## Structure
 | Topic Area | Notes | Last Updated |

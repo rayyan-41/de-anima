@@ -1,15 +1,12 @@
 ---
 date: 2026-03-25
 tags: #islam #aqeedah #orthodox-critique #fiqh #shia-sunni-divide #ai-generated
+author: "@ghazali (De Anima Vault)"
+status: "#ai-generated"
+domain: "Islam / Aqeedah / Fiqh"
 ---
 
 # AQEEDAH - Orthodox Sunni Critique of Shia Practices
-
-**Metadata:**
-- **Author:** @ghazali (De Anima Vault)
-- **Status:** #ai-generated
-- **Domain:** Islam / Aqeedah / Fiqh
-- - -
 
 ## Introduction: The Dialectic of Orthodoxy and Innovation
 

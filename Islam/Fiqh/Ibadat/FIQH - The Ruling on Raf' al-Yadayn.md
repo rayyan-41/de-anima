@@ -9,15 +9,12 @@ tags:
   - hanbali
   - ibadat
   - ai-generated
+author: "@ghazali (De Anima Vault)"
+status: "#ai-generated"
+domain: "Islam / Fiqh / Ibadat"
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn
-
-**Metadata:**
-- **Author:** @ghazali (De Anima Vault)
-- **Status:** #ai-generated
-- **Domain:** Islam / Fiqh / Ibadat
-- - -
 
 ## Introduction and Etymology
 
@@ -168,3 +165,4 @@ The discourse on *Raf' al-Yadayn* is a beautiful microcosm of Islamic jurisprude
 
 Ultimately, both raising the hands and keeping them still are established actions within the vast ocean of Prophetic inheritance. A Muslim is encouraged to learn the evidences of their chosen school, practice it with devotion, and extend complete theological grace to those who practice the alternate valid opinion.
 
+- - -
