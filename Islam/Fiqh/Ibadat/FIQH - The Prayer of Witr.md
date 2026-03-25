@@ -1,10 +1,16 @@
 ---
 date: 2026-03-24
-tags: [islam, fiqh, ibadat, hanafi, maliki, shafii, hanbali]
+tags: [islam, fiqh, ibadat, hanafi, maliki, shafii, hanbali, ai-generated]
 aliases: ["Salat al-Witr", "The Witr Prayer", "Fiqh of Witr"]
 ---
 
 # FIQH - The Prayer of Witr: Rulings, Methodologies, and Variations Across the Four Madhabs
+
+**Metadata:**
+- **Author:** @ghazali (De Anima Vault)
+- **Status:** #ai-generated
+- **Domain:** Islam / Fiqh / Ibadat
+- - -
 
 ## 1. Linguistic Definition, Spiritual Significance, and the Concept of Witr in Islamic Tradition
 

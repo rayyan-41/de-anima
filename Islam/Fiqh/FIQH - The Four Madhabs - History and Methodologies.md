@@ -1,10 +1,16 @@
 ---
 date: 2026-03-24
-tags: [islam, fiqh, hanafi, maliki, shafii, hanbali]
+tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, ai-generated]
 aliases: ["The Four Madhabs", "History of Islamic Jurisprudence", "Usul al-Fiqh of the Four Schools"]
 ---
 
 # FIQH - The Four Madhabs: History, Methodologies, and Interactions
+
+**Metadata:**
+- **Author:** @ghazali (De Anima Vault)
+- **Status:** #ai-generated
+- **Domain:** Islam / Fiqh
+- - -
 
 ## Introduction: The Concept of a Madhab and the Historical Context of Islamic Jurisprudence
 The development of Islamic jurisprudence (Fiqh) is a testament to the intellectual rigor and epistemological depth of early Muslim scholarship. A *Madhab* (plural: *Madhahib*) literally translates to a "way" or "path." In the context of Islamic law, it refers to a comprehensive school of thought, representing a codified methodology (*Usul al-Fiqh*) for extracting legal rulings (*Ahkam*) from the primary sources of Islam: the Quran and the Sunnah. 

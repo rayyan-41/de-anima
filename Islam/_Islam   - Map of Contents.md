@@ -1,12 +1,17 @@
 # Islam - Map of Contents
 
-## Aqeedah
-- [[AQEEDAH - Orthodox Sunni Critique of Shia Practices]]
+**Metadata:**
+- **Last Major Reorganization:** 2026-03-25
+- **Total Notes:** 4
+- - -
 
-## Fiqh
-- [[FIQH - The Ruling on Raf' al-Yadayn]]
-- [[FIQH - The Four Madhabs - History and Methodologies]]
-- [[FIQH - The Prayer of Witr]]
+## Structure
+| Topic Area | Notes | Last Updated |
+| :--- | :--- | :--- |
+| Aqeedah | [[AQEEDAH - Orthodox Sunni Critique of Shia Practices]] | 2026-03-25 |
+| Fiqh | [[FIQH - The Four Madhabs - History and Methodologies]] | 2026-03-24 |
+| Fiqh (Ibadat) | [[FIQH - The Prayer of Witr]] | 2026-03-24 |
+| Fiqh (Ibadat) | [[FIQH - The Ruling on Raf' al-Yadayn]] | 2026-03-24 |
 
 - - -
 *Last MOC Update: 2026-03-25 by [GeminiCLI]*

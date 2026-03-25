@@ -8,9 +8,16 @@ tags:
   - shafii
   - hanbali
   - ibadat
+  - ai-generated
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn
+
+**Metadata:**
+- **Author:** @ghazali (De Anima Vault)
+- **Status:** #ai-generated
+- **Domain:** Islam / Fiqh / Ibadat
+- - -
 
 ## Introduction and Etymology
 
