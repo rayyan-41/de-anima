@@ -1,7 +1,7 @@
----
+- --
 date: 2026-03-27
 tags: [#history, #biography, #khalid-bin-waleed, #islamic-golden-age, #medieval]
----
+-- -
 
 # BIO - Khalid bin Waleed
 

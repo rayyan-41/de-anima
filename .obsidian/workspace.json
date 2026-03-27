@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reason/The Epistemic Gap and the Necessity of Revelation.md",
+                "file": "Islam/Fiqh/Contemporary/FIQH - Contemporary Challenges and Misunderstandings of Sharia.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Epistemic Gap and the Necessity of Revelation"
+              "title": "FIQH - Contemporary Challenges and Misunderstandings of Sharia"
             }
           }
         ]
@@ -214,8 +214,11 @@
   },
   "active": "98ad38a5c76234ba",
   "lastOpenFiles": [
-    "Reason/_Reason - Map of Contents.md",
     "Reason/The Epistemic Gap and the Necessity of Revelation.md",
+    "Islam/Fiqh/Contemporary/FIQH - Contemporary Challenges and Misunderstandings of Sharia.md",
+    "Islam/Fiqh/Contemporary",
+    "History/People/BIO - Khalid bin Waleed.md",
+    "Reason/_Reason - Map of Contents.md",
     "Reason/REAS - From Descartes to Darwin - Innate Existence of God.md",
     "Reason/REAS - The Julian Star and Intellectualism.md",
     "Reason/REAS - Evolution of Metaphysics in Islam.md",
@@ -241,15 +244,12 @@
     "History/Medieval/HIST - The First Crusade.md",
     "History/Medieval/The Ottoman Empire/HIST - Ottomans in the Balkans.md",
     "History/Medieval/The Ottoman Empire/HIST - Ottoman Notable Battles.md",
-    "History/People/BIO - Al-Ghazali.md",
-    "History/Medieval/Islamic Golden Age/HIST - Islamic Golden Age Scholars.md",
     "Islam/Fiqh/Ibadat",
     "Islam/Fiqh",
     "Islam",
     "final-fix.js",
     "fix.js",
     "standardize.js",
-    "Science/Computer Science/AI/AI - Large Language Models",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
