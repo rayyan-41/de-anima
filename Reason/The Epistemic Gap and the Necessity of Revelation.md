@@ -3,7 +3,6 @@ date: 2026-03-25
 tags: [reason, psychology, epistemology, revelation, avicenna, ghazali, ai-generated]
 ---
 
-# REAS - The Epistemic Gap and the Necessity of Revelation
 
 ### 1. Prolegomena: Defining the Epistemic Gap and the Finite Horizon of Intellect
 
