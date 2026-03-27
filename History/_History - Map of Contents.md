@@ -10,6 +10,6 @@
 | Holy Roman Empire    | [[EMP - The Holy Roman Empire]], [[HIST - Bohemia and Charles IV]], [[HIST - King Sigismund and Bohemia]], [[HIST - The Great Western Schism]]                                                                   | 2026-02-06   |
 | Ottoman Empire       | [[HIST - Ottomans in the Balkans]], [[HIST - Ottoman Notable Battles]]                                                                                                                                           | 2026-02-06   |
 | Contemporary History | [[HIST - The Arab Spring - A Decade of Upheaval and Transformation]], [[HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya]],                                                                          | 2026-03-05   |
-| Biographies          | [[BIO - Ibn Sina]], [[BIO - Al-Ghazali]], [[BIO - Euclid]], [[BIO - Euler]], [[BIO - Galileo Galilei]], [[BIO - Luca Pacioli]], [[BIO - Jacob Bernoulli]], [[BIO - Stefan Lazarevic]], [[BIO - Muammar Gaddafi]] | 2026-03-06   |
+| Biographies          | [[BIO - Ibn Sina]], [[BIO - Al-Ghazali]], [[BIO - Euclid]], [[BIO - Euler]], [[BIO - Galileo Galilei]], [[BIO - Luca Pacioli]], [[BIO - Jacob Bernoulli]], [[BIO - Stefan Lazarevic]], [[BIO - Muammar Gaddafi]], [[BIO - Khalid bin Waleed]] | 2026-03-27   |
 - - -
-*Last MOC Update: 2026-03-21 by GeminiCLI*
+*Last MOC Update: 2026-03-27 by GeminiCLI*
