@@ -239,9 +239,9 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  STAGE 5: WORD COUNT VERIFICATION (Orchestrator)                 │
 │  ───────────────────────────────────────────────                 │
 │  Count total words. Compare against minimum:                     │
-│  - Empire/Bio: ≥1,500  │  Geopolitical: ≥5,000                  │
-│  - Fiqh: ≥8,000        │  CS/AI: ≥1,500                         │
-│  - General: ≥1,000     │  Aqeedah: ≥3,000                       │
+│  - Empire/Bio: ≥3,500  │  Geopolitical: ≥5,000                  │
+│  - Fiqh: ≥5,000        │  CS/AI: ≥2,500                         │
+│  - General: ≥2,000     │  Aqeedah: ≥3,000                       │
 │  If UNDER minimum → identify thin sections → expand              │
 │                                                                  │
 │  STAGE 6: VALIDATION (Technician — MANDATORY)                    │
