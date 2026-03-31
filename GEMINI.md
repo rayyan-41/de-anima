@@ -145,6 +145,15 @@ Each domain has a `_ [Domain] - Map of Contents.md`. Use this structure:
 *Next Review: YYYY-MM-DD*
 ```
 
+### Chunk File Convention
+During note creation, agents write each YOLO section output to a temporary chunk file:
+
+- **Location**: `E:\De Anima\_tmp\`
+- **Naming**: `[topic-slug]_chunk_[NN].md` (e.g., `rafa-al-yadayn_chunk_01.md`)
+- **Topic slug**: lowercase, hyphens only (e.g., `ottoman-empire`)
+- **Chunk numbers**: zero-padded two digits (`01`, `02`, ... `11`)
+- **Cleanup**: orchestrator deletes all `[topic-slug]_chunk_*.md` files after assembly
+
 ### Canonical Tag Registry — SINGLE SOURCE OF TRUTH
 
 Every note MUST have tags in this exact format:
@@ -216,25 +225,28 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │                                                                  │
 │  STAGE 3: YOLO EXECUTION (Agent)                                 │
 │  ───────────────────────────────                                 │
-│  For EACH heading, agent spawns a dedicated session:             │
+│  For EACH heading, agent spawns a dedicated gemini session.      │
+│  Each session writes its output to a chunk file:                 │
 │                                                                  │
-│  gemini -y -p "[heading-specific prompt with full context]"      │
+│  gemini -y -p "[prompt]... write output to _tmp/slug_chunk_01"  │
 │                                                                  │
-│  Heading 1 → YOLO → ~1,000 words                                │
-│  Heading 2 → YOLO → ~1,000 words                                │
+│  Heading 1 → YOLO → writes _tmp/[slug]_chunk_01.md             │
+│  Heading 2 → YOLO → writes _tmp/[slug]_chunk_02.md             │
 │  ...                                                             │
-│  Heading N → YOLO → ~1,000 words                                │
+│  Heading N → YOLO → writes _tmp/[slug]_chunk_NN.md             │
 │                                                                  │
 │  STAGE 4: ASSEMBLY (Orchestrator)                                │
 │  ────────────────────────────────                                │
-│  Orchestrator combines all section outputs:                      │
+│  Orchestrator reads all chunk files from _tmp/ in order:         │
+│  - Reads [slug]_chunk_01.md through [slug]_chunk_NN.md          │
 │  - Adds transitions between sections                             │
 │  - Applies frontmatter (DATE, TAGS per canonical registry)       │
 │  - Inserts `- - -` separators                                    │
 │  - Adds `[[wikilinks]]` (minimum 2, first-mention rule)          │
 │  - Adds `## Related Notes` section                               │
 │  - Verifies correct subfolder and naming prefix                  │
-│  - Saves the note to vault                                       │
+│  - Saves the final note to vault                                 │
+│  - DELETES all _tmp/[slug]_chunk_*.md files (cleanup)            │
 │                                                                  │
 │  STAGE 5: WORD COUNT VERIFICATION (Orchestrator)                 │
 │  ───────────────────────────────────────────────                 │
