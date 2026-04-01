@@ -45,7 +45,7 @@
   "Reason": "LiBrain",
   "Science": {
     "iconName": "LiStar",
-    "iconColor": "#99560b"
+    "iconColor": "#e4e708"
   },
   "Literature": {
     "iconName": "LiBook",
@@ -53,7 +53,7 @@
   },
   "History": {
     "iconName": "LiSword",
-    "iconColor": "#65c3b8"
+    "iconColor": "#762c05"
   },
   "Art": {
     "iconName": "LiPaintbrush",
