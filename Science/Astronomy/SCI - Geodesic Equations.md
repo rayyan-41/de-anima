@@ -1,9 +1,7 @@
 ---
 date: 2026-02-06
-tags:
-  - science
-aliases:
-  - "Geodesic Equations"
+tags: [science, astronomy, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+footnote: ""
 ---
 
 - - -
@@ -41,3 +39,7 @@ $$
 i) **Flat Spacetime (Minkowski Equation)**: when spacetime is flat, as is the majority of empty space,  $\Gamma^\mu_{\alpha\beta} = 0$. This gives us  $\frac{d^2 x^\mu}{d \tau^2} = 0$, which means that the path followed by an object/light in space is a straight line path with a constant velocity.
 
 ii) **Curved Spacetime**: where $\Gamma^\mu_{\alpha\beta} \neq 0$. Hence, the path followed by an object is a **geodesic**.
+
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

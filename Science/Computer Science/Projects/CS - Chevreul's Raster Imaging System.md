@@ -1,8 +1,7 @@
 ---
 date: 2026-02-06
-tags: []
-aliases:
-  - "Chevreul's Raster Imaging System"
+tags: [science, computer-science, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+footnote: ""
 ---
 
 - - -
@@ -41,4 +40,6 @@ CRIS assumes three things as axioms:
 **References**
 - [Screens & 2D Graphics: Crash Course Computer Science #23](https://www.youtube.com/watch?v=7Jr0SFMQ4Rs)
 
+## See Also
 
+- [[_Science - Map of Contents|Science MOC]]

@@ -1,8 +1,7 @@
 ---
 date: 2026-02-18
-tags: []
-aliases:
-  - "Comparison of Node, Next, and React.js"
+tags: [science, web-dev, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+footnote: ""
 ---
 
 # WEB - Comparison of Node.js, React.js, and Next.js: The Full-Stack Ecosystem
@@ -101,7 +100,6 @@ The "Legacy" of these three technologies is the end of the "Frontend/Backend" di
 
 - - -
 
-## Related Notes
-- [[WEB - Evolution of Web Development]]
-- [[WEB - JavaScript Frameworks]]
-- [[CS - Software Design Techniques]]
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

@@ -1,10 +1,49 @@
 ---
 date: 2026-03-14
-tags:
-  - #science
-  - #web-dev
-  - #ai-generated
+tags: [science, web-dev, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+footnote: ""
 ---
+
+## Table of Contents
+
+- [The State of Web Development in 2026 (Architecture & Paradigms)](#the-state-of-web-development-in-2026-architecture-paradigms)
+  - [The Rendering Continuum](#the-rendering-continuum)
+  - [The Eradication of JavaScript Bloat: Islands and Resumability](#the-eradication-of-javascript-bloat-islands-and-resumability)
+  - [The Ascendancy of the Edge](#the-ascendancy-of-the-edge)
+  - [Synthesis](#synthesis)
+- [Frontend Tooling & Frameworks](#frontend-tooling-frameworks)
+  - [The Build Pipeline: Vite and Native ESM](#the-build-pipeline-vite-and-native-esm)
+  - [UI Architecture: React 20 and Compiler-Driven State](#ui-architecture-react-20-and-compiler-driven-state)
+  - [WebAssembly (Wasm): Low-Level Computation in the Browser](#webassembly-wasm-low-level-computation-in-the-browser)
+  - [Synthesis](#synthesis)
+- [Backend & Fullstack Meta-frameworks](#backend-fullstack-meta-frameworks)
+  - [The Architectural Convergence: Meta-frameworks and Server Components](#the-architectural-convergence-meta-frameworks-and-server-components)
+    - [Server Actions and the Co-location of Logic](#server-actions-and-the-co-location-of-logic)
+  - [The Evolution of the Traditional Backend: Node.js and Express](#the-evolution-of-the-traditional-backend-nodejs-and-express)
+  - [API Paradigms: The Mechanics of Data Transmission](#api-paradigms-the-mechanics-of-data-transmission)
+    - [The Rise of tRPC in Monolithic Repositories](#the-rise-of-trpc-in-monolithic-repositories)
+  - [Synthesis of the Backend Landscape](#synthesis-of-the-backend-landscape)
+- [Data Persistence (Modern SQL, NoSQL, and ORMs)](#data-persistence-modern-sql-nosql-and-orms)
+  - [The Persistence Landscape in 2026](#the-persistence-landscape-in-2026)
+  - [PostgreSQL vs. NoSQL: An Empirical Reality](#postgresql-vs-nosql-an-empirical-reality)
+  - [The Shift to the Edge: Distributed SQLite](#the-shift-to-the-edge-distributed-sqlite)
+  - [Modern Object-Relational Mapping: Prisma vs. Drizzle](#modern-object-relational-mapping-prisma-vs-drizzle)
+    - [Prisma: The Data-Mapper Abstraction](#prisma-the-data-mapper-abstraction)
+    - [Drizzle ORM: The SQL-like Query Builder](#drizzle-orm-the-sql-like-query-builder)
+  - [Conclusion](#conclusion)
+- [Infrastructure & Deployment](#infrastructure-deployment)
+  - [Serverless vs. Containers: An Empirical Comparison](#serverless-vs-containers-an-empirical-comparison)
+  - [Modern Hosting Architecture: The Hybrid Edge](#modern-hosting-architecture-the-hybrid-edge)
+  - [Containerization: Reproducibility via Docker](#containerization-reproducibility-via-docker)
+  - [Continuous Integration and Continuous Deployment (CI/CD)](#continuous-integration-and-continuous-deployment-cicd)
+- [The Holistic Roadmap (From Backend to Frontend)](#the-holistic-roadmap-from-backend-to-frontend)
+  - [Phase 1: The Subterranean Architecture (Data Persistence)](#phase-1-the-subterranean-architecture-data-persistence)
+    - [Modern Database Paradigms (2026)](#modern-database-paradigms-2026)
+  - [Phase 2: The Logic Core (APIs and Edge Compute)](#phase-2-the-logic-core-apis-and-edge-compute)
+  - [Phase 3: The Intermediary Layer (Data Fetching and Hydration)](#phase-3-the-intermediary-layer-data-fetching-and-hydration)
+  - [Phase 4: The Optical Interface (UI, UX, and the DOM)](#phase-4-the-optical-interface-ui-ux-and-the-dom)
+    - [Modern Styling Principles](#modern-styling-principles)
+  - [Phase 5: Empirical Validation (Testing and Observability)](#phase-5-empirical-validation-testing-and-observability)
 
 
 ## The State of Web Development in 2026 (Architecture & Paradigms)
@@ -938,7 +977,7 @@ No system can be deemed functional without rigorous, empirical testing. In compu
 Testing is not an afterthought; it is the scientific method directly applied to software. You must formulate the test (the hypothesis), execute the code (the experiment), and observe the result. Only when telemetry confirms the system operates strictly within defined performance tolerances—such as Largest Contentful Paint (LCP) under 1.2 seconds and Interaction to Next Paint (INP) under 200 milliseconds—can the holistic construction be considered empirically complete.
 
 - - -
-## Related Notes
-- [[WEB - Evolution of Web Development]]
-- [[WEB - JavaScript Frameworks]]
-- [[WEB - Comparison of Node, Next, and React.js]]
+
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

@@ -4,6 +4,19 @@ tags: [history, biography, philosophy, medicine, islamic-golden-age, historical-
 footnote: ""
 ---
 
+## Table of Contents
+
+- [Act I: The Crucible – The Prodigy of Bukhara](#act-i-the-crucible-the-prodigy-of-bukhara)
+- [Act II: The Zenith – The Master of Synthesis and Logic](#act-ii-the-zenith-the-master-of-synthesis-and-logic)
+- [Act III: The Legacy – The Architect of Western and Eastern Thought](#act-iii-the-legacy-the-architect-of-western-and-eastern-thought)
+- [Technical Depth](#technical-depth)
+  - [Table of Achievements: The Milestones of Al-Shaykh al-Ra’is](#table-of-achievements-the-milestones-of-al-shaykh-al-rais)
+  - [The Floating Man Thought Experiment: A Logical Flow](#the-floating-man-thought-experiment-a-logical-flow)
+- [Intellectual Lineage](#intellectual-lineage)
+  - [Act I Expansion: The Isma'ili Crucible and the Samanid Library](#act-i-expansion-the-ismaili-crucible-and-the-samanid-library)
+  - [Act II Expansion: The Medical Revolution of the Pulse and the Humors](#act-ii-expansion-the-medical-revolution-of-the-pulse-and-the-humors)
+
+
 # Ibn Sina (Avicenna): The Prince of Physicians and the Peak of Logic
 
 **Opening Significance**

@@ -1,9 +1,20 @@
 ---
 date: 2026-03-05
-tags: []
-aliases:
-  - "Large Language Models - Architecture and Mechanics"
+tags: [science, ai, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+footnote: ""
 ---
+
+## Table of Contents
+
+- [1. Introduction: The Paradigm Shift of Generative AI](#1-introduction-the-paradigm-shift-of-generative-ai)
+- [2. Data & Pre-training: The Foundation of Intelligence](#2-data-pre-training-the-foundation-of-intelligence)
+- [3. Tokenization: The Alphabet of Machines](#3-tokenization-the-alphabet-of-machines)
+- [4. The Transformer Architecture: Attention is All You Need](#4-the-transformer-architecture-attention-is-all-you-need)
+- [5. Context Windows & Memory: The Infinite Scroll](#5-context-windows-memory-the-infinite-scroll)
+- [6. Fine-tuning & RLHF: Alignment with Human Intent](#6-fine-tuning-rlhf-alignment-with-human-intent)
+- [7. Comparative Analysis: GPT vs. Gemini vs. Claude](#7-comparative-analysis-gpt-vs-gemini-vs-claude)
+- [8. Challenges & Future Frontiers: Hallucination to AGI](#8-challenges-future-frontiers-hallucination-to-agi)
+
 
 - - -
 **Abstract:**
@@ -81,7 +92,7 @@ Tokenizers are not universal. A tokenizer optimized for English will struggle wi
 
 ## 4. The Transformer Architecture: Attention is All You Need
 
-The "Transformer" is the mathematical engine that powers every modern LLM, from the GPT series to Gemini and Llama. Introduced by Google researchers in the seminal 2017 paper *"Attention Is All You Need,"* the architecture replaced previous sequential models (like RNNs and LSTMs) that were slow to train and struggled with long-range dependencies. The defining breakthrough of the Transformer is the **Self-Attention Mechanism**.
+The "Transformer" is the mathematical engine that powers every modern LLM, from the GPT series to [[GEMINI|Gemini]] and Llama. Introduced by Google researchers in the seminal 2017 paper *"Attention Is All You Need,"* the architecture replaced previous sequential models (like RNNs and LSTMs) that were slow to train and struggled with long-range dependencies. The defining breakthrough of the Transformer is the **Self-Attention Mechanism**.
 
 **The Mechanics of Self-Attention:**
 In traditional models, words were processed one-by-one, meaning the model often "forgot" the beginning of a sentence by the time it reached the end. Self-attention allows the model to process all tokens in a sequence simultaneously, but more importantly, it allows each token to "attend" to every other token.
@@ -225,3 +236,8 @@ Large Language Models have fundamentally rewritten the contract between humanity
 
 - - -
 *Created on 2026-03-05 by GeminiCLI (Agent: Ibn Haytham)*
+
+## See Also
+
+- [[GEMINI]] — Concept referenced in text.
+- [[_Science - Map of Contents|Science MOC]]

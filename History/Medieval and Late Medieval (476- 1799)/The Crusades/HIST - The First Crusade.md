@@ -4,6 +4,47 @@ tags: [history, medieval, crusades, historical-analysis, timeline, retrospective
 footnote: ""
 ---
 
+## Table of Contents
+
+- [The State of the World: 11th Century Geopolitics (Byzantines, Seljuks, the Papacy)](#the-state-of-the-world-11th-century-geopolitics-byzantines-seljuks-the-papacy)
+  - [The Byzantine Empire and the Seljuk Threat](#the-byzantine-empire-and-the-seljuk-threat)
+  - [The Seljuk Empire and Regional Fragmentation](#the-seljuk-empire-and-regional-fragmentation)
+  - [The Papacy and Western European Dynamics](#the-papacy-and-western-european-dynamics)
+- [The Council of Clermont and the Call to Arms](#the-council-of-clermont-and-the-call-to-arms)
+  - [The Diplomatic Prelude: The Council of Piacenza](#the-diplomatic-prelude-the-council-of-piacenza)
+  - [The Sermon at Clermont](#the-sermon-at-clermont)
+  - [The Mechanics of Mobilization](#the-mechanics-of-mobilization)
+  - [Ideological Impact and Unintended Consequences](#ideological-impact-and-unintended-consequences)
+- [The People's Crusade: Mobilization and Early Disasters](#the-peoples-crusade-mobilization-and-early-disasters)
+  - [Peter the Hermit and Popular Fervor](#peter-the-hermit-and-popular-fervor)
+  - [The Rhineland Massacres](#the-rhineland-massacres)
+  - [The Journey Through the Balkans](#the-journey-through-the-balkans)
+  - [Annihilation in Anatolia](#annihilation-in-anatolia)
+- [The Princes' Crusade: The Aristocratic Armies and Journey to Constantinople](#the-princes-crusade-the-aristocratic-armies-and-journey-to-constantinople)
+  - [The Major Contingents and their Commanders](#the-major-contingents-and-their-commanders)
+  - [The Logistics of the March](#the-logistics-of-the-march)
+  - [Arrival in Constantinople and the Oath to Alexios](#arrival-in-constantinople-and-the-oath-to-alexios)
+- [The Siege of Nicaea and the Battle of Dorylaeum](#the-siege-of-nicaea-and-the-battle-of-dorylaeum)
+  - [The Siege of Nicaea (May - June 1097)](#the-siege-of-nicaea-may---june-1097)
+  - [The Battle of Dorylaeum (July 1, 1097)](#the-battle-of-dorylaeum-july-1-1097)
+- [The Siege of Antioch: Attrition and the Holy Lance](#the-siege-of-antioch-attrition-and-the-holy-lance)
+  - [The Long Blockade and the Winter of Starvation](#the-long-blockade-and-the-winter-of-starvation)
+  - [The Fall of the City (June 1098)](#the-fall-of-the-city-june-1098)
+  - [The Second Siege and the Holy Lance](#the-second-siege-and-the-holy-lance)
+  - [The Battle of Antioch (June 28, 1098)](#the-battle-of-antioch-june-28-1098)
+- [The March South and the Siege of Jerusalem](#the-march-south-and-the-siege-of-jerusalem)
+  - [The Advance into the Levant](#the-advance-into-the-levant)
+  - [The Siege of Jerusalem (June - July 1099)](#the-siege-of-jerusalem-june---july-1099)
+  - [The Final Assault and the Massacre](#the-final-assault-and-the-massacre)
+- [The Battle of Ascalon and the Establishment of the Crusader States](#the-battle-of-ascalon-and-the-establishment-of-the-crusader-states)
+  - [The Battle of Ascalon (August 1099)](#the-battle-of-ascalon-august-1099)
+  - [The Foundation of the Crusader States](#the-foundation-of-the-crusader-states)
+- [Legacy, Historiography, and Influence in Literature and Media](#legacy-historiography-and-influence-in-literature-and-media)
+  - [Geopolitical and Cultural Legacy](#geopolitical-and-cultural-legacy)
+  - [Historiography](#historiography)
+  - [Influence in Literature and Media](#influence-in-literature-and-media)
+
+
 | The First Crusade | |
 | :--- | :--- |
 | **Dates** | 1095 – 1099 |

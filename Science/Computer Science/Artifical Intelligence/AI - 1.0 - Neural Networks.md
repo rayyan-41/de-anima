@@ -1,9 +1,7 @@
 ---
 date: 2026-02-06
-tags:
-  - science
-aliases:
-  - "1.0 - Neural Networks"
+tags: [science, ai, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+footnote: ""
 ---
 
 - - -
@@ -97,3 +95,7 @@ Let's talk about the basic functions.
 References:
 [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
 [Gradient descent, how neural networks learn | DL2](https://www.youtube.com/watch?v=IHZwWFHWa-w)
+
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

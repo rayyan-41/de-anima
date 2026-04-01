@@ -4,6 +4,44 @@ tags: [history, medieval, the-ottomans-in-the-balkans, historical-analysis, time
 footnote: ""
 ---
 
+## Table of Contents
+
+- [1. Introduction and Geopolitical Context](#1-introduction-and-geopolitical-context)
+- [2. The Early Conquests (1354-1453)](#2-the-early-conquests-1354-1453)
+  - [Key Military Engagements of the Early Expansion](#key-military-engagements-of-the-early-expansion)
+- [3. Consolidation and Administration (1453-1566)](#3-consolidation-and-administration-1453-1566)
+- [4. The Devshirme System and Janissaries](#4-the-devshirme-system-and-janissaries)
+  - [The Origins and Legal Mechanisms of the "Blood Tax"](#the-origins-and-legal-mechanisms-of-the-blood-tax)
+  - [The Mechanics of Recruitment](#the-mechanics-of-recruitment)
+  - [The Journey, Conversion, and Severance](#the-journey-conversion-and-severance)
+  - [The Rigorous Training Regime](#the-rigorous-training-regime)
+  - [The Janissary Corps: The Sultan's Elite Infantry](#the-janissary-corps-the-sultans-elite-infantry)
+  - [The Paradox of Socio-Political Impact in the Balkans](#the-paradox-of-socio-political-impact-in-the-balkans)
+  - [Evolution, Stagnation, and Decline](#evolution-stagnation-and-decline)
+- [5. The Millet System and Religious Dynamics](#5-the-millet-system-and-religious-dynamics)
+- [6. Economic and Cultural Integration](#6-economic-and-cultural-integration)
+  - [Urbanization and the Mechanics of the Ottoman City](#urbanization-and-the-mechanics-of-the-ottoman-city)
+  - [Trade Routes and the Imperial Economy](#trade-routes-and-the-imperial-economy)
+  - [Architectural Legacy: The Infrastructure of Empire](#architectural-legacy-the-infrastructure-of-empire)
+  - [Cultural Synthesis: The Utility of Cuisine and Language](#cultural-synthesis-the-utility-of-cuisine-and-language)
+- [7. The Period of Stagnation and Rebellions (1566-1800)](#7-the-period-of-stagnation-and-rebellions-1566-1800)
+- [8. The Rise of Nationalism and the Eastern Question (1800-1878)](#8-the-rise-of-nationalism-and-the-eastern-question-1800-1878)
+  - [The Serbian Revolution (1804–1835)](#the-serbian-revolution-18041835)
+  - [The Greek War of Independence (1821–1830)](#the-greek-war-of-independence-18211830)
+  - [The Intervention of the Great Powers](#the-intervention-of-the-great-powers)
+  - [The Crimean War and the Illusion of Reform](#the-crimean-war-and-the-illusion-of-reform)
+  - [The Great Eastern Crisis (1875–1878)](#the-great-eastern-crisis-18751878)
+  - [The Treaty of San Stefano and the Congress of Berlin](#the-treaty-of-san-stefano-and-the-congress-of-berlin)
+- [9. The Balkan Wars and Ottoman Retreat (1878-1913)](#9-the-balkan-wars-and-ottoman-retreat-1878-1913)
+  - [Causes and Effects of the Balkan Wars (1878-1913)](#causes-and-effects-of-the-balkan-wars-1878-1913)
+- [10. Legacy and Long-Term Impact on the Balkans](#10-legacy-and-long-term-impact-on-the-balkans)
+  - [10.1 Linguistic Legacy: The Proliferation of Turkisms](#101-linguistic-legacy-the-proliferation-of-turkisms)
+  - [10.2 Culinary Heritage: The Shared Table](#102-culinary-heritage-the-shared-table)
+  - [10.3 Architectural and Urban Morphology](#103-architectural-and-urban-morphology)
+  - [10.4 Socio-Religious Shifts and Demographic Persistence](#104-socio-religious-shifts-and-demographic-persistence)
+  - [10.5 Geopolitical Memory and the "Neo-Ottoman" Horizon](#105-geopolitical-memory-and-the-neo-ottoman-horizon)
+
+
 **Metadata:**
 - Creation Date: 2026-04-01
 - - -

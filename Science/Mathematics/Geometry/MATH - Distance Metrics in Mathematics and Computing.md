@@ -1,11 +1,7 @@
 ---
 date: 2026-02-06
-tags:
-  - science
-  - mathematics
-  - geometry
-aliases:
-  - "Distance Metrics in Mathematics and Computing"
+tags: [science, mathematics, geometry, research, analysis, systems, theory, computation, data, algorithms, ai-generated]
+footnote: ""
 ---
 
 - - -
@@ -180,3 +176,7 @@ flowchart TD
 ## Conclusion
 
 These three distance metrics represent fundamental approaches to quantifying separation in different mathematical spaces. Euclidean distance captures our intuitive understanding of physical distance in flat space, Manhattan distance reflects constrained movement in rectilinear environments, and Haversine distance accounts for the curvature of spherical surfaces. Understanding their origins, mathematical formulations, and appropriate applications is essential for fields ranging from data science to navigation engineering.
+
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

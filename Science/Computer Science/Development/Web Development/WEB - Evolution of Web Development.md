@@ -1,14 +1,7 @@
 ---
 date: 2026-02-18
-tags:
-  - science
-  - computer-science
-  - web-dev
-  - ai-generated
-  - evolution
-  - history
-aliases:
-  - "Evolution of Web Development"
+tags: [science, web-dev, computer-science, evolution, history, research, analysis, systems, theory, computation, ai-generated]
+footnote: ""
 ---
 
 # WEB - Evolution of Web Development: A Technical and Historical Odyssey
@@ -117,7 +110,6 @@ The legacy of web development is the democratization of information. By abstract
 
 - - -
 
-## Related Notes
-- [[WEB - JavaScript Frameworks]]
-- [[WEB - Comparison of Node, Next, and React.js]]
-- [[CS - Software Design Techniques]]
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

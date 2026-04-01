@@ -1,15 +1,7 @@
 ---
 date: 2026-02-18
-tags:
-  - science
-  - computer-science
-  - javascript
-  - frameworks
-  - ai-generated
-  - architecture
-  - history
-aliases:
-  - "JavaScript Frameworks"
+tags: [science, web-dev, computer-science, javascript, frameworks, architecture, history, research, analysis, systems, ai-generated]
+footnote: ""
 ---
 
 # WEB - JavaScript Frameworks: The Architecture of Modern Interfaces
@@ -101,7 +93,6 @@ The legacy of JavaScript frameworks is the abstraction of the DOM. We have moved
 
 - - -
 
-## Related Notes
-- [[WEB - Evolution of Web Development]]
-- [[WEB - Comparison of Node, Next, and React.js]]
-- [[CS - Software Design Techniques]]
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

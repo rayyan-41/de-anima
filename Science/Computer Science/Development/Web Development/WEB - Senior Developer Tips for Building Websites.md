@@ -1,10 +1,38 @@
 ---
 date: 2026-03-14
-tags:
-  - #science
-  - #web-dev
-  - #ai-generated
+tags: [science, web-dev, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+footnote: ""
 ---
+
+## Table of Contents
+
+- [Strategic Planning & Architectural Restraint](#strategic-planning-architectural-restraint)
+  - [1. Defining Empirical Requirements](#1-defining-empirical-requirements)
+  - [2. The Superiority of the "Boring" Stack](#2-the-superiority-of-the-boring-stack)
+  - [3. The Fallacy of Premature Optimization](#3-the-fallacy-of-premature-optimization)
+  - [4. Designing for Inevitable Systemic Failure](#4-designing-for-inevitable-systemic-failure)
+- [Development Velocity & Tooling Mastery](#development-velocity-tooling-mastery)
+  - [The IDE as an Extension of Mind](#the-ide-as-an-extension-of-mind)
+  - [Command Line Tooling and Composability](#command-line-tooling-and-composability)
+  - [Automated Scaffolding and Snippets](#automated-scaffolding-and-snippets)
+  - [Deterministic Local Environments](#deterministic-local-environments)
+- [Code Architecture & Maintainability](#code-architecture-maintainability)
+  - [State Management Heuristics](#state-management-heuristics)
+  - [Pure Functions & Predictability](#pure-functions-predictability)
+  - [Principle of Least Privilege in Data Access](#principle-of-least-privilege-in-data-access)
+- [Debugging & Telemetry Tactics](#debugging-telemetry-tactics)
+  - [1. Browser Developer Tools: Empirical Observation](#1-browser-developer-tools-empirical-observation)
+  - [2. Structural Interpretation of Stack Traces](#2-structural-interpretation-of-stack-traces)
+  - [3. Structured Logging](#3-structured-logging)
+  - [4. OpenTelemetry and Distributed Tracing](#4-opentelemetry-and-distributed-tracing)
+- [Continuous Integration & Defensive Deployment](#continuous-integration-defensive-deployment)
+  - [Trunk-Based Development: A Single Source of Truth](#trunk-based-development-a-single-source-of-truth)
+  - [Automated Testing Enforcement: The Apparatus of Verification](#automated-testing-enforcement-the-apparatus-of-verification)
+  - [Blue-Green Deployments: The Controlled Experiment](#blue-green-deployments-the-controlled-experiment)
+  - [Feature Flags: Decoupling Deployment from Release](#feature-flags-decoupling-deployment-from-release)
+  - [Conclusion: The Empirical Engineering Mandate](#conclusion-the-empirical-engineering-mandate)
+
+
 # CS - Senior Developer Tips for Building Websites
 
 ## Strategic Planning & Architectural Restraint
@@ -693,7 +721,7 @@ Building robust websites and distributed systems is not an act of faith; it is a
 To deploy defensively is to acknowledge the limits of human foresight. By relying on rigorous automation, immutable artifacts, and observable metrics, we protect the user from our errors and ensure the system remains a reliable conduit of function and information. We must measure carefully, integrate constantly, and release cautiously.
 
 - - -
-## Related Notes
-- [[WEB - The Complete Guide to Building a Website in 2026]]
-- [[CS - Software Design Techniques]]
-- [[CS - Software Development Techniques]]
+
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

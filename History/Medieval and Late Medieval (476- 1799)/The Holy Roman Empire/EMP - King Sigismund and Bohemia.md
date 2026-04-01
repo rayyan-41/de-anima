@@ -4,6 +4,20 @@ tags: [history, medieval, king-sigismund-and-bohemia, historical-analysis, timel
 footnote: ""
 ---
 
+## Table of Contents
+
+- [The Crusader Who Would Be Emperor](#the-crusader-who-would-be-emperor)
+- [The Order of the Dragon: Politics Wrapped in Piety](#the-order-of-the-dragon-politics-wrapped-in-piety)
+- [Jan Hus: The Preacher Prague Could Not Silence](#jan-hus-the-preacher-prague-could-not-silence)
+- [The Council of Constance: Where Empires and Souls Were Decided](#the-council-of-constance-where-empires-and-souls-were-decided)
+- [Bohemia Explodes: The First Defenestration and the Rise of the Hussites](#bohemia-explodes-the-first-defenestration-and-the-rise-of-the-hussites)
+- [The One-Eyed Prophet of War](#the-one-eyed-prophet-of-war)
+  - [Vítkov Hill: The Impossible Victory](#vtkov-hill-the-impossible-victory)
+  - [Kutná Hora: The Blind Commander's Masterpiece](#kutn-hora-the-blind-commanders-masterpiece)
+- [Sigismund's Long Road to Acceptance](#sigismunds-long-road-to-acceptance)
+- [The Legacy of Compromise and Betrayal](#the-legacy-of-compromise-and-betrayal)
+
+
 DATE: 2026-02-06
 TAGS: #history #personality #hre #bohemia #sigismund #ai-generated
 - - -

@@ -1,8 +1,31 @@
 ---
-aliases: [Vite, Tauri, Vite and Tauri]
-tags: [computer-science, development, web-dev, rust, tooling]
-title: CS - Vite and Tauri
+date: 2026-04-01
+tags: [science, computer-science, development, web-dev, rust, tooling, research, analysis, systems, theory, ai-generated]
+footnote: ""
 ---
+
+## Table of Contents
+
+- [1. Introduction & The Shift in Modern Tooling](#1-introduction-the-shift-in-modern-tooling)
+- [2. The Mechanics of Vite: The Unbundled Era](#2-the-mechanics-of-vite-the-unbundled-era)
+  - [Deep Dive: Dependencies and Pre-bundling with `esbuild`](#deep-dive-dependencies-and-pre-bundling-with-esbuild)
+  - [Deep Dive: Source Code and HMR over Native ESM](#deep-dive-source-code-and-hmr-over-native-esm)
+  - [Production Builds with Rollup](#production-builds-with-rollup)
+  - [Vite Dev Server Request Waterfall](#vite-dev-server-request-waterfall)
+- [3. The Architecture of Tauri: Rust and The OS Webview](#3-the-architecture-of-tauri-rust-and-the-os-webview)
+  - [The Death of Chromium-Bundling](#the-death-of-chromium-bundling)
+  - [Deep Dive: WRY - The Webview Rendering Library](#deep-dive-wry---the-webview-rendering-library)
+  - [Deep Dive: TAO - Cross-Platform Window Creation](#deep-dive-tao---cross-platform-window-creation)
+  - [Tauri Architectural Diagram](#tauri-architectural-diagram)
+- [4. Inter-Process Communication (IPC): The Bridge](#4-inter-process-communication-ipc-the-bridge)
+  - [Asynchronous Message Passing](#asynchronous-message-passing)
+  - [Strict Scoping and Security Implications](#strict-scoping-and-security-implications)
+  - [Code Examples](#code-examples)
+- [5. Synergy: Why Vite and Tauri Belong Together](#5-synergy-why-vite-and-tauri-belong-together)
+- [6. Applications & Limitations](#6-applications-limitations)
+  - [Where This Stack Excels](#where-this-stack-excels)
+  - [Limitations and The Chromium Trade-off](#limitations-and-the-chromium-trade-off)
+
 
 # CS - Vite and Tauri
 
@@ -225,3 +248,7 @@ Tauri shatters this guarantee. When you deploy a Tauri application, your fronten
 This introduces the dreaded "browser compatibility" issue back into desktop development. A cutting-edge CSS property or a newly drafted Web API might be fully supported by WebView2 on Windows but utterly broken in an older version of WebKit on macOS. You cannot ship a specific browser version with your app; you must rely on the OS being relatively up-to-date. This necessitates rigorous cross-platform testing. You must verify UI consistency and API availability on Mac, Windows, and Linux simultaneously. Furthermore, cross-compilation is notoriously difficult. While Rust's `cargo` handles cross-compiling logic beautifully, the underlying C dependencies (like WebKitGTK on Linux) make it exceptionally painful to compile a Linux binary from a Windows machine or a Mac binary from Linux. To deploy a Tauri application properly, you are essentially forced to use a cloud-based CI/CD pipeline (like GitHub Actions) to spin up native macOS, Windows, and Linux runners to build their respective binaries.
 
 Despite these hurdles, the trade-off is overwhelmingly positive. For the vast majority of applications, the minimal aesthetic inconsistencies across OS webviews are a negligible price to pay for the massive gains in performance, memory efficiency, and binary size. The Vite and Tauri stack is not just an alternative to Webpack and Electron; it is their evolutionary successor.
+
+## See Also
+
+- [[_Science - Map of Contents|Science MOC]]

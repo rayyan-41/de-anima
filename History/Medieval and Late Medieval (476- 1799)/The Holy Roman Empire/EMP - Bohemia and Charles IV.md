@@ -4,6 +4,14 @@ tags: [history, medieval, bohemia-and-charles-iv, historical-analysis, timeline,
 footnote: ""
 ---
 
+## Table of Contents
+
+- [The Golden Age: Charles IV and the Making of Prague](#the-golden-age-charles-iv-and-the-making-of-prague)
+- [Wenceslas IV and the Unraveling](#wenceslas-iv-and-the-unraveling)
+- [The Ambitious Brother: Sigismund's Hungarian Power Base](#the-ambitious-brother-sigismunds-hungarian-power-base)
+- [The Church Torn Apart: The Great Western Schism](#the-church-torn-apart-the-great-western-schism)
+
+
 DATE: 2026-02-06
 TAGS: #history #medieval #hre #bohemia #charles-iv #ai-generated
 - - -
