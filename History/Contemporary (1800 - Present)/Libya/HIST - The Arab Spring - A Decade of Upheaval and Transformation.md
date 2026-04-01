@@ -42,19 +42,19 @@ graph TD
 
 The following table documents the critical junctures of the Arab Spring, tracing the transition from localized protest to regional transformation.
 
-| Date | Location | Key Event | Result |
-|:-----|:---------|:----------|:-------|
-| Dec 17, 2010 | Tunisia | **Mohamed Bouazizi** commits self-immolation in Sidi Bouzid. | Initial spark of the regional movement. |
-| Jan 14, 2011 | Tunisia | **Zine El Abidine Ben Ali** flees to Saudi Arabia. | The "Jasmine Revolution" succeeds. |
-| Jan 25, 2011 | Egypt | "National Police Day" protests begin in Tahrir Square. | Start of the 18-day siege of Cairo. |
-| Feb 11, 2011 | Egypt | **Hosni Mubarak** resigns; power handed to the military (SCAF). | End of the 30-year Mubarak era. |
-| Feb 15, 2011 | Libya | Protests erupt in Benghazi following the arrest of an activist. | Start of the armed rebellion against **Gaddafi**. |
-| Mar 15, 2011 | Syria | Protests begin in Daraa after the torture of schoolboys. | Descent into the Syrian Civil War. |
-| Mar 18, 2011 | Yemen | "Friday of Dignity" massacre in Sana'a. | Defection of top generals from **Ali Abdullah Saleh**. |
-| Aug 23, 2011 | Libya | Rebels capture **Gaddafi**'s compound (Bab al-Azizia) in Tripoli. | Effective end of **Gaddafi**'s rule. |
-| Oct 20, 2011 | Libya | **Muammar Gaddafi** is captured and killed in Sirte. | Collapse of the Jamahiriya regime. |
-| Nov 23, 2011 | Yemen | **Ali Abdullah Saleh** signs the GCC transition agreement. | Managed transfer of power to **Hadi**. |
-| Jan 2012 | Region | First free elections held in Tunisia and Egypt. | Rise of political Islamist parties. |
+| Date         | Location | Key Event                                                         | Result                                                 |
+| :----------- | :------- | :---------------------------------------------------------------- | :----------------------------------------------------- |
+| Dec 17, 2010 | Tunisia  | **Mohamed Bouazizi** commits self-immolation in Sidi Bouzid.      | Initial spark of the regional movement.                |
+| Jan 14, 2011 | Tunisia  | **Zine El Abidine Ben Ali** flees to Saudi Arabia.                | The "Jasmine Revolution" succeeds.                     |
+| Jan 25, 2011 | Egypt    | "National Police Day" protests begin in Tahrir Square.            | Start of the 18-day siege of Cairo.                    |
+| Feb 11, 2011 | Egypt    | **Hosni Mubarak** resigns; power handed to the military (SCAF).   | End of the 30-year Mubarak era.                        |
+| Feb 15, 2011 | Libya    | Protests erupt in Benghazi following the arrest of an activist.   | Start of the armed rebellion against **Gaddafi**.      |
+| Mar 15, 2011 | Syria    | Protests begin in Daraa after the torture of schoolboys.          | Descent into the Syrian Civil War.                     |
+| Mar 18, 2011 | Yemen    | "Friday of Dignity" massacre in Sana'a.                           | Defection of top generals from **Ali Abdullah Saleh**. |
+| Aug 23, 2011 | Libya    | Rebels capture **Gaddafi**'s compound (Bab al-Azizia) in Tripoli. | Effective end of **Gaddafi**'s rule.                   |
+| Oct 20, 2011 | Libya    | **Muammar Gaddafi** is captured and killed in Sirte.              | Collapse of the Jamahiriya regime.                     |
+| Nov 23, 2011 | Yemen    | **Ali Abdullah Saleh** signs the GCC transition agreement.        | Managed transfer of power to **Hadi**.                 |
+| Jan 2012     | Region   | First free elections held in Tunisia and Egypt.                   | Rise of political Islamist parties.                    |
 
 - - -
 
@@ -100,8 +100,5 @@ The **Assad** regime's refusal to step down, combined with regional proxy interv
 - - -
 #### **References**
 - [[HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya|Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]
-
 ## See Also
-
-- [[HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya]] — Historical entity referenced in text.
 - [[BIO - Muammar Gaddafi]] — Historical entity referenced in text.

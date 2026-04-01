@@ -4,28 +4,26 @@ tags: [science, computer-science, research, analysis, systems, theory, computati
 footnote: ""
 ---
 
-## Table of Contents
-
-- [1. Introduction and Historical Context](#1-introduction-and-historical-context)
-- [2. Dart: The Mechanical Core](#2-dart-the-mechanical-core)
-  - [2.1 The Event Loop and Asynchronous Execution](#21-the-event-loop-and-asynchronous-execution)
-  - [2.2 The Isolate Memory Model](#22-the-isolate-memory-model)
-  - [2.3 Compilation Strategies: JIT vs. AOT](#23-compilation-strategies-jit-vs-aot)
-- [3. The Layered Architecture](#3-the-layered-architecture)
-  - [3.1 The Framework Layer (Dart)](#31-the-framework-layer-dart)
-  - [3.2 The Engine Layer (C/C++)](#32-the-engine-layer-cc)
-  - [3.3 The Embedder Layer](#33-the-embedder-layer)
-- [4. The Rendering Pipeline and the Impeller Revolution](#4-the-rendering-pipeline-and-the-impeller-revolution)
-  - [4.1 Skia vs. Impeller](#41-skia-vs-impeller)
-  - [4.2 The Mechanics of Impeller](#42-the-mechanics-of-impeller)
-- [5. The Widget Ecosystem and Lifecycle](#5-the-widget-ecosystem-and-lifecycle)
-  - [5.1 The Three Trees](#51-the-three-trees)
-  - [5.2 The Stateful Lifecycle](#52-the-stateful-lifecycle)
-- [6. State Management Paradigms](#6-state-management-paradigms)
-  - [6.1 Ephemeral vs. App State](#61-ephemeral-vs-app-state)
-  - [6.2 The Evolution of State Management](#62-the-evolution-of-state-management)
-- [7. Conclusion](#7-conclusion)
-
+> [!abstract] Table of Contents
+> - [[#1. Introduction and Historical Context]]
+> - [[#2. Dart: The Mechanical Core]]
+>   - [[#2.1 The Event Loop and Asynchronous Execution]]
+>   - [[#2.2 The Isolate Memory Model]]
+>   - [[#2.3 Compilation Strategies: JIT vs. AOT]]
+> - [[#3. The Layered Architecture]]
+>   - [[#3.1 The Framework Layer (Dart)]]
+>   - [[#3.2 The Engine Layer (C/C++)]]
+>   - [[#3.3 The Embedder Layer]]
+> - [[#4. The Rendering Pipeline and the Impeller Revolution]]
+>   - [[#4.1 Skia vs. Impeller]]
+>   - [[#4.2 The Mechanics of Impeller]]
+> - [[#5. The Widget Ecosystem and Lifecycle]]
+>   - [[#5.1 The Three Trees]]
+>   - [[#5.2 The Stateful Lifecycle]]
+> - [[#6. State Management Paradigms]]
+>   - [[#6.1 Ephemeral vs. App State]]
+>   - [[#6.2 The Evolution of State Management]]
+> - [[#7. Conclusion]]
 
 ## 1. Introduction and Historical Context
 

@@ -4,34 +4,32 @@ tags: [science, web-dev, research, analysis, systems, theory, computation, data,
 footnote: ""
 ---
 
-## Table of Contents
-
-- [Strategic Planning & Architectural Restraint](#strategic-planning-architectural-restraint)
-  - [1. Defining Empirical Requirements](#1-defining-empirical-requirements)
-  - [2. The Superiority of the "Boring" Stack](#2-the-superiority-of-the-boring-stack)
-  - [3. The Fallacy of Premature Optimization](#3-the-fallacy-of-premature-optimization)
-  - [4. Designing for Inevitable Systemic Failure](#4-designing-for-inevitable-systemic-failure)
-- [Development Velocity & Tooling Mastery](#development-velocity-tooling-mastery)
-  - [The IDE as an Extension of Mind](#the-ide-as-an-extension-of-mind)
-  - [Command Line Tooling and Composability](#command-line-tooling-and-composability)
-  - [Automated Scaffolding and Snippets](#automated-scaffolding-and-snippets)
-  - [Deterministic Local Environments](#deterministic-local-environments)
-- [Code Architecture & Maintainability](#code-architecture-maintainability)
-  - [State Management Heuristics](#state-management-heuristics)
-  - [Pure Functions & Predictability](#pure-functions-predictability)
-  - [Principle of Least Privilege in Data Access](#principle-of-least-privilege-in-data-access)
-- [Debugging & Telemetry Tactics](#debugging-telemetry-tactics)
-  - [1. Browser Developer Tools: Empirical Observation](#1-browser-developer-tools-empirical-observation)
-  - [2. Structural Interpretation of Stack Traces](#2-structural-interpretation-of-stack-traces)
-  - [3. Structured Logging](#3-structured-logging)
-  - [4. OpenTelemetry and Distributed Tracing](#4-opentelemetry-and-distributed-tracing)
-- [Continuous Integration & Defensive Deployment](#continuous-integration-defensive-deployment)
-  - [Trunk-Based Development: A Single Source of Truth](#trunk-based-development-a-single-source-of-truth)
-  - [Automated Testing Enforcement: The Apparatus of Verification](#automated-testing-enforcement-the-apparatus-of-verification)
-  - [Blue-Green Deployments: The Controlled Experiment](#blue-green-deployments-the-controlled-experiment)
-  - [Feature Flags: Decoupling Deployment from Release](#feature-flags-decoupling-deployment-from-release)
-  - [Conclusion: The Empirical Engineering Mandate](#conclusion-the-empirical-engineering-mandate)
-
+> [!abstract] Table of Contents
+> - [[#Strategic Planning & Architectural Restraint]]
+>   - [[#1. Defining Empirical Requirements]]
+>   - [[#2. The Superiority of the "Boring" Stack]]
+>   - [[#3. The Fallacy of Premature Optimization]]
+>   - [[#4. Designing for Inevitable Systemic Failure]]
+> - [[#Development Velocity & Tooling Mastery]]
+>   - [[#The IDE as an Extension of Mind]]
+>   - [[#Command Line Tooling and Composability]]
+>   - [[#Automated Scaffolding and Snippets]]
+>   - [[#Deterministic Local Environments]]
+> - [[#Code Architecture & Maintainability]]
+>   - [[#State Management Heuristics]]
+>   - [[#Pure Functions & Predictability]]
+>   - [[#Principle of Least Privilege in Data Access]]
+> - [[#Debugging & Telemetry Tactics]]
+>   - [[#1. Browser Developer Tools: Empirical Observation]]
+>   - [[#2. Structural Interpretation of Stack Traces]]
+>   - [[#3. Structured Logging]]
+>   - [[#4. OpenTelemetry and Distributed Tracing]]
+> - [[#Continuous Integration & Defensive Deployment]]
+>   - [[#Trunk-Based Development: A Single Source of Truth]]
+>   - [[#Automated Testing Enforcement: The Apparatus of Verification]]
+>   - [[#Blue-Green Deployments: The Controlled Experiment]]
+>   - [[#Feature Flags: Decoupling Deployment from Release]]
+>   - [[#Conclusion: The Empirical Engineering Mandate]]
 
 # CS - Senior Developer Tips for Building Websites
 

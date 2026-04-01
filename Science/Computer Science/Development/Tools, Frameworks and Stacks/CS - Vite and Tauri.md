@@ -4,28 +4,26 @@ tags: [science, computer-science, development, web-dev, rust, tooling, research,
 footnote: ""
 ---
 
-## Table of Contents
-
-- [1. Introduction & The Shift in Modern Tooling](#1-introduction-the-shift-in-modern-tooling)
-- [2. The Mechanics of Vite: The Unbundled Era](#2-the-mechanics-of-vite-the-unbundled-era)
-  - [Deep Dive: Dependencies and Pre-bundling with `esbuild`](#deep-dive-dependencies-and-pre-bundling-with-esbuild)
-  - [Deep Dive: Source Code and HMR over Native ESM](#deep-dive-source-code-and-hmr-over-native-esm)
-  - [Production Builds with Rollup](#production-builds-with-rollup)
-  - [Vite Dev Server Request Waterfall](#vite-dev-server-request-waterfall)
-- [3. The Architecture of Tauri: Rust and The OS Webview](#3-the-architecture-of-tauri-rust-and-the-os-webview)
-  - [The Death of Chromium-Bundling](#the-death-of-chromium-bundling)
-  - [Deep Dive: WRY - The Webview Rendering Library](#deep-dive-wry---the-webview-rendering-library)
-  - [Deep Dive: TAO - Cross-Platform Window Creation](#deep-dive-tao---cross-platform-window-creation)
-  - [Tauri Architectural Diagram](#tauri-architectural-diagram)
-- [4. Inter-Process Communication (IPC): The Bridge](#4-inter-process-communication-ipc-the-bridge)
-  - [Asynchronous Message Passing](#asynchronous-message-passing)
-  - [Strict Scoping and Security Implications](#strict-scoping-and-security-implications)
-  - [Code Examples](#code-examples)
-- [5. Synergy: Why Vite and Tauri Belong Together](#5-synergy-why-vite-and-tauri-belong-together)
-- [6. Applications & Limitations](#6-applications-limitations)
-  - [Where This Stack Excels](#where-this-stack-excels)
-  - [Limitations and The Chromium Trade-off](#limitations-and-the-chromium-trade-off)
-
+> [!abstract] Table of Contents
+> - [[#1. Introduction & The Shift in Modern Tooling]]
+> - [[#2. The Mechanics of Vite: The Unbundled Era]]
+>   - [[#Deep Dive: Dependencies and Pre-bundling with `esbuild`]]
+>   - [[#Deep Dive: Source Code and HMR over Native ESM]]
+>   - [[#Production Builds with Rollup]]
+>   - [[#Vite Dev Server Request Waterfall]]
+> - [[#3. The Architecture of Tauri: Rust and The OS Webview]]
+>   - [[#The Death of Chromium-Bundling]]
+>   - [[#Deep Dive: WRY - The Webview Rendering Library]]
+>   - [[#Deep Dive: TAO - Cross-Platform Window Creation]]
+>   - [[#Tauri Architectural Diagram]]
+> - [[#4. Inter-Process Communication (IPC): The Bridge]]
+>   - [[#Asynchronous Message Passing]]
+>   - [[#Strict Scoping and Security Implications]]
+>   - [[#Code Examples]]
+> - [[#5. Synergy: Why Vite and Tauri Belong Together]]
+> - [[#6. Applications & Limitations]]
+>   - [[#Where This Stack Excels]]
+>   - [[#Limitations and The Chromium Trade-off]]
 
 # CS - Vite and Tauri
 

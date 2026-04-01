@@ -4,17 +4,15 @@ tags: [science, ai, research, analysis, systems, theory, computation, data, algo
 footnote: ""
 ---
 
-## Table of Contents
-
-- [1. Introduction: The Paradigm Shift of Generative AI](#1-introduction-the-paradigm-shift-of-generative-ai)
-- [2. Data & Pre-training: The Foundation of Intelligence](#2-data-pre-training-the-foundation-of-intelligence)
-- [3. Tokenization: The Alphabet of Machines](#3-tokenization-the-alphabet-of-machines)
-- [4. The Transformer Architecture: Attention is All You Need](#4-the-transformer-architecture-attention-is-all-you-need)
-- [5. Context Windows & Memory: The Infinite Scroll](#5-context-windows-memory-the-infinite-scroll)
-- [6. Fine-tuning & RLHF: Alignment with Human Intent](#6-fine-tuning-rlhf-alignment-with-human-intent)
-- [7. Comparative Analysis: GPT vs. Gemini vs. Claude](#7-comparative-analysis-gpt-vs-gemini-vs-claude)
-- [8. Challenges & Future Frontiers: Hallucination to AGI](#8-challenges-future-frontiers-hallucination-to-agi)
-
+> [!abstract] Table of Contents
+> - [[#1. Introduction: The Paradigm Shift of Generative AI]]
+> - [[#2. Data & Pre-training: The Foundation of Intelligence]]
+> - [[#3. Tokenization: The Alphabet of Machines]]
+> - [[#4. The Transformer Architecture: Attention is All You Need]]
+> - [[#5. Context Windows & Memory: The Infinite Scroll]]
+> - [[#6. Fine-tuning & RLHF: Alignment with Human Intent]]
+> - [[#7. Comparative Analysis: GPT vs. Gemini vs. Claude]]
+> - [[#8. Challenges & Future Frontiers: Hallucination to AGI]]
 
 - - -
 **Abstract:**

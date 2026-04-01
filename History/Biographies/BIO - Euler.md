@@ -4,29 +4,27 @@ tags: [history, biography, euler, historical-analysis, timeline, retrospective, 
 footnote: ""
 ---
 
-## Table of Contents
-
-  - [The Basel Crucible and the Bernoulli Connection](#the-basel-crucible-and-the-bernoulli-connection)
-  - [Academic Ascent](#academic-ascent)
-  - [The Russian Vision: Peter the Great’s Academy](#the-russian-vision-peter-the-greats-academy)
-  - [The Medical Ruse and the Journey East](#the-medical-ruse-and-the-journey-east)
-  - [Early Impressions of the Academy](#early-impressions-of-the-academy)
-  - [The Darkening Sky: Russia in Turmoil](#the-darkening-sky-russia-in-turmoil)
-  - [The Invitation to the Berlin Zenith](#the-invitation-to-the-berlin-zenith)
-  - [The Rivalry: The King and the "Mathematical Cyclops"](#the-rivalry-the-king-and-the-mathematical-cyclops)
-  - [The Berlin Masterpieces: Analysis and Calculus](#the-berlin-masterpieces-analysis-and-calculus)
-  - [The Return to the Neva and Total Blindness](#the-return-to-the-neva-and-total-blindness)
-  - [The Fire of 1771: Trial and Rescue](#the-fire-of-1771-trial-and-rescue)
-  - [The Invincible Mind: 400 Papers in the Dark](#the-invincible-mind-400-papers-in-the-dark)
-  - [The Ocean of Ink: The Scale of Output](#the-ocean-of-ink-the-scale-of-output)
-  - [The Architect of Modern Analysis](#the-architect-of-modern-analysis)
-  - [Unlocking the Integers: Number Theory](#unlocking-the-integers-number-theory)
-  - [The Genesis of Structure: Graph Theory and Topology](#the-genesis-of-structure-graph-theory-and-topology)
-  - [The Laws of Motion: Mechanics and Fluids](#the-laws-of-motion-mechanics-and-fluids)
-  - [The Teacher of Europe: Pedagogical Impact](#the-teacher-of-europe-pedagogical-impact)
-  - [The Final Calculation: "He Ceased to Live"](#the-final-calculation-he-ceased-to-live)
-  - [Legacy: The Master of Us All](#legacy-the-master-of-us-all)
-
+> [!abstract] Table of Contents
+>   - [[#The Basel Crucible and the Bernoulli Connection]]
+>   - [[#Academic Ascent]]
+>   - [[#The Russian Vision: Peter the Great’s Academy]]
+>   - [[#The Medical Ruse and the Journey East]]
+>   - [[#Early Impressions of the Academy]]
+>   - [[#The Darkening Sky: Russia in Turmoil]]
+>   - [[#The Invitation to the Berlin Zenith]]
+>   - [[#The Rivalry: The King and the "Mathematical Cyclops"]]
+>   - [[#The Berlin Masterpieces: Analysis and Calculus]]
+>   - [[#The Return to the Neva and Total Blindness]]
+>   - [[#The Fire of 1771: Trial and Rescue]]
+>   - [[#The Invincible Mind: 400 Papers in the Dark]]
+>   - [[#The Ocean of Ink: The Scale of Output]]
+>   - [[#The Architect of Modern Analysis]]
+>   - [[#Unlocking the Integers: Number Theory]]
+>   - [[#The Genesis of Structure: Graph Theory and Topology]]
+>   - [[#The Laws of Motion: Mechanics and Fluids]]
+>   - [[#The Teacher of Europe: Pedagogical Impact]]
+>   - [[#The Final Calculation: "He Ceased to Live"]]
+>   - [[#Legacy: The Master of Us All]]
 
 DATE: 2026-02-10
 TAGS: #history #science #mathematics #biography #euler #ai-generated

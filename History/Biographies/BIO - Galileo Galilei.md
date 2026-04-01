@@ -4,26 +4,24 @@ tags: [history, biography, galileo-galilei, historical-analysis, timeline, retro
 footnote: ""
 ---
 
-## Table of Contents
-
-- [Act I: The Crucible – The Lute, The Balance, and The Burden (1564–1609)](#act-i-the-crucible-the-lute-the-balance-and-the-burden-15641609)
-  - [The Inheritance of Experimentation](#the-inheritance-of-experimentation)
-  - [The Physician Who Failed](#the-physician-who-failed)
-  - [The Weight of Gold and Family](#the-weight-of-gold-and-family)
-  - [The Military Compass](#the-military-compass)
-- [Act II: The Zenith – The Starry Messenger and the Copernican War (1609–1633)](#act-ii-the-zenith-the-starry-messenger-and-the-copernican-war-16091633)
-  - [The Spyglass Transformation](#the-spyglass-transformation)
-  - [The Journal of January 1610](#the-journal-of-january-1610)
-  - [The Sunspot Wars](#the-sunspot-wars)
-  - [The Fatal Error: The Tides](#the-fatal-error-the-tides)
-  - [The Betrayal of Urban VIII](#the-betrayal-of-urban-viii)
-- [Act III: The Legacy – The Prisoner of Arcetri (1633–1642)](#act-iii-the-legacy-the-prisoner-of-arcetri-16331642)
-  - [The Angel of Arcetri](#the-angel-of-arcetri)
-  - [The Smuggled Masterpiece](#the-smuggled-masterpiece)
-- [The Human Element](#the-human-element)
-- [Intellectual Lineage](#intellectual-lineage)
-- [Table of Achievements](#table-of-achievements)
-
+> [!abstract] Table of Contents
+> - [[#Act I: The Crucible – The Lute, The Balance, and The Burden (1564–1609)]]
+>   - [[#The Inheritance of Experimentation]]
+>   - [[#The Physician Who Failed]]
+>   - [[#The Weight of Gold and Family]]
+>   - [[#The Military Compass]]
+> - [[#Act II: The Zenith – The Starry Messenger and the Copernican War (1609–1633)]]
+>   - [[#The Spyglass Transformation]]
+>   - [[#The Journal of January 1610]]
+>   - [[#The Sunspot Wars]]
+>   - [[#The Fatal Error: The Tides]]
+>   - [[#The Betrayal of Urban VIII]]
+> - [[#Act III: The Legacy – The Prisoner of Arcetri (1633–1642)]]
+>   - [[#The Angel of Arcetri]]
+>   - [[#The Smuggled Masterpiece]]
+> - [[#The Human Element]]
+> - [[#Intellectual Lineage]]
+> - [[#Table of Achievements]]
 
 DATE: 2026-02-13
 TAGS: #history #science #astronomy #biography #galileo #ai-generated #original-insight

@@ -4,50 +4,49 @@ tags: [history, medieval, evolution-of-intellectual-thought-in-europe, historica
 footnote: ""
 ---
 
-## Table of Contents
-
-- [1. The Theocentric Worldview: Early Medieval Scholasticism](#1-the-theocentric-worldview-early-medieval-scholasticism)
-  - [The Role of the Church as the Repository of Order](#the-role-of-the-church-as-the-repository-of-order)
-  - [St. Augustine of Hippo: The Architect of the Medieval Mind](#st-augustine-of-hippo-the-architect-of-the-medieval-mind)
-  - [Boethius: The Last of the Romans and the Bridge of Logic](#boethius-the-last-of-the-romans-and-the-bridge-of-logic)
-  - [The Synthesis of Faith and Reason in Early Scholasticism](#the-synthesis-of-faith-and-reason-in-early-scholasticism)
-  - [Conclusion: The Foundation of the Western Intellectual Tradition](#conclusion-the-foundation-of-the-western-intellectual-tradition)
-- [2. The 12th Century Renaissance and the Rediscovery of Aristotle](#2-the-12th-century-renaissance-and-the-rediscovery-of-aristotle)
-  - [The Great Transmission: Islamic Frontiers and the Translation Movement](#the-great-transmission-islamic-frontiers-and-the-translation-movement)
-  - [The Rise of Universities: The Institutionalization of Reason](#the-rise-of-universities-the-institutionalization-of-reason)
-  - [The Aristotelian Challenge: Reason vs. Revelation](#the-aristotelian-challenge-reason-vs-revelation)
-  - [Thomas Aquinas: The Thomistic Synthesis](#thomas-aquinas-the-thomistic-synthesis)
-  - [Conclusion: The Intellectual Inheritance](#conclusion-the-intellectual-inheritance)
-- [3. Renaissance Humanism: The Recovery of Antiquity](#3-renaissance-humanism-the-recovery-of-antiquity)
-  - [3.1 Francesco Petrarca and the Concept of the "Dark Ages"](#31-francesco-petrarca-and-the-concept-of-the-dark-ages)
-  - [3.2 The *Studia Humanitatis* and the Shift in Education](#32-the-studia-humanitatis-and-the-shift-in-education)
-  - [3.3 The North and Christian Humanism: Desiderius Erasmus](#33-the-north-and-christian-humanism-desiderius-erasmus)
-  - [3.4 The Catalyst: The Printing Press and the Democratization of Knowledge](#34-the-catalyst-the-printing-press-and-the-democratization-of-knowledge)
-  - [3.5 Institutionalization and Legacy](#35-institutionalization-and-legacy)
-- [4. The Reformation: The Fragmentation of Religious Authority](#4-the-reformation-the-fragmentation-of-religious-authority)
-  - [Martin Luther: The Theological Wedge and the Primacy of Conscience](#martin-luther-the-theological-wedge-and-the-primacy-of-conscience)
-  - [The Printing Press and the Impact of the Vernacular Bible](#the-printing-press-and-the-impact-of-the-vernacular-bible)
-  - [John Calvin: The Systematization of Reform and the Protestant Ethic](#john-calvin-the-systematization-of-reform-and-the-protestant-ethic)
-  - [The Radical Reformation: The Logic of Fragmentation Pushed to the Brink](#the-radical-reformation-the-logic-of-fragmentation-pushed-to-the-brink)
-  - [The Breakdown of the Respublica Christiana and the Rise of Sovereignty](#the-breakdown-of-the-respublica-christiana-and-the-rise-of-sovereignty)
-- [5. The Scientific Revolution: The Empiricist Turn](#5-the-scientific-revolution-the-empiricist-turn)
-  - [5.1 The Collapse of the Aristotelian-Ptolemaic Synthesis](#51-the-collapse-of-the-aristotelian-ptolemaic-synthesis)
-  - [5.2 Nicolaus Copernicus and the Heliocentric Displacement](#52-nicolaus-copernicus-and-the-heliocentric-displacement)
-  - [5.3 Johannes Kepler: Breaking the Perfect Circle](#53-johannes-kepler-breaking-the-perfect-circle)
-  - [5.4 Galileo Galilei: Observation and the Experimental Method](#54-galileo-galilei-observation-and-the-experimental-method)
-  - [5.5 Isaac Newton and the Newtonian Synthesis](#55-isaac-newton-and-the-newtonian-synthesis)
-  - [5.6 The Methodological Shift: From Deduction to Induction](#56-the-methodological-shift-from-deduction-to-induction)
-- [6. The Enlightenment: The Supremacy of Rationalism](#6-the-enlightenment-the-supremacy-of-rationalism)
-  - [6.1 The Cartesian Foundation: Radical Doubt and the Mathematical Method](#61-the-cartesian-foundation-radical-doubt-and-the-mathematical-method)
-  - [6.2 Spinozism: The Geometric Order of Nature](#62-spinozism-the-geometric-order-of-nature)
-  - [6.3 John Locke and the Empiricist Shift](#63-john-locke-and-the-empiricist-shift)
-  - [6.4 The Emergence of the 'Philosophes' and the Republic of Letters](#64-the-emergence-of-the-philosophes-and-the-republic-of-letters)
-  - [6.5 Voltaire: The Apotheosis of Enlightenment Rationalism](#65-voltaire-the-apotheosis-of-enlightenment-rationalism)
-  - [6.6 The Legacy of Rationalism in European Thought](#66-the-legacy-of-rationalism-in-european-thought)
-- [7. The Rise of Secularism and the Modern Mind](#7-the-rise-of-secularism-and-the-modern-mind)
-  - [The Structural Divorce: The Separation of Church and State](#the-structural-divorce-the-separation-of-church-and-state)
-  - [The Darwinian Challenge: The Biological Re-centering of Humanity](#the-darwinian-challenge-the-biological-re-centering-of-humanity)
-  - [The Final Transition: The Secularized Intellectual Framework](#the-final-transition-the-secularized-intellectual-framework)
+> [!abstract] Table of Contents
+> - [[#1. The Theocentric Worldview: Early Medieval Scholasticism]]
+>   - [[#The Role of the Church as the Repository of Order]]
+>   - [[#St. Augustine of Hippo: The Architect of the Medieval Mind]]
+>   - [[#Boethius: The Last of the Romans and the Bridge of Logic]]
+>   - [[#The Synthesis of Faith and Reason in Early Scholasticism]]
+>   - [[#Conclusion: The Foundation of the Western Intellectual Tradition]]
+> - [[#2. The 12th Century Renaissance and the Rediscovery of Aristotle]]
+>   - [[#The Great Transmission: Islamic Frontiers and the Translation Movement]]
+>   - [[#The Rise of Universities: The Institutionalization of Reason]]
+>   - [[#The Aristotelian Challenge: Reason vs. Revelation]]
+>   - [[#Thomas Aquinas: The Thomistic Synthesis]]
+>   - [[#Conclusion: The Intellectual Inheritance]]
+> - [[#3. Renaissance Humanism: The Recovery of Antiquity]]
+>   - [[#3.1 Francesco Petrarca and the Concept of the "Dark Ages"]]
+>   - [[#3.2 The *Studia Humanitatis* and the Shift in Education]]
+>   - [[#3.3 The North and Christian Humanism: Desiderius Erasmus]]
+>   - [[#3.4 The Catalyst: The Printing Press and the Democratization of Knowledge]]
+>   - [[#3.5 Institutionalization and Legacy]]
+> - [[#4. The Reformation: The Fragmentation of Religious Authority]]
+>   - [[#Martin Luther: The Theological Wedge and the Primacy of Conscience]]
+>   - [[#The Printing Press and the Impact of the Vernacular Bible]]
+>   - [[#John Calvin: The Systematization of Reform and the Protestant Ethic]]
+>   - [[#The Radical Reformation: The Logic of Fragmentation Pushed to the Brink]]
+>   - [[#The Breakdown of the Respublica Christiana and the Rise of Sovereignty]]
+> - [[#5. The Scientific Revolution: The Empiricist Turn]]
+>   - [[#5.1 The Collapse of the Aristotelian-Ptolemaic Synthesis]]
+>   - [[#5.2 Nicolaus Copernicus and the Heliocentric Displacement]]
+>   - [[#5.3 Johannes Kepler: Breaking the Perfect Circle]]
+>   - [[#5.4 Galileo Galilei: Observation and the Experimental Method]]
+>   - [[#5.5 Isaac Newton and the Newtonian Synthesis]]
+>   - [[#5.6 The Methodological Shift: From Deduction to Induction]]
+> - [[#6. The Enlightenment: The Supremacy of Rationalism]]
+>   - [[#6.1 The Cartesian Foundation: Radical Doubt and the Mathematical Method]]
+>   - [[#6.2 Spinozism: The Geometric Order of Nature]]
+>   - [[#6.3 John Locke and the Empiricist Shift]]
+>   - [[#6.4 The Emergence of the 'Philosophes' and the Republic of Letters]]
+>   - [[#6.5 Voltaire: The Apotheosis of Enlightenment Rationalism]]
+>   - [[#6.6 The Legacy of Rationalism in European Thought]]
+> - [[#7. The Rise of Secularism and the Modern Mind]]
+>   - [[#The Structural Divorce: The Separation of Church and State]]
+>   - [[#The Darwinian Challenge: The Biological Re-centering of Humanity]]
+>   - [[#The Final Transition: The Secularized Intellectual Framework]]
 
 # HIST - Evolution of Intellectual Thought in Europe
 

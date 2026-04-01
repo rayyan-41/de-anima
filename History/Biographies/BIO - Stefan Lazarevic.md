@@ -4,24 +4,22 @@ tags: [history, biography, stefan-lazarevic, historical-analysis, timeline, retr
 footnote: ""
 ---
 
-## Table of Contents
-
-  - [ACT I: The Foundations of a Despot](#act-i-the-foundations-of-a-despot)
-    - [1. Introduction: The Tall Despot of the Serbian Renaissance](#1-introduction-the-tall-despot-of-the-serbian-renaissance)
-    - [2. Childhood and the Aftermath of Kosovo (1377–1389)](#2-childhood-and-the-aftermath-of-kosovo-13771389)
-    - [3. Vassalage and Valour: The Ottoman Apprenticeship (1389–1402)](#3-vassalage-and-valour-the-ottoman-apprenticeship-13891402)
-  - [ACT II: The Rise of the Despotate](#act-ii-the-rise-of-the-despotate)
-    - [4. The Turning Point: The Battle of Ankara and the Byzantine Recognition (1402)](#4-the-turning-point-the-battle-of-ankara-and-the-byzantine-recognition-1402)
-    - [5. Strategic Realignment: The Hungarian Alliance and the Order of the Dragon](#5-strategic-realignment-the-hungarian-alliance-and-the-order-of-the-dragon)
-    - [6. The Resava School: A Literary and Architectural Golden Age](#6-the-resava-school-a-literary-and-architectural-golden-age)
-  - [ACT III: The Final Sovereignty](#act-iii-the-final-sovereignty)
-    - [7. Belgrade: The Transformation of a Border Fortress into a European Capital](#7-belgrade-the-transformation-of-a-border-fortress-into-a-european-capital)
-    - [8. Internal Consolidation: The Branković Rivalry and the Battle of Kosovica](#8-internal-consolidation-the-brankovi-rivalry-and-the-battle-of-kosovica)
-    - [9. The Later Years: Diplomacy, Succession, and the Final Campaigns](#9-the-later-years-diplomacy-succession-and-the-final-campaigns)
-  - [ACT IV: The Immortal Legacy](#act-iv-the-immortal-legacy)
-    - [10. The Man of Letters: 'A Homage to Love' and Serbian Medieval Literature](#10-the-man-of-letters-a-homage-to-love-and-serbian-medieval-literature)
-    - [11. Legacy: The Saint-Prince and the Twilight of Medieval Serbia](#11-legacy-the-saint-prince-and-the-twilight-of-medieval-serbia)
-
+> [!abstract] Table of Contents
+>   - [[#ACT I: The Foundations of a Despot]]
+>     - [[#1. Introduction: The Tall Despot of the Serbian Renaissance]]
+>     - [[#2. Childhood and the Aftermath of Kosovo (1377–1389)]]
+>     - [[#3. Vassalage and Valour: The Ottoman Apprenticeship (1389–1402)]]
+>   - [[#ACT II: The Rise of the Despotate]]
+>     - [[#4. The Turning Point: The Battle of Ankara and the Byzantine Recognition (1402)]]
+>     - [[#5. Strategic Realignment: The Hungarian Alliance and the Order of the Dragon]]
+>     - [[#6. The Resava School: A Literary and Architectural Golden Age]]
+>   - [[#ACT III: The Final Sovereignty]]
+>     - [[#7. Belgrade: The Transformation of a Border Fortress into a European Capital]]
+>     - [[#8. Internal Consolidation: The Branković Rivalry and the Battle of Kosovica]]
+>     - [[#9. The Later Years: Diplomacy, Succession, and the Final Campaigns]]
+>   - [[#ACT IV: The Immortal Legacy]]
+>     - [[#10. The Man of Letters: 'A Homage to Love' and Serbian Medieval Literature]]
+>     - [[#11. Legacy: The Saint-Prince and the Twilight of Medieval Serbia]]
 
 **Metadata & Intro: The Despot of Serbia**
 Stefan Lazarević (c. 1377 – 19 July 1427), also known as Stefan the Tall (*Stevan Visoki*), was the son of Prince Lazar Hrebeljanović and Princess Milica. He ruled Serbia first as Prince (1389–1402) and then as Despot (1402–1427). A figure of immense complexity, Stefan was a paragon of the late medieval European knightly class—a brilliant diplomat, a formidable warrior, and a refined man of letters. 

@@ -41,5 +41,4 @@ i) **Flat Spacetime (Minkowski Equation)**: when spacetime is flat, as is the ma
 ii) **Curved Spacetime**: where $\Gamma^\mu_{\alpha\beta} \neq 0$. Hence, the path followed by an object is a **geodesic**.
 
 ## See Also
-
 - [[_Science - Map of Contents|Science MOC]]
