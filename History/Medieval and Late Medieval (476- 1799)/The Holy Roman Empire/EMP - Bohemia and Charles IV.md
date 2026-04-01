@@ -1,10 +1,7 @@
 ---
-title: "Bohemia and Charles IV"
 date: 2026-04-01
-domain: History
-category: Medieval
-status: complete
 tags: [history, medieval, bohemia-and-charles-iv, ai-generated]
+footnote: ""
 ---
 
 DATE: 2026-02-06
@@ -12,7 +9,7 @@ TAGS: #history #medieval #hre #bohemia #charles-iv #ai-generated
 - - -
 Playing Kingdom Come Deliverance nowadays. The game world is so immersive that I feel compelled to read up on the history of the time it is set during.
 
-Let's begin with the state of Europe at the time. To put it bluntly, Europe was more or less a **fractured continent**, a continent in perpetual motion; a shifting mosaic of ambitions, allegiances, and anxieties. There were no neat borders, no unified nations as we understand them today. Instead, kingdoms overlapped with duchies, church territories carved out their own domains, and the Holy Roman Empire stretched across Central Europe like a threadbare tapestry, impressive from a distance but fraying at every edge.
+Let's begin with the state of Europe at the time. To put it bluntly, Europe was more or less a **fractured continent**, a continent in perpetual motion; a shifting mosaic of ambitions, allegiances, and anxieties. There were no neat borders, no unified nations as we understand them today. Instead, kingdoms overlapped with duchies, church territories carved out their own domains, and [[EMP - The Holy Roman Empire|the Holy Roman Empire]] stretched across Central Europe like a threadbare tapestry, impressive from a distance but fraying at every edge.
 
 The Empire itself was less a coherent state than a political fiction maintained by mutual agreement. A common misconception was that it was an "empire" in the traditional sense when in fact, it was a cauldron of several different mini duchies. Real power belonged not to the emperor but to the regional princes and the seven prince-electors who chose him. In the west, France and England circled each other with growing hostility, their conflict soon to ignite into the **Hundred Years' War**. Meanwhile, an older struggle continued: the eternal question of whether popes or kings truly ruled Christian Europe.
 
@@ -74,3 +71,7 @@ In Bohemia, where resentment of Church corruption ran deep and memories of Charl
 
 The stage was set for an explosion that would consume Bohemia, elevate Sigismund to the imperial throne, and change the nature of religious dissent in Europe forever.
 
+## Related Notes
+
+- [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
+- [[_History - Map of Contents|History MOC]]

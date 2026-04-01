@@ -1,17 +1,14 @@
 ---
-title: "Gaddafi's Libya - The Rise and Fall of the Jamahiriya"
 date: 2026-04-01
-domain: History
-category: Contemporary
-status: complete
 tags: [history, contemporary, gaddafi-s-libya---the-rise-and-fall-of-the-jamahiriya, ai-generated]
+footnote: ""
 ---
 
 DATE: 2026-03-05
 TAGS: #history #contemporary #libya #gaddafi #geopolitics #ai-generated
 - - -
 **Abstract:**
-A comprehensive analytical dissection of Libya under the 42-year rule of **Muammar Gaddafi**. This report serves as a central hub for the Contemporary History section, documenting the transition from a fragmented monarchy to a "State of the Masses" (Jamahiriya), and analyzing the structural stressors that led to the catastrophic 2011 collapse.
+A comprehensive analytical dissection of Libya under the 42-year rule of **[[BIO - Muammar Gaddafi|Muammar Gaddafi]]**. This report serves as a central hub for the Contemporary History section, documenting the transition from a fragmented monarchy to a "State of the Masses" (Jamahiriya), and analyzing the structural stressors that led to the catastrophic 2011 collapse.
 - - -
 ## 1. The Ascent: From the Senussi Wastes to the Al-Fateh Coup
 
@@ -106,3 +103,8 @@ On October 20, 2011, **Muammar Gaddafi** was captured, beaten, and killed by reb
 **The Post-Gaddafi Vacuum:**
 Libya today is the literal embodiment of the "Strongman Paradox." The removal of the autocrat led not to a thriving democracy, but to a "State of Militias." The nation is currently split between rival governments in Tripoli and the East, with dozens of local brigades competing for oil wealth. The water pipes of the Great Man-Made River are aging and under threat, and the universal security of the **Gaddafi** years has been replaced by a decade of instability. **Gaddafi**'s ultimate "ugly" legacy was creating a system that could only survive with him at the center, ensuring that his death would be the death of the state itself.
 - - -
+
+## Related Notes
+
+- [[BIO - Muammar Gaddafi]] — Historical entity referenced in text.
+- [[_History - Map of Contents|History MOC]]

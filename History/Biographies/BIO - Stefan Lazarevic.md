@@ -1,10 +1,7 @@
 ---
-title: "Stefan Lazarevic"
 date: 2026-04-01
-domain: History
-category: Biography
-status: complete
 tags: [history, biography, stefan-lazarevic, ai-generated]
+footnote: ""
 ---
 
 **Metadata & Intro: The Despot of Serbia**
@@ -84,3 +81,7 @@ The death of Stefan Lazarević in 1427 marked the beginning of the final twiligh
 In the long centuries of Ottoman rule that followed the fall of the Despotate in 1459, the image of Stefan Lazarević—the knight-poet, the builder of Belgrade, and the first member of the Order of the Dragon—remained a symbol of lost grandeur and future hope. He is remembered not as a tragic figure, but as a triumphant one; a ruler who, through sheer force of will and diplomatic genius, secured a final "Golden Age" for his people in the face of inevitable conquest. To this day, Stefan remains the patron saint of Belgrade and a central figure in the Serbian national consciousness, embodying the ideal of the warrior who seeks peace and the king who serves the word.
 
 - - -
+
+## Related Notes
+
+- [[_Biographies - Map of Content|Biographies MOC]]

@@ -1,10 +1,7 @@
 ---
-title: "King Sigismund and Bohemia"
 date: 2026-04-01
-domain: History
-category: Medieval
-status: complete
 tags: [history, medieval, king-sigismund-and-bohemia, ai-generated]
+footnote: ""
 ---
 
 DATE: 2026-02-06
@@ -53,7 +50,7 @@ On July 6, 1415, Hus was burned at the stake for heresy against the doctrines of
 ## Bohemia Explodes: The First Defenestration and the Rise of the Hussites
 The news of Hus's execution reached Bohemia like a lit fuse reaching powder. The martyrdom of Jan Hus sparked a violent revolt known as the Hussite Wars, as his followers sought to defend reformist ideals against Catholic authorities. On July 30, 1419, Czech Hussites threw their German magistrates out of a window in Prague's New Town Hall, killing them—the first of Prague's famous defenestrations.
 
-King Wenceslas IV, Sigismund's perpetually ineffective brother, died of shock shortly after hearing about the uprising. Sigismund of Hungary was unable to establish a real government in Bohemia due to the Hussite revolt. In 1419, Sigismund was made King of the Czech Lands by the electors of the Holy Roman Empire, but it was a rather comic election, because more than half of the politically-oriented nobility in Bohemia and Moravia refused to recognize him as their ruler. For the Hussites, Sigismund was not merely a foreign king—he was the man who had betrayed Jan Hus to his death. Pope Martin V issued a Papal bull on March 1, 1420, authorizing the execution of all supporters of Hus and Wycliffe. The stage was set for a crusade.
+King Wenceslas IV, Sigismund's perpetually ineffective brother, died of shock shortly after hearing about the uprising. Sigismund of Hungary was unable to establish a real government in Bohemia due to the Hussite revolt. In 1419, Sigismund was made King of the Czech Lands by the electors of [[EMP - The Holy Roman Empire|the Holy Roman Empire]], but it was a rather comic election, because more than half of the politically-oriented nobility in Bohemia and Moravia refused to recognize him as their ruler. For the Hussites, Sigismund was not merely a foreign king—he was the man who had betrayed Jan Hus to his death. Pope Martin V issued a Papal bull on March 1, 1420, authorizing the execution of all supporters of Hus and Wycliffe. The stage was set for a crusade.
 
 Sigismund tried what every medieval king would try: he collected mercenaries from around Europe and seized Prague with the aim of starving the town and forcing it to capitulate. He commanded armies that should have crushed a peasant rebellion with ease. What he did not count on was Jan Žižka.
 ## The One-Eyed Prophet of War
@@ -126,3 +123,8 @@ Perhaps both are true. Sigismund was a man of his brutal age, playing by its bru
 In the end, his greatest legacy may have been what he tried to prevent: the Hussite movement survived him, proving that reform movements cannot be burned away, that religious truth cannot be settled by councils and crusaders, that the future belonged not to compromising kings but to those willing to die for what they believed.
 
 The fires of Constance lit a path that would lead, a century later, to Wittenberg and Luther's theses. Hus's ashes scattered on the wind, but they seeded the Reformation.
+
+## Related Notes
+
+- [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
+- [[_History - Map of Contents|History MOC]]

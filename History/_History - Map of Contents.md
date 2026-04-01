@@ -1,14 +1,14 @@
 ---
-title: "_History - Map of Contents"
 date: 2026-04-01
-domain: History
-category: Medieval
-status: complete
 tags: [history, medieval, moc, ai-generated]
+footnote: ""
 ---
+The History domain serves as a documentary repository of human events, empires, and ideological shifts. This Map of Contents organizes historical periods, geopolitical movements, and the rise and fall of civilizations across time.
+
 ## Structure
 | Topic Area           | Notes                                                                                                                               | Last Updated |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+| Biographies          | [[_Biographies - Map of Content]]                                                                                                   | 2026-04-01   |
 | The Crusades         | [[The First Crusade]]                                                                                                               | 2026-04-01   |
 | Islamic Golden Age   | [[Islamic Golden Age Scholars]], [[Influence of Islamic Golden Age on the West]]                                                    | 2026-04-01   |
 | Holy Roman Empire    | [[The Holy Roman Empire]], [[Bohemia and Charles IV]], [[King Sigismund and Bohemia]], [[The Great Western Schism]]                 | 2026-04-01   |

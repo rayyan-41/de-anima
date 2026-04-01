@@ -1,10 +1,7 @@
 ---
-title: "Islamic Golden Age Scholars"
 date: 2026-04-01
-domain: History
-category: Medieval
-status: complete
 tags: [history, medieval, islamic-golden-age-scholars, ai-generated]
+footnote: ""
 ---
 
 DATE: 2026-02-06
@@ -17,10 +14,10 @@ This master list chronicles the lives and contributions of the intellectual gian
 
 | **Name**                             | **Primary Fields**           | **Key Contribution / Note**                                                |
 | :----------------------------------- | :--------------------------- | :------------------------------------------------------------------------- |
-| **Al-Ghazali** | Philosophy, Sufism, Theology | Author of *Tahafut al-Falsafa*; reconciled Sufism with Orthodoxy.          |
+| **[[BIO - Al-Ghazali|Al-Ghazali]]** | Philosophy, Sufism, Theology | Author of *Tahafut al-Falsafa*; reconciled Sufism with Orthodoxy.          |
 | **Al-Karaji**                        | Mathematics                  | Freed algebra from its geometric heritage; pioneered induction.            |
 | **Jamshid al-Kishi**                 | Mathematics, Astronomy       | Advanced decimal fractions; calculated 2π to 16 decimal places.            |
-| **Ibn Sina (Avicenna)**              | Medicine, Philosophy         | Author of *The Canon of Medicine*; developed the Flying Man argument.      |
+| **[[BIO - Ibn Sina|Ibn Sina]] (Avicenna)**              | Medicine, Philosophy         | Author of *The Canon of Medicine*; developed the Flying Man argument.      |
 | **Ibn Rushd (Averroes)**             | Philosophy, Law              | The \"Great Commentator\" on Aristotle; author of *The Decisive Treatise*. |
 | **Al-Khwarizmi**                     | Mathematics, Geography       | The \"Father of Algebra\"; source of the term \"Algorithm.\"               |
 | **Ibn al-Haytham**                   | Optics, Physics              | The \"Father of Optics\"; established the scientific method of empiricism. |
@@ -28,3 +25,7 @@ This master list chronicles the lives and contributions of the intellectual gian
 - - -
 *Last Update: 2026-02-06 by GeminiCLI*
 
+## Related Notes
+
+- [[BIO - Al-Ghazali]] — Historical entity referenced in text.
+- [[BIO - Ibn Sina]] — Historical entity referenced in text.

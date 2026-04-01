@@ -1,16 +1,9 @@
 ---
-title:
 date: 2026-04-01
-domain: Reason
-category: Philosophy
-status: complete
-tags:
-  - reason
-  - philosophy
-  - historiography
-  - epistemology
-  - ai-generated
+tags: []
+footnote: ""
 ---
+
 # ARG - The Historical Amnesia of the Islamic Golden Age
 
 ## 1. Introduction: The Myth of the "Dark Ages"

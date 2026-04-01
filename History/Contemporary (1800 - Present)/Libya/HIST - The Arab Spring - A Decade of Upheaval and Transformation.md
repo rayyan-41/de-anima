@@ -1,10 +1,7 @@
 ---
-title: "The Arab Spring - A Decade of Upheaval and Transformation"
 date: 2026-04-01
-domain: History
-category: Contemporary
-status: complete
 tags: [history, contemporary, the-arab-spring---a-decade-of-upheaval-and-transformation, ai-generated]
+footnote: ""
 ---
 
 DATE: 2026-03-05
@@ -24,7 +21,7 @@ The Arab Spring was not a spontaneous combustion but the inevitable rupture of a
 By late 2010, the Arab world was experiencing a demographic phenomenon where over 60% of the population was under the age of 30. This generation—highly literate and digitally connected—faced a labor market dominated by state patronage and a stagnant private sector. The mismatch between educational attainment and economic opportunity created a volatile layer of "educated unemployed."
 
 **Economic Stagnation and Kleptocracy:**
-Under the regimes of **Hosni Mubarak** (Egypt), **Zine El Abidine Ben Ali** (Tunisia), and **Muammar Gaddafi** (Libya), economic growth was concentrated within a narrow elite of crony capitalists. Neoliberal reforms had dismantled social safety nets while enriching regime-connected oligarchs. For the average citizen, the "social contract"—jobs and subsidies in exchange for political passivity—was effectively broken.
+Under the regimes of **Hosni Mubarak** (Egypt), **Zine El Abidine Ben Ali** (Tunisia), and **[[BIO - Muammar Gaddafi|Muammar Gaddafi]]** (Libya), economic growth was concentrated within a narrow elite of crony capitalists. Neoliberal reforms had dismantled social safety nets while enriching regime-connected oligarchs. For the average citizen, the "social contract"—jobs and subsidies in exchange for political passivity—was effectively broken.
 
 **Political Calcification:**
 The region was governed by "Presidents-for-Life" architectures. These regimes were not merely authoritarian; they were petrified. Dissent was managed through pervasive secret police (*mukhabarat*), and the total absence of institutional mechanisms for reform meant that any change would have to be external to the system.
@@ -102,5 +99,9 @@ Following a chaotic year under **Mohamed Morsi**, the military under **Abdel Fat
 The **Assad** regime's refusal to step down, combined with regional proxy intervention, transformed Syria into the 21st century's most severe humanitarian catastrophe.
 - - -
 #### **References**
-- Gaddafi's Libya - The Rise and Fall of the Jamahiriya
+- [[HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya|Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]
 
+## Related Notes
+
+- [[HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya]] — Historical entity referenced in text.
+- [[BIO - Muammar Gaddafi]] — Historical entity referenced in text.
