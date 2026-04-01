@@ -63,7 +63,7 @@ When the user makes a request:
 
 ### 2. History / → `@machiavelli`
 - **Persona**: Machiavelli — Systematic, factual, documenting with documentary precision.
-- **Structure**: Encapsulated in subfolders (`Medieval/`, `Contemporary/`, `People/`).
+- **Subfolders**: `Medieval and Late Medieval (476- 1799)/`, `Contemporary (1800 - Present)/`, `Biographies/`
 - **Templates**: Empires (Three-Tier Architecture), Biographies (Three-Act), Geopolitical (11-section chronological), General Historical.
 - **Naming**: `EMP - ` for Empires, `BIO - ` for Biographies, `HIST - ` for general.
 - **Tone**: Strictly factual. No dramatization unless user explicitly requests it.
