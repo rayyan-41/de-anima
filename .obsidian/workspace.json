@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tmp/hannibal_chunk_03.md",
+                "file": "_tmp/hannibal_chunk_01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "hannibal_chunk_03"
+              "title": "hannibal_chunk_01"
             }
           }
         ]
@@ -214,6 +214,9 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
+    "_tmp/hannibal_legacy_chunk_01.md",
+    "_tmp/hannibal_chunk_01.md",
+    "_tmp/hannibal_chunk_03.md",
     "_tmp/hannibal_chunk_04.md",
     "_tmp/hannibal_chunk_05.md",
     "GEMINI.md",
@@ -223,9 +226,7 @@
     "History/Early and Late Medieval (476- 1799)/Timeline of the Levant under Muslim Rule.md",
     "_tmp/levant_chunk_04.md",
     "_tmp/levant_chunk_01.md",
-    "_tmp/hannibal_chunk_03.md",
     "_tmp/hannibal_chunk_02.md",
-    "_tmp/hannibal_chunk_01.md",
     "_tmp/yolo_execute.ps1",
     "History/Historical Narratives/Hannibal's Legacy - How he was etched in Roman History.md",
     "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
@@ -249,7 +250,6 @@
     "Reason/ARG - The Historical Amnesia of the Islamic Golden Age.md",
     "Reason/ARG - the Epistemic Gap and the Necessity of Revelation.md",
     "Reason/From Descartes to Darwin - Innate Existence of God.md",
-    "Reason/The Julian Star and Intellectualism.md",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
