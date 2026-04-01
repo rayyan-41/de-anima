@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, medieval, bohemia-and-charles-iv, ai-generated]
+tags: [history, medieval, bohemia-and-charles-iv, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -71,7 +71,7 @@ In Bohemia, where resentment of Church corruption ran deep and memories of Charl
 
 The stage was set for an explosion that would consume Bohemia, elevate Sigismund to the imperial throne, and change the nature of religious dissent in Europe forever.
 
-## Related Notes
+## See Also
 
 - [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
 - [[_History - Map of Contents|History MOC]]

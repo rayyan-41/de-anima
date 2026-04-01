@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, biography, galileo-galilei, ai-generated]
+tags: [history, biography, galileo-galilei, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -149,7 +149,7 @@ Galileo was not a saint; he was a brilliantly flawed human being.
 - - -
 *Related Notes:* BIO - Johannes Kepler, BIO - Isaac Newton, SCI - Astronomy Master List, HIST - [[EMP - The Holy Roman Empire|The Holy Roman Empire]], REAS - Chain Of Thoughts
 
-## Related Notes
+## See Also
 
 - [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
 - [[_Biographies - Map of Content|Biographies MOC]]

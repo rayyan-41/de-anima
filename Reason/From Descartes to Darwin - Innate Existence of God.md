@@ -1,6 +1,6 @@
 ---
 date: 2026-02-03
-tags: [reason, philosophy, chainofthoughts, descartes, darwin, god, ai-generated]
+tags: [reason, philosophy, chainofthoughts, descartes, darwin, god, thought-experiment, logic, analysis, perspective, ai-generated]
 footnote: ""
 ---
 

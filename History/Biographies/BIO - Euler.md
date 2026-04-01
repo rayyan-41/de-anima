@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, biography, euler, ai-generated]
+tags: [history, biography, euler, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -168,7 +168,7 @@ The influence of Leonhard Euler on the subsequent generations of scientists is i
 
 Euler did not just solve problems; he built the Cathedral of Modern Science. He took the scattered bricks of ancient and early modern knowledge and mortared them with the logic of analysis. Today, every time an engineer balances a bridge, every time a physicist calculates a particle trajectory, and every time a student uses a function, they are walking in the light of the infinite legacy left by the man who was, truly, the Analysis Incarnate.
 
-## Related Notes
+## See Also
 
 - [[MATH - The Riemann Hypothesis]] — Historical entity referenced in text.
 - [[BIO - Jacob Bernoulli]] — Historical entity referenced in text.

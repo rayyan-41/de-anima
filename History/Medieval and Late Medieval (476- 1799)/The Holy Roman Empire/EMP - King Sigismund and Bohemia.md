@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, medieval, king-sigismund-and-bohemia, ai-generated]
+tags: [history, medieval, king-sigismund-and-bohemia, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -124,7 +124,7 @@ In the end, his greatest legacy may have been what he tried to prevent: the Huss
 
 The fires of Constance lit a path that would lead, a century later, to Wittenberg and Luther's theses. Hus's ashes scattered on the wind, but they seeded the Reformation.
 
-## Related Notes
+## See Also
 
 - [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
 - [[_History - Map of Contents|History MOC]]

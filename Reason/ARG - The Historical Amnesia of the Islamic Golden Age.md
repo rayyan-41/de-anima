@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: []
+tags: [philosophy, thought-experiment, logic, analysis, perspective, reflection, epistemology, concepts, human-condition, reasoning, ai-generated]
 footnote: ""
 ---
 

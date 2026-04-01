@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reason/_Reason - Map of Contents.md",
+                "file": "History/HIST - Evolution of Intellectual Thought in Europe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "_Reason - Map of Contents"
+              "title": "HIST - Evolution of Intellectual Thought in Europe"
             }
           }
         ]
@@ -214,13 +214,15 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
+    "update_tags.js",
+    "History/Biographies/_Biographies - Map of Content.md",
+    "Reason/_Reason - Map of Contents.md",
     "Reason/ARG - The Historical Amnesia of the Islamic Golden Age.md",
     "Reason/ARG - the Epistemic Gap and the Necessity of Revelation.md",
     "Reason/From Descartes to Darwin - Innate Existence of God.md",
     "Reason/The Julian Star and Intellectualism.md",
     "Reason/Evolution of Metaphysics in Islam.md",
     "Reason/An Effort to Understand Iqbal.md",
-    "Reason/_Reason - Map of Contents.md",
     "History/HIST - Evolution of Intellectual Thought in Europe.md",
     "VAULT_CONTEXT_GEMINI .md",
     "GEMINI - Copy.md",
@@ -235,7 +237,6 @@
     "History/_History - Map of Contents.md",
     "History/Contemporary (1800 - Present)/Libya/The Arab Spring - A Decade of Upheaval and Transformation.md",
     "History/Contemporary (1800 - Present)/Libya/Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md",
-    "History/Biographies/_Biographies - Map of Content.md",
     "History/Contemporary (1800 - Present)/Libya",
     "History/Medieval and Late Medieval (476- 1799)/The Great Western Schism.md",
     "History/Medieval and Late Medieval (476- 1799)/The Ottoman Empire/OTT- The Ottomans in the Balkans.md",
@@ -243,7 +244,6 @@
     "History/Medieval and Late Medieval (476- 1799)/The Crusades/HIST - The First Crusade.md",
     "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/EMP - The Holy Roman Empire.md",
     "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/HRE- Bohemia and Charles IV.md",
-    "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/HRE- King Sigismund and Bohemia.md",
     "_tmp/assemble.js",
     "_tmp",
     "Islam/Fiqh/Contemporary",

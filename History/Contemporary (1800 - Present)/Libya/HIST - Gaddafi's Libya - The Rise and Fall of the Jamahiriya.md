@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, contemporary, gaddafi-s-libya---the-rise-and-fall-of-the-jamahiriya, ai-generated]
+tags: [history, contemporary, gaddafi-s-libya---the-rise-and-fall-of-the-jamahiriya, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -104,7 +104,7 @@ On October 20, 2011, **Muammar Gaddafi** was captured, beaten, and killed by reb
 Libya today is the literal embodiment of the "Strongman Paradox." The removal of the autocrat led not to a thriving democracy, but to a "State of Militias." The nation is currently split between rival governments in Tripoli and the East, with dozens of local brigades competing for oil wealth. The water pipes of the Great Man-Made River are aging and under threat, and the universal security of the **Gaddafi** years has been replaced by a decade of instability. **Gaddafi**'s ultimate "ugly" legacy was creating a system that could only survive with him at the center, ensuring that his death would be the death of the state itself.
 - - -
 
-## Related Notes
+## See Also
 
 - [[BIO - Muammar Gaddafi]] — Historical entity referenced in text.
 - [[_History - Map of Contents|History MOC]]

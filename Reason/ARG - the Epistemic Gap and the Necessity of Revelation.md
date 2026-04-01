@@ -1,6 +1,6 @@
 ---
 date: 2026-03-25
-tags: [reason, epistemology, psychology, revelation, avicenna, ghazali, kant, godel, argument, ai-generated]
+tags: [reason, epistemology, psychology, revelation, avicenna, ghazali, kant, godel, argument, philosophy, ai-generated]
 footnote: ""
 ---
 

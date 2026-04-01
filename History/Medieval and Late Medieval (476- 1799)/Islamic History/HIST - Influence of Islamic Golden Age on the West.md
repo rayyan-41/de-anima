@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, medieval, influence-of-islamic-golden-age-on-the-west, ai-generated]
+tags: [history, medieval, influence-of-islamic-golden-age-on-the-west, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -146,7 +146,7 @@ In conclusion, the Islamic Golden Age was the indispensable prerequisite for the
 
 - - -
 
-## Related Notes
+## See Also
 
 - [[BIO - Galileo Galilei]] — Historical entity referenced in text.
 - [[BIO - Al-Ghazali]] — Historical entity referenced in text.

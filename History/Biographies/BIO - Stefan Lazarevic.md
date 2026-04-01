@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, biography, stefan-lazarevic, ai-generated]
+tags: [history, biography, stefan-lazarevic, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -82,6 +82,6 @@ In the long centuries of Ottoman rule that followed the fall of the Despotate in
 
 - - -
 
-## Related Notes
+## See Also
 
 - [[_Biographies - Map of Content|Biographies MOC]]

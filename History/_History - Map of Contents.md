@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, medieval, moc, ai-generated]
+tags: [history, medieval, moc, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 The History domain serves as a documentary repository of human events, empires, and ideological shifts. This Map of Contents organizes historical periods, geopolitical movements, and the rise and fall of civilizations across time.

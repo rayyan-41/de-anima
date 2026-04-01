@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, biography, moc, ai-generated]
+tags: [history, biography, moc, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 The Biographies section isolates the lives of pivotal individuals—scientists, philosophers, and leaders—who have shaped the course of history. This Map of Contents indexes the lives of notable figures for quick reference and cross-domain linking.

@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, medieval, the-ottomans-in-the-balkans, ai-generated]
+tags: [history, medieval, the-ottomans-in-the-balkans, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -443,7 +443,7 @@ The Ottoman presence in the Balkans is thus not a closed chapter of history but 
 
 - - -
 
-## Related Notes
+## See Also
 
 - [[Lexicon]] — Historical entity referenced in text.
 - [[_History - Map of Contents|History MOC]]

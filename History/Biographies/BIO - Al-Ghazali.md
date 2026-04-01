@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, biography, al-ghazali, ai-generated]
+tags: [history, biography, al-ghazali, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
 ---
 
@@ -10,6 +10,6 @@ TAGS: #history #biography #islamic-golden-age #philosophy #al-ghazali
 **Real Name:** Abu Hamid Muhammad ibn Muhammad ibn Ahmad Al-Tusi Al-Ghazali
 **Born:** 1058, Tus, Iran.
 
-## Related Notes
+## See Also
 
 - [[_Biographies - Map of Content|Biographies MOC]]

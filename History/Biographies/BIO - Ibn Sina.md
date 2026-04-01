@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, biography, philosophy, medicine, islamic-golden-age, ai-generated]
+tags: [history, biography, philosophy, medicine, islamic-golden-age, historical-analysis, timeline, retrospective, documentation, records, ai-generated]
 footnote: ""
 ---
 
@@ -137,7 +137,7 @@ He identified "love-sickness" (*al-ishq*) as a clinical condition, which he diag
 
 - - -
 
-## Related Notes
+## See Also
 
 - [[BIO - Euclid]] — Historical entity referenced in text.
 - [[_Biographies - Map of Content|Biographies MOC]]
