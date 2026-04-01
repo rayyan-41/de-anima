@@ -11,10 +11,15 @@
             "id": "98ad38a5c76234ba",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "History/_History - Map of Contents.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "_History - Map of Contents"
             }
           }
         ]
@@ -209,7 +214,11 @@
   },
   "active": "98ad38a5c76234ba",
   "lastOpenFiles": [
-    "History/The Great Western Schism.md",
+    "History/Contemporary (1800 - Present)/Libya/The Arab Spring - A Decade of Upheaval and Transformation.md",
+    "History/Contemporary (1800 - Present)/Libya/Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md",
+    "History/Biographies/_Biographies - Map of Content.md",
+    "History/Contemporary (1800 - Present)/Libya",
+    "History/Medieval and Late Medieval (476- 1799)/The Great Western Schism.md",
     "History/Medieval and Late Medieval (476- 1799)/The Ottoman Empire/OTT- The Ottomans in the Balkans.md",
     "History/Medieval and Late Medieval (476- 1799)/The Crusades",
     "History/Medieval and Late Medieval (476- 1799)/The Crusades/HIST - The First Crusade.md",
@@ -234,8 +243,6 @@
     "_tmp/historical-amnesia_chunk_02.md",
     "_tmp/historical-amnesia_chunk_03.md",
     "_tmp/historical-amnesia_chunk_01.md",
-    "_tmp/historical-amnesia_chunk_06.md",
-    "_tmp/historical-amnesia_chunk_04.md",
     "_tmp",
     "Islam/Fiqh/Contemporary",
     "Islam/Aqeedah",
@@ -243,7 +250,6 @@
     "generate.js",
     "Islam/Fiqh/Ibadat",
     "Islam/Fiqh",
-    "Islam",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
