@@ -11,15 +11,10 @@
             "id": "98ad38a5c76234ba",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "History/Medieval and Late Medieval (476- 1799)/Islamic History/Untitled.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -214,18 +209,22 @@
   },
   "active": "98ad38a5c76234ba",
   "lastOpenFiles": [
-    "History/_History - Map of Contents.md",
-    "History/Medieval and Late Medieval (476- 1799)/Islamic History/Untitled.md",
+    "History/The Great Western Schism.md",
+    "History/Medieval and Late Medieval (476- 1799)/The Ottoman Empire/OTT- The Ottomans in the Balkans.md",
+    "History/Medieval and Late Medieval (476- 1799)/The Crusades",
+    "History/Medieval and Late Medieval (476- 1799)/The Crusades/HIST - The First Crusade.md",
     "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/EMP - The Holy Roman Empire.md",
+    "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/HRE- Bohemia and Charles IV.md",
+    "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/HRE- King Sigismund and Bohemia.md",
+    "_tmp/intellectual-thought_chunk_05.md",
+    "History/Medieval and Late Medieval (476- 1799)/Islamic History/HIST - Islamic Golden Age Scholars.md",
+    "History/Medieval and Late Medieval (476- 1799)/Islamic History/Untitled.md",
+    "History/_History - Map of Contents.md",
     "_tmp/intellectual-thought_chunk_06.md",
     "_tmp/intellectual-thought_chunk_01.md",
     "_tmp/intellectual-thought_chunk_02.md",
     "_tmp/intellectual-thought_chunk_03.md",
     "_tmp/intellectual-thought_chunk_07.md",
-    "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/HIST - Bohemia and Charles IV.md",
-    "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/HIST - King Sigismund and Bohemia.md",
-    "History/Medieval and Late Medieval (476- 1799)/The Holy Roman Empire/HIST - The Great Western Schism.md",
-    "History/Medieval and Late Medieval (476- 1799)/The Ottoman Empire/Ott - The Ottomans in the Balkans.md",
     "History/Medieval/The Ottoman Empire/HIST - Ottomans in the Balkans.md",
     "History/Medieval/The Ottoman Empire/HIST - Ottoman Notable Battles.md",
     "Reason/ARG - The Historical Amnesia of the Islamic Golden Age.md",
@@ -237,10 +236,6 @@
     "_tmp/historical-amnesia_chunk_01.md",
     "_tmp/historical-amnesia_chunk_06.md",
     "_tmp/historical-amnesia_chunk_04.md",
-    "_tmp/historical-amnesia_chunk_05.md",
-    "Literature/_Literature - Map of Contents.md",
-    "Literature/Reference/Quotes.md",
-    "Literature/Reference/LIT - The Green Book.md",
     "_tmp",
     "Islam/Fiqh/Contemporary",
     "Islam/Aqeedah",
@@ -249,7 +244,6 @@
     "Islam/Fiqh/Ibadat",
     "Islam/Fiqh",
     "Islam",
-    "final-fix.js",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
