@@ -1,6 +1,10 @@
 ---
-DATE: 2026-03-31
-TAGS: #history #medieval #islamic-golden-age #renaissance #enlightenment #scientific-revolution #transmission-of-knowledge #ai-generated
+title: "Influence of Islamic Golden Age on the West"
+date: 2026-04-01
+domain: History
+category: Medieval
+status: complete
+tags: [history, medieval, influence-of-islamic-golden-age-on-the-west, ai-generated]
 ---
 
 # The Islamic Golden Age: Foundations of the Renaissance and Enlightenment

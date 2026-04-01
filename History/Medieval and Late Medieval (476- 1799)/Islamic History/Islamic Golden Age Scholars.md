@@ -1,3 +1,12 @@
+---
+title: "Islamic Golden Age Scholars"
+date: 2026-04-01
+domain: History
+category: Medieval
+status: complete
+tags: [history, medieval, islamic-golden-age-scholars, ai-generated]
+---
+
 DATE: 2026-02-06
 TAGS: #history #islamic-golden-age #scholar #reference #ai-generated
 - - -
@@ -8,7 +17,7 @@ This master list chronicles the lives and contributions of the intellectual gian
 
 | **Name**                             | **Primary Fields**           | **Key Contribution / Note**                                                |
 | :----------------------------------- | :--------------------------- | :------------------------------------------------------------------------- |
-| **[[BIO - Al-Ghazali\|Al-Ghazali]]** | Philosophy, Sufism, Theology | Author of *Tahafut al-Falsafa*; reconciled Sufism with Orthodoxy.          |
+| **Al-Ghazali** | Philosophy, Sufism, Theology | Author of *Tahafut al-Falsafa*; reconciled Sufism with Orthodoxy.          |
 | **Al-Karaji**                        | Mathematics                  | Freed algebra from its geometric heritage; pioneered induction.            |
 | **Jamshid al-Kishi**                 | Mathematics, Astronomy       | Advanced decimal fractions; calculated 2π to 16 decimal places.            |
 | **Ibn Sina (Avicenna)**              | Medicine, Philosophy         | Author of *The Canon of Medicine*; developed the Flying Man argument.      |
@@ -18,3 +27,4 @@ This master list chronicles the lives and contributions of the intellectual gian
 
 - - -
 *Last Update: 2026-02-06 by GeminiCLI*
+

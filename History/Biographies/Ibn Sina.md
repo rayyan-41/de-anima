@@ -1,11 +1,10 @@
 ---
-date: 2026-02-19
-tags:
-  - history
-  - biography
-  - philosophy
-  - medicine
-  - islamic-golden-age
+title: "Ibn Sina"
+date: 2026-04-01
+domain: History
+category: Biography
+status: complete
+tags: [history, biography, philosophy, medicine, islamic-golden-age, ai-generated]
 ---
 
 # Ibn Sina (Avicenna): The Prince of Physicians and the Peak of Logic

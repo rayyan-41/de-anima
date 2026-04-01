@@ -1,3 +1,12 @@
+---
+title: "King Sigismund and Bohemia"
+date: 2026-04-01
+domain: History
+category: Medieval
+status: complete
+tags: [history, medieval, king-sigismund-and-bohemia, ai-generated]
+---
+
 DATE: 2026-02-06
 TAGS: #history #personality #hre #bohemia #sigismund #ai-generated
 - - -

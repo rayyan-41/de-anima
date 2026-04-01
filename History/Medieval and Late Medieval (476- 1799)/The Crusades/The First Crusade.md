@@ -1,17 +1,18 @@
 ---
-tags:
-  - history
-  - medieval
-  - crusades
-  - ai-generated
+title: "The First Crusade"
+date: 2026-04-01
+domain: History
+category: Medieval
+status: complete
+tags: [history, medieval, crusades, ai-generated]
 ---
 
 | The First Crusade | |
 | :--- | :--- |
 | **Dates** | 1095 – 1099 |
 | **Location** | Anatolia, Levant, Jerusalem |
-| **Belligerents** | Western Crusaders, [[Byzantine Empire]] <br> vs. <br> [[Seljuk Empire]], [[Fatimid Caliphate]] |
-| **Key Figures** | [[Pope Urban II]], [[Alexios I Komnenos]], Peter the Hermit, Godfrey of Bouillon, Kilij Arslan I |
+| **Belligerents** | Western Crusaders, Byzantine Empire <br> vs. <br> Seljuk Empire, Fatimid Caliphate |
+| **Key Figures** | Pope Urban II, Alexios I Komnenos, Peter the Hermit, Godfrey of Bouillon, Kilij Arslan I |
 | **Outcome** | Decisive Crusader victory; establishment of the Crusader States. |
 
 ```mermaid
@@ -26,7 +27,7 @@ timeline
 
 ## The State of the World: 11th Century Geopolitics (Byzantines, Seljuks, the Papacy)
 
-The geopolitical landscape of the late eleventh century was characterized by significant realignments of power across the Mediterranean and the broader Near East, setting the structural preconditions for the First Crusade. The primary actors in this theater were the Byzantine Empire, the ascendant Seljuk Empire, and the [[Papacy]] in Western Europe, each navigating internal crises and external pressures that culminated in the events of 1095.
+The geopolitical landscape of the late eleventh century was characterized by significant realignments of power across the Mediterranean and the broader Near East, setting the structural preconditions for the First Crusade. The primary actors in this theater were the Byzantine Empire, the ascendant Seljuk Empire, and the Papacy in Western Europe, each navigating internal crises and external pressures that culminated in the events of 1095.
 
 ### The Byzantine Empire and the Seljuk Threat
 The Byzantine Empire, historically the dominant Christian power in the Eastern Mediterranean, had experienced a severe territorial and political crisis in the latter half of the eleventh century. Following a period of relative stability and expansion under the Macedonian dynasty, the empire faced internal factionalism and military deterioration. This weakness was acutely exposed by the migration and military expansion of the Seljuk Turks, a Sunni Muslim, Oghuz Turkic tribal confederation that had recently established a vast empire encompassing Persia, Mesopotamia, and the Levant.
@@ -44,7 +45,7 @@ In Anatolia, Kilij Arslan I ruled the Sultanate of Rum, frequently at odds with 
 > Jerusalem, a city of profound religious significance to Judaism, Christianity, and Islam, had changed hands multiple times. Captured by the Seljuks from the Fatimids in the 1070s, traditional pilgrimage routes for Western Christians were disrupted. Although historical evidence suggests outright persecution was sporadic rather than systemic, the political instability made the journey significantly more dangerous, fueling the narrative of Christian suffering utilized by the Papacy.
 
 ### The Papacy and Western European Dynamics
-In Western Europe, the late eleventh century was marked by the Investiture Controversy, a profound ideological and political conflict between the Papacy and the [[EMP - The Holy Roman Empire]] regarding the authority to appoint church officials. Popes such as Gregory VII and his successor Pope Urban II sought to assert the supremacy of spiritual authority over secular rulers, aiming to reform the Church and consolidate papal power.
+In Western Europe, the late eleventh century was marked by the Investiture Controversy, a profound ideological and political conflict between the Papacy and the EMP - The Holy Roman Empire regarding the authority to appoint church officials. Popes such as Gregory VII and his successor Pope Urban II sought to assert the supremacy of spiritual authority over secular rulers, aiming to reform the Church and consolidate papal power.
 
 Pope Urban II, facing a rival antipope (Clement III) supported by the Holy Roman Emperor Henry IV, required mechanisms to assert his legitimacy and unify the fractured nobility of Western Europe under papal leadership. The societal structure of the West was characterized by an entrenched, militarized aristocracy engaged in endemic localized warfare. The Church had previously attempted to mitigate this violence through movements such as the Peace of God and the Truce of God, which sought to limit warfare on certain days and protect non-combatants, with limited success.
 
@@ -60,17 +61,17 @@ When Alexios I Komnenos requested a relatively modest force of western mercenari
 
 ## The Council of Clermont and the Call to Arms
 
-The formal genesis of the First Crusade is localized to the Council of Clermont, a synod of ecclesiastics and laymen convened by [[Pope Urban II]] in November 1095. While the council initially addressed standard matters of church reform—such as the Cluniac reforms, clerical celibacy, and the continuation of the Investiture Controversy—its historical significance rests entirely on Urban's sermon delivered on November 27. This address transformed a diplomatic request for military aid from Emperor [[Alexios I Komnenos]] into a mass armed pilgrimage, introducing a novel synthesis of holy war and penitential devotion to Western Christendom.
+The formal genesis of the First Crusade is localized to the Council of Clermont, a synod of ecclesiastics and laymen convened by Pope Urban II in November 1095. While the council initially addressed standard matters of church reform—such as the Cluniac reforms, clerical celibacy, and the continuation of the Investiture Controversy—its historical significance rests entirely on Urban's sermon delivered on November 27. This address transformed a diplomatic request for military aid from Emperor Alexios I Komnenos into a mass armed pilgrimage, introducing a novel synthesis of holy war and penitential devotion to Western Christendom.
 
 ### The Diplomatic Prelude: The Council of Piacenza
-The ideological foundation for Clermont was laid earlier that year at the Council of Piacenza in March 1095. There, envoys from Alexios I Komnenos presented a direct appeal to Urban II and the assembled bishops. The Byzantine delegation detailed the territorial losses in Anatolia to the [[Seljuk Empire]] and emphasized the imminent threat to Eastern Christians, warning that without Western assistance, Constantinople itself might fall. 
+The ideological foundation for Clermont was laid earlier that year at the Council of Piacenza in March 1095. There, envoys from Alexios I Komnenos presented a direct appeal to Urban II and the assembled bishops. The Byzantine delegation detailed the territorial losses in Anatolia to the Seljuk Empire and emphasized the imminent threat to Eastern Christians, warning that without Western assistance, Constantinople itself might fall. 
 
-Alexios's request was fundamentally traditional: he sought mercenary contingents from the West, specifically targeting the Norman and Frankish aristocracy whose martial prowess the Byzantines both respected and feared. Urban II received this appeal favorably. Supporting the Byzantines offered the [[Papacy]] a means to assert its authority over the Eastern Church, potentially healing the Great Schism of 1054, while simultaneously redirecting the systemic violence of Western European knights toward an external theater. Following Piacenza, Urban embarked on a strategic tour of France, carefully preparing the ground for a broader proclamation.
+Alexios's request was fundamentally traditional: he sought mercenary contingents from the West, specifically targeting the Norman and Frankish aristocracy whose martial prowess the Byzantines both respected and feared. Urban II received this appeal favorably. Supporting the Byzantines offered the Papacy a means to assert its authority over the Eastern Church, potentially healing the Great Schism of 1054, while simultaneously redirecting the systemic violence of Western European knights toward an external theater. Following Piacenza, Urban embarked on a strategic tour of France, carefully preparing the ground for a broader proclamation.
 
 ### The Sermon at Clermont
 On November 27, 1095, in a field outside the eastern gate of Clermont, Urban II addressed a massive crowd of clerics and nobles. No exact transcript of Urban’s speech survives; the accounts we possess—written by chroniclers such as Fulcher of Chartres, Robert the Monk, Baldric of Dol, and Guibert of Nogent—were recorded years later, heavily influenced by the subsequent success of the crusade. However, a comparative analysis of these texts reveals the core rhetorical strategies Urban employed.
 
-Urban systematically utilized graphic, often exaggerated, accounts of Seljuk atrocities against Eastern Christians and the desecration of holy sites to evoke outrage. He explicitly framed the [[Byzantine Empire]] as a defensive bulwark of Christendom that was currently failing. The papacy shifted the strategic objective away from mere mercenary assistance for Alexios; instead, the ultimate goal was defined as the liberation of Jerusalem and the Church of the Holy Sepulchre.
+Urban systematically utilized graphic, often exaggerated, accounts of Seljuk atrocities against Eastern Christians and the desecration of holy sites to evoke outrage. He explicitly framed the Byzantine Empire as a defensive bulwark of Christendom that was currently failing. The papacy shifted the strategic objective away from mere mercenary assistance for Alexios; instead, the ultimate goal was defined as the liberation of Jerusalem and the Church of the Holy Sepulchre.
 
 > [!quote]- The Rallying Cry
 > The crowd reportedly responded with the spontaneous chant, *"Deus vult!"* ("God wills it!"), which became the rallying cry of the movement.
@@ -111,32 +112,32 @@ The ideological fervor of the People's Crusade quickly mutated into localized vi
 > In the spring of 1096, these contingents initiated a systematic campaign of pogroms against the Jewish populations of Speyer, Worms, Mainz, and Cologne. Despite the protective interventions of local bishops, the crusader mobs breached the episcopal palaces and slaughtered thousands. These massacres represent some of the earliest recorded instances of widespread, ideologically driven anti-Semitic violence in medieval Europe.
 
 ### The Journey Through the Balkans
-The main bodies of the People's Crusade, led sequentially by Walter Sans Avoir and Peter the Hermit, began their march through the Kingdom of Hungary and into the [[Byzantine Empire]] via the Balkans. The lack of provisions immediately triggered conflict. As the massive, starving host moved through Byzantine territories such as Belgrade and Niš, they resorted to pillaging local villages and farms to survive.
+The main bodies of the People's Crusade, led sequentially by Walter Sans Avoir and Peter the Hermit, began their march through the Kingdom of Hungary and into the Byzantine Empire via the Balkans. The lack of provisions immediately triggered conflict. As the massive, starving host moved through Byzantine territories such as Belgrade and Niš, they resorted to pillaging local villages and farms to survive.
 
 The Byzantine provincial governors, entirely unprepared for the premature arrival of a volatile, unsupplied mob instead of a disciplined mercenary army, responded with military force. Clashes erupted between the crusaders and Byzantine border garrisons, notably the Pecheneg and Hungarian mercenaries employed by the Empire. 
 
-By the time the fractured remnants of the People's Crusade reached Constantinople in the summer of 1096, Emperor [[Alexios I Komnenos]] was confronted with a severe logistical and diplomatic crisis. Recognizing the military uselessness and the destabilizing potential of the mob, Alexios rapidly ferried them across the Bosporus to the Anatolian shore, specifically advising Peter the Hermit to wait for the arrival of the heavily armed Western nobility before engaging the Seljuks.
+By the time the fractured remnants of the People's Crusade reached Constantinople in the summer of 1096, Emperor Alexios I Komnenos was confronted with a severe logistical and diplomatic crisis. Recognizing the military uselessness and the destabilizing potential of the mob, Alexios rapidly ferried them across the Bosporus to the Anatolian shore, specifically advising Peter the Hermit to wait for the arrival of the heavily armed Western nobility before engaging the Seljuks.
 
 ### Annihilation in Anatolia
 Once in Anatolia, the crusaders established a base at the camp of Civetot, near the Seljuk capital of Nicaea. Discipline completely collapsed. Ignoring Byzantine warnings, splinter groups of French and German contingents began launching uncoordinated, predatory raids into Seljuk territory, pillaging local Greek Christian villages with the same ferocity they intended for the Muslims.
 
 In October 1096, hearing rumors of the fall of Nicaea, the main body of the People's Crusade marched out from Civetot. They were immediately ambushed by the forces of Sultan Kilij Arslan I in a narrow valley near the village of Dracon. The lightly armed, unarmored mob was annihilated by Seljuk horse archers. Thousands were slaughtered, and the survivors were enslaved. 
 
-The People's Crusade demonstrated the lethal consequences of ideological mobilization decoupled from logistical reality and military discipline. It provided the [[Seljuk Empire]] with a dangerously low estimation of Western military capability, a miscalculation that would prove critical when the disciplined, heavily armored armies of the Princes' Crusade arrived the following year.
+The People's Crusade demonstrated the lethal consequences of ideological mobilization decoupled from logistical reality and military discipline. It provided the Seljuk Empire with a dangerously low estimation of Western military capability, a miscalculation that would prove critical when the disciplined, heavily armored armies of the Princes' Crusade arrived the following year.
 
 ## The Princes' Crusade: The Aristocratic Armies and Journey to Constantinople
 
 While the People's Crusade disintegrated in Anatolia, the primary military instrument of the First Crusade—the armies of the Western European nobility—was mobilizing. This force, retrospectively termed the Princes' Crusade, did not constitute a single, unified army under a unified command structure. Instead, it was a coalition of distinct, highly organized feudal contingents, each commanded by a prominent regional magnate and accompanied by its own retinue of knights, infantry, logistics trains, and non-combatant pilgrims.
 
 ### The Major Contingents and their Commanders
-The socio-political geography of late eleventh-century Europe dictated the composition of these armies. No crowned king participated in the First Crusade; King Philip I of France and Holy Roman Emperor Henry IV were both excommunicated by [[Pope Urban II]] at the time, and King William II of England was engaged in domestic consolidation. The leadership thus devolved to the upper echelons of the regional aristocracy, primarily from France, Norman Italy, and the Low Countries.
+The socio-political geography of late eleventh-century Europe dictated the composition of these armies. No crowned king participated in the First Crusade; King Philip I of France and Holy Roman Emperor Henry IV were both excommunicated by Pope Urban II at the time, and King William II of England was engaged in domestic consolidation. The leadership thus devolved to the upper echelons of the regional aristocracy, primarily from France, Norman Italy, and the Low Countries.
 
 Four primary contingents emerged, departing Europe in late summer and autumn of 1096:
 
-1. **The Northern French and Lotharingians:** Commanded by Godfrey of Bouillon, Duke of Lower Lorraine, and his brothers Eustace of Boulogne and Baldwin of Boulogne. This force was heavily influenced by the Germanic military traditions of the [[EMP - The Holy Roman Empire]] and included significant contingents of infantry.
+1. **The Northern French and Lotharingians:** Commanded by Godfrey of Bouillon, Duke of Lower Lorraine, and his brothers Eustace of Boulogne and Baldwin of Boulogne. This force was heavily influenced by the Germanic military traditions of the EMP - The Holy Roman Empire and included significant contingents of infantry.
 2. **The Southern French (Provençals):** Led by Raymond IV, Count of Toulouse, the wealthiest and oldest of the secular leaders. He was accompanied by Adhemar of Le Puy, the papal legate, which gave his army a strong claim to spiritual primacy.
 3. **The Northern French (Francians):** A coalition commanded by Hugh of Vermandois (brother of King Philip I of France), Robert Curthose (Duke of Normandy and brother of the English King), and Stephen, Count of Blois. This contingent represented the heartland of French feudalism.
-4. **The Southern Italian Normans:** Commanded by Bohemond of Taranto and his nephew Tancred. These men were veterans of previous Norman campaigns against the [[Byzantine Empire]] in the Balkans, possessing unparalleled tactical experience against Byzantine and Islamic forces, but generating intense suspicion in Constantinople.
+4. **The Southern Italian Normans:** Commanded by Bohemond of Taranto and his nephew Tancred. These men were veterans of previous Norman campaigns against the Byzantine Empire in the Balkans, possessing unparalleled tactical experience against Byzantine and Islamic forces, but generating intense suspicion in Constantinople.
 
 The total strength of these combined forces is a subject of ongoing historiographical debate, but modern estimates suggest a formidable host of approximately 60,000 to 90,000 individuals, of which roughly 7,000 to 10,000 were heavily armored knights. 
 
@@ -146,7 +147,7 @@ The logistics of moving such a massive, multi-national force across Europe were 
 Financing the expedition required massive capital liquidation. Lords and knights mortgaged or sold their estates, castles, and rights to the Church or to secular rivals to afford armor, horses, and provisions for their retinues. This sudden transfer of wealth accelerated the monetization of the European economy and strengthened the political position of the institutions—primarily the Church and emerging monarchies—that remained behind to purchase these assets.
 
 ### Arrival in Constantinople and the Oath to Alexios
-Between late 1096 and the spring of 1097, the various crusader armies converged on Constantinople. The arrival of this immense, heavily armed coalition presented a critical diplomatic and security challenge for Emperor [[Alexios I Komnenos]]. He had requested a controllable auxiliary force of perhaps a few thousand mercenaries; instead, he was presented with a massive, independent coalition possessing the military capacity to threaten the Byzantine capital itself. Furthermore, the presence of his old enemy, Bohemond of Taranto, heightened Byzantine anxieties.
+Between late 1096 and the spring of 1097, the various crusader armies converged on Constantinople. The arrival of this immense, heavily armed coalition presented a critical diplomatic and security challenge for Emperor Alexios I Komnenos. He had requested a controllable auxiliary force of perhaps a few thousand mercenaries; instead, he was presented with a massive, independent coalition possessing the military capacity to threaten the Byzantine capital itself. Furthermore, the presence of his old enemy, Bohemond of Taranto, heightened Byzantine anxieties.
 
 Alexios’s primary strategic objective was to harness this Western military power to recover lost Byzantine territories in Anatolia, while ensuring the crusaders did not establish independent, hostile states on his borders or plunder his domains. To achieve this, he utilized a combination of financial bribery, logistical control, and diplomatic leverage. He refused to allow the entire crusader host to mass outside Constantinople at once, rapidly ferrying each contingent across the Bosporus to Asia Minor upon their arrival.
 
@@ -154,7 +155,7 @@ Crucially, Alexios demanded that the crusade leaders swear an oath of fealty to 
 
 The demand for an oath provoked significant friction. The Western lords, accustomed to feudal relationships based on mutual obligation, were deeply suspicious of Byzantine statecraft. Raymond of Toulouse vehemently refused to swear the primary oath, offering only a modified pledge not to harm the Emperor’s life or honor. Godfrey of Bouillon initially resisted but capitulated after Alexios temporarily cut off his supplies and skirmishes erupted outside the city walls. Bohemond, conversely, enthusiastically swore the oath, allegedly requesting the prestigious Byzantine title of *Domestic of the East* to position himself as the overall commander, a request Alexios adroitly evaded.
 
-By May 1097, through masterful, albeit tense, diplomacy, Alexios had secured the oaths of the principal leaders and successfully transitioned the crusader armies into Anatolia without a major conflict breaking out in Constantinople. The fragile alliance between the Orthodox Byzantine state and the Catholic Western armies was established, setting the stage for the first major military engagements against the [[Seljuk Empire]].
+By May 1097, through masterful, albeit tense, diplomacy, Alexios had secured the oaths of the principal leaders and successfully transitioned the crusader armies into Anatolia without a major conflict breaking out in Constantinople. The fragile alliance between the Orthodox Byzantine state and the Catholic Western armies was established, setting the stage for the first major military engagements against the Seljuk Empire.
 
 ## The Siege of Nicaea and the Battle of Dorylaeum
 
@@ -167,7 +168,7 @@ The crusaders established a blockade around the landward sides of the city. As s
 
 Realizing the threat, Kilij Arslan broke off his eastern campaign and force-marched his cavalry back to his capital. On May 16, he launched a sudden, massive assault against the southern crusader siege lines, commanded by Raymond of Toulouse. The engagement was brutal and closely fought. Unlike the unarmored peasants of the previous year, the Seljuk horse archers now faced disciplined, heavily armored Western knights fighting in tight formations, supported by infantry armed with crossbows. The crusader heavy cavalry charges repeatedly disrupted the Seljuk skirmish tactics. After suffering severe casualties, Kilij Arslan recognized the tactical reality that he could not break the siege and withdrew, effectively abandoning Nicaea to its fate.
 
-Despite the Sultan's retreat, the city continued to resist. To complete the blockade, Emperor [[Alexios I Komnenos]] dispatched a fleet of shallow-draft Byzantine vessels, commanded by Manuel Boutoumites, which were dragged overland and launched into the Askanian Lake. This maneuver severed the garrison's final lifeline.
+Despite the Sultan's retreat, the city continued to resist. To complete the blockade, Emperor Alexios I Komnenos dispatched a fleet of shallow-draft Byzantine vessels, commanded by Manuel Boutoumites, which were dragged overland and launched into the Askanian Lake. This maneuver severed the garrison's final lifeline.
 
 Faced with imminent starvation and an impending crusader assault, the Seljuk garrison initiated secret surrender negotiations—not with the crusaders, but with the Byzantine commanders. On the morning of June 19, 1097, as the crusaders prepared for a massive general assault, they awoke to find Byzantine standards flying from the towers of Nicaea. Alexios had successfully negotiated a bloodless capitulation, securing the city and taking the Seljuk elite, including Kilij Arslan’s family, into protective custody (they were later released as a diplomatic gesture).
 
@@ -197,7 +198,7 @@ Antioch's fortifications were too extensive for the crusaders to fully invest. T
 
 The winter of 1097-1098 proved catastrophic. The crusaders, having exhausted local foraging grounds, faced mass starvation. The sophisticated logistical network they had enjoyed in Byzantine territory was gone, and supply lines from the port of St. Symeon (seized by a crusader naval contingent) were under constant harassment by Seljuk raiders. Disease, famine, and desertion decimated the ranks. Horses, vital for the heavy cavalry, starved or were eaten; by some estimates, fewer than two thousand warhorses survived the winter. 
 
-During this period, the political cohesion of the crusade fractured. Emperor [[Alexios I Komnenos]] had provided a small Byzantine contingent under Tatikios, but as conditions deteriorated, Tatikios departed—ostensibly to fetch reinforcements from Cyprus, though the Western leaders accused him of desertion. Stephen of Blois, a prominent leader, also abandoned the siege and retreated toward Constantinople. When he encountered Emperor Alexios marching with a relief army, Stephen erroneously reported that the crusader army was doomed, prompting Alexios to turn back. This perceived betrayal severed the Franco-Byzantine alliance; Bohemond of Taranto seized upon this to argue that the Byzantine Emperor had forfeited his rights to Antioch under the oaths sworn in 1097.
+During this period, the political cohesion of the crusade fractured. Emperor Alexios I Komnenos had provided a small Byzantine contingent under Tatikios, but as conditions deteriorated, Tatikios departed—ostensibly to fetch reinforcements from Cyprus, though the Western leaders accused him of desertion. Stephen of Blois, a prominent leader, also abandoned the siege and retreated toward Constantinople. When he encountered Emperor Alexios marching with a relief army, Stephen erroneously reported that the crusader army was doomed, prompting Alexios to turn back. This perceived betrayal severed the Franco-Byzantine alliance; Bohemond of Taranto seized upon this to argue that the Byzantine Emperor had forfeited his rights to Antioch under the oaths sworn in 1097.
 
 ### The Fall of the City (June 1098)
 As the siege dragged on, the strategic situation became desperate. A massive relief army commanded by Kerbogha, the Atabeg of Mosul, was marching toward Antioch. If the crusaders were caught between the city walls and Kerbogha's host, annihilation was certain.
@@ -232,7 +233,7 @@ The march south through the Levant was remarkably swift and relatively unopposed
 
 Raymond of Toulouse, having lost Antioch to Bohemond (who remained behind to consolidate his new principality), assumed de facto leadership of the march. The crusade essentially bypassed the major inland power centers like Damascus, maintaining a coastal route supported by naval contingents from Genoa and England that had secured the Mediterranean sea lanes.
 
-During this period, the political landscape shifted again. The Shia [[Fatimid Caliphate]] of Egypt, taking advantage of the Seljuk distraction caused by the crusade, launched a sudden offensive and captured Jerusalem from its Sunni Seljuk garrison in August 1098. Thus, when the crusaders finally approached their ultimate objective, they were facing Fatimid Egyptian defenders, not the Seljuks who had been the original casus belli. Fatimid attempts to negotiate a division of the Levant with the crusaders were categorically rejected; the Franks had not marched thousands of miles to accept a diplomatic compromise over the Holy City.
+During this period, the political landscape shifted again. The Shia Fatimid Caliphate of Egypt, taking advantage of the Seljuk distraction caused by the crusade, launched a sudden offensive and captured Jerusalem from its Sunni Seljuk garrison in August 1098. Thus, when the crusaders finally approached their ultimate objective, they were facing Fatimid Egyptian defenders, not the Seljuks who had been the original casus belli. Fatimid attempts to negotiate a division of the Levant with the crusaders were categorically rejected; the Franks had not marched thousands of miles to accept a diplomatic compromise over the Holy City.
 
 ### The Siege of Jerusalem (June - July 1099)
 On June 7, 1099, the crusader army—now reduced by casualties, garrisons left behind, and desertions to a hardened core of perhaps 1,200 knights and 12,000 infantry—arrived before the walls of Jerusalem. The Fatimid governor, Iftikhar ad-Daula, had prepared extensively. He expelled the city's Christian population to conserve food, poisoned the wells outside the walls, and heavily fortified the massive defenses.
@@ -265,7 +266,7 @@ The Battle of Ascalon definitively secured the conquest of Jerusalem. The Fatimi
 Following the victory at Ascalon, the majority of the surviving crusaders, considering their vows fulfilled, returned to Europe, bringing back relics, wealth, and immense prestige. The monumental task of defending and organizing the newly conquered territories fell to a tiny fraction of the original army who chose to remain in the Levant, establishing four distinct geopolitical entities known as the Crusader States (Outremer).
 
 1. **The Kingdom of Jerusalem:** The preeminent Crusader State. Raymond of Toulouse had refused the crown, arguing he could not wear a crown of gold where Christ had worn a crown of thorns. Godfrey of Bouillon accepted leadership, taking the modest title *Advocatus Sancti Sepulchri* (Defender of the Holy Sepulchre). Upon Godfrey's death in 1100, his brother Baldwin of Boulogne arrived from Edessa and was formally crowned King Baldwin I of Jerusalem, firmly establishing a secular monarchy.
-2. **The Principality of Antioch:** Founded by Bohemond of Taranto in 1098. It dominated northern Syria and functioned as a heavily militarized frontier state, in constant conflict with the Seljuks of Aleppo and the [[Byzantine Empire]], which continually sought to reclaim it based on the crusaders' original oaths.
+2. **The Principality of Antioch:** Founded by Bohemond of Taranto in 1098. It dominated northern Syria and functioned as a heavily militarized frontier state, in constant conflict with the Seljuks of Aleppo and the Byzantine Empire, which continually sought to reclaim it based on the crusaders' original oaths.
 3. **The County of Edessa:** The first Crusader State, established by Baldwin of Boulogne in 1098 after he splintered from the main army and exploited local Armenian political rivalries. Situated east of the Euphrates, it was heavily populated by Armenian Christians and served as a crucial buffer state against the Seljuks of Mosul and Mesopotamia.
 4. **The County of Tripoli:** Founded slightly later (established systematically between 1102 and 1109) by Raymond of Toulouse and his successors, occupying the coastal strip between the Principality of Antioch and the Kingdom of Jerusalem.
 
@@ -278,7 +279,7 @@ Militarily, the defense of Outremer relied on the construction of massive concen
 The First Crusade profoundly altered the geopolitical and cultural trajectory of both Europe and the Middle East, leaving a legacy that resonates into the modern era.
 
 ### Geopolitical and Cultural Legacy
-- **The Validation of Holy War:** For Western Europe, the success of the First Crusade validated the ideology of holy war and elevated the prestige of the [[Papacy]] to its zenith. 
+- **The Validation of Holy War:** For Western Europe, the success of the First Crusade validated the ideology of holy war and elevated the prestige of the Papacy to its zenith. 
 - **Cultural Exchange & The Renaissance:** It demonstrated the military viability of a united Latin Christendom and stimulated increased trade, cultural exchange, and intellectual contact with the East, subtly laying the groundwork for the Renaissance.
 - **The Great Schism Finalized:** The crusade finalized the schism between the Catholic West and the Orthodox East; the betrayal and violence of the campaign poisoned relations between Constantinople and Rome permanently.
 - **The Islamic Counter-Crusade (Jihad):** For the Islamic world, the sudden intrusion of the "Franks" (Ifranj) into the Levant deeply traumatized the region. It catalyzed the slow but powerful development of a unified Islamic counter-crusade, a movement that would eventually be realized under leaders like Zengi, Nur ad-Din, and ultimately Saladin.

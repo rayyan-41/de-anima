@@ -1,3 +1,12 @@
+---
+title: "Bohemia and Charles IV"
+date: 2026-04-01
+domain: History
+category: Medieval
+status: complete
+tags: [history, medieval, bohemia-and-charles-iv, ai-generated]
+---
+
 DATE: 2026-02-06
 TAGS: #history #medieval #hre #bohemia #charles-iv #ai-generated
 - - -
@@ -7,7 +16,7 @@ Let's begin with the state of Europe at the time. To put it bluntly, Europe was 
 
 The Empire itself was less a coherent state than a political fiction maintained by mutual agreement. A common misconception was that it was an "empire" in the traditional sense when in fact, it was a cauldron of several different mini duchies. Real power belonged not to the emperor but to the regional princes and the seven prince-electors who chose him. In the west, France and England circled each other with growing hostility, their conflict soon to ignite into the **Hundred Years' War**. Meanwhile, an older struggle continued: the eternal question of whether popes or kings truly ruled Christian Europe.
 
-But perhaps the deepest crisis afflicting the continent was [[The Great Western Schism|Spiritual in nature]]. In 1309, Pope Clement V, a Frenchman through and through, made a fateful decision. Rather than remain in Rome, he moved the entire papal court to Avignon, a city firmly under the shadow of the French crown. For seventy years, the papacy would remain there, and with each passing decade, it grew more entangled with French interests, more corrupt in its administration, more ruthless in extracting revenue from the faithful. To Germans, English, and Italians, the papacy had become a French puppet, and the universal Church they had known was dying.
+But perhaps the deepest crisis afflicting the continent was Spiritual in nature. In 1309, Pope Clement V, a Frenchman through and through, made a fateful decision. Rather than remain in Rome, he moved the entire papal court to Avignon, a city firmly under the shadow of the French crown. For seventy years, the papacy would remain there, and with each passing decade, it grew more entangled with French interests, more corrupt in its administration, more ruthless in extracting revenue from the faithful. To Germans, English, and Italians, the papacy had become a French puppet, and the universal Church they had known was dying.
 
 Then came the famines of 1315 to 1317, when crops failed across the continent and people starved in the streets. And in 1347, something far worse arrived: the Black Death. It swept through Europe like a scythe through wheat, killing between a third and half of the population. The world that emerged from this catastrophe was transformed: labor was scarce, wages rose, old certainties crumbled, and peasants began to question the order that had kept them in their place.
 
@@ -64,3 +73,4 @@ The effect on Christian Europe was catastrophic. How could the Church claim univ
 In Bohemia, where resentment of Church corruption ran deep and memories of Charles IV's golden age made the present seem all the more tarnished, these questions found particularly fertile ground. And in Prague, a preacher named Jan Hus was beginning to ask them very loudly indeed.
 
 The stage was set for an explosion that would consume Bohemia, elevate Sigismund to the imperial throne, and change the nature of religious dissent in Europe forever.
+

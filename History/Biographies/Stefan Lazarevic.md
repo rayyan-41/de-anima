@@ -1,7 +1,12 @@
 ---
-DATE: 2026-03-06
-TAGS: #history #biography #stefan-lazarevic #serbia #middle-ages #knight #ai-generated #original-insight
+title: "Stefan Lazarevic"
+date: 2026-04-01
+domain: History
+category: Biography
+status: complete
+tags: [history, biography, stefan-lazarevic, ai-generated]
 ---
+
 **Metadata & Intro: The Despot of Serbia**
 Stefan Lazarević (c. 1377 – 19 July 1427), also known as Stefan the Tall (*Stevan Visoki*), was the son of Prince Lazar Hrebeljanović and Princess Milica. He ruled Serbia first as Prince (1389–1402) and then as Despot (1402–1427). A figure of immense complexity, Stefan was a paragon of the late medieval European knightly class—a brilliant diplomat, a formidable warrior, and a refined man of letters. 
 

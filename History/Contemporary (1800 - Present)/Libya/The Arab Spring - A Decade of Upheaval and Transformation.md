@@ -1,3 +1,12 @@
+---
+title: "The Arab Spring - A Decade of Upheaval and Transformation"
+date: 2026-04-01
+domain: History
+category: Contemporary
+status: complete
+tags: [history, contemporary, the-arab-spring---a-decade-of-upheaval-and-transformation, ai-generated]
+---
+
 DATE: 2026-03-05
 TAGS: #history #contemporary #middle-east #arab-spring #geopolitics #ai-generated
 - - -
@@ -93,4 +102,5 @@ Following a chaotic year under **Mohamed Morsi**, the military under **Abdel Fat
 The **Assad** regime's refusal to step down, combined with regional proxy intervention, transformed Syria into the 21st century's most severe humanitarian catastrophe.
 - - -
 #### **References**
-- [[Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]
+- Gaddafi's Libya - The Rise and Fall of the Jamahiriya
+

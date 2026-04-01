@@ -1,15 +1,10 @@
 ---
+title: "ARG - the Epistemic Gap and the Necessity of Revelation"
 date: 2026-03-25
-tags:
-  - reason
-  - psychology
-  - epistemology
-  - revelation
-  - avicenna
-  - ghazali
-  - kant
-  - Godel
-  - Arguement
+domain: Reason
+category: Epistemology
+status: complete
+tags: [reason, epistemology, psychology, revelation, avicenna, ghazali, kant, godel, argument, ai-generated]
 ---
 ### 1. Prolegomena: Defining the Epistemic Gap and the Finite Horizon of Intellect
 

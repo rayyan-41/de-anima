@@ -1,3 +1,12 @@
+---
+title: "Evolution of Intellectual Thought in Europe"
+date: 2026-04-01
+domain: History
+category: Medieval
+status: complete
+tags: [history, medieval, evolution-of-intellectual-thought-in-europe, ai-generated]
+---
+
 **Metadata:**
 - Creation Date: 2026-04-01
 - Author: @machiavelli (Orchestrated by GeminiCLI)
@@ -284,8 +293,3 @@ In conclusion, the rise of secularism in Europe was the result of a profound con
 
 - - -
 
-## Related Notes
-- [[HIST - Influence of Islamic Golden Age on the West]]
-- [[REAS - From Descartes to Darwin - Innate Existence of God]]
-- [[REAS - Evolution of Metaphysics in Islam]]
-- [[REAS - An Effort to Understand Iqbal]]
