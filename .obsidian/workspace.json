@@ -11,14 +11,15 @@
             "id": "b1a71ce328e7e30b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "History/Medieval and Late Medieval (476- 1799)/Islamic History/Timeline of the Levant under Muslim Rule.md",
-                "bFile": "History/Medieval and Late Medieval (476- 1799)/Islamic History/Timeline of the Levant under Muslim Rule.md",
-                "aRef": ""
+                "file": "History/Early and Late Medieval (476- 1799)/Timeline of the Levant under Muslim Rule.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: Timeline of the Levant under Muslim Rule"
+              "icon": "lucide-file",
+              "title": "Timeline of the Levant under Muslim Rule"
             }
           }
         ]
@@ -216,7 +217,7 @@
     "History/Historical Narratives/Hannibal's Legacy - How he was etched in Roman History.md",
     "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
     "process_new_notes.js",
-    "History/Medieval and Late Medieval (476- 1799)/Islamic History/Timeline of the Levant under Muslim Rule.md",
+    "History/Early and Late Medieval (476- 1799)/Timeline of the Levant under Muslim Rule.md",
     "History/Medieval and Late Medieval (476- 1799)/Islamic History",
     "History/Medieval and Late Medieval (476- 1799)",
     "History/Contemporary (1800 - Present)/Libya/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
