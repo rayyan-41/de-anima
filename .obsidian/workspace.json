@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/Reference/LIT - The Green Book.md",
+                "file": "Literature/Reference/Quotes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LIT - The Green Book"
+              "title": "Quotes"
             }
           }
         ]
@@ -212,8 +212,9 @@
       "graph:Open graph view": false
     }
   },
-  "active": "98ad38a5c76234ba",
+  "active": "7adb17c520de5016",
   "lastOpenFiles": [
+    "Literature/Reference/LIT - The Green Book.md",
     "Reason/ARG - the Epistemic Gap and the Necessity of Revelation.md",
     "History/Medieval/HIST - Influence of Islamic Golden Age on the West.md",
     "GEMINI.md",
@@ -241,7 +242,6 @@
     "Reason/REAS - An Effort to Understand Iqbal.md",
     "Islam/Aqeedah/AQEEDAH - Orthodox Sunni Critique of Shia Practices.md",
     "Islam/Fiqh/Ibadat/FIQH - The Prayer of Witr.md",
-    "History/People/BIO - Jacob Bernoulli.md",
     "Islam/Aqeedah",
     "combine.js",
     "generate.js",
