@@ -49,11 +49,11 @@
   },
   "Literature": {
     "iconName": "LiBook",
-    "iconColor": "#de7412"
+    "iconColor": "#12debc"
   },
   "History": {
     "iconName": "LiSword",
-    "iconColor": "#762c05"
+    "iconColor": "#e81717"
   },
   "Art": {
     "iconName": "LiPaintbrush",
