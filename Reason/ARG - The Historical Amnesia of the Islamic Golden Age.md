@@ -63,8 +63,3 @@ Tracing the evolution of thought without acknowledging the Islamic Golden Age is
 To correct this historical amnesia is not to diminish the achievements of the Renaissance or the Enlightenment. Rather, it is to ground them in historical reality. It demands that we view human intellectual progress not as a sequence of isolated European triumphs, but as a continuous, global baton pass—where for nearly a millennium, the light of reason was carried almost exclusively by the Islamic world.
 
 - - -
-## Related Notes
-- [[HIST - Influence of Islamic Golden Age on the West]]
-- [[BIO - Ibn e Sina]]
-- [[BIO - Al-Ghazali]]
-- [[REAS - Evolution of Metaphysics in Islam]]

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/Reference/Quotes.md",
+                "file": "Reason/ARG - The Historical Amnesia of the Islamic Golden Age.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quotes"
+              "title": "ARG - The Historical Amnesia of the Islamic Golden Age"
             }
           }
         ]
@@ -212,8 +212,16 @@
       "graph:Open graph view": false
     }
   },
-  "active": "7adb17c520de5016",
+  "active": "98ad38a5c76234ba",
   "lastOpenFiles": [
+    "_tmp/historical-amnesia_chunk_02.md",
+    "_tmp/historical-amnesia_chunk_03.md",
+    "_tmp/historical-amnesia_chunk_01.md",
+    "_tmp/historical-amnesia_chunk_06.md",
+    "_tmp/historical-amnesia_chunk_04.md",
+    "_tmp/historical-amnesia_chunk_05.md",
+    "Literature/_Literature - Map of Contents.md",
+    "Literature/Reference/Quotes.md",
     "Literature/Reference/LIT - The Green Book.md",
     "Reason/ARG - the Epistemic Gap and the Necessity of Revelation.md",
     "History/Medieval/HIST - Influence of Islamic Golden Age on the West.md",
@@ -234,14 +242,6 @@
     "Islam/Fiqh/FIQH - The Four Madhabs - History and Methodologies.md",
     "GEMINI - Copy.md",
     "Islam/Fiqh/Contemporary",
-    "History/People/BIO - Khalid bin Waleed.md",
-    "Reason/_Reason - Map of Contents.md",
-    "Reason/REAS - From Descartes to Darwin - Innate Existence of God.md",
-    "Reason/REAS - The Julian Star and Intellectualism.md",
-    "Reason/REAS - Evolution of Metaphysics in Islam.md",
-    "Reason/REAS - An Effort to Understand Iqbal.md",
-    "Islam/Aqeedah/AQEEDAH - Orthodox Sunni Critique of Shia Practices.md",
-    "Islam/Fiqh/Ibadat/FIQH - The Prayer of Witr.md",
     "Islam/Aqeedah",
     "combine.js",
     "generate.js",
