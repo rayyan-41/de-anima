@@ -155,51 +155,17 @@ Each domain has a `_ [Domain] - Map of Contents.md`. Use this structure:
 *Next Review: YYYY-MM-DD*
 ```
 
-### Chunk File Convention
-During note creation, agents write each YOLO section output to a temporary chunk file:
+### Chunk File Convention & YOLO Execution
+To understand how to chunk generation tasks, enforce rate-limits, and correctly format/save/name YOLO chunks, you **MUST** refer to the `yolo_generation_protocol` skill:
+`c:\Users\Pc\.gemini\skills\yolo_generation_protocol\SKILL.md`
 
-- **Location**: `E:\De Anima\_tmp\`
-- **Naming**: `[topic-slug]_chunk_[NN].md` (e.g., `rafa-al-yadayn_chunk_01.md`)
-- **Topic slug**: lowercase, hyphens only (e.g., `ottoman-empire`)
-- **Chunk numbers**: zero-padded two digits (`01`, `02`, ... `11`)
-- **Cleanup**: orchestrator deletes all `[topic-slug]_chunk_*.md` files after assembly
+### Canonical Tag Registry & YAML Frontmatter
+To understand the vault's Canonical Tag Registry, valid property combinations (Domains, Categories), and formatting rules, you **MUST** refer to the `obsidian_yaml_enforcer` skill:
+`c:\Users\Pc\.gemini\skills\obsidian_yaml_enforcer\SKILL.md`
 
-### Canonical Tag Registry — SINGLE SOURCE OF TRUTH
-
-Every note MUST have tags in this exact format:
-```
-TAGS: #[domain] #[category] #[topic1] #[topic2] ... #ai-generated
-```
-
-**Rules**:
-- Exactly **1 domain tag** (mandatory)
-- Exactly **1 category tag** (mandatory)
-- Between **1 and 4 topic tags** (mandatory, must be specific and relevant to note content)
-- `#ai-generated` is **always mandatory** on all AI-created content
-
-**Domain Tags** (use exactly one):
-`#art` · `#history` · `#literature` · `#reason` · `#science` · `#islam`
-
-**Category Tags** (use exactly one, must match the note's subfolder/type):
-- Art: `#art-history` · `#art-theory`
-- History: `#empire` · `#biography` · `#geopolitical` · `#medieval` · `#contemporary`
-- Literature: `#book` · `#myth` · `#short-story` · `#reference`
-- Reason: `#philosophy` · `#logic` · `#metaphysics` · `#ethics` · `#epistemology`
-- Science: `#astronomy` · `#mathematics` · `#computer-science` · `#ai` · `#web-dev` · `#physics`
-- Islam: `#aqeedah` · `#fiqh`
-
-**Islam-Specific Sub-tags** (use when applicable as topic tags):
-`#hanafi` · `#maliki` · `#shafii` · `#hanbali` · `#ibadat` · `#muamalat` · `#contemporary-fiqh`
-
-**Modifier Tags** (append when applicable):
-- `#ai-generated` — **MANDATORY** on all AI content
-- `#incomplete` — for notes that need expansion
-- `#original-insight` — for user's original contributions
-
-> **Tag Examples:**
-> - `TAGS: #science #computer-science #algorithms #sorting #complexity #ai-generated`
-> - `TAGS: #islam #fiqh #hanafi #shafii #prayer #ai-generated`
-> - `TAGS: #history #biography #ottoman #military #ai-generated`
+### Wikilinks & MOC System
+To understand how wikilinks are discovered and inserted (`[[wikilinks]]`), and how Maps of Content are maintained, you **MUST** refer to the `obsidian_wikilink_engine` skill:
+`c:\Users\Pc\.gemini\skills\obsidian_wikilink_engine\SKILL.md`
 
 # IV. OPERATIONAL PROTOCOLS
 
