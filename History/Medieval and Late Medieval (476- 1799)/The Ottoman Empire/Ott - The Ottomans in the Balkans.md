@@ -1,11 +1,7 @@
 **Metadata:**
 - Creation Date: 2026-04-01
-- Author: @machiavelli (Orchestrated by GeminiCLI)
 - - -
 TAGS: #history #empire #geopolitical #ottoman #balkans #ai-generated
-
-# HIST - Ottoman Influence and Presence in the Balkans
-
 ## 1. Introduction and Geopolitical Context
 
 **Introduction to the Balkans**
@@ -439,11 +435,4 @@ The geopolitical memory of the Empire is marked by a deep ambivalence:
 
 The Ottoman presence in the Balkans is thus not a closed chapter of history but a living reality. It exists in the coffee consumed in Sarajevo, the architecture of Gjirokastër, the vocabulary of Sofia, and the diplomatic tensions of the Eastern Mediterranean. To understand the modern Balkans is to acknowledge that beneath the veneer of modern statehood lies a deeply rooted, five-hundred-year-old imperial foundation that continues to shape the region’s trajectory.
 
-
 - - -
-
-## Related Notes
-- [[HIST - Influence of Islamic Golden Age on the West]]
-- [[HIST - The First Crusade]]
-- [[The Ottoman Empire]]
-- [[HIST - The Arab Spring - A Decade of Upheaval and Transformation]]
