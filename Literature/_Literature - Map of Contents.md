@@ -1,15 +1,16 @@
-**Metadata:**
-- Last Major Reorganization: 2026-03-05
-- Total Notes: 5
-- - -
+---
+date: 2026-04-01
+tags: [literature, moc, books, narratives, myths, creative-writing, reference, ai-generated]
+footnote: ""
+---
+The Literature domain is an expansive catalog of textual art, myths, lexicons, and thematic analyses of classic works. This Map of Contents structurally aligns narrative labyrinths and storytelling frameworks for efficient retrieval.
+
 ## Structure
 | Topic Area | Notes | Last Updated |
 |-----------|-----------|--------------|
-| Reference | [[Lexicon]], [[Quotes]], [[LIT - The Green Book]] | 2026-03-05 |
-| Myths & Legends | [[Orpheus and Eurydice]] | 2026-02-06 |
-| Creative Works | [[i. Caedis]] | 2026-02-06 |
+| Reference | [[Lexicon]], [[Quotes]] | 2026-04-01 |
+| Myths & Legends | [[Orpheus and Eurydice]] | 2026-04-01 |
+| Creative Works | [[i. Caedis]] | 2026-04-01 |
+
 - - -
-*Last MOC Update: 2026-03-05 by [GeminiCLI]*
-*Next Review: 2026-04-05*
-
-
+*Last MOC Update: 2026-04-01 by [GeminiCLI]*

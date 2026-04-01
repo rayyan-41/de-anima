@@ -1,17 +1,17 @@
 ---
-date: 2026-03-25
-tags: [islam, moc]
+date: 2026-04-01
+tags: [islam, moc, theology, fiqh, aqeedah, religion, scholarship, law, ai-generated]
+footnote: ""
 ---
-# Islam - Map of Contents
+The Islam domain is a rigorous exploration of theological creed (Aqeedah) and Islamic jurisprudence (Fiqh) anchored in the traditional four madhabs. This Map of Contents acts as an index for rulings, religious methodologies, and scholarly critiques.
 
 ## Structure
 | Topic Area | Notes | Last Updated |
 | :--- | :--- | :--- |
-| Aqeedah | [[AQEEDAH - Orthodox Sunni Critique of Shia Practices]] | 2026-03-25 |
-| Fiqh | [[FIQH - The Four Madhabs - History and Methodologies]] | 2026-03-24 |
-| Fiqh (Contemporary) | [[FIQH - Contemporary Challenges and Misunderstandings of Sharia]] | 2026-03-27 |
-| Fiqh (Ibadat) | [[FIQH - The Prayer of Witr]] | 2026-03-24 |
-| Fiqh (Ibadat) | [[FIQH - The Ruling on Raf' al-Yadayn]] | 2026-03-24 |
+| Aqeedah | [[AQEEDAH - Orthodox Sunni Critique of Shia Practices]] | 2026-04-01 |
+| Fiqh (History & Methods) | [[FIQH - The Four Madhabs - History and Methodologies]] | 2026-04-01 |
+| Fiqh (Contemporary) | [[FIQH - Contemporary Challenges and Misunderstandings of Sharia]] | 2026-04-01 |
+| Fiqh (Ibadat) | [[FIQH - The Prayer of Witr]], [[FIQH - The Ruling on Raf' al-Yadayn]] | 2026-04-01 |
 
 - - -
-*Last MOC Update: 2026-03-27 by [GeminiCLI]*
+*Last MOC Update: 2026-04-01 by [GeminiCLI]*

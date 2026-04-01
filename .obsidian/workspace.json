@@ -11,15 +11,14 @@
             "id": "b1a71ce328e7e30b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "History/Medieval and Late Medieval (476- 1799)/Islamic History/Timeline of the Levant under Muslim Rule.md",
+                "bFile": "History/Medieval and Late Medieval (476- 1799)/Islamic History/Timeline of the Levant under Muslim Rule.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Evolution of Intellectual Thought in Europe"
+              "icon": "diff",
+              "title": "Diff: Timeline of the Levant under Muslim Rule"
             }
           }
         ]
@@ -214,10 +213,15 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
+    "History/Historical Narratives/Hannibal's Legacy - How he was etched in Roman History.md",
+    "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
+    "process_new_notes.js",
+    "History/Medieval and Late Medieval (476- 1799)/Islamic History/Timeline of the Levant under Muslim Rule.md",
+    "History/Medieval and Late Medieval (476- 1799)/Islamic History",
+    "History/Medieval and Late Medieval (476- 1799)",
     "History/Contemporary (1800 - Present)/Libya/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
     "update_toc_format.js",
     "Literature/_Literature - Map of Contents.md",
-    "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
     "Science/_Science - Map of Contents.md",
     "History/Historical Narratives",
     "Science/Astronomy/SCI - Geodesic Equations.md",
@@ -243,13 +247,7 @@
     "Science/Computer Science/Development/Web Development/WEB - The Complete Guide to Building a Website in 2026.md",
     "Science/Computer Science/Development/Tools, Frameworks and Stacks",
     "_tmp/intellectual-thought_chunk_02.md",
-    "_tmp/assemble_intellectual.js",
     "_tmp/intellectual-thought_chunk_04.md",
-    "_tmp/intellectual-thought_chunk_01.md",
-    "History/_History - Map of Contents.md",
-    "History/Contemporary (1800 - Present)/Libya/The Arab Spring - A Decade of Upheaval and Transformation.md",
-    "History/Contemporary (1800 - Present)/Libya",
-    "History/Early and Late Medieval (476- 1799)/The Crusades",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
