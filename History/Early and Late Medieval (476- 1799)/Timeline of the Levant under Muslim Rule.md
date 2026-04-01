@@ -55,4 +55,3 @@ Under Mamluk rule, the Levant experienced a profound architectural and economic 
 
 ## 9. Conclusion: The Enduring Islamic Legacy in the Levant
 By the time the Ottoman Empire absorbed the Levant in the early 16th century, the region had been profoundly shaped by nearly nine centuries of diverse Muslim rule. The Rashidun brought the faith and the foundational pacts of tolerance; the Umayyads established its imperial and architectural glory; the Ayyubids restored its unity and orthodoxy; and the Mamluks defended its existence and adorned its cities. The Levant stands today as a living museum of this complex, multi-layered history, its very stones echoing the triumphs, conflicts, and enduring cultural synthesis of the Islamic empires that claimed it as their own.
-## See Also
