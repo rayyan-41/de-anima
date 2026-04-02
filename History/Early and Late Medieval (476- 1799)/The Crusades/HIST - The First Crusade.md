@@ -333,6 +333,4 @@ The imagery and narrative of the First Crusade have deeply permeated Western cul
 * **Modern Media:** The term "crusade" itself has been heavily secularized to denote any vigorous moral campaign. In visual media, the Crusades are frequently depicted, though often focusing on later conflicts (like Ridley Scott’s *Kingdom of Heaven*). The First Crusade specifically remains a touchstone for exploring themes of religious extremism, cultural collision, and the devastating human cost of ideological warfare.
 
 ## See Also
-
-- [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
 - [[_History - Map of Contents|History MOC]]
