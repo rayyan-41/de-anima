@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tmp/hannibal_chunk_01.md",
+                "file": "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "hannibal_chunk_01"
+              "title": "Evolution of Intellectual Thought in Europe"
             }
           }
         ]
@@ -214,8 +214,9 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
-    "_tmp/hannibal_legacy_chunk_01.md",
+    "History/Historical Narratives/Hannibal's Legacy - How he was etched in Roman History.md",
     "_tmp/hannibal_chunk_01.md",
+    "_tmp/hannibal_legacy_chunk_01.md",
     "_tmp/hannibal_chunk_03.md",
     "_tmp/hannibal_chunk_04.md",
     "_tmp/hannibal_chunk_05.md",
@@ -228,7 +229,6 @@
     "_tmp/levant_chunk_01.md",
     "_tmp/hannibal_chunk_02.md",
     "_tmp/yolo_execute.ps1",
-    "History/Historical Narratives/Hannibal's Legacy - How he was etched in Roman History.md",
     "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
     "process_new_notes.js",
     "History/Medieval and Late Medieval (476- 1799)/Islamic History",
