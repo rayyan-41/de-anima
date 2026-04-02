@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
+                "file": "History/Historical Narratives/How Svlla influenced Caesar.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Evolution of Intellectual Thought in Europe"
+              "title": "How Svlla influenced Caesar"
             }
           }
         ]
@@ -214,13 +214,15 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
+    "GEMINI.md",
+    "History/Historical Narratives/How Svlla influenced Caesar.md",
+    "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
     "History/Historical Narratives/Hannibal's Legacy - How he was etched in Roman History.md",
     "_tmp/hannibal_chunk_01.md",
     "_tmp/hannibal_legacy_chunk_01.md",
     "_tmp/hannibal_chunk_03.md",
     "_tmp/hannibal_chunk_04.md",
     "_tmp/hannibal_chunk_05.md",
-    "GEMINI.md",
     "_tmp/levant_chunk_02.md",
     "_tmp/levant_chunk_03.md",
     "_tmp/generate_hannibal.ps1",
@@ -229,7 +231,6 @@
     "_tmp/levant_chunk_01.md",
     "_tmp/hannibal_chunk_02.md",
     "_tmp/yolo_execute.ps1",
-    "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
     "process_new_notes.js",
     "History/Medieval and Late Medieval (476- 1799)/Islamic History",
     "History/Medieval and Late Medieval (476- 1799)",
@@ -249,7 +250,6 @@
     "Reason/_Reason - Map of Contents.md",
     "Reason/ARG - The Historical Amnesia of the Islamic Golden Age.md",
     "Reason/ARG - the Epistemic Gap and the Necessity of Revelation.md",
-    "Reason/From Descartes to Darwin - Innate Existence of God.md",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
