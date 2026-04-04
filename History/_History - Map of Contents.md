@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-04-01
 tags: [history, medieval, moc, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
 footnote: ""
@@ -16,6 +16,8 @@ The History domain serves as a documentary repository of human events, empires, 
 | Ottoman Empire       | [[The Ottomans in the Balkans]]                                                                                                     | 2026-04-01   |
 | Contemporary History | [[The Arab Spring - A Decade of Upheaval and Transformation]], [[Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]            | 2026-04-01   |
 | General              | [[Evolution of Intellectual Thought in Europe]]                                                                                     | 2026-04-01   |
+| HIST - Hannibal's Legacy | [[HIST - Hannibal's Legacy.md|HIST - Hannibal's Legacy]] | 2026-04-04 |
+| HIST - History of the Levant under Muslim Rule | [[HIST - History of the Levant under Muslim Rule.md|HIST - History of the Levant under Muslim Rule]] | 2026-04-04 |
 
 - - -
 *Last MOC Update: 2026-04-01 by [GeminiCLI]*
