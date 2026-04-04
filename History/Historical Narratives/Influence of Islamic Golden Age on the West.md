@@ -1,6 +1,13 @@
 ---
 date: 2026-04-01
-tags: [history, medieval, influence-of-islamic-golden-age-on-the-west, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
+tags:
+  - history
+  - medieval
+  - historical-analysis
+  - ai-generated
+  - islamic-golden-age
+  - islamic-golden-age-scholars
+  - evolution-of-intellectual-thought-in-europe
 footnote: ""
 ---
 

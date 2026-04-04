@@ -8,8 +8,8 @@ The Reason domain is a metaphysical, foundational, and logical playground dedica
 ## Structure
 | Topic Area | Notes | Last Updated |
 | :--- | :--- | :--- |
-| Epistemology | [[ARG - the Epistemic Gap and the Necessity of Revelation]] | 2026-04-01 |
-| Philosophy | [[ARG - The Historical Amnesia of the Islamic Golden Age]] | 2026-04-01 |
+| Epistemology | [[the Epistemic Gap and the Necessity of Revelation]] | 2026-04-01 |
+| Philosophy | [[The Historical Amnesia of the Islamic Golden Age]] | 2026-04-01 |
 | Metaphysics | [[Evolution of Metaphysics in Islam]], [[From Descartes to Darwin - Innate Existence of God]] | 2026-04-01 |
 | Intellectual History | [[An Effort to Understand Iqbal]], [[The Julian Star and Intellectualism]] | 2026-04-01 |
 
