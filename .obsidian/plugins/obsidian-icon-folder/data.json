@@ -38,10 +38,6 @@
   "Science/Mathematics": "LiDivideSquare",
   "Science/Computer Science": "LiComputer",
   "Reason/Chain Of Thoughts.md": "LiBrainCircuit",
-  "Islam": {
-    "iconName": "LiMoon",
-    "iconColor": "#6bc610"
-  },
   "Reason": "LiBrain",
   "Science": {
     "iconName": "LiStar",
@@ -58,5 +54,9 @@
   "Art": {
     "iconName": "LiPaintbrush",
     "iconColor": "#921c55"
+  },
+  "Aqeedah and Fiqh": {
+    "iconName": "LiMoon",
+    "iconColor": "#6bc610"
   }
 }

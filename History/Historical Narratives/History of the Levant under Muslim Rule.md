@@ -7,7 +7,7 @@ status: complete
 tags: [history, geopolitical, levant, bilad-al-sham, umayyad, abbasid, ayyubid, mamluk, crusades, ai-generated]
 ---
 
-# HIST - History of the Levant under Muslim Rule
+#  History of the Levant under Muslim Rule
 
 ## Introduction: The Levant as the Crossroads of Empires
 

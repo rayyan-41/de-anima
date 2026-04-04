@@ -7,7 +7,7 @@ status: complete
 tags: [history, empire, hannibal-barca, second-punic-war, battle-of-cannae, roman-republic, military-history, scipio-africanus, carthage, ai-generated]
 ---
 
-# HIST - Hannibal's Legacy
+# Hannibal's Legacy
 
 ## Introduction: The Spectre of Cannae
 
