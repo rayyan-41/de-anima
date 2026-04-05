@@ -1,11 +1,9 @@
 ---
 title: "Influence of Islamic Golden Age on the West"
-date: 2026-04-01
 domain: history
 category: history
 status: complete
 tags:
-  - history
   - history
   - medieval
   - islamic-golden-age
@@ -27,7 +25,6 @@ tags:
 - [Sociology & Historiography: Ibn Khaldun’s Prolegomena](#sociology-historiography-ibn-khalduns-prolegomena)
 - [The Darkening: Factors in the Decline and Western Synthesis](#the-darkening-factors-in-the-decline-and-western-synthesis)
 - [Legacy: Structural Echoes in the Enlightenment](#legacy-structural-echoes-in-the-enlightenment)
-
 
 # The Islamic Golden Age: Foundations of the Renaissance and Enlightenment
 

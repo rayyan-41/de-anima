@@ -1,7 +1,5 @@
 ---
-date: 2026-02-18
 tags:
-  - science
   - web-dev
   - computer-science
   - javascript

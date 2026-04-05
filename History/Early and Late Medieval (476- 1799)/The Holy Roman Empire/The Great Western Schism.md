@@ -1,11 +1,9 @@
 ---
 title: "The Great Western Schism"
-date: 2026-04-01
 domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - history
   - medieval-and-late-medieval
   - medieval
   - the-great-western-schism

@@ -1,7 +1,5 @@
 ---
-date: 2026-04-01
 tags:
-  - science
   - computer-science
   - web-dev
   - rust

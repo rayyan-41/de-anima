@@ -1,7 +1,5 @@
 ---
-date: 2026-02-03
 tags:
-  - reason
   - philosophy
   - descartes
   - darwin

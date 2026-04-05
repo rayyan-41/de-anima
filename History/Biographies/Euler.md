@@ -1,11 +1,9 @@
 ---
 title: "Euler"
-date: 2026-04-01
 domain: history
 category: biographies
 status: complete
 tags:
-  - history
   - biographies
   - biography
   - euler
@@ -34,9 +32,6 @@ tags:
 >   - [[#The Final Calculation: "He Ceased to Live"]]
 >   - [[#Legacy: The Master of Us All]]
 
-DATE: 2026-02-10
-TAGS: #history #science #mathematics #biography #euler #ai-generated
-- - -
 **Real Name:** Leonhard Euler
 **Born:** April 15, 1707, Basel, Switzerland.
 **Died:** September 18, 1783, St. Petersburg, Russia.

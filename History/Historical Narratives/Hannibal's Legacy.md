@@ -1,11 +1,9 @@
 ---
 title: "HIST - Hannibals Legacy"
-date: 2024-05-24
 domain: history
 category: history
 status: complete
 tags:
-  - history
   - history
   - empire
   - hannibal-barca

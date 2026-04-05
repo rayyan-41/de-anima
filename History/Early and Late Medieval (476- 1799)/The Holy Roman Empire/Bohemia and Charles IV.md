@@ -1,11 +1,9 @@
 ---
 title: "Bohemia and Charles IV"
-date: 2026-04-01
 domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - history
   - medieval-and-late-medieval
   - empire
   - medieval
@@ -19,9 +17,6 @@ tags:
 > - [[#The Ambitious Brother: Sigismund's Hungarian Power Base]]
 > - [[#The Church Torn Apart: The Great Western Schism]]
 
-DATE: 2026-02-06
-TAGS: #history #medieval #hre #bohemia #charles-iv #ai-generated
-- - -
 Playing Kingdom Come Deliverance nowadays. The game world is so immersive that I feel compelled to read up on the history of the time it is set during.
 
 Let's begin with the state of Europe at the time. To put it bluntly, Europe was more or less a **fractured continent**, a continent in perpetual motion; a shifting mosaic of ambitions, allegiances, and anxieties. There were no neat borders, no unified nations as we understand them today. Instead, kingdoms overlapped with duchies, church territories carved out their own domains, and [[The Holy Roman Empire|the Holy Roman Empire]] stretched across Central Europe like a threadbare tapestry, impressive from a distance but fraying at every edge.

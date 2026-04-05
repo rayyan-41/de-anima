@@ -1,6 +1,3 @@
-DATE: 2026-02-06
-TAGS: #literature #quote #wisdom
-- - -
 
 | Quote                                                                                                                                                                                                 | By                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------- |
@@ -9,5 +6,4 @@ TAGS: #literature #quote #wisdom
 | *I am busy, tell her to wait* (upon being informed that his wife was dying and told to come to her)                                                                                                   | **Carl Friedrich Gauss**    |
 | *"I will die rich."* (He created the world's first news service to get market data before his competitors. He once loaned so much money to the Emperor that he was allowed to mint his own currency.) | **Jakob Fugger "The Rich"** |
 |                                                                                                                                                                                                       |                             |
-
 

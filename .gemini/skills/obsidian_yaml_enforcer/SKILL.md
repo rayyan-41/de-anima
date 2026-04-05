@@ -18,18 +18,15 @@ Every note must begin with:
 ```yaml
 ---
 title: "[Note Title]"
-date: YYYY-MM-DD
 domain: [art|history|islam|literature|reason|science]
 category: [canonical category value]
 status: [complete|incomplete]
-tags: [domain, category, structural-tag, topic1, topic2, ..., ai-generated]
 ---
 ```
 
 Required fields:
 
 - `title`
-- `date`
 - `domain`
 - `category`
 - `status`

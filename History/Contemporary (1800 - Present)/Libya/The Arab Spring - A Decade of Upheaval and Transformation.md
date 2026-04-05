@@ -1,18 +1,12 @@
 ---
 title: "The Arab Spring - A Decade of Upheaval and Transformation"
-date: 2026-04-01
 domain: history
 category: contemporary
 status: complete
 tags:
-  - history
   - contemporary
   - ai-generated
 ---
-
-DATE: 2026-03-05
-TAGS: #history #contemporary #middle-east #arab-spring #geopolitics #ai-generated
-- - -
 
 **Abstract:**
 A strategic overview of the Arab Spring (2010–2012). This note serves as the primary "Map" for the Contemporary History section, documenting the regional tinderbox, a chronological breakdown of the uprisings, and a systematic classification of the major state and non-state actors involved.

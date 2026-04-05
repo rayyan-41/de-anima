@@ -1,7 +1,5 @@
 ---
-date: 2025-08-18
 tags:
-  - reason
   - philosophy
   - romanempire
   - astronomy

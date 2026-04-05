@@ -1,7 +1,5 @@
 ---
-date: 2026-04-01
 tags:
-  - reason
   - philosophy
   - iqbal
   - logic
@@ -9,5 +7,4 @@ tags:
   - ai-generated
 footnote: ""
 ---
-
 

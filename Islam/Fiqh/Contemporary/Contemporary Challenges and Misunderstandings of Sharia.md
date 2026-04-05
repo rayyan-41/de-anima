@@ -1,7 +1,5 @@
 ---
-date: 2026-03-27
 tags:
-  - islam
   - fiqh
   - hanafi
   - maliki

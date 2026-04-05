@@ -1,7 +1,5 @@
 ---
-date: 2025-01-01
 tags:
-  - science
   - computer-science
   - computation
   - algorithms

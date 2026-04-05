@@ -1,7 +1,5 @@
 ---
-date: 2026-04-01
 tags:
-  - reason
   - metaphysics
   - islam
   - philosophy
@@ -10,5 +8,4 @@ tags:
   - ai-generated
 footnote: ""
 ---
-
 

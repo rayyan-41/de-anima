@@ -1,8 +1,4 @@
-DATE: 2026-02-06
-TAGS: #literature #fiction #short-story #original-work
-- - -
 She caught the train at the last possible moment, just as it began to inch away from the very end of the platform. With nothing but a small box and a photograph, She leaped onto the vestibule, slipping mid effort, and hit the hard metal floor, inducing a crippling headache that didn't help her already distraught and fragile state.
 
 She took a couple of seconds, accompanied by some deep intense breathes, to recuperate before she proceeded with the task at hand. Quite literally was the task in her hand; the photograph was of immense significance to the deed that she had to carry out, and the box perhaps even more. She couldn't be sure however, if the box outweighed the photograph, primarily because she did not know what the box contained, and neither was she allowed to open it. It's funny; she suffered from slight amnesia due to the impact, but even between the blurry mess of her memories, she could clearly make out the words of her preceptor Matheus Caedis ordering her to make her way through the Madenza and reach the cynosure vestibule where the target would undoubtedly be consumed by the leisure of Lucifer's estate.
-
 

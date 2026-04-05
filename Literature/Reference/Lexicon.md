@@ -1,6 +1,3 @@
-DATE: 2026-02-06
-TAGS: #literature #linguistics #vocabulary
-- - -
 A personal repository of linguistically significant words and their usage.
 
 - **Contemporaneous**: Existing or occurring in the same period of time.
@@ -49,5 +46,4 @@ A personal repository of linguistically significant words and their usage.
 - **Iniquity**: Immoral or grossly unfair behavior.
 - **Asinine**: Extremely stupid or foolish.
 - **Halcyon**: Denoting a period of time in the past that was idyllically happy and peaceful.
-
 

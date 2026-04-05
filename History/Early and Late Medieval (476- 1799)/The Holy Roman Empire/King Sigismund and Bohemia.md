@@ -1,11 +1,9 @@
 ---
 title: "King Sigismund and Bohemia"
-date: 2026-04-01
 domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - history
   - medieval-and-late-medieval
   - empire
   - medieval
@@ -25,9 +23,6 @@ tags:
 > - [[#Sigismund's Long Road to Acceptance]]
 > - [[#The Legacy of Compromise and Betrayal]]
 
-DATE: 2026-02-06
-TAGS: #history #personality #hre #bohemia #sigismund #ai-generated
-- - -
 ## The Crusader Who Would Be Emperor
 In the autumn of 1396, Sigismund of Luxembourg stood at what should have been his moment of triumph. At thirty-eight years old, he had assembled one of the largest crusading armies in a generation—perhaps 100,000 warriors from across Christendom—and marched them to the fortress of Nicopolis on the Danube. Pope Boniface IX had blessed this crusade. The flower of French chivalry had answered the call. This was to be Sigismund's grand debut on the European stage, his chance to prove himself worthy of the Luxembourg name his father Charles IV had made so illustrious.
 

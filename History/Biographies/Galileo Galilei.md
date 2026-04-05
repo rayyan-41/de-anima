@@ -1,11 +1,9 @@
 ---
 title: "Galileo Galilei"
-date: 2026-04-01
 domain: history
 category: biographies
 status: complete
 tags:
-  - history
   - biographies
   - biography
   - galileo-galilei
@@ -31,9 +29,6 @@ tags:
 > - [[#Intellectual Lineage]]
 > - [[#Table of Achievements]]
 
-DATE: 2026-02-13
-TAGS: #history #science #astronomy #biography #galileo #ai-generated #original-insight
-- - -
 **Real Name:** Galileo di Vincenzo Bonaiuti de' Galilei
 **Born:** February 15, 1564, Pisa, Duchy of Florence, Italy.
 **Died:** January 8, 1642, Arcetri, Grand Duchy of Tuscany, Italy.

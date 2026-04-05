@@ -1,18 +1,13 @@
 ---
 title: "Gaddafi's Libya - The Rise and Fall of the Jamahiriya"
-date: 2026-04-01
 domain: history
 category: contemporary
 status: complete
 tags:
-  - history
   - contemporary
   - ai-generated
 ---
 
-DATE: 2026-03-05
-TAGS: #history #contemporary #libya #gaddafi #geopolitics #ai-generated
-- - -
 **Abstract:**
 A comprehensive analytical dissection of Libya under the 42-year rule of **[[BIO - Muammar Gaddafi|Muammar Gaddafi]]**. This report serves as a central hub for the Contemporary History section, documenting the transition from a fragmented monarchy to a "State of the Masses" (Jamahiriya), and analyzing the structural stressors that led to the catastrophic 2011 collapse.
 - - -

@@ -1,7 +1,5 @@
 ---
-date: 2026-03-25
 tags:
-  - reason
   - epistemology
   - psychology
   - revelation
@@ -28,7 +26,6 @@ footnote: ""
     - [10. Revelation as the Ultimate Correction: Calibrating the Human Instrument for Metaphysical Accuracy](#10-revelation-as-the-ultimate-correction-calibrating-the-human-instrument-for-metaphysical-accuracy)
     - [11. The Teleology of Satisfaction: Defining Objective Purpose through Divine Disclosure](#11-the-teleology-of-satisfaction-defining-objective-purpose-through-divine-disclosure)
     - [12. Conclusion: The Synthesis of Reason and Revelation in the Quest for Spiritual Equilibrium](#12-conclusion-the-synthesis-of-reason-and-revelation-in-the-quest-for-spiritual-equilibrium)
-
 
 ### 1. Prolegomena: Defining the Epistemic Gap and the Finite Horizon of Intellect
 

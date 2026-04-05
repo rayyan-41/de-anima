@@ -1,7 +1,5 @@
 ---
-date: 2026-03-05
 tags:
-  - science
   - ai
   - computation
   - algorithms

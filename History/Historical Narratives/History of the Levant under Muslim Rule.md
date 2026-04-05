@@ -1,11 +1,9 @@
 ---
 title: "HIST - History of the Levant under Muslim Rule"
-date: 2026-04-04
 domain: history
 category: history
 status: complete
 tags:
-  - history
   - history
   - geopolitical
   - levant
