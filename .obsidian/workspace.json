@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Fiqh/Ibadat/FIQH - The Ruling on Raf' al-Yadayn.md",
+                "file": "History/_History - Map of Contents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "FIQH - The Ruling on Raf' al-Yadayn"
+              "title": "_History - Map of Contents"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:retrospective",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -214,6 +215,7 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
+    "Islam/Fiqh/Ibadat/FIQH - The Ruling on Raf' al-Yadayn.md",
     "_tmp/standardize_report.txt",
     "standardize_history_all.js",
     "GEMINI.md",
@@ -249,7 +251,6 @@
     "_tmp/generate_hannibal.ps1",
     "_tmp/levant_chunk_04.md",
     "_tmp/yolo_execute.ps1",
-    "process_new_notes.js",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
