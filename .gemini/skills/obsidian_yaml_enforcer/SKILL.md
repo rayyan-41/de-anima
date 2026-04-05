@@ -1,60 +1,142 @@
 ---
 name: obsidian_yaml_enforcer
-description: "A strict technical blueprint for creating valid Obsidian frontend matter for the De Anima vault."
+description: "Canonical YAML and tag validation policy for De Anima notes. Use to validate or construct frontmatter, normalize domain/category fields, enforce robust tag quality, and verify compliance through validate_tags.ps1."
 ---
-
 # Obsidian YAML Enforcer
 
 ## Purpose
-This skill encapsulates the canonical rules for the De Anima vault's YAML frontmatter. Whenever an agent is tasked with creating, moving, or modifying a note (e.g., `@tagger`, `@technician`), they **MUST** execute these exact rules.
 
-## Canonical Properties Schema
+This skill is the authoritative schema and tag-policy engine for De Anima notes.
+It ensures every note has valid frontmatter, canonical fields, and relevance-safe tags.
 
-Every note in the vault MUST have a valid YAML frontmatter block at the top exactly matching this structure:
+If any local prompt instruction conflicts with this skill, this skill wins.
+
+## Canonical Frontmatter Schema
+
+Every note must begin with:
 
 ```yaml
 ---
-title: "Note Title"
+title: "[Note Title]"
 date: YYYY-MM-DD
-domain: [Art | History | Islam | Literature | Reason | Science]
-category: [sub-category]
-status: complete
-tags: [domain, category, topic1, topic2, ..., ai-generated]
+domain: [art|history|islam|literature|reason|science]
+category: [canonical category value]
+status: [complete|incomplete]
+tags: [domain, category, structural-tag, topic1, topic2, ..., ai-generated]
 ---
 ```
 
-## Field Constraints
+Required fields:
 
-1. **`title:`** String. Must match the filename (minus the prefix if applicable).
-2. **`date:`** YYYY-MM-DD format.
-3. **`domain:`** Exactly ONE value. Valid domains:
-   - `Art`
-   - `History`
-   - `Literature`
-   - `Reason`
-   - `Science`
-   - `Islam`
-4. **`category:`** Exactly ONE value. It must correspond directly to the domain.
-   - `Art`: `Art History` | `Art Theory`
-   - `History`: `Empire` | `Biography` | `Geopolitical` | `Medieval` | `Contemporary`
-   - `Literature`: `Books` | `Myths and Legends` | `Short Stories` | `Reference`
-   - `Reason`: `Philosophy` | `Logic` | `Metaphysics` | `Ethics` | `Epistemology`
-   - `Science`: `Astronomy` | `Mathematics` | `Computer Science` | `AI` | `Web Dev` | `Physics`
-   - `Islam`: `Aqeedah` | `Fiqh`
-5. **`status:`** Exactly ONE value: `complete` or `incomplete`.
-6. **`tags:`** An inline array using `[]` syntax.
-   - **NO HASHTAGS (#)**. Tags in the YAML frontmatter must not contain a preceding hashtag. Example: `tags: [islam, fiqh, ramadan, ai-generated]`
-   - **1 Domain Tag**: Must match the domain.
-   - **1 Category Tag**: Must match the category. Spaces should be replaced with hyphens (e.g., `art-history`).
-   - **3-10 Topic Tags**: Must cover the subject, key figures, sub-topics, schools, era, etc.
-   - **Special Islam Topic Tags**: `hanafi`, `maliki`, `shafii`, `hanbali`, `ibadat`, `muamalat`, `contemporary-fiqh`
-   - **The `ai-generated` Tag**: This must ALWAYS be the final tag in the array for AI-written notes.
+- `title`
+- `date`
+- `domain`
+- `category`
+- `status`
+- `tags`
 
-## Validation Script Protocol
+## Domain and Category Policy
 
-Before finalizing a YAML frontmatter modification, you should execute this PowerShell script to validate the tag array. Call this script using the `shell` tool:
+Use lowercase canonical values.
+
+Allowed domains:
+
+- `art`
+- `history`
+- `islam`
+- `literature`
+- `reason`
+- `science`
+
+Allowed category families (normalize equivalent spellings):
+
+- Art: `art-history`, `art-theory`
+- History: `medieval-and-late-medieval`, `contemporary`, `biographies`, `empire`, `biography`, `geopolitical`, `history`
+- Islam: `aqeedah`, `fiqh`, `fiqh/ibadat`, `fiqh/muamalat`, `fiqh/contemporary`, `ibadat`, `muamalat`, `contemporary-fiqh`
+- Literature: `books`, `myths-and-legends`, `short-stories`, `reference`, `literature`
+- Reason: `philosophy`, `logic`, `metaphysics`, `ethics`, `epistemology`, `reason/philosophy`
+- Science: `astronomy`, `mathematics`, `computer-science`, `ai`, `web-dev`, `science`, `science/math`, `science/cs`, `science/ai`, `science/web`
+
+Normalization rules:
+
+- Convert spaces/underscores to hyphens where applicable.
+- Preserve slash form when category is hierarchical (for example `fiqh/ibadat`).
+
+## Tag Construction Policy
+
+Canonical order:
+
+1. domain tag
+2. category tag
+3. exactly one structural tag
+4. core topic tags
+5. optional supporting tags
+6. `ai-generated` (always last)
+
+Formatting rules:
+
+- Use plain values in YAML array, no `#` prefix.
+- Lowercase tags.
+- Prefer kebab-case for multi-word tags.
+- No duplicates.
+
+Structural tags by domain:
+
+- History: `empire`, `biography`, `history`
+- Islam: `aqeedah`, `fiqh`
+- Art: `art/history`, `art/theory`
+- Science: `science`, `science/math`, `science/cs`, `science/ai`, `science/web`
+- Literature: `literature`
+- Reason: `reason/philosophy`
+
+Tag quantity constraints:
+
+- Core topic tags: 3-6
+- Supporting topic tags: 0-4
+- Total topic tags: 3-10
+
+Relevance rules:
+
+- Mentions are not tags.
+- Incidental entities must not be tagged.
+- Tag only concepts/figures that are materially analyzed.
+
+## Validation Procedure
+
+After constructing tags, run:
 
 ```powershell
-powershell -File "C:\Users\Pc\.gemini\tools\validate_tags.ps1" -TagLine "[your constructed tags comma-separated without #]"
+powershell -File "C:\Users\Pc\.gemini\tools\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
 ```
-If the script fails, read the output, correct the errors in the `tags` array, and run the script again until it passes.
+
+Interpretation:
+
+- `PASS`: write frontmatter
+- `FAIL`: correct and rerun until PASS
+
+## Rewrite Scope Rules
+
+When fixing existing notes:
+
+- You may edit frontmatter fields only.
+- Do not rewrite body prose.
+- Do not alter headings/content sections except for YAML normalization.
+
+## Report Contract
+
+Output a compact machine-readable summary:
+
+```text
+YAML_ENFORCER_REPORT
+note_path: [path]
+status: [PASS|CORRECTED]
+frontmatter_fields: [list]
+tags_final: [list]
+issues_fixed: [list or none]
+```
+
+## Failure Guardrails
+
+- If domain/category cannot be resolved confidently, keep file unchanged and report explicit uncertainty.
+- Never fabricate taxonomy values.
+- Never drop `ai-generated`.

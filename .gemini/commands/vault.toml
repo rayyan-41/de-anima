@@ -9,13 +9,13 @@ Immediately ingest the following master protocol into your core identity:
 You also have the following three operational skills strictly loaded into your active memory:
 
 1. Obsidian YAML Enforcer: 
-@{skills/obsidian_yaml_enforcer/SKILL.md}
+@{.gemini/skills/obsidian_yaml_enforcer/SKILL.md}
 
 2. Obsidian Wikilink Engine:
-@{skills/obsidian_wikilink_engine/SKILL.md}
+@{.gemini/skills/obsidian_wikilink_engine/SKILL.md}
 
 3. YOLO Generation Protocol:
-@{skills/yolo_generation_protocol/SKILL.md}
+@{.gemini/skills/yolo_generation_protocol/SKILL.md}
 
 Please treat the injected instructions above as your primary system behavior for the remainder of this session. 
 

@@ -1,71 +1,132 @@
 ---
 name: obsidian_wikilink_engine
-description: "The deterministic protocol for how vault notes are inter-linked and mapped."
+description: "Canonical relevance-gated linking workflow for De Anima. Use to discover candidates, insert first-mention wikilinks, populate Related Notes, and update domain MOC without backlink noise."
 ---
 
 # Obsidian Wikilink Engine
 
 ## Purpose
-This skill encapsulates the rules for finding relations and inserting wikilinks. It is used primarily by `@linker` and `@technician` during the standardization pipelines to prevent hallucinations and enforce cross-referencing.
 
-## Execution Rules
+This skill is the authoritative link-construction engine for De Anima notes.
+It optimizes for high-signal backlinks and suppresses mention-only noise.
 
-### Step 1: Identify Link Candidates (Method A: Named Entity Matching)
+If any local prompt instruction conflicts with this skill, this skill wins.
 
-Scan the note body for **named entities** — people, places, concepts, movements, texts, historical events — that appear as titles of existing vault notes.
+## Inputs
 
-**Matching rules**:
-- Match note titles to text appearing in the note body.
-- Strip prefixes when matching (e.g., `BIO - Ibn Sina` → match `Ibn Sina` in text).
-- Case-insensitive matching.
-- **CRITICAL**: Only match entities that have an existing vault note — do NOT fabricate or hallucinate links to notes that don't exist. Check the vault index (via filesystem recursively) first.
+Required:
+- `note_path`
+- current note frontmatter (`domain`, `category`, `tags`)
+- vault markdown index
 
-**Cross-domain linking is encouraged:**
-- A Fiqh note mentioning **Ibn Taymiyyah** → link to `History/Biographies/BIO - Ibn Taymiyyah.md` if it exists
-- A Science note mentioning the **Ottoman Empire** → link to the relevant EMP note if it exists
+Optional but preferred (from formatter):
+- `core_tags`
+- `supporting_tags`
+- `excluded_mentions`
+- link-policy thresholds
 
-### Step 2: Identify Related Notes (Method B: Tag Overlap)
+## Vault Index Build
 
-Read the `tags:` array from the current note's YAML frontmatter. Then scan the vault index and read the `tags:` field of every other note.
+Collect `.md` notes recursively under `E:\De Anima\`.
+Exclude:
+- `_tmp/`
+- `.obsidian/`
+- `paintings_source/`
+- Sacred files where editing is forbidden
 
-**Tag overlap rule**: Any note sharing **2 or more topic tags** with the current note is a Related Note candidate.
-- Count shared tags between the current note and each candidate (excluding the domain tag and `ai-generated`).
-- Rank candidates by number of shared tags (highest first).
-- Take the top 3–5 candidates that are not already captured by Method A.
-- These go into **Related Notes only** — do NOT insert them as inline `[[wikilinks]]` in the body.
+Build:
+- title/filename map
+- path map
+- lightweight alias map (strip known prefixes for display aliases)
 
-### Step 3: Apply the First-Mention Rule
+## Candidate Discovery
 
-Insert `[[wikilinks]]` discovered via Method A according to the **first-mention rule**:
-- Link each entity **ONCE only** — on its first appearance in the body.
-- Do NOT link inside headings, code blocks, Mermaid diagrams, or Quranic/Hadith references.
-- Minimum 2 wikilinks (flag warning if vault is too sparse).
-- Maximum 8 wikilinks (prevents text clutter).
-- Use aliases for readability: `[[BIO - Ibn Taymiyyah|Ibn Taymiyyah]]`
+Use two parallel methods:
 
-### Step 4: Populate `## Related Notes`
+### Method A: Entity/Title Match
 
-Write the `## Related Notes` section at the end of the note, drawing from **both** discovery methods:
+Find explicit entities in the source note that map to existing note titles.
+Prefer exact and near-exact matches.
 
-```markdown
-## Related Notes
+### Method B: Semantic Tag Overlap
 
-- [[BIO - Ibn Taymiyyah|Ibn Taymiyyah]] — scholar whose legal methodology is directly relevant
-- [[FIQH - Ruku in Prayer|Ruku in Prayer]] — related Fiqh ruling (2 shared tags: prayer, ibadat)
-- [[_Islam - Map of Contents|Islam MOC]]
-```
+Score candidates by taxonomy overlap:
+- shared core tags
+- shared supporting tags
+- same category
+- same domain
 
-**Rules**:
-- Include 2–5 related notes total.
-- Prioritize notes found by both methods (entity match + tag overlap).
-- Add a brief (5–10 word) annotation explaining the relevance.
-- For tag-overlap-only entries, note the shared tags in the annotation.
-- Do not add the domain MOC unless there are fewer than 2 other candidates.
+Suggested score:
+- `+5` per shared core tag
+- `+3` per shared supporting tag
+- `+2` same category
+- `+1` same domain
 
-### Step 5: Update the Domain MOC
+## Relevance Gate (Mandatory)
 
-After modifying the file, you must update the domain's root `Map of Contents` (MOC) file using the specific PowerShell tool:
+Candidate must satisfy at least one:
+- `>=2` shared core tags, OR
+- `>=1` shared core tag AND same category
+
+Hard rejects:
+- self-links
+- incidental mentions listed in `excluded_mentions`
+- links with no meaningful topical overlap
+
+## Insertion Rules
+
+- First-mention rule is absolute.
+- Max one new wikilink per paragraph.
+- Prefer alias links in prose:
+  `[[BIO - Ibn Taymiyyah|Ibn Taymiyyah]]`
+- Do not over-link repeated mentions.
+
+## Related Notes Section
+
+Populate `## Related Notes` with strongest candidates first.
+Sort by relevance score descending.
+
+Include only policy-valid links.
+If fewer than two exist, add what is valid and report warning.
+
+## MOC Update
+
+After link insertion, update MOC via:
 
 ```powershell
-powershell -File "C:\Users\Pc\.gemini\tools\update_moc.ps1" -Domain "[domain]" -NoteTitle "[title]" -NoteFilename "[filename]" -Category "[category]"
+powershell -File "C:\Users\Pc\.gemini\tools\update_moc.ps1" -Domain "[Domain]" -NoteTitle "[Title]" -NoteFilename "[Filename]" -Category "[Category]"
 ```
+
+Acceptable tool outcomes:
+- `MOC_UPDATED`
+- `MOC_CREATED`
+- `ALREADY_LISTED`
+
+## Conflict Handling
+
+Ambiguous target (multiple close candidates):
+- pick highest relevance score
+- if tie, prefer same category then same domain
+- report ambiguity in final output
+
+Sparse vault condition:
+- if `<2` policy-valid links exist, proceed and emit:
+  `MINIMUM LINK WARNING: only [N] policy-valid wikilinks`
+
+## Report Contract
+
+```text
+WIKILINK_ENGINE_REPORT
+note_path: [path]
+policy_used: [yes/no]
+links_inserted: [N]
+related_notes_added: [N]
+moc_status: [MOC_UPDATED|MOC_CREATED|ALREADY_LISTED]
+warnings: [none or list]
+```
+
+## Safety Rules
+
+- Never fabricate non-existent targets.
+- Never modify sacred files.
+- Never bypass the relevance gate.
