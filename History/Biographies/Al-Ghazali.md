@@ -11,8 +11,6 @@ tags:
   - al-ghazali
   - islamic-golden-age
   - theology
-  - historical-analysis
-  - footnote:-"
   - ai-generated
 ---
 

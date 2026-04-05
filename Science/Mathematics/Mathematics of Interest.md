@@ -1,6 +1,12 @@
 ---
 date: 2026-02-06
-tags: [science, mathematics, reference, research, analysis, systems, theory, computation, data, algorithms, ai-generated]
+tags:
+  - science
+  - mathematics
+  - reference
+  - computation
+  - algorithms
+  - ai-generated
 footnote: ""
 ---
 

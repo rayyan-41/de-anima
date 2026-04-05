@@ -1,6 +1,14 @@
 ---
 date: 2026-03-27
-tags: [#islam, #fiqh, #hanafi, #maliki, #shafii, #hanbali, #contemporary]
+tags:
+  - islam
+  - fiqh
+  - hanafi
+  - maliki
+  - shafii
+  - hanbali
+  - contemporary
+  - ai-generated
 ---
 
 # FIQH - Contemporary Challenges and Misunderstandings of Sharia

@@ -9,14 +9,6 @@ tags:
   - medieval-and-late-medieval
   - empire
   - the-holy-roman-empire
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

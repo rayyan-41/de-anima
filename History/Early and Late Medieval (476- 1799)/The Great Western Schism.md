@@ -9,10 +9,7 @@ tags:
   - medieval-and-late-medieval
   - medieval
   - the-great-western-schism
-  - historical-analysis
-  - records
   - christianity
-  - footnote:-"
   - ai-generated
 ---
 

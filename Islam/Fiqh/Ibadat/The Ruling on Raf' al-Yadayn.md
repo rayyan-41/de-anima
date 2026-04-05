@@ -1,6 +1,14 @@
 ---
 date: 2026-03-24
-tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, ibadat, ai-generated]
+tags:
+  - islam
+  - fiqh
+  - hanafi
+  - maliki
+  - shafii
+  - hanbali
+  - ibadat
+  - ai-generated
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn

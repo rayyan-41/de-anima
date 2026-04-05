@@ -9,14 +9,6 @@ tags:
   - biographies
   - biography
   - jacob-bernoulli
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

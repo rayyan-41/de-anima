@@ -1,6 +1,13 @@
 ---
 date: 2026-02-18
-tags: [science, web-dev, computer-science, javascript, frameworks, architecture, history, research, analysis, systems, ai-generated]
+tags:
+  - science
+  - web-dev
+  - computer-science
+  - javascript
+  - frameworks
+  - history
+  - ai-generated
 footnote: ""
 ---
 

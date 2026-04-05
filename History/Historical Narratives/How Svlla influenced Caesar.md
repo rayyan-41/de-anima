@@ -6,6 +6,7 @@ category: history
 status: complete
 tags:
   - history
+  - history
   - ai-generated
 ---
 

@@ -7,15 +7,6 @@ status: complete
 tags:
   - history
   - contemporary
-  - the-arab-spring---a-decade-of-upheaval-and-transformation
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

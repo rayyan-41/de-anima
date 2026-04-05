@@ -1,6 +1,11 @@
 ---
 date: 2026-04-01
-tags: [science, computer-science, development, web-dev, rust, tooling, research, analysis, systems, theory, ai-generated]
+tags:
+  - science
+  - computer-science
+  - web-dev
+  - rust
+  - ai-generated
 footnote: ""
 ---
 

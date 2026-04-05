@@ -6,16 +6,8 @@ category: history
 status: complete
 tags:
   - history
+  - history
   - medieval
-  - evolution-of-intellectual-thought-in-europe
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

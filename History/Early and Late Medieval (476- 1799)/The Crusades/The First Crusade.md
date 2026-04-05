@@ -9,14 +9,6 @@ tags:
   - medieval-and-late-medieval
   - medieval
   - crusades
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

@@ -1,6 +1,13 @@
 ---
 date: 2026-03-24
-tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, ai-generated]
+tags:
+  - islam
+  - fiqh
+  - hanafi
+  - maliki
+  - shafii
+  - hanbali
+  - ai-generated
 ---
 
 # FIQH - The Four Madhabs: History, Methodologies, and Interactions

@@ -9,14 +9,6 @@ tags:
   - medieval-and-late-medieval
   - medieval
   - islamic-golden-age-scholars
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-'>-"the-ink-of-the-scholar-is-more-holy-than-the-blood-of-the-martyr."-—-tradition-attributed-to-prophet-muhammad-(pbuh)*
   - ai-generated
 ---
 "the-ink-of-the-scholar-is-more-holy-than-the-blood-of-the-martyr."-—-tradition-attributed-to-prophet-muhammad-(pbuh)*

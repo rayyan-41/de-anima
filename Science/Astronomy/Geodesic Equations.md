@@ -1,6 +1,12 @@
 ---
 date: 2026-02-06
-tags: [science, astronomy, research, analysis, systems, theory, computation, data, algorithms, engineering, ai-generated]
+tags:
+  - science
+  - astronomy
+  - computation
+  - algorithms
+  - engineering
+  - ai-generated
 footnote: ""
 ---
 

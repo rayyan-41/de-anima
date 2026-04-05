@@ -1,6 +1,12 @@
 ---
 date: 2026-02-06
-tags: [science, mathematics, number-theory, millenniumproblems, research, analysis, systems, theory, computation, data, ai-generated]
+tags:
+  - science
+  - mathematics
+  - number-theory
+  - millenniumproblems
+  - computation
+  - ai-generated
 footnote: ""
 ---
 

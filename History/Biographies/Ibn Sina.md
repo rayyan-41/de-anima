@@ -11,12 +11,6 @@ tags:
   - philosophy
   - medicine
   - islamic-golden-age
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - footnote:-"
   - ai-generated
 ---
 

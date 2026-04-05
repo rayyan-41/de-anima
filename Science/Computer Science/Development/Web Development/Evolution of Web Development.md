@@ -1,6 +1,12 @@
 ---
 date: 2026-02-18
-tags: [science, web-dev, computer-science, evolution, history, research, analysis, systems, theory, computation, ai-generated]
+tags:
+  - science
+  - web-dev
+  - computer-science
+  - history
+  - computation
+  - ai-generated
 footnote: ""
 ---
 

@@ -1,58 +1,22 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
-  "showAttachments": false,
+  "showTags": true,
+  "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "file:_Science",
-      "color": {
-        "a": 1,
-        "rgb": 13728297
-      }
-    },
-    {
-      "query": "file:_Literature",
-      "color": {
-        "a": 1,
-        "rgb": 6250073
-      }
-    },
-    {
-      "query": "file:_Art",
-      "color": {
-        "a": 1,
-        "rgb": 13578357
-      }
-    },
-    {
-      "query": "file:_History",
-      "color": {
-        "a": 1,
-        "rgb": 7031583
-      }
-    },
-    {
-      "query": "file:_Islam",
-      "color": {
-        "a": 1,
-        "rgb": 3132186
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
-  "showArrow": true,
-  "textFadeMultiplier": -1.3,
-  "nodeSizeMultiplier": 3.29069767441861,
-  "lineSizeMultiplier": 1.15615428247306,
+  "showArrow": false,
+  "textFadeMultiplier": -2.5,
+  "nodeSizeMultiplier": 2.17260351673284,
+  "lineSizeMultiplier": 0.67334089619966,
   "collapse-forces": false,
   "centerStrength": 0.391783485941172,
   "repelStrength": 20,
   "linkStrength": 0.531885584636577,
   "linkDistance": 500,
-  "scale": 0.09421214411102376,
+  "scale": 0.07478890121229405,
   "close": false
 }

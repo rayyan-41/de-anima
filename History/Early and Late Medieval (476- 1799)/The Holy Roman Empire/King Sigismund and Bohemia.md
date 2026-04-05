@@ -10,14 +10,6 @@ tags:
   - empire
   - medieval
   - king-sigismund-and-bohemia
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

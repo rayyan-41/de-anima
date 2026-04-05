@@ -6,12 +6,10 @@ category: history
 status: complete
 tags:
   - history
+  - history
   - medieval
-  - historical-analysis
   - islamic-golden-age
   - islamic-golden-age-scholars
-  - evolution-of-intellectual-thought-in-europe
-  - footnote:-"
   - ai-generated
 ---
 

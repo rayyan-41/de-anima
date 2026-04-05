@@ -7,15 +7,6 @@ status: complete
 tags:
   - history
   - contemporary
-  - gaddafi-s-libya---the-rise-and-fall-of-the-jamahiriya
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

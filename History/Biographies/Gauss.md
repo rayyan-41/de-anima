@@ -9,14 +9,6 @@ tags:
   - biographies
   - biography
   - gauss
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

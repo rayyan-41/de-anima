@@ -1,6 +1,14 @@
 ---
 date: 2026-03-24
-tags: [islam, fiqh, ibadat, hanafi, maliki, shafii, hanbali, ai-generated]
+tags:
+  - islam
+  - fiqh
+  - ibadat
+  - hanafi
+  - maliki
+  - shafii
+  - hanbali
+  - ai-generated
 ---
 
 # FIQH - The Prayer of Witr: Rulings, Methodologies, and Variations Across the Four Madhabs

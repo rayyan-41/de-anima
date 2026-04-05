@@ -209,6 +209,7 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
+    "_tmp/extract_tags.ps1",
     "_tmp/add_missing_tocs.js",
     "_tmp/remove_moc_properties.ps1",
     "Reason/Map of Contents - Reason.md",
@@ -244,7 +245,6 @@
     "_tmp/current_prompt.txt",
     "_tmp/test_gemini.ps1",
     "History/Early and Late Medieval (476- 1799)/Islamic History/The Umayyads",
-    "_tmp/generate_hannibal.ps1",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",

@@ -1,6 +1,12 @@
 ---
 date: 2025-08-18
-tags: [reason, philosophy, chainofthoughts, romanempire, astronomy, thought-experiment, logic, analysis, perspective, reflection, ai-generated]
+tags:
+  - reason
+  - philosophy
+  - romanempire
+  - astronomy
+  - logic
+  - ai-generated
 footnote: ""
 ---
 

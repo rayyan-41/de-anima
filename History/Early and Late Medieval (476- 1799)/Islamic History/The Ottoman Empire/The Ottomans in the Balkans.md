@@ -10,14 +10,6 @@ tags:
   - empire
   - medieval
   - the-ottomans-in-the-balkans
-  - historical-analysis
-  - timeline
-  - retrospective
-  - documentation
-  - records
-  - insights
-  - worldview
-  - footnote:-"
   - ai-generated
 ---
 

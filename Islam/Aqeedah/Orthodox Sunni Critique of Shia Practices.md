@@ -1,6 +1,12 @@
 ---
 date: 2026-03-25
-tags: [islam, aqeedah, orthodox-critique, fiqh, shia-sunni-divide, ai-generated]
+tags:
+  - islam
+  - aqeedah
+  - orthodox-critique
+  - fiqh
+  - shia-sunni-divide
+  - ai-generated
 ---
 
 # AQEEDAH - Orthodox Sunni Critique of Shia Practices
