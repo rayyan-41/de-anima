@@ -1,16 +1,5 @@
----
-title: "Map of Contents - Early and Late Medieval History"
-date: 2026-04-05
-domain: history
-category: medieval-and-late-medieval
-status: complete
-tags:
-  - history
-  - medieval-and-late-medieval
-  - history
-  - sub-moc
-  - ai-generated
----
+> *Those who cannot remember the past are condemned to repeat it.* - George Santayana
+
 This section indexes the sweeping history from the fall of the Western Roman Empire to the dawn of the modern era (476-1799).
 
 **Metadata:**
@@ -20,9 +9,9 @@ This section indexes the sweeping history from the fall of the Western Roman Emp
 ## Structure
 | Topic Area | Notes | Last Updated |
 |-----------|-----------|--------------|
-| The Holy Roman Empire | [[EMP - Bohemia and Charles IV]], [[EMP - King Sigismund and Bohemia]], [[EMP - The Holy Roman Empire]] | 2026-04-05 |
-| The Crusades | [[HIST - The First Crusade]] | 2026-04-05 |
-| Islamic History | [[HIST - Islamic Golden Age Scholars]] | 2026-04-05 |
-| Ottoman Empire | [[EMP - The Ottomans in the Balkans]] | 2026-04-05 |
-| Europe | [[HIST - The Great Western Schism]] | 2026-04-05 |
+| The Holy Roman Empire | [[Bohemia and Charles IV]], [[King Sigismund and Bohemia]], [[The Holy Roman Empire]] | 2026-04-05 |
+| The Crusades | [[The First Crusade]] | 2026-04-05 |
+| Islamic History | [[Islamic Golden Age Scholars]] | 2026-04-05 |
+| Ottoman Empire | [[The Ottomans in the Balkans]] | 2026-04-05 |
+| Europe | [[The Great Western Schism]] | 2026-04-05 |
 - - -

@@ -15,6 +15,22 @@ tags:
   - ai-generated
 ---
 
+## Table of Contents
+
+- [The Islamic Golden Age: Foundations of the Renaissance and Enlightenment](#the-islamic-golden-age-foundations-of-the-renaissance-and-enlightenment)
+- [Abstract: The Great Transmission (Overview)](#abstract-the-great-transmission-overview)
+- [The Translation Movement: Toledo and Sicily as Gateways](#the-translation-movement-toledo-and-sicily-as-gateways)
+- [Rationalism & Scholasticism: The Impact of Ibn Rushd (Averroes)](#rationalism-scholasticism-the-impact-of-ibn-rushd-averroes)
+- [Medicine & Anatomy: The Canon of Ibn Sina (Avicenna)](#medicine-anatomy-the-canon-of-ibn-sina-avicenna)
+- [Mathematics: Al-Khwarizmi and the Algorithmic Foundation](#mathematics-al-khwarizmi-and-the-algorithmic-foundation)
+- [Optics & Empiricism: Ibn al-Haytham’s Scientific Method](#optics-empiricism-ibn-al-haythams-scientific-method)
+- [Astronomy: The Maragha School and the Copernican Turn](#astronomy-the-maragha-school-and-the-copernican-turn)
+- [Chemistry & Alchemy: Jabir ibn Hayyan to Robert Boyle](#chemistry-alchemy-jabir-ibn-hayyan-to-robert-boyle)
+- [Sociology & Historiography: Ibn Khaldun’s Prolegomena](#sociology-historiography-ibn-khalduns-prolegomena)
+- [The Darkening: Factors in the Decline and Western Synthesis](#the-darkening-factors-in-the-decline-and-western-synthesis)
+- [Legacy: Structural Echoes in the Enlightenment](#legacy-structural-echoes-in-the-enlightenment)
+
+
 # The Islamic Golden Age: Foundations of the Renaissance and Enlightenment
 
 - - -

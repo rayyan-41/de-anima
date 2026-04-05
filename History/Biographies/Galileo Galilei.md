@@ -182,9 +182,9 @@ Galileo was not a saint; he was a brilliantly flawed human being.
 | **Two New Sciences** | 1638 | Established the mathematical study of material strength and kinematics. |
 
 - - -
-*Related Notes:* BIO - Johannes Kepler, BIO - Isaac Newton, SCI - Astronomy Master List, HIST - [[EMP - The Holy Roman Empire|The Holy Roman Empire]], REAS - Chain Of Thoughts
+*Related Notes:* BIO - Johannes Kepler, BIO - Isaac Newton, SCI - Astronomy Master List, HIST - [[The Holy Roman Empire|The Holy Roman Empire]], REAS - Chain Of Thoughts
 
 ## See Also
 
-- [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
+- [[The Holy Roman Empire]] — Historical entity referenced in text.
 - [[_Biographies - Map of Content|Biographies MOC]]

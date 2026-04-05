@@ -114,6 +114,6 @@ Following a chaotic year under **Mohamed Morsi**, the military under **Abdel Fat
 The **Assad** regime's refusal to step down, combined with regional proxy intervention, transformed Syria into the 21st century's most severe humanitarian catastrophe.
 - - -
 #### **References**
-- [[HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya|Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]
+- [[Gaddafi's Libya - The Rise and Fall of the Jamahiriya|Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]
 ## See Also
 - [[BIO - Muammar Gaddafi]] — Historical entity referenced in text.

@@ -79,7 +79,7 @@ On July 6, 1415, Hus was burned at the stake for heresy against the doctrines of
 ## Bohemia Explodes: The First Defenestration and the Rise of the Hussites
 The news of Hus's execution reached Bohemia like a lit fuse reaching powder. The martyrdom of Jan Hus sparked a violent revolt known as the Hussite Wars, as his followers sought to defend reformist ideals against Catholic authorities. On July 30, 1419, Czech Hussites threw their German magistrates out of a window in Prague's New Town Hall, killing them—the first of Prague's famous defenestrations.
 
-King Wenceslas IV, Sigismund's perpetually ineffective brother, died of shock shortly after hearing about the uprising. Sigismund of Hungary was unable to establish a real government in Bohemia due to the Hussite revolt. In 1419, Sigismund was made King of the Czech Lands by the electors of [[EMP - The Holy Roman Empire|the Holy Roman Empire]], but it was a rather comic election, because more than half of the politically-oriented nobility in Bohemia and Moravia refused to recognize him as their ruler. For the Hussites, Sigismund was not merely a foreign king—he was the man who had betrayed Jan Hus to his death. Pope Martin V issued a Papal bull on March 1, 1420, authorizing the execution of all supporters of Hus and Wycliffe. The stage was set for a crusade.
+King Wenceslas IV, Sigismund's perpetually ineffective brother, died of shock shortly after hearing about the uprising. Sigismund of Hungary was unable to establish a real government in Bohemia due to the Hussite revolt. In 1419, Sigismund was made King of the Czech Lands by the electors of [[The Holy Roman Empire|the Holy Roman Empire]], but it was a rather comic election, because more than half of the politically-oriented nobility in Bohemia and Moravia refused to recognize him as their ruler. For the Hussites, Sigismund was not merely a foreign king—he was the man who had betrayed Jan Hus to his death. Pope Martin V issued a Papal bull on March 1, 1420, authorizing the execution of all supporters of Hus and Wycliffe. The stage was set for a crusade.
 
 Sigismund tried what every medieval king would try: he collected mercenaries from around Europe and seized Prague with the aim of starving the town and forcing it to capitulate. He commanded armies that should have crushed a peasant rebellion with ease. What he did not count on was Jan Žižka.
 ## The One-Eyed Prophet of War
@@ -155,5 +155,5 @@ The fires of Constance lit a path that would lead, a century later, to Wittenber
 
 ## See Also
 
-- [[EMP - The Holy Roman Empire]] — Historical entity referenced in text.
+- [[The Holy Roman Empire]] — Historical entity referenced in text.
 - [[_History - Map of Contents|History MOC]]

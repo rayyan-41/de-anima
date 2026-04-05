@@ -9,7 +9,7 @@ Mathematical concepts that I find interesting or want to know more about, tabula
 
 | Topics | Tags |
 | :--- | :--- |
-| [[MATH - The Riemann Hypothesis]] | #MillenniumProblems |
+| [[The Riemann Hypothesis]] | #MillenniumProblems |
 
 ## See Also
 

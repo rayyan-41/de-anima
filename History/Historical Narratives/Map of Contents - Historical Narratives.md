@@ -1,16 +1,5 @@
----
-title: "Map of Contents - Historical Narratives"
-date: 2026-04-05
-domain: history
-category: historical-narratives
-status: complete
-tags:
-  - history
-  - historical-narratives
-  - history
-  - sub-moc
-  - ai-generated
----
+> *Those who cannot remember the past are condemned to repeat it.* - George Santayana
+
 This section indexes the stories, sweeping narrative accounts, and broader thematic developments that transcend specific empires or rigid timeframes.
 
 **Metadata:**

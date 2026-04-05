@@ -1,16 +1,5 @@
----
-title: "Map of Contents - History"
-date: 2026-04-05
-domain: history
-category: history
-status: complete
-tags:
-  - history
-  - history
-  - history
-  - moc
-  - ai-generated
----
+> *Those who cannot remember the past are condemned to repeat it.* - George Santayana
+
 The History domain serves as a documentary repository of human events, empires, and ideological shifts. This Map of Contents organizes historical periods, geopolitical movements, and the rise and fall of civilizations across time.
 
 **Metadata:**

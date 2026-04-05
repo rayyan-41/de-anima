@@ -174,7 +174,7 @@ Euler's foray into Number Theory was largely sparked by his correspondence with 
 
 One of his most significant triumphs was the proof of Fermat's Last Theorem for the case of $n=3$. By utilizing the method of Infinite Descent and introducing the concept of Complex Numbers into the study of integers, he laid the groundwork for the eventual 20th-century proof by Andrew Wiles. 
 
-Euler also turned his gaze toward the distribution of Prime Numbers. He solved the "Basel Problem," finding the exact sum of the reciprocals of the squares ($\pi^2/6$), a feat that had eluded the greatest minds of the previous generation. This led him to the discovery of the Euler Product Formula, which connected the primes to the Zeta Function. This connection is the direct ancestor of [[MATH - The Riemann Hypothesis|the Riemann Hypothesis]], perhaps the most famous unsolved problem in modern mathematics.
+Euler also turned his gaze toward the distribution of Prime Numbers. He solved the "Basel Problem," finding the exact sum of the reciprocals of the squares ($\pi^2/6$), a feat that had eluded the greatest minds of the previous generation. This led him to the discovery of the Euler Product Formula, which connected the primes to the Zeta Function. This connection is the direct ancestor of [[The Riemann Hypothesis|the Riemann Hypothesis]], perhaps the most famous unsolved problem in modern mathematics.
 
 ### The Genesis of Structure: Graph Theory and Topology
 
@@ -208,6 +208,6 @@ Euler did not just solve problems; he built the Cathedral of Modern Science. He 
 
 ## See Also
 
-- [[MATH - The Riemann Hypothesis]] — Historical entity referenced in text.
+- [[The Riemann Hypothesis]] — Historical entity referenced in text.
 - [[BIO - Jacob Bernoulli]] — Historical entity referenced in text.
 - [[BIO - Gauss]] — Historical entity referenced in text.

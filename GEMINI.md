@@ -141,7 +141,6 @@ When the user makes a request:
   - Do NOT use legacy filename prefixes (`EMP -`, `BIO -`, `FIQH -`, etc.).
   - Use clear, human-readable Title Case filenames derived from the topic.
   - Use YAML frontmatter + canonical tags to encode domain/category/template identity.
-  - If an existing legacy note already has a prefixed filename, keep it unchanged unless the user explicitly requests migration/rename.
 
 ### Map of Contents (MOC) Template
 

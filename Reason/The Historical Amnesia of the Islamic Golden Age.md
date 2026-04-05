@@ -4,6 +4,17 @@ tags: [philosophy, thought-experiment, logic, analysis, perspective, reflection,
 footnote: ""
 ---
 
+## Table of Contents
+
+- [ARG - The Historical Amnesia of the Islamic Golden Age](#arg---the-historical-amnesia-of-the-islamic-golden-age)
+  - [1. Introduction: The Myth of the "Dark Ages"](#1-introduction-the-myth-of-the-dark-ages)
+  - [2. Beyond the Translation Movement: Synthesis and Scrutiny](#2-beyond-the-translation-movement-synthesis-and-scrutiny)
+  - [3. The Pillars of Modernity: The "If Not For Them" Argument](#3-the-pillars-of-modernity-the-if-not-for-them-argument)
+  - [4. The Genesis of the Scientific Method](#4-the-genesis-of-the-scientific-method)
+  - [5. The Mechanics of Erasure: Why Western Academia Forgot](#5-the-mechanics-of-erasure-why-western-academia-forgot)
+  - [6. Conclusion: Reclaiming the Lineage of Human Thought](#6-conclusion-reclaiming-the-lineage-of-human-thought)
+
+
 # ARG - The Historical Amnesia of the Islamic Golden Age
 
 ## 1. Introduction: The Myth of the "Dark Ages"

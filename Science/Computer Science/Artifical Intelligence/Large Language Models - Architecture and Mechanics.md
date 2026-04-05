@@ -228,8 +228,8 @@ Large Language Models have fundamentally rewritten the contract between humanity
 - - -
 
 **Related Notes:**
-- [[AI - 1.0 - Neural Networks]]
-- [[AI - 2.0 - CNNs]]
+- [[1.0 - Neural Networks]]
+- [[2.0 - CNNs]]
 - [[CS - Software Design Techniques]]
 
 - - -
