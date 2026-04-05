@@ -18,6 +18,7 @@ The History domain serves as a documentary repository of human events, empires, 
 | General              | [[Evolution of Intellectual Thought in Europe]]                                                                                     | 2026-04-01   |
 | HIST - Hannibal's Legacy | [[HIST - Hannibal's Legacy.md|HIST - Hannibal's Legacy]] | 2026-04-04 |
 | HIST - History of the Levant under Muslim Rule | [[HIST - History of the Levant under Muslim Rule.md|HIST - History of the Levant under Muslim Rule]] | 2026-04-04 |
+| BIO - Al-Ghazali | [[BIO - Al-Ghazali.md|BIO - Al-Ghazali]] | 2026-04-05 |
 
 - - -
 *Last MOC Update: 2026-04-01 by [GeminiCLI]*

@@ -212,8 +212,13 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b1a71ce328e7e30b",
+  "active": "7adb17c520de5016",
   "lastOpenFiles": [
+    "_tmp/run_standardize.ps1",
+    "_tmp/current_err.txt",
+    "_tmp/current_out.txt",
+    "_tmp/current_prompt.txt",
+    "_tmp/test_gemini.ps1",
     "History/Early and Late Medieval (476- 1799)/Islamic History/HIST - Islamic Golden Age Scholars.md",
     "Reason/the Epistemic Gap and the Necessity of Revelation.md",
     "Reason/The Historical Amnesia of the Islamic Golden Age.md",
@@ -245,11 +250,6 @@
     "process_new_notes.js",
     "History/Medieval and Late Medieval (476- 1799)/Islamic History",
     "History/Medieval and Late Medieval (476- 1799)",
-    "History/Contemporary (1800 - Present)/Libya/HIST - The Arab Spring - A Decade of Upheaval and Transformation.md",
-    "update_toc_format.js",
-    "History/Historical Narratives",
-    "add_toc_science.js",
-    "standardize_science.js",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
