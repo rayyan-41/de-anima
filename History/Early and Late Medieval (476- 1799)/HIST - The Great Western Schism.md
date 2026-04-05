@@ -1,15 +1,21 @@
 ---
+title: "The Great Western Schism"
 date: 2026-04-01
+domain: history
+category: medieval-and-late-medieval
+status: complete
 tags:
   - history
+  - medieval-and-late-medieval
   - medieval
   - the-great-western-schism
   - historical-analysis
   - records
+  - christianity
+  - footnote:-"
   - ai-generated
-  - Christianity
-footnote: ""
 ---
+
 ### HIST - The Great Western Schism (1378–1417)
 
 The year 1378 marked a critical turning point for the Catholic Church. After decades of the "Avignon Papacy," the papacy returned to Rome, but the election of the new pope led to a split that would see two, and eventually three, rival claimants to the papal throne.

@@ -1,7 +1,23 @@
 ---
+title: "Ibn Sina"
 date: 2026-04-01
-tags: [history, biography, philosophy, medicine, islamic-golden-age, historical-analysis, timeline, retrospective, documentation, records, ai-generated]
-footnote: ""
+domain: history
+category: biographies
+status: complete
+tags:
+  - history
+  - biographies
+  - biography
+  - philosophy
+  - medicine
+  - islamic-golden-age
+  - historical-analysis
+  - timeline
+  - retrospective
+  - documentation
+  - records
+  - footnote:-"
+  - ai-generated
 ---
 
 > [!abstract] Table of Contents

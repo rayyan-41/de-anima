@@ -1,0 +1,66 @@
+STANDARDIZE: History
+Notes found: 25
+─────────────────────────────
+ 1. BIO - Al-Ghazali.md — E:\De Anima\History\Biographies\BIO - Al-Ghazali.md
+ 2. BIO - Euclid.md — E:\De Anima\History\Biographies\BIO - Euclid.md
+ 3. BIO - Euler.md — E:\De Anima\History\Biographies\BIO - Euler.md
+ 4. BIO - Galileo Galilei.md — E:\De Anima\History\Biographies\BIO - Galileo Galilei.md
+ 5. BIO - Gauss.md — E:\De Anima\History\Biographies\BIO - Gauss.md
+ 6. BIO - Ibn Sina.md — E:\De Anima\History\Biographies\BIO - Ibn Sina.md
+ 7. BIO - Jacob Bernoulli.md — E:\De Anima\History\Biographies\BIO - Jacob Bernoulli.md
+ 8. BIO - Luca Pacioli.md — E:\De Anima\History\Biographies\BIO - Luca Pacioli.md
+ 9. BIO - Muammar Gaddafi.md — E:\De Anima\History\Biographies\BIO - Muammar Gaddafi.md
+ 10. BIO - Rumi.md — E:\De Anima\History\Biographies\BIO - Rumi.md
+ 11. BIO - Stefan Lazarevic.md — E:\De Anima\History\Biographies\BIO - Stefan Lazarevic.md
+ 12. HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md — E:\De Anima\History\Contemporary (1800 - Present)\Libya\HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md
+ 13. HIST - The Arab Spring - A Decade of Upheaval and Transformation.md — E:\De Anima\History\Contemporary (1800 - Present)\Libya\HIST - The Arab Spring - A Decade of Upheaval and Transformation.md
+ 14. HIST - The Great Western Schism.md — E:\De Anima\History\Early and Late Medieval (476- 1799)\HIST - The Great Western Schism.md
+ 15. HIST - Islamic Golden Age Scholars.md — E:\De Anima\History\Early and Late Medieval (476- 1799)\Islamic History\HIST - Islamic Golden Age Scholars.md
+ 16. EMP - The Ottomans in the Balkans.md — E:\De Anima\History\Early and Late Medieval (476- 1799)\Islamic History\The Ottoman Empire\EMP - The Ottomans in the Balkans.md
+ 17. HIST - The First Crusade.md — E:\De Anima\History\Early and Late Medieval (476- 1799)\The Crusades\HIST - The First Crusade.md
+ 18. EMP - Bohemia and Charles IV.md — E:\De Anima\History\Early and Late Medieval (476- 1799)\The Holy Roman Empire\EMP - Bohemia and Charles IV.md
+ 19. EMP - King Sigismund and Bohemia.md — E:\De Anima\History\Early and Late Medieval (476- 1799)\The Holy Roman Empire\EMP - King Sigismund and Bohemia.md
+ 20. EMP - The Holy Roman Empire.md — E:\De Anima\History\Early and Late Medieval (476- 1799)\The Holy Roman Empire\EMP - The Holy Roman Empire.md
+ 21. Evolution of Intellectual Thought in Europe.md — E:\De Anima\History\Historical Narratives\Evolution of Intellectual Thought in Europe.md
+ 22. Hannibal's Legacy.md — E:\De Anima\History\Historical Narratives\Hannibal's Legacy.md
+ 23. History of the Levant under Muslim Rule.md — E:\De Anima\History\Historical Narratives\History of the Levant under Muslim Rule.md
+ 24. How Svlla influenced Caesar.md — E:\De Anima\History\Historical Narratives\How Svlla influenced Caesar.md
+ 25. Influence of Islamic Golden Age on the West.md — E:\De Anima\History\Historical Narratives\Influence of Islamic Golden Age on the West.md
+─────────────────────────────
+Spawning 25 sub-sessions. 15s sleep between each.
+
+════════════════════════════════════════════
+STANDARDIZE COMPLETE — History
+════════════════════════════════════════════
+Total notes processed : 25
+Successful            : 25
+Failed / Skipped      : 0
+────────────────────────────────────────────
+PER-NOTE RESULTS:
+  ✅ BIO - Al-Ghazali.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Euclid.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Euler.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Galileo Galilei.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Gauss.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Ibn Sina.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Jacob Bernoulli.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Luca Pacioli.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Muammar Gaddafi.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Rumi.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ BIO - Stefan Lazarevic.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ HIST - Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ HIST - The Arab Spring - A Decade of Upheaval and Transformation.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ HIST - The Great Western Schism.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ HIST - Islamic Golden Age Scholars.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ EMP - The Ottomans in the Balkans.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ HIST - The First Crusade.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ EMP - Bohemia and Charles IV.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ EMP - King Sigismund and Bohemia.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ EMP - The Holy Roman Empire.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ Evolution of Intellectual Thought in Europe.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ Hannibal's Legacy.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ History of the Levant under Muslim Rule.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ How Svlla influenced Caesar.md — tags corrected, 0 wikilinks, MOC updated
+  ✅ Influence of Islamic Golden Age on the West.md — tags corrected, 0 wikilinks, MOC updated
+────────────────────────────────────────────
+════════════════════════════════════════════

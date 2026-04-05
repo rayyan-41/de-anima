@@ -1,11 +1,34 @@
 ---
 title: "HIST - History of the Levant under Muslim Rule"
 date: 2026-04-04
-domain: History
-category: Geopolitical
+domain: history
+category: history
 status: complete
-tags: [history, geopolitical, levant, bilad-al-sham, umayyad, abbasid, ayyubid, mamluk, crusades, ai-generated]
+tags:
+  - history
+  - geopolitical
+  - levant
+  - bilad-al-sham
+  - umayyad
+  - abbasid
+  - ayyubid
+  - mamluk
+  - crusades
+  - ai-generated
 ---
+
+## Table of Contents
+
+  - [Introduction: The Levant as the Crossroads of Empires](#introduction-the-levant-as-the-crossroads-of-empires)
+  - [The Rashidun Conquest: Integration and the Pact of Umar (634–661 CE)](#the-rashidun-conquest-integration-and-the-pact-of-umar-634661-ce)
+  - [The Umayyad Caliphate: The Syrian Heartland and Monumental Architecture (661-750 CE)](#the-umayyad-caliphate-the-syrian-heartland-and-monumental-architecture-661-750-ce)
+  - [The Abbasid Shift: Marginalization and Provincial Dynamics (750-969 CE)](#the-abbasid-shift-marginalization-and-provincial-dynamics-750-969-ce)
+  - [The Fatimid Era: Shi'ite Rule and Byzantine Intrusions (969–1071 CE)](#the-fatimid-era-shiite-rule-and-byzantine-intrusions-9691071-ce)
+  - [The Seljuks and the Crusader Interlude (1071–1187 CE)](#the-seljuks-and-the-crusader-interlude-10711187-ce)
+  - [The Ayyubid Renaissance: Saladin and the Re-unification (1174–1260 CE)](#the-ayyubid-renaissance-saladin-and-the-re-unification-11741260-ce)
+  - [The Mamluk Sultanate: Defenders of the Levant and Architectural Flourishing (1260–1516 CE)](#the-mamluk-sultanate-defenders-of-the-levant-and-architectural-flourishing-12601516-ce)
+  - [Conclusion: The Enduring Islamic Legacy in the Levant (634–1516)](#conclusion-the-enduring-islamic-legacy-in-the-levant-6341516)
+  - [Related Notes](#related-notes)
 
 #  History of the Levant under Muslim Rule
 

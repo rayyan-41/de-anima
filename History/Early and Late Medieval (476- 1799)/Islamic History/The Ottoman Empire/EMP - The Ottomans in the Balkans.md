@@ -1,8 +1,38 @@
 ---
+title: "The Ottomans in the Balkans"
 date: 2026-04-01
-tags: [history, medieval, the-ottomans-in-the-balkans, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
-footnote: ""
+domain: history
+category: medieval-and-late-medieval
+status: complete
+tags:
+  - history
+  - medieval-and-late-medieval
+  - empire
+  - medieval
+  - the-ottomans-in-the-balkans
+  - historical-analysis
+  - timeline
+  - retrospective
+  - documentation
+  - records
+  - insights
+  - worldview
+  - footnote:-"
+  - ai-generated
 ---
+
+## Table of Contents
+
+  - [1. Introduction and Geopolitical Context](#1-introduction-and-geopolitical-context)
+  - [2. The Early Conquests (1354-1453)](#2-the-early-conquests-1354-1453)
+  - [3. Consolidation and Administration (1453-1566)](#3-consolidation-and-administration-1453-1566)
+  - [4. The Devshirme System and Janissaries](#4-the-devshirme-system-and-janissaries)
+  - [5. The Millet System and Religious Dynamics](#5-the-millet-system-and-religious-dynamics)
+  - [6. Economic and Cultural Integration](#6-economic-and-cultural-integration)
+  - [7. The Period of Stagnation and Rebellions (1566-1800)](#7-the-period-of-stagnation-and-rebellions-1566-1800)
+  - [8. The Rise of Nationalism and the Eastern Question (1800-1878)](#8-the-rise-of-nationalism-and-the-eastern-question-1800-1878)
+  - [9. The Balkan Wars and Ottoman Retreat (1878-1913)](#9-the-balkan-wars-and-ottoman-retreat-1878-1913)
+  - [10. Legacy and Long-Term Impact on the Balkans](#10-legacy-and-long-term-impact-on-the-balkans)
 
 > [!abstract] Table of Contents
 > - [[#1. Introduction and Geopolitical Context]]

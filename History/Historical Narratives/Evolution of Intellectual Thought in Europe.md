@@ -1,8 +1,33 @@
 ---
+title: "Evolution of Intellectual Thought in Europe"
 date: 2026-04-01
-tags: [history, medieval, evolution-of-intellectual-thought-in-europe, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
-footnote: ""
+domain: history
+category: history
+status: complete
+tags:
+  - history
+  - medieval
+  - evolution-of-intellectual-thought-in-europe
+  - historical-analysis
+  - timeline
+  - retrospective
+  - documentation
+  - records
+  - insights
+  - worldview
+  - footnote:-"
+  - ai-generated
 ---
+
+## Table of Contents
+
+  - [1. The Theocentric Worldview: Early Medieval Scholasticism](#1-the-theocentric-worldview-early-medieval-scholasticism)
+  - [2. The 12th Century Renaissance and the Rediscovery of Aristotle](#2-the-12th-century-renaissance-and-the-rediscovery-of-aristotle)
+  - [3. Renaissance Humanism: The Recovery of Antiquity](#3-renaissance-humanism-the-recovery-of-antiquity)
+  - [4. The Reformation: The Fragmentation of Religious Authority](#4-the-reformation-the-fragmentation-of-religious-authority)
+  - [5. The Scientific Revolution: The Empiricist Turn](#5-the-scientific-revolution-the-empiricist-turn)
+  - [6. The Enlightenment: The Supremacy of Rationalism](#6-the-enlightenment-the-supremacy-of-rationalism)
+  - [7. The Rise of Secularism and the Modern Mind](#7-the-rise-of-secularism-and-the-modern-mind)
 
 > [!abstract] Table of Contents
 > - [[#1. The Theocentric Worldview: Early Medieval Scholasticism]]

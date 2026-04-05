@@ -1,7 +1,22 @@
 ---
+title: "The Arab Spring - A Decade of Upheaval and Transformation"
 date: 2026-04-01
-tags: [history, contemporary, the-arab-spring---a-decade-of-upheaval-and-transformation, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
-footnote: ""
+domain: history
+category: contemporary
+status: complete
+tags:
+  - history
+  - contemporary
+  - the-arab-spring---a-decade-of-upheaval-and-transformation
+  - historical-analysis
+  - timeline
+  - retrospective
+  - documentation
+  - records
+  - insights
+  - worldview
+  - footnote:-"
+  - ai-generated
 ---
 
 DATE: 2026-03-05

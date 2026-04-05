@@ -1,7 +1,12 @@
 ---
+title: "Islamic Golden Age Scholars"
 date: 2026-04-01
+domain: history
+category: medieval-and-late-medieval
+status: complete
 tags:
   - history
+  - medieval-and-late-medieval
   - medieval
   - islamic-golden-age-scholars
   - historical-analysis
@@ -11,9 +16,10 @@ tags:
   - records
   - insights
   - worldview
+  - footnote:-'>-"the-ink-of-the-scholar-is-more-holy-than-the-blood-of-the-martyr."-—-tradition-attributed-to-prophet-muhammad-(pbuh)*
   - ai-generated
-footnote: '> "The ink of the scholar is more holy than the blood of the martyr." — Tradition attributed to Prophet Muhammad (PBUH)*'
 ---
+
 This master list chronicles the lives and contributions of the intellectual giants who thrived during the Islamic Golden Age. Their work served as a bridge between classical antiquity and the modern world.
 ## The Master List
 

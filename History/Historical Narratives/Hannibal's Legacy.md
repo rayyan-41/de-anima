@@ -1,11 +1,30 @@
 ---
-title: "HIST - Hannibal's Legacy"
+title: "HIST - Hannibals Legacy"
 date: 2024-05-24
-domain: History
-category: Empire
+domain: history
+category: history
 status: complete
-tags: [history, empire, hannibal-barca, second-punic-war, battle-of-cannae, roman-republic, military-history, scipio-africanus, carthage, ai-generated]
+tags:
+  - history
+  - empire
+  - hannibal-barca
+  - second-punic-war
+  - battle-of-cannae
+  - roman-republic
+  - military-history
+  - scipio-africanus
+  - carthage
+  - ai-generated
 ---
+
+## Table of Contents
+
+  - [Introduction: The Spectre of Cannae](#introduction-the-spectre-of-cannae)
+  - [Hannibal ad Portas: The Psychological Trauma and the Roman Bogeyman](#hannibal-ad-portas-the-psychological-trauma-and-the-roman-bogeyman)
+  - [Metamorphosis of the Legions: The Scipionic Paradigm](#metamorphosis-of-the-legions-the-scipionic-paradigm)
+  - [Cultural Echoes: Gladiators, Rhetoric, and Literature](#cultural-echoes-gladiators-rhetoric-and-literature)
+  - [Conclusion: The Immortal Enemy](#conclusion-the-immortal-enemy)
+  - [Related Notes](#related-notes)
 
 # Hannibal's Legacy
 

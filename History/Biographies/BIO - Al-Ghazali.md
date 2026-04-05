@@ -2,10 +2,18 @@
 title: "BIO - Al-Ghazali"
 date: 2026-04-01
 domain: history
-category: biography
+category: biographies
 status: complete
-tags: [history, biography, al-ghazali, islamic-golden-age, theology, historical-analysis, ai-generated]
-footnote: ""
+tags:
+  - history
+  - biographies
+  - biography
+  - al-ghazali
+  - islamic-golden-age
+  - theology
+  - historical-analysis
+  - footnote:-"
+  - ai-generated
 ---
 
 DATE: 2026-02-06

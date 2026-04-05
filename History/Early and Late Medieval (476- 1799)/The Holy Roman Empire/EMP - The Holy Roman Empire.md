@@ -1,7 +1,23 @@
 ---
+title: "The Holy Roman Empire"
 date: 2026-04-01
-tags: [history, empire, the-holy-roman-empire, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
-footnote: ""
+domain: history
+category: medieval-and-late-medieval
+status: complete
+tags:
+  - history
+  - medieval-and-late-medieval
+  - empire
+  - the-holy-roman-empire
+  - historical-analysis
+  - timeline
+  - retrospective
+  - documentation
+  - records
+  - insights
+  - worldview
+  - footnote:-"
+  - ai-generated
 ---
 
 DATE: 2026-02-06

@@ -1,14 +1,18 @@
 ---
+title: "Influence of Islamic Golden Age on the West"
 date: 2026-04-01
+domain: history
+category: history
+status: complete
 tags:
   - history
   - medieval
   - historical-analysis
-  - ai-generated
   - islamic-golden-age
   - islamic-golden-age-scholars
   - evolution-of-intellectual-thought-in-europe
-footnote: ""
+  - footnote:-"
+  - ai-generated
 ---
 
 # The Islamic Golden Age: Foundations of the Renaissance and Enlightenment

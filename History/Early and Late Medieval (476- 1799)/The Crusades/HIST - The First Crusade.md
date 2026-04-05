@@ -1,8 +1,36 @@
 ---
+title: "The First Crusade"
 date: 2026-04-01
-tags: [history, medieval, crusades, historical-analysis, timeline, retrospective, documentation, records, insights, worldview, ai-generated]
-footnote: ""
+domain: history
+category: medieval-and-late-medieval
+status: complete
+tags:
+  - history
+  - medieval-and-late-medieval
+  - medieval
+  - crusades
+  - historical-analysis
+  - timeline
+  - retrospective
+  - documentation
+  - records
+  - insights
+  - worldview
+  - footnote:-"
+  - ai-generated
 ---
+
+## Table of Contents
+
+  - [The State of the World: 11th Century Geopolitics (Byzantines, Seljuks, the Papacy)](#the-state-of-the-world-11th-century-geopolitics-byzantines-seljuks-the-papacy)
+  - [The Council of Clermont and the Call to Arms](#the-council-of-clermont-and-the-call-to-arms)
+  - [The People's Crusade: Mobilization and Early Disasters](#the-peoples-crusade-mobilization-and-early-disasters)
+  - [The Princes' Crusade: The Aristocratic Armies and Journey to Constantinople](#the-princes-crusade-the-aristocratic-armies-and-journey-to-constantinople)
+  - [The Siege of Nicaea and the Battle of Dorylaeum](#the-siege-of-nicaea-and-the-battle-of-dorylaeum)
+  - [The Siege of Antioch: Attrition and the Holy Lance](#the-siege-of-antioch-attrition-and-the-holy-lance)
+  - [The March South and the Siege of Jerusalem](#the-march-south-and-the-siege-of-jerusalem)
+  - [The Battle of Ascalon and the Establishment of the Crusader States](#the-battle-of-ascalon-and-the-establishment-of-the-crusader-states)
+  - [Legacy, Historiography, and Influence in Literature and Media](#legacy-historiography-and-influence-in-literature-and-media)
 
 > [!abstract] Table of Contents
 > - [[#The State of the World: 11th Century Geopolitics (Byzantines, Seljuks, the Papacy)]]
