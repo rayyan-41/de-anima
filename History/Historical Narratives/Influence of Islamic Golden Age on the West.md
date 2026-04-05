@@ -167,10 +167,3 @@ In the realm of social values, the "Oriental" influence was felt in the critique
 In conclusion, the Islamic Golden Age was the indispensable prerequisite for the Western Renaissance and the Enlightenment. To analyze the "Influence of the East on the West" is to recognize that the modern scientific and philosophical worldview is a shared inheritance. The "Algorithmic" world of today, the "Experimental" world of science, and the "Rational" world of politics all carry the DNA of the scholars of the House of Wisdom. The transmission was not a footnote in Western history; it was the text itself. The modern world is not a Western invention, but a global synthesis, built on the foundations laid by the polymaths of Baghdad, Cordoba, and Cairo.
 
 - - -
-
-## See Also
-
-- [[BIO - Galileo Galilei]] — Historical entity referenced in text.
-- [[BIO - Al-Ghazali]] — Historical entity referenced in text.
-- [[BIO - Ibn Sina]] — Historical entity referenced in text.
-- [[BIO - Euclid]] — Historical entity referenced in text.

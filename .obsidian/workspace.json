@@ -11,10 +11,14 @@
             "id": "b1a71ce328e7e30b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
+                "bFile": "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Evolution of Intellectual Thought in Europe"
             }
           }
         ]
@@ -209,6 +213,12 @@
   },
   "active": "b1a71ce328e7e30b",
   "lastOpenFiles": [
+    "History/Historical Narratives/Influence of Islamic Golden Age on the West.md",
+    "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
+    "History/Historical Narratives/How Svlla influenced Caesar.md",
+    "History/Historical Narratives/Hannibal's Legacy.md",
+    "History/Historical Narratives/History of the Levant under Muslim Rule.md",
+    "History/Early and Late Medieval (476- 1799)/Map of Contents - Early and Late Medieval.md",
     "GEMINI.md",
     "History/Early and Late Medieval (476- 1799)/The Holy Roman Empire/King Sigismund and Bohemia.md",
     "_tmp/clean_date_toc.ps1",
@@ -216,7 +226,6 @@
     "History/Early and Late Medieval (476- 1799)/The Holy Roman Empire/The Great Western Schism.md",
     "History/Early and Late Medieval (476- 1799)/The Crusades/The First Crusade.md",
     "History/Historical Narratives/Map of Contents - Historical Narratives.md",
-    "History/Early and Late Medieval (476- 1799)/Map of Contents - Early and Late Medieval.md",
     "History/Contemporary (1800 - Present)/Map of Contents - Contemporary.md",
     "History/Biographies/Map of Contents - Biographies.md",
     "_tmp/extract_tags.ps1",
@@ -234,11 +243,6 @@
     "Art/Art Theory/Map of Contents - Art Theory.md",
     "Art/Map of Contents - Art.md",
     "Science/Mathematics/Geometry/Distance Metrics in Mathematics and Computing.md",
-    "Science/Mathematics/The Riemann Hypothesis.md",
-    "Science/Mathematics/Mathematics of Interest.md",
-    "Science/Computer Science/Projects/Chevreul's Raster Imaging System.md",
-    "Science/Computer Science/Projects/AVALsys n8n workflow.md",
-    "Science/Computer Science/Development/Web Development/The Complete Guide to Building a Website in 2026.md",
     "_tmp/standardize_report.txt",
     "standardize_history_all.js",
     "_tmp/run_standardize.ps1",
