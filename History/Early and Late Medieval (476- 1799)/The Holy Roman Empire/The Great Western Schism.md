@@ -7,7 +7,6 @@ status: complete
 tags:
   - history
   - medieval-and-late-medieval
-  - medieval
   - the-great-western-schism
   - christianity
   - ai-generated

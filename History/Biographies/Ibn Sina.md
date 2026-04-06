@@ -6,7 +6,6 @@ category: biographies
 status: complete
 tags:
   - history
-  - biographies
   - biography
   - philosophy
   - medicine

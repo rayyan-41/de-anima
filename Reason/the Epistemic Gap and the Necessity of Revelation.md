@@ -10,7 +10,7 @@ tags:
   - psychology
   - revelation
   - avicenna
-  - ghazali
+  - al-ghazali
   - kant
   - godel
   - philosophy

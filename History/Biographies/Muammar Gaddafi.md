@@ -6,7 +6,6 @@ category: biographies
 status: complete
 tags:
   - history
-  - biographies
   - biography
   - muammar-gaddafi
   - ai-generated

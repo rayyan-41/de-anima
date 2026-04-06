@@ -8,7 +8,7 @@ tags:
   - history
   - history
   - empire
-  - hannibal-barca
+  - hannibal
   - second-punic-war
   - battle-of-cannae
   - roman-republic

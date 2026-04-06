@@ -7,7 +7,6 @@ status: complete
 tags:
   - history
   - medieval-and-late-medieval
-  - medieval
   - crusades
   - ai-generated
 ---
