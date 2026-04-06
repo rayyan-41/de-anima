@@ -14,7 +14,7 @@ files.forEach(file => {
     }
 
     const lines = content.split('\n');
-    const tocLines = ['## Table of Contents\n'];
+    const tocLines = ['> [!abstract] Table of Contents'];
     let hasHeaders = false;
     let inCodeBlock = false;
 
@@ -36,9 +36,7 @@ files.forEach(file => {
             const indentLevel = level > 1 ? level - 1 : 0;
             const indent = '  '.repeat(indentLevel);
             
-            // Basic slugification
-            const link = title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
-            tocLines.push(`${indent}- [${title}](#${link})`);
+            tocLines.push(`> ${indent}- [[#${title}]]`);
         }
     }
 

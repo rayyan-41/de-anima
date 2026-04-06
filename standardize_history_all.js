@@ -107,28 +107,29 @@ tags:${tagsOutput}
         let wordCount = body.split(/\s+/).filter(w => w.length > 0).length;
         let tocStatus = 'SKIPPED (under 4k words)';
         
-        let bodyWithoutToc = body.replace(/## Table of Contents[\s\S]*?(?=\n#|$)/, '').trimStart();
+        let bodyWithoutToc = body.replace(/> \[!abstract\] Table of Contents[\s\S]*?(?=\n#|$)/, '').replace(/## Table of Contents[\s\S]*?(?=\n#|$)/, '').trimStart();
         let finalBody = bodyWithoutToc;
         
         if (wordCount > 4000) {
             let lines = bodyWithoutToc.split('\n');
-            let tocLines = ['## Table of Contents\n'];
+            let tocLines = ['> [!abstract] Table of Contents'];
             let inCodeBlock = false;
             let hasHeaders = false;
             for (let line of lines) {
                 if (line.startsWith('```')) inCodeBlock = !inCodeBlock;
                 if (inCodeBlock) continue;
-                let m = line.match(/^(#{2})\s+(.+)/);
+                let m = line.match(/^(#{2,3})\s+(.+)/);
                 if (m && m[2].trim() !== 'See Also' && m[2].trim() !== 'Table of Contents') {
                     hasHeaders = true;
+                    let hLevel = m[1].length;
                     let hTitle = m[2].trim();
-                    let link = hTitle.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
-                    tocLines.push(`  - [${hTitle}](#${link})`);
+                    let indent = '  '.repeat(hLevel - 2);
+                    tocLines.push(`> ${indent}- [[#${hTitle}]]`);
                 }
             }
             if (hasHeaders) {
                 finalBody = tocLines.join('\n') + '\n\n' + bodyWithoutToc;
-                tocStatus = body.includes('## Table of Contents') ? 'UPDATED' : 'INSERTED';
+                tocStatus = body.includes('Table of Contents') ? 'UPDATED' : 'INSERTED';
             }
         }
 

@@ -12,20 +12,19 @@ tags:
 footnote: ""
 ---
 
-## Table of Contents
-
-    - [1. Prolegomena: Defining the Epistemic Gap and the Finite Horizon of Intellect](#1-prolegomena-defining-the-epistemic-gap-and-the-finite-horizon-of-intellect)
-    - [2. The Cartography of the Soul: Jungian Archetypes and Freudian Shadows as Psychological Boundaries](#2-the-cartography-of-the-soul-jungian-archetypes-and-freudian-shadows-as-psychological-boundaries)
-    - [3. Systemic Fallibility: Kahneman’s Cognitive Biases and the Heuristics of Misperception](#3-systemic-fallibility-kahnemans-cognitive-biases-and-the-heuristics-of-misperception)
-    - [4. The Biological Tether: Evolutionary Constraints and the Brain’s Survival-Oriented "Truth"](#4-the-biological-tether-evolutionary-constraints-and-the-brains-survival-oriented-truth)
-    - [5. The Kantian Wall: The Inaccessibility of the Noumenal through Pure Reason](#5-the-kantian-wall-the-inaccessibility-of-the-noumenal-through-pure-reason)
-    - [6. [Table] Comparative Matrix: Epistemological Blind Spots across Psychology, Biology, and Physics](#6-table-comparative-matrix-epistemological-blind-spots-across-psychology-biology-and-physics)
-    - [7. From Rationality to Crisis: The Existential Void and the Limits of Secular Teleology](#7-from-rationality-to-crisis-the-existential-void-and-the-limits-of-secular-teleology)
-    - [8. The Avicennian Active Intellect and Al-Ghazali’s *Mishkat*: Classical Solutions to the Intellectual Impasse](#8-the-avicennian-active-intellect-and-al-ghazalis-mishkat-classical-solutions-to-the-intellectual-impasse)
-    - [9. [Mermaid Diagram] The Architecture of Revelation: Bridging the Psychical-Transcendental Divide](#9-mermaid-diagram-the-architecture-of-revelation-bridging-the-psychical-transcendental-divide)
-    - [10. Revelation as the Ultimate Correction: Calibrating the Human Instrument for Metaphysical Accuracy](#10-revelation-as-the-ultimate-correction-calibrating-the-human-instrument-for-metaphysical-accuracy)
-    - [11. The Teleology of Satisfaction: Defining Objective Purpose through Divine Disclosure](#11-the-teleology-of-satisfaction-defining-objective-purpose-through-divine-disclosure)
-    - [12. Conclusion: The Synthesis of Reason and Revelation in the Quest for Spiritual Equilibrium](#12-conclusion-the-synthesis-of-reason-and-revelation-in-the-quest-for-spiritual-equilibrium)
+> [!abstract] Table of Contents
+> - [[#1. Prolegomena: Defining the Epistemic Gap and the Finite Horizon of Intellect]]
+> - [[#2. The Cartography of the Soul: Jungian Archetypes and Freudian Shadows as Psychological Boundaries]]
+> - [[#3. Systemic Fallibility: Kahneman’s Cognitive Biases and the Heuristics of Misperception]]
+> - [[#4. The Biological Tether: Evolutionary Constraints and the Brain’s Survival-Oriented "Truth"]]
+> - [[#5. The Kantian Wall: The Inaccessibility of the Noumenal through Pure Reason]]
+> - [[#6. [Table] Comparative Matrix: Epistemological Blind Spots across Psychology, Biology, and Physics]]
+> - [[#7. From Rationality to Crisis: The Existential Void and the Limits of Secular Teleology]]
+> - [[#8. The Avicennian Active Intellect and Al-Ghazali’s *Mishkat*: Classical Solutions to the Intellectual Impasse]]
+> - [[#9. [Mermaid Diagram] The Architecture of Revelation: Bridging the Psychical-Transcendental Divide]]
+> - [[#10. Revelation as the Ultimate Correction: Calibrating the Human Instrument for Metaphysical Accuracy]]
+> - [[#11. The Teleology of Satisfaction: Defining Objective Purpose through Divine Disclosure]]
+> - [[#12. Conclusion: The Synthesis of Reason and Revelation in the Quest for Spiritual Equilibrium]]
 
 ### 1. Prolegomena: Defining the Epistemic Gap and the Finite Horizon of Intellect
 

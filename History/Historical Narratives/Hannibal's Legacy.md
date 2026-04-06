@@ -16,14 +16,14 @@ tags:
   - ai-generated
 ---
 
-## Table of Contents
-
-  - [Introduction: The Spectre of Cannae](#introduction-the-spectre-of-cannae)
-  - [Hannibal ad Portas: The Psychological Trauma and the Roman Bogeyman](#hannibal-ad-portas-the-psychological-trauma-and-the-roman-bogeyman)
-  - [Metamorphosis of the Legions: The Scipionic Paradigm](#metamorphosis-of-the-legions-the-scipionic-paradigm)
-  - [Cultural Echoes: Gladiators, Rhetoric, and Literature](#cultural-echoes-gladiators-rhetoric-and-literature)
-  - [Conclusion: The Immortal Enemy](#conclusion-the-immortal-enemy)
-  - [Related Notes](#related-notes)
+> [!abstract] Table of Contents
+> - [[#Hannibal's Legacy]]
+> - [[#Introduction: The Spectre of Cannae]]
+> - [[#Hannibal ad Portas: The Psychological Trauma and the Roman Bogeyman]]
+> - [[#Metamorphosis of the Legions: The Scipionic Paradigm]]
+> - [[#Cultural Echoes: Gladiators, Rhetoric, and Literature]]
+> - [[#Conclusion: The Immortal Enemy]]
+> - [[#Related Notes]]
 
 # Hannibal's Legacy
 

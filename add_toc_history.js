@@ -39,11 +39,11 @@ files.forEach(file => {
         // Generate TOC
         const lines = content.split('\n');
         let inCodeBlock = false;
-        const tocLines = ['## Table of Contents\n'];
+        const tocLines = ['> [!abstract] Table of Contents'];
         let hasHeaders = false;
 
         // Skip if TOC already exists
-        if (content.includes('## Table of Contents')) return;
+        if (content.includes('## Table of Contents') || content.includes('[!abstract] Table of Contents')) return;
 
         for (let line of lines) {
             if (line.startsWith('```')) {
@@ -57,9 +57,8 @@ files.forEach(file => {
                 hasHeaders = true;
                 const level = match[1].length;
                 const title = match[2].trim();
-                const link = title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
                 const indent = '  '.repeat(level - 2);
-                tocLines.push(`${indent}- [${title}](#${link})`);
+                tocLines.push(`> ${indent}- [[#${title}]]`);
             }
         }
 
