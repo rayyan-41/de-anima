@@ -1,10 +1,12 @@
 ---
 title: "Euclid"
+date: 2026-04-06
 domain: history
 category: biographies
 status: complete
 tags:
   - history
+  - biographies
   - biography
   - euclid
   - ai-generated

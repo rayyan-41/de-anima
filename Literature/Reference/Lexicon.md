@@ -1,4 +1,13 @@
-A personal repository of linguistically significant words and their usage.
+---
+title: "Lexicon"
+date: 2026-04-05
+domain: literature
+category: 
+status: complete
+tags:
+  - literature
+  - ai-generated
+---A personal repository of linguistically significant words and their usage.
 
 - **Contemporaneous**: Existing or occurring in the same period of time.
 - **Idiosyncratic**: Peculiar or individual.

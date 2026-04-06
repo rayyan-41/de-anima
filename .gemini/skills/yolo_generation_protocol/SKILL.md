@@ -1,6 +1,11 @@
 ---
-name: yolo_generation_protocol
-description: "Canonical section-by-section YOLO generation workflow for De Anima content agents. Use for full note drafting that must run per-heading chunk generation, enforce rate-limit pacing, and hand off assembled chunks to weaver."
+title: "SKILL"
+date: 2026-04-06
+domain: 
+category: 
+status: complete
+tags:
+  - ai-generated
 ---
 
 # YOLO Generation Protocol

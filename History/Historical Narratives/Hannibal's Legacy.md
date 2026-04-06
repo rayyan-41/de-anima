@@ -1,5 +1,6 @@
 ---
 title: "HIST - Hannibals Legacy"
+date: 2026-04-06
 domain: history
 category: history
 status: complete

@@ -1,5 +1,6 @@
 ---
 title: "The Arab Spring - A Decade of Upheaval and Transformation"
+date: 2026-04-06
 domain: history
 category: contemporary
 status: complete

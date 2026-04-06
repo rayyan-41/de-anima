@@ -1,10 +1,12 @@
 ---
 title: "King Sigismund and Bohemia"
+date: 2026-04-06
 domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
   - history
+  - medieval-and-late-medieval
   - medieval
   - empire
   - king-sigismund-and-bohemia

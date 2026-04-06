@@ -1,5 +1,6 @@
 ---
 title: "Influence of Islamic Golden Age on the West"
+date: 2026-04-06
 domain: history
 category: history
 status: complete

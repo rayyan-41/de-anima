@@ -1,11 +1,17 @@
 ---
+title: "Contemporary Challenges and Misunderstandings of Sharia"
+date: 2026-04-05
+domain: islam
+category: contemporary
+status: complete
 tags:
+  - islam
+  - contemporary
   - fiqh
   - hanafi
   - maliki
   - shafii
   - hanbali
-  - contemporary
   - ai-generated
 ---
 

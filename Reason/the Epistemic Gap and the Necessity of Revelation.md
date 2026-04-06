@@ -1,5 +1,11 @@
 ---
+title: "the Epistemic Gap and the Necessity of Revelation"
+date: 2026-04-06
+domain: reason
+category: 
+status: complete
 tags:
+  - reason
   - epistemology
   - psychology
   - revelation
@@ -9,7 +15,6 @@ tags:
   - godel
   - philosophy
   - ai-generated
-footnote: ""
 ---
 
 > [!abstract] Table of Contents

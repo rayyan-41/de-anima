@@ -1,11 +1,16 @@
 ---
+title: "Distance Metrics in Mathematics and Computing"
+date: 2026-04-05
+domain: science
+category: mathematics
+status: complete
 tags:
+  - science
   - mathematics
   - geometry
   - computation
   - algorithms
   - ai-generated
-footnote: ""
 ---
 
 - - -

@@ -1,11 +1,16 @@
 ---
+title: "The Riemann Hypothesis"
+date: 2026-04-06
+domain: science
+category: mathematics
+status: complete
 tags:
+  - science
   - mathematics
   - number-theory
   - millennium-problems
   - computation
   - ai-generated
-footnote: ""
 ---
 
 - - -

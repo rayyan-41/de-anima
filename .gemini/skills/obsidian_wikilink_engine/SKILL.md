@@ -1,6 +1,11 @@
 ---
-name: obsidian_wikilink_engine
-description: "Canonical relevance-gated linking workflow for De Anima. Use to discover candidates, insert first-mention wikilinks, populate Related Notes, and update domain MOC without backlink noise."
+title: "SKILL"
+date: 2026-04-06
+domain: 
+category: 
+status: complete
+tags:
+  - ai-generated
 ---
 
 # Obsidian Wikilink Engine

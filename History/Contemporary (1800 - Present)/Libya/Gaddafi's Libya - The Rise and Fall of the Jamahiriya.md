@@ -1,5 +1,6 @@
 ---
 title: "Gaddafi's Libya - The Rise and Fall of the Jamahiriya"
+date: 2026-04-06
 domain: history
 category: contemporary
 status: complete

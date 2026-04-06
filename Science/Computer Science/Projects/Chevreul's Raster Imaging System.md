@@ -1,11 +1,16 @@
 ---
+title: "Chevreul's Raster Imaging System"
+date: 2026-04-05
+domain: science
+category: computer-science
+status: complete
 tags:
+  - science
   - computer-science
   - computation
   - algorithms
   - engineering
   - ai-generated
-footnote: ""
 ---
 
 - - -

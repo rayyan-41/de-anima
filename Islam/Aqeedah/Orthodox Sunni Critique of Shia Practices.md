@@ -1,5 +1,11 @@
 ---
+title: "Orthodox Sunni Critique of Shia Practices"
+date: 2026-04-05
+domain: islam
+category: aqeedah
+status: complete
 tags:
+  - islam
   - aqeedah
   - orthodox-critique
   - fiqh

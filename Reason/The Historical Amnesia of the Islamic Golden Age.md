@@ -1,10 +1,15 @@
 ---
+title: "The Historical Amnesia of the Islamic Golden Age"
+date: 2026-04-06
+domain: reason
+category: 
+status: complete
 tags:
+  - reason
   - logic
   - epistemology
   - human-condition
   - ai-generated
-footnote: ""
 ---
 
 > [!abstract] Table of Contents

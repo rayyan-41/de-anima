@@ -1,10 +1,12 @@
 ---
 title: "Stefan Lazarevic"
+date: 2026-04-06
 domain: history
 category: biographies
 status: complete
 tags:
   - history
+  - biographies
   - biography
   - stefan-lazarevic
   - ai-generated

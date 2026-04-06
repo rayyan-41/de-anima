@@ -1,11 +1,16 @@
 ---
+title: "Mathematics of Interest"
+date: 2026-04-05
+domain: science
+category: mathematics
+status: complete
 tags:
+  - science
   - mathematics
   - reference
   - computation
   - algorithms
   - ai-generated
-footnote: ""
 ---
 
 - - -

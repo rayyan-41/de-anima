@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9267019dcd847384",
+        "id": "f2004bb2d30189f5",
         "type": "tabs",
         "children": [
           {
-            "id": "c2a1aeaeeda80135",
+            "id": "95ffb15666333048",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "History/Biographies/Euclid.md",
-                "bFile": "History/Biographies/Euclid.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Euclid"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5110321044922
+    "width": 234.5110321044922
   },
   "right": {
     "id": "9ff74f0d31edc521",
@@ -90,32 +86,7 @@
         "dimension": 54.54545454545455,
         "children": [
           {
-            "id": "ce24617f706e980c",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "f4aaae307c824b11",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "12ae8687aa7ee1d5",
+            "id": "e3d5bff95974842d",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -130,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,21 +110,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for From Descartes to Darwin; Why God's Existence is an innate concept."
-            }
-          },
-          {
-            "id": "ae3971d108ddafb5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from From Descartes to Darwin; Why God's Existence is an innate concept."
+              "title": "Backlinks"
             }
           },
           {
@@ -163,17 +119,15 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Reason/From Descartes to Darwin; Why God's Existence is an innate concept..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of From Descartes to Darwin; Why God's Existence is an innate concept."
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "1e4f8f703f5341f0",
@@ -200,18 +154,18 @@
     "hiddenItems": {
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": true,
+      "obsidian-git:Open Git source control": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "workspaces:Manage workspace layouts": true,
       "obsidian-kanban:Create new board": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
       "terminal:Open terminal": false,
       "graph:Open graph view": false
     }
   },
-  "active": "12ae8687aa7ee1d5",
+  "active": "7adb17c520de5016",
   "lastOpenFiles": [
     "History/Historical Narratives/Hannibal's Legacy.md",
     "_tmp/audit_results.csv",

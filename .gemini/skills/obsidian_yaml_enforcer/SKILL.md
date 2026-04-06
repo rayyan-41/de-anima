@@ -1,6 +1,11 @@
 ---
-name: obsidian_yaml_enforcer
-description: "Canonical YAML and tag validation policy for De Anima notes. Use to validate or construct frontmatter, normalize domain/category fields, enforce robust tag quality, and verify compliance through validate_tags.ps1."
+title: "SKILL"
+date: 2026-04-05
+domain: 
+category: 
+status: complete
+tags:
+  - ai-generated
 ---
 # Obsidian YAML Enforcer
 

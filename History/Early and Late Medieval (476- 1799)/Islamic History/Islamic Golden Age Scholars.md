@@ -1,10 +1,12 @@
 ---
 title: "Islamic Golden Age Scholars"
+date: 2026-04-06
 domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
   - history
+  - medieval-and-late-medieval
   - medieval
   - islamic-golden-age
   - ai-generated

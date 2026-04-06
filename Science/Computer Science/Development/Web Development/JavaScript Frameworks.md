@@ -1,12 +1,17 @@
 ---
+title: "JavaScript Frameworks"
+date: 2026-04-05
+domain: science
+category: computer-science
+status: complete
 tags:
-  - web-dev
+  - science
   - computer-science
+  - web-dev
   - javascript
   - frameworks
   - history
   - ai-generated
-footnote: ""
 ---
 
 # WEB - JavaScript Frameworks: The Architecture of Modern Interfaces
