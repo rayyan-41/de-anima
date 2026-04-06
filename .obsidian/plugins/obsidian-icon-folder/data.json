@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPaintbrushVertical",
+      "LiArchive",
+      "LiFileClock",
       "LiPaintbrush",
-      "LiSword",
-      "LiBook",
-      "LiStar",
-      "LiBrain"
+      "LiSword"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -48,12 +48,12 @@
     "iconColor": "#12debc"
   },
   "History": {
-    "iconName": "LiSword",
-    "iconColor": "#e81717"
+    "iconName": "LiArchive",
+    "iconColor": "#703600"
   },
   "Art": {
-    "iconName": "LiPaintbrush",
-    "iconColor": "#921c55"
+    "iconName": "LiPaintbrushVertical",
+    "iconColor": "#bd00a4"
   },
   "Islam": {
     "iconName": "LiMoon",

@@ -83,7 +83,7 @@
       {
         "id": "371e316ae69ebf68",
         "type": "tabs",
-        "dimension": 54.54545454545455,
+        "dimension": 64.72303206997084,
         "children": [
           {
             "id": "e3d5bff95974842d",
@@ -126,13 +126,41 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "d90b54808bb6f264",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d9debee77922a130",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ]
       },
       {
         "id": "1e4f8f703f5341f0",
         "type": "tabs",
-        "dimension": 45.45454545454545,
+        "dimension": 35.27696793002916,
         "children": [
           {
             "id": "67ef2c190d841bcf",
@@ -165,7 +193,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "7adb17c520de5016",
+  "active": "e3d5bff95974842d",
   "lastOpenFiles": [
     "History/Historical Narratives/Hannibal's Legacy.md",
     "_tmp/audit_results.csv",
