@@ -26,14 +26,6 @@ tags:
 >   - [[#ACT IV: The Immortal Legacy]]
 >     - [[#10. The Man of Letters: 'A Homage to Love' and Serbian Medieval Literature]]
 >     - [[#11. Legacy: The Saint-Prince and the Twilight of Medieval Serbia]]
-
-**Metadata & Intro: The Despot of Serbia**
-Stefan Lazarević (c. 1377 – 19 July 1427), also known as Stefan the Tall (*Stevan Visoki*), was the son of Prince Lazar Hrebeljanović and Princess Milica. He ruled Serbia first as Prince (1389–1402) and then as Despot (1402–1427). A figure of immense complexity, Stefan was a paragon of the late medieval European knightly class—a brilliant diplomat, a formidable warrior, and a refined man of letters. 
-
-His reign was defined by the precarious balancing act between the rising Ottoman Empire and the Kingdom of Hungary. Emerging from the trauma of the Battle of Kosovo, Stefan transitioned from an Ottoman vassal to an autonomous ruler who transformed Belgrade into a major European cultural and political center. He was a founding member of the prestigious Order of the Dragon and established the Resava School, leaving behind a literary and architectural legacy that defined the Serbian Renaissance.
-
-- - -
-
 ### ACT I: The Foundations of a Despot
 
 #### 1. Introduction: The Tall Despot of the Serbian Renaissance
@@ -102,9 +94,3 @@ Beyond his own writing, Stefan’s identity as an author was deeply intertwined 
 The death of Stefan Lazarević in 1427 marked the beginning of the final twilight of medieval Serbian independence. However, his personal legacy grew into a foundational myth for the Serbian people. He was buried in his magnificent foundation, the **Manasija (Resava) Monastery**, where his tomb remains a site of pilgrimage. In 2006, DNA testing definitively confirmed that his remains rest within the monastery, silencing long-standing debates over his final resting place. In 1927, five hundred years after his death, he was formally canonized by the Serbian Orthodox Church as **Saint Stefan the Tall**. 
 
 In the long centuries of Ottoman rule that followed the fall of the Despotate in 1459, the image of Stefan Lazarević—the knight-poet, the builder of Belgrade, and the first member of the Order of the Dragon—remained a symbol of lost grandeur and future hope. He is remembered not as a tragic figure, but as a triumphant one; a ruler who, through sheer force of will and diplomatic genius, secured a final "Golden Age" for his people in the face of inevitable conquest. To this day, Stefan remains the patron saint of Belgrade and a central figure in the Serbian national consciousness, embodying the ideal of the warrior who seeks peace and the king who serves the word.
-
-- - -
-
-## See Also
-
-- [[_Biographies - Map of Content|Biographies MOC]]
