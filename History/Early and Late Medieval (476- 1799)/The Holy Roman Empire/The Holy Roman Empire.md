@@ -4,7 +4,8 @@ domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - medieval-and-late-medieval
+  - history
+  - medieval
   - empire
   - the-holy-roman-empire
   - ai-generated

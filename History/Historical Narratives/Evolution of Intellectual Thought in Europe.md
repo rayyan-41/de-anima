@@ -5,6 +5,7 @@ category: history
 status: complete
 tags:
   - history
+  - history
   - medieval
   - ai-generated
 ---

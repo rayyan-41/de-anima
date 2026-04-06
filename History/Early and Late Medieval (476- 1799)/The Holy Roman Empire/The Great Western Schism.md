@@ -4,7 +4,7 @@ domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - medieval-and-late-medieval
+  - history
   - medieval
   - the-great-western-schism
   - christianity

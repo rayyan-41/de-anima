@@ -4,9 +4,9 @@ domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - medieval-and-late-medieval
-  - empire
+  - history
   - medieval
+  - empire
   - bohemia-and-charles-iv
   - ai-generated
 ---

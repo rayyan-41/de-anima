@@ -4,7 +4,7 @@ domain: history
 category: biographies
 status: complete
 tags:
-  - biographies
+  - history
   - biography
   - galileo-galilei
   - ai-generated

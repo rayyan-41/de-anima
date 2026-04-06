@@ -5,9 +5,9 @@ category: history
 status: complete
 tags:
   - history
+  - history
   - medieval
   - islamic-golden-age
-  - islamic-golden-age-scholars
   - ai-generated
 ---
 

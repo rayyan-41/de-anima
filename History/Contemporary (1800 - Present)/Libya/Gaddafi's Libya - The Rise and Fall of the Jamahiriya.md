@@ -4,6 +4,7 @@ domain: history
 category: contemporary
 status: complete
 tags:
+  - history
   - contemporary
   - ai-generated
 ---

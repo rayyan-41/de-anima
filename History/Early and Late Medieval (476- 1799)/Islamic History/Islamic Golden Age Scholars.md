@@ -4,9 +4,9 @@ domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - medieval-and-late-medieval
+  - history
   - medieval
-  - islamic-golden-age-scholars
+  - islamic-golden-age
   - ai-generated
 ---
 "the-ink-of-the-scholar-is-more-holy-than-the-blood-of-the-martyr."-—-tradition-attributed-to-prophet-muhammad-(pbuh)*

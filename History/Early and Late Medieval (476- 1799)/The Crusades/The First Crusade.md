@@ -4,6 +4,7 @@ domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
+  - history
   - medieval
   - crusades
   - ai-generated

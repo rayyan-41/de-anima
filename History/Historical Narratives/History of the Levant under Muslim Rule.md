@@ -5,6 +5,7 @@ category: history
 status: complete
 tags:
   - history
+  - history
   - geopolitical
   - levant
   - bilad-al-sham

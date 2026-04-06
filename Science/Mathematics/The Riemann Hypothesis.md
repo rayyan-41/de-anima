@@ -2,7 +2,7 @@
 tags:
   - mathematics
   - number-theory
-  - millenniumproblems
+  - millennium-problems
   - computation
   - ai-generated
 footnote: ""

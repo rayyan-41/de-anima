@@ -11,10 +11,14 @@
             "id": "c2a1aeaeeda80135",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "History/Biographies/Euclid.md",
+                "bFile": "History/Biographies/Euclid.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Euclid"
             }
           }
         ]
@@ -207,17 +211,19 @@
       "graph:Open graph view": false
     }
   },
-  "active": "c2a1aeaeeda80135",
+  "active": "12ae8687aa7ee1d5",
   "lastOpenFiles": [
-    "History/Contemporary (1800 - Present)/Map of Contents - Contemporary.md",
-    "History/Biographies/Stefan Lazarevic.md",
-    "Reason/Map of Contents - Reason.md",
-    "History/Historical Narratives/Map of Contents - Historical Narratives.md",
     "History/Historical Narratives/Hannibal's Legacy.md",
-    "History/Historical Narratives/Influence of Islamic Golden Age on the West.md",
+    "_tmp/audit_results.csv",
+    "_tmp/technician_tag_audit.ps1",
     "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
     "History/Historical Narratives/How Svlla influenced Caesar.md",
     "History/Historical Narratives/History of the Levant under Muslim Rule.md",
+    "History/Historical Narratives/Map of Contents - Historical Narratives.md",
+    "History/Contemporary (1800 - Present)/Map of Contents - Contemporary.md",
+    "History/Biographies/Stefan Lazarevic.md",
+    "Reason/Map of Contents - Reason.md",
+    "History/Historical Narratives/Influence of Islamic Golden Age on the West.md",
     "History/Early and Late Medieval (476- 1799)/Map of Contents - Early and Late Medieval.md",
     "GEMINI.md",
     "History/Early and Late Medieval (476- 1799)/The Holy Roman Empire/King Sigismund and Bohemia.md",
@@ -238,13 +244,10 @@
     "Literature/Map of Contents - Literature.md",
     "Art/Art History/Map of Contents - Art History.md",
     "Art/Art Theory/Map of Contents - Art Theory.md",
-    "Art/Map of Contents - Art.md",
     "_tmp/standardize_report.txt",
     "standardize_history_all.js",
     "_tmp/run_standardize.ps1",
     "_tmp/current_err.txt",
-    "_tmp/current_out.txt",
-    "_tmp/current_prompt.txt",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",

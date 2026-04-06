@@ -1,9 +1,10 @@
 ---
-title: "How Svlla influenced Caesar"
+title: How Svlla influenced Caesar
 domain: history
 category: history
-status: complete
+status: incomplete
 tags:
+  - history
   - history
   - ai-generated
 ---

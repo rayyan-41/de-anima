@@ -4,9 +4,9 @@ domain: history
 category: medieval-and-late-medieval
 status: complete
 tags:
-  - medieval-and-late-medieval
-  - empire
+  - history
   - medieval
+  - empire
   - the-ottomans-in-the-balkans
   - ai-generated
 ---
