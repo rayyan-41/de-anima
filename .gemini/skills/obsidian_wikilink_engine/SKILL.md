@@ -60,7 +60,6 @@ Suggested score:
 - `+5` per shared core tag
 - `+3` per shared supporting tag
 - `+2` same category
-- `+1` same domain
 
 ## Relevance Gate (Mandatory)
 

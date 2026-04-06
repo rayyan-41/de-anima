@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b11c3354231124be",
+        "id": "9267019dcd847384",
         "type": "tabs",
         "children": [
           {
-            "id": "b1a71ce328e7e30b",
+            "id": "c2a1aeaeeda80135",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
-                "bFile": "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
-                "aRef": ""
+                "file": "History/Historical Narratives/Hannibal's Legacy.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: Evolution of Intellectual Thought in Europe"
+              "icon": "lucide-file",
+              "title": "Hannibal's Legacy"
             }
           }
         ]
@@ -211,7 +212,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "b1a71ce328e7e30b",
+  "active": "c2a1aeaeeda80135",
   "lastOpenFiles": [
     "History/Historical Narratives/Influence of Islamic Golden Age on the West.md",
     "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",

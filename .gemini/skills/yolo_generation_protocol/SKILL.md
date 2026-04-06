@@ -1,6 +1,6 @@
 ---
 name: yolo_generation_protocol
-description: "Canonical section-by-section YOLO generation workflow for De Anima content agents. Use for full note drafting that must run per-heading chunk generation, enforce rate-limit pacing, and hand off assembled chunks to @weaver."
+description: "Canonical section-by-section YOLO generation workflow for De Anima content agents. Use for full note drafting that must run per-heading chunk generation, enforce rate-limit pacing, and hand off assembled chunks to weaver."
 ---
 
 # YOLO Generation Protocol
@@ -16,7 +16,7 @@ If any agent-local instruction conflicts with this skill, this skill wins.
 
 - The user requests a full drafted note.
 - A content agent must write long-form output across multiple headings.
-- The workflow must produce chunk files in `E:\De Anima\_tmp\` for @weaver.
+- The workflow must produce chunk files in `E:\De Anima\_tmp\` for weaver.
 
 ## Do Not Use When
 
@@ -101,7 +101,7 @@ Expected chunks: [N]
 Written chunks: [M]
 Failed chunks: [list or none]
 Chunk path pattern: E:\De Anima\_tmp\[topic_slug]_chunk_[NN].md
-Handoff: @weaver
+Handoff: weaver
 ```
 
 ## Quality Rules
@@ -116,7 +116,7 @@ Handoff: @weaver
 - Never write chunk files outside `E:\De Anima\_tmp\`.
 - Never overwrite sacred files.
 - Do not hang the run on single-section failure.
-- Report incomplete chunk sets explicitly for @weaver.
+- Report incomplete chunk sets explicitly for weaver.
 
 ## Quick Checklist
 
@@ -126,4 +126,4 @@ Handoff: @weaver
 - 15s wait between success calls
 - Retry-once with 30s wait on failure
 - Completion report emitted
-- Handoff to @weaver
+- Handoff to weaver
