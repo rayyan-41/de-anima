@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Fiqh/Ibadat/The Prayer of Witr.md",
+                "file": "Science/Computer Science/Development/Tools, Frameworks and Stacks/Flutter and Dart.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "The Prayer of Witr"
+              "title": "Flutter and Dart"
             }
           }
         ]
@@ -200,6 +200,9 @@
   },
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
+    "Science/Computer Science/Development/Tools, Frameworks and Stacks/Vite and Tauri.md",
+    "Science/Computer Science/Map of Contents - Computer Science.md",
+    "Islam/Fiqh/Ibadat/The Prayer of Witr.md",
     "Reason/the Epistemic Gap and the Necessity of Revelation.md",
     "History/Historical Narratives/Hannibal's Legacy.md",
     "_tmp/audit_results.csv",
@@ -229,9 +232,6 @@
     "Literature/Reference/Map of Contents - Reference.md",
     "Literature/Short Stories/Map of Contents - Short Stories.md",
     "Literature/Myths and Legends/Map of Contents - Myths and Legends.md",
-    "Literature/Map of Contents - Literature.md",
-    "Art/Art History/Map of Contents - Art History.md",
-    "Art/Art Theory/Map of Contents - Art Theory.md",
     "_tmp/standardize_report.txt",
     "standardize_history_all.js",
     "_tmp/run_standardize.ps1",
