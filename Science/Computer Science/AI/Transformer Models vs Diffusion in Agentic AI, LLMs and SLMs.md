@@ -188,8 +188,3 @@ The Transformer gave the machine a voice, a memory, and a logical mind; Diffusio
 The most pressing question for computer scientists is no longer *can the machine generate a correct output?* The question is now: *what will the machine do with the outputs it generates, and how will it act upon the world?*
 
 - - -
-
-## Related Notes
-- [[Large Language Models - Architecture and Mechanics]]
-- [[1.0 - Neural Networks]]
-- [[2.0 - CNNs]]
