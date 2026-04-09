@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Artifical Intelligence/KV Cache and Hardware for Context and Memory.md",
+                "file": "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "KV Cache and Hardware for Context and Memory"
+              "title": "Large Language Model Reasoning"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
+    "Science/Computer Science/Artificial Intelligence/KV Cache and Hardware for Context and Memory.md",
     "Science/Computer Science/Artifical Intelligence/Large Language Model Reasoning.md",
     "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artifical Intelligence/KV Cache and Hardware for Context and Memory.md",
