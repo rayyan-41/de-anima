@@ -2,7 +2,7 @@
 title: "Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs"
 date: 2026-04-08
 domain: Science
-category: Computer Science/AI
+category: Computer Science/Artificial Intelligence
 status: complete
 tags: [science, ai, transformers, diffusion, agentic-ai, llm, slm, attention, rnn, u-net, cli]
 ---

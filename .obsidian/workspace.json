@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Artifical Intelligence/Large Language Model Reasoning.md",
+                "file": "Science/Computer Science/Artifical Intelligence/KV Cache and Hardware for Context and Memory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Large Language Model Reasoning"
+              "title": "KV Cache and Hardware for Context and Memory"
             }
           }
         ]
@@ -200,11 +200,11 @@
   },
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
-    "Science/Mathematics/Geometry/Distance Metrics in Mathematics and Computing.md",
     "Science/Computer Science/Artifical Intelligence/Large Language Model Reasoning.md",
+    "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
+    "Science/Computer Science/Artifical Intelligence/KV Cache and Hardware for Context and Memory.md",
+    "Science/Mathematics/Geometry/Distance Metrics in Mathematics and Computing.md",
     "Science/Computer Science/Artifical Intelligence/1.0 - Neural Networks.md",
-    "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
-    "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artifical Intelligence/Large Language Models - Architecture and Mechanics.md",
     "_tmp/test_1.md",
     "_tmp/test_chunk.md",
@@ -227,7 +227,6 @@
     "History/Historical Narratives/Influence of Islamic Golden Age on the West.md",
     "History/Early and Late Medieval (476- 1799)/Map of Contents - Early and Late Medieval.md",
     "GEMINI.md",
-    "History/Early and Late Medieval (476- 1799)/The Holy Roman Empire/King Sigismund and Bohemia.md",
     "_tmp/clean_date_toc.ps1",
     "_tmp/extract_tags.ps1",
     "_tmp/add_missing_tocs.js",

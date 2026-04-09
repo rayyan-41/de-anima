@@ -2,9 +2,9 @@
 title: "Large Language Model Reasoning: The Mechanics of Machine Thought"
 date: 2025-05-14
 domain: Science
-category: Computer Science/AI
+category: Computer Science/Artificial Intelligence
 status: complete
-tags: [science, computer-science, science/ai, llm-reasoning, chain-of-thought, notebooklm, cli]
+tags: [science, computer-science, science/artificial-intelligence, llm-reasoning, chain-of-thought, notebooklm, cli]
 ---
 
 # Large Language Model Reasoning: The Mechanics of Machine Thought
