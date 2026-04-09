@@ -240,8 +240,6 @@ What happens when we take this further? What if the model doesn't just think in 
 
 ---
 *Bridges to next section: Chain-of-Thought is linear. To handle truly difficult problems, we need more advanced frameworks that allow for branching, backtracking, and external interaction.*
-
-
 - - -
 
 ## Advanced Reasoning Frameworks: ReAct, Tree of Thoughts, and Self-Correction
@@ -286,8 +284,6 @@ Whether the understanding is \"internal\" or \"simulated,\" the result is a mode
 
 ---
 *Bridges to next section: To appreciate the power of these advanced frameworks, we must understand the neurological parallel: the distinction between System 1 (fast/intuitive) and System 2 (slow/deliberate) thinking.*
-
-
 - - -
 
 ## The Hidden Layers of Inference: System 1 vs. System 2 Thinking
@@ -335,10 +331,7 @@ By externalizing the reasoning process through tokens (CoT), we essentially prov
 
 ---
 *Bridges to next section: If a single model can simulate System 2 thinking, what happens when we connect multiple models? How do these \"reasoning engines\" communicate and collaborate?*
-
-
 - - -
-
 ## Agentic Communication: How LLMs Talk to Each Other
 
 When a single LLM reaches its reasoning limit, the solution is not always a larger model. Sometimes, the solution is **collaboration**. This has led to the rise of **Multi-Agent Systems (MAS)**, where specialized LLM \"agents\" work together to solve complex problems. But this raises a profound question: **How do two machines, each with its own internal context and reasoning chain, communicate effectively?**
@@ -387,16 +380,12 @@ As the number of agents grows, the \"cost of talk\" increases. This has led rese
 
 ---
 *Bridges to next section: If natural language is inefficient for machine-to-machine communication, can agents develop their own language? This is the emergence of \"Neuralese.\"*
-
-
 - - -
-
 ## Emergent Protocols: The Evolution of \"Neuralese\"
 
 Why do machines need to speak human languages when they are talking to each other? If you are a computer and I am a computer, why do we use \"Hello, please perform this task\" instead of just sending a compressed bitstream of our internal state? This question has led to the study of **Emergent AI Protocols**, sometimes referred to as **\"Neuralese\"** [Arslan, 2025].
 
 The core idea is simple: **Maximum information transfer with minimum token overhead.**
-
 ### The Problem: The Bottleneck of Natural Language
 Human language was designed for human biology. It is redundant, ambiguous, and slow. 
 - In an LLM, a \"thought\" is represented as a high-dimensional vector (embedding). 
@@ -529,5 +518,4 @@ The science of LLM reasoning is still in its infancy. We are just beginning to u
 - [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]]
 - [[1.0 - Neural Networks]]
 - [[1.1 - Neural Networks Expanded]]
-- [[Distance Metrics in Mathematics and Computing]]
 - [[Map of Contents - Computer Science]]
