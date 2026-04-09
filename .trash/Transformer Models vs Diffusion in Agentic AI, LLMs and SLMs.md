@@ -4,7 +4,7 @@ date: 2026-04-08
 domain: science
 category: science/ai
 status: complete
-tags: [science, ai, science/ai, transformer, diffusion, agentic-ai, llm, slm, rnn, attention-mechanism, ai-generated]
+tags: [science, ai, science/ai, transformer, diffusion, agentic-ai, llm, slm, rnn, attention-mechanism, cli]
 ---
 
 # Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs

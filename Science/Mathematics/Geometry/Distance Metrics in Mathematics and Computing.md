@@ -10,7 +10,7 @@ tags:
   - geometry
   - computation
   - algorithms
-  - ai-generated
+  - cli
 ---
 
 - - -

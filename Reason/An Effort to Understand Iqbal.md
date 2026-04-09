@@ -10,6 +10,6 @@ tags:
   - iqbal
   - logic
   - epistemology
-  - ai-generated
+  - cli
 ---
 

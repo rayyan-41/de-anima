@@ -15,7 +15,7 @@ tags:
   - military-history
   - scipio-africanus
   - carthage
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

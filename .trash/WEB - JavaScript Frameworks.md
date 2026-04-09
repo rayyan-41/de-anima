@@ -1,6 +1,6 @@
 ---
 DATE: 2026-02-18
-TAGS: #science #computer-science #javascript #frameworks #ai-generated #architecture
+TAGS: #science #computer-science #javascript #frameworks #cli #architecture
 ---
 # WEB - JavaScript Frameworks: The Modern Architectural Landscape
 

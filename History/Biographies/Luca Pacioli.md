@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - luca-pacioli
-  - ai-generated
+  - cli
 ---
 
 ## See Also

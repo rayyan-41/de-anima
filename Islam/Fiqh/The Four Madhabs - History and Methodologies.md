@@ -11,7 +11,7 @@ tags:
   - maliki
   - shafii
   - hanbali
-  - ai-generated
+  - cli
 ---
 
 # FIQH - The Four Madhabs: History, Methodologies, and Interactions

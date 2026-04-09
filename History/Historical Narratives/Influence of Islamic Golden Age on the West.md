@@ -9,7 +9,7 @@ tags:
   - history
   - medieval
   - islamic-golden-age
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

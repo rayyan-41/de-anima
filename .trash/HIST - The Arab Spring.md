@@ -4,7 +4,7 @@
 - **Date:** 2026-03-05
 - **Domain:** #history
 - **Category:** #contemporary
-- **Tags:** #arab-spring #protest #geopolitics #middle-east #north-africa #ai-generated
+- **Tags:** #arab-spring #protest #geopolitics #middle-east #north-africa #cli
 - **Status:** #in-progress (Injection Phase)
 - - -
 

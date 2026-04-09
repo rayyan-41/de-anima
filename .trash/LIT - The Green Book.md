@@ -1,5 +1,5 @@
 DATE: 2026-03-05
-TAGS: #literature #reference #political-theory #libya #gaddafi #ai-generated
+TAGS: #literature #reference #political-theory #libya #gaddafi #cli
 - - -
 ### LIT - The Green Book (Muammar Gaddafi)
 

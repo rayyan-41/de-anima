@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - muammar-gaddafi
-  - ai-generated
+  - cli
 ---
 
 ## See Also

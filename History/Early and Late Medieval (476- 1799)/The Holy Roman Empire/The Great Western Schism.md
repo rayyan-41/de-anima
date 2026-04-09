@@ -9,7 +9,7 @@ tags:
   - medieval-and-late-medieval
   - the-great-western-schism
   - christianity
-  - ai-generated
+  - cli
 ---
 
 ### HIST - The Great Western Schism (1378–1417)

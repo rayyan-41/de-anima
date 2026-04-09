@@ -7,7 +7,7 @@ tags:
   - maliki
   - shafii
   - hanbali
-  - ai-generated
+  - cli
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn

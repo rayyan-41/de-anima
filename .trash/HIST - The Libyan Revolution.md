@@ -4,7 +4,7 @@
 - **Date:** 2026-03-05
 - **Domain:** #history
 - **Category:** #contemporary
-- **Tags:** #libya #gaddafi #nato #war #geopolitics #ai-generated
+- **Tags:** #libya #gaddafi #nato #war #geopolitics #cli
 - **Status:** #in-progress (Injection Phase)
 - - -
 

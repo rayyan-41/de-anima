@@ -9,7 +9,7 @@ tags:
   - computer-science
   - web-dev
   - rust
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

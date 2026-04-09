@@ -9,7 +9,7 @@ tags:
   - medieval-and-late-medieval
   - empire
   - king-sigismund-and-bohemia
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

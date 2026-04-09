@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [islam, moc, theology, fiqh, aqeedah, religion, scholarship, law, ai-generated]
+tags: [islam, moc, theology, fiqh, aqeedah, religion, scholarship, law, cli]
 footnote: ""
 ---
 The Islam domain is a rigorous exploration of theological creed (Aqeedah) and Islamic jurisprudence (Fiqh) anchored in the traditional four madhabs. This Map of Contents acts as an index for rulings, religious methodologies, and scholarly critiques.

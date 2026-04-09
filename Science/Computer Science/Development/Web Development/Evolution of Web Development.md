@@ -10,7 +10,7 @@ tags:
   - web-dev
   - history
   - computation
-  - ai-generated
+  - cli
 ---
 
 # WEB - Evolution of Web Development: A Technical and Historical Odyssey

@@ -9,7 +9,7 @@ tags:
   - medieval-and-late-medieval
   - empire
   - bohemia-and-charles-iv
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

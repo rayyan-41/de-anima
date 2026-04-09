@@ -10,7 +10,7 @@ tags:
   - reference
   - computation
   - algorithms
-  - ai-generated
+  - cli
 ---
 
 - - -

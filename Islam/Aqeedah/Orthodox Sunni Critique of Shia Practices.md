@@ -10,7 +10,7 @@ tags:
   - orthodox-critique
   - fiqh
   - shia-sunni-divide
-  - ai-generated
+  - cli
 ---
 
 # AQEEDAH - Orthodox Sunni Critique of Shia Practices

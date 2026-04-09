@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - rumi
-  - ai-generated
+  - cli
 ---
 
 ## See Also

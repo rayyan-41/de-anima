@@ -11,7 +11,7 @@ tags:
   - computation
   - algorithms
   - engineering
-  - ai-generated
+  - cli
 ---
 
 # WEB - Comparison of Node.js, React.js, and Next.js: The Full-Stack Ecosystem

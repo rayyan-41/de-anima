@@ -7,6 +7,6 @@ status: incomplete
 tags:
   - history
   - history
-  - ai-generated
+  - cli
 ---
 

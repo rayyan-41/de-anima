@@ -15,7 +15,7 @@ tags:
   - ayyubid
   - mamluk
   - crusades
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

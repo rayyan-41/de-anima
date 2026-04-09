@@ -10,7 +10,7 @@ tags:
   - philosophy
   - medicine
   - islamic-golden-age
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

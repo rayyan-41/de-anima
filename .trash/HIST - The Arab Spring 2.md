@@ -1,6 +1,6 @@
 ---
 DATE: 2026-03-05
-TAGS: #history #contemporary #ai-generated
+TAGS: #history #contemporary #cli
 ---
 
 # HIST - The Arab Spring: A Regional Map of Contents

@@ -12,7 +12,7 @@ tags:
   - maliki
   - shafii
   - hanbali
-  - ai-generated
+  - cli
 ---
 
 # FIQH - Contemporary Challenges and Misunderstandings of Sharia

@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - galileo-galilei
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

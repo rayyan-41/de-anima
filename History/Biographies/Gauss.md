@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - gauss
-  - ai-generated
+  - cli
 ---
 
 ## See Also

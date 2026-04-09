@@ -11,7 +11,7 @@ tags:
   - javascript
   - frameworks
   - history
-  - ai-generated
+  - cli
 ---
 
 # WEB - JavaScript Frameworks: The Architecture of Modern Interfaces

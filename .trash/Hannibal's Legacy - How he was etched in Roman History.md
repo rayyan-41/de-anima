@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [history, antiquity, roman-empire, hannibal, punic-wars, psychology, warfare, legacy, memory, historical-analysis, ai-generated]
+tags: [history, antiquity, roman-empire, hannibal, punic-wars, psychology, warfare, legacy, memory, historical-analysis, cli]
 footnote: ""
 ---
 

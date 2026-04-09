@@ -9,7 +9,7 @@ tags:
   - logic
   - epistemology
   - human-condition
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

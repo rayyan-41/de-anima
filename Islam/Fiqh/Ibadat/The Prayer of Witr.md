@@ -12,7 +12,7 @@ tags:
   - maliki
   - shafii
   - hanbali
-  - ai-generated
+  - cli
 ---
 
 # FIQH - The Prayer of Witr: Rulings, Methodologies, and Variations Across the Four Madhabs

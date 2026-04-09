@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - jacob-bernoulli
-  - ai-generated
+  - cli
 ---
 
 ## See Also

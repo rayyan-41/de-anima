@@ -11,6 +11,6 @@ tags:
   - philosophy
   - logic
   - epistemology
-  - ai-generated
+  - cli
 ---
 

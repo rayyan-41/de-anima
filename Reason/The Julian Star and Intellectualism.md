@@ -10,7 +10,7 @@ tags:
   - roman-empire
   - astronomy
   - logic
-  - ai-generated
+  - cli
 ---
 
 I was sitting in my Multi-Var Calculus class during my summer semester when I started reminiscing the conversation I had the previous night with a friend of mine (later accounts recall this was in fact not a good friend). I had talked to them about how I am so passionate and interested in history, that whenever I come across Shakespeare's Romeo and Juliet, I am reminded of the story of Cleopatra and Mark Antony. I explained to them how their death I find equally poetic. 

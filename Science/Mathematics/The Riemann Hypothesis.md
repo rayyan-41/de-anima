@@ -10,7 +10,7 @@ tags:
   - number-theory
   - millennium-problems
   - computation
-  - ai-generated
+  - cli
 ---
 
 - - -

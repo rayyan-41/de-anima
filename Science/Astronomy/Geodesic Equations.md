@@ -10,7 +10,7 @@ tags:
   - computation
   - algorithms
   - engineering
-  - ai-generated
+  - cli
 ---
 
 - - -

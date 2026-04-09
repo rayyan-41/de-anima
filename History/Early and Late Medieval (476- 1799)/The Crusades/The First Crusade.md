@@ -8,7 +8,7 @@ tags:
   - history
   - medieval-and-late-medieval
   - crusades
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

@@ -5,7 +5,7 @@ domain:
 category: 
 status: complete
 tags:
-  - ai-generated
+  - cli
 ---
 
 # Obsidian Wikilink Engine

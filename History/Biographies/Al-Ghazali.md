@@ -10,7 +10,7 @@ tags:
   - al-ghazali
   - islamic-golden-age
   - theology
-  - ai-generated
+  - cli
 ---
 
 **Real Name:** Abu Hamid Muhammad ibn Muhammad ibn Ahmad Al-Tusi Al-Ghazali

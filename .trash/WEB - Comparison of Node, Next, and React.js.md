@@ -1,6 +1,6 @@
 ---
 DATE: 2026-02-18
-TAGS: #science #computer-science #node #react #nextjs #ai-generated #architecture
+TAGS: #science #computer-science #node #react #nextjs #cli #architecture
 ---
 # WEB - Comparison of Node.js, React.js, and Next.js: The Full-Stack Ecosystem
 

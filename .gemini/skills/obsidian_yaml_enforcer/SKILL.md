@@ -5,7 +5,7 @@ domain:
 category: 
 status: complete
 tags:
-  - ai-generated
+  - cli
 ---
 # Obsidian YAML Enforcer
 
@@ -73,7 +73,7 @@ Canonical order:
 3. exactly one structural tag
 4. core topic tags
 5. optional supporting tags
-6. `ai-generated` (always last)
+6. `cli` (always last)
 
 Formatting rules:
 
@@ -141,4 +141,4 @@ issues_fixed: [list or none]
 
 - If domain/category cannot be resolved confidently, keep file unchanged and report explicit uncertainty.
 - Never fabricate taxonomy values.
-- Never drop `ai-generated`.
+- Never drop `cli`.

@@ -14,7 +14,7 @@ tags:
   - kant
   - godel
   - philosophy
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

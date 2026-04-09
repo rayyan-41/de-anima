@@ -7,7 +7,7 @@ status: complete
 tags:
   - history
   - contemporary
-  - ai-generated
+  - cli
 ---
 
 **Abstract:**

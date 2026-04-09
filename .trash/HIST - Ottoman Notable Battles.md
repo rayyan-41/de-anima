@@ -1,3 +1,3 @@
 DATE: 2026-02-06
-TAGS: #history #war #ottoman #battle #ai-generated
+TAGS: #history #war #ottoman #battle #cli
 - - -

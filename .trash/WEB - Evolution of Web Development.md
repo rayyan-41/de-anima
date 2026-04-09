@@ -1,6 +1,6 @@
 ---
 DATE: 2026-02-18
-TAGS: #science #computer-science #web-dev #ai-generated #evolution
+TAGS: #science #computer-science #web-dev #cli #evolution
 ---
 # WEB - Evolution of Web Development: From Static Documents to Global Intelligence
 
@@ -104,7 +104,7 @@ export default async function Page() {
 - **Edge Computing**: Moves rendering and logic to the CDN level (e.g., Vercel Edge, Cloudflare Workers).
 
 ### 3. The Future: AI-Driven Interfaces
-We are entering a phase where the web is no longer just a collection of apps, but a predictive environment. AI-generated UIs (e.g., v0.dev) and LLM-integrated development environments are fundamentally shifting the "Legacy" of the web developer from an author of code to an architect of intent.
+We are entering a phase where the web is no longer just a collection of apps, but a predictive environment. cli UIs (e.g., v0.dev) and LLM-integrated development environments are fundamentally shifting the "Legacy" of the web developer from an author of code to an architect of intent.
 
 - - -
 

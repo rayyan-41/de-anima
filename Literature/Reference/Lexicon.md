@@ -6,7 +6,7 @@ category:
 status: complete
 tags:
   - literature
-  - ai-generated
+  - cli
 ---A personal repository of linguistically significant words and their usage.
 
 - **Contemporaneous**: Existing or occurring in the same period of time.

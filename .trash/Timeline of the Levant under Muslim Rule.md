@@ -1,6 +1,6 @@
 ---
 date: 2026-04-01
-tags: [historical-analysis, timeline, retrospective, documentation, records, insights, worldview, civilization, legacy, narrative, ai-generated]
+tags: [historical-analysis, timeline, retrospective, documentation, records, insights, worldview, civilization, legacy, narrative, cli]
 footnote: ""
 ---
 

@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - euler
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

@@ -9,7 +9,7 @@ tags:
   - medieval-and-late-medieval
   - empire
   - the-ottomans-in-the-balkans
-  - ai-generated
+  - cli
 ---
 
 > [!abstract] Table of Contents

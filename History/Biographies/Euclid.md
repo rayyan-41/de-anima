@@ -8,7 +8,7 @@ tags:
   - history
   - biography
   - euclid
-  - ai-generated
+  - cli
 ---
 
 ## See Also

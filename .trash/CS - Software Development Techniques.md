@@ -1,6 +1,6 @@
 ---
 date: 2026-03-08
-tags: #science #cs #software-engineering #ai-generated
+tags: #science #cs #software-engineering #cli
 ---
 
 # CS - Software Development Techniques: Architectural Slicing and Integration Models

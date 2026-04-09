@@ -12,7 +12,7 @@ tags:
   - shafii
   - hanbali
   - ibadat
-  - ai-generated
+  - cli
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn
