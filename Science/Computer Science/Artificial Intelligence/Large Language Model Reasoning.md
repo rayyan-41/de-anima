@@ -524,25 +524,7 @@ The "Technical Reasoning" of an LLM is not a single feature; it is an emergent p
 
 - - -
 
-## References
-
-### Foundational "System 2" Reasoning
-* **Wei, J., et al. (2022).** *Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.* NeurIPS 2022.
-* **Kojima, T., et al. (2022).** *Large Language Models are Zero-Shot Reasoners.* arXiv:2205.11916.
-* **Wang, Y., et al. (2022).** *Self-Consistency Improves Chain of Thought Reasoning in Language Models.* ICLR 2023.
-
-### Search and Planning Architectures
-* **Yao, S., et al. (2023).** *Tree of Thoughts: Deliberate Problem Solving with Large Language Models.* NeurIPS 2023.
-* **Hao, S., et al. (2023).** *Reasoning with Language Model is Planning with World Models.* arXiv:2305.14992.
-
-### Scaling and Reinforcement Learning
-* **DeepSeek-AI. (2025).** *DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.* arXiv:2501.12948.
-* **Brown, B., et al. (2024).** *Large Language Monkeys: Scaling Inference Compute with Repeated Sampling.* arXiv:2407.21787.
-
-- - -
-
 ## Related Notes
-
 - [[Large Language Models - Architecture and Mechanics]] — Foundational details on transformer components and pre-training.
 - [[KV Cache and Hardware for Context and Memory]] — Deep dive into the hardware and memory constraints of LLM inference.
 - [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]] — Comparison of core architectures in the current AI landscape.
