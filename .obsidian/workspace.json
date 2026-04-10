@@ -198,8 +198,10 @@
       "graph:Open graph view": false
     }
   },
-  "active": "94b9e507e00cf3c3",
+  "active": "e3d5bff95974842d",
   "lastOpenFiles": [
+    "_tmp/kv_cache_chunk_01.md",
+    "_tmp/generate_kv_cache.ps1",
     "Science/Computer Science/Artificial Intelligence/LLMs for Reasoning.md",
     "Science/Computer Science/Artificial Intelligence/1.1 - Neural Networks Expanded.md",
     "Science/Computer Science/Artificial Intelligence/2.0 - CNNs.md",
@@ -225,7 +227,6 @@
     "_tmp/test_chunk.md",
     "Science/Computer Science/Development/Web Development/Senior Developer Tips for Building Websites.md",
     "Science/Computer Science/Development/Tools, Frameworks and Stacks/Flutter and Dart.md",
-    "Science/Computer Science/Development/Tools, Frameworks and Stacks/Vite and Tauri.md",
     "_tmp/audit_results.csv",
     "_tmp/technician_tag_audit.ps1",
     "_tmp/clean_date_toc.ps1",
@@ -235,7 +236,6 @@
     "_tmp/standardize_report.txt",
     "standardize_history_all.js",
     "_tmp/run_standardize.ps1",
-    "_tmp/current_err.txt",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
