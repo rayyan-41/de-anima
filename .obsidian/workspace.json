@@ -11,14 +11,15 @@
             "id": "94b9e507e00cf3c3",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "GEMINI.md",
-                "bFile": "GEMINI.md",
-                "aRef": ""
+                "file": "Science/Computer Science/Artificial Intelligence/KV Caches and AI Hardware Architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: GEMINI"
+              "icon": "lucide-file",
+              "title": "KV Caches and AI Hardware Architecture"
             }
           }
         ]
@@ -199,8 +200,11 @@
   },
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
+    "Science/Computer Science/Artificial Intelligence/Large Language Models - Architecture and Mechanics.md",
+    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
+    "Science/Computer Science/Artificial Intelligence/LLMs for Reasoning.md",
+    "Science/Computer Science/Artificial Intelligence/KV Caches and AI Hardware Architecture.md",
     "_tmp/find_candidates_kv.ps1",
-    "Science/Computer Science/AI/KV Caches and AI Hardware Architecture.md",
     "Science/Computer Science/Artificial Intelligence/1.0 - Neural Networks.md",
     "Science/Computer Science/AI",
     "_tmp/write_test.txt",
@@ -211,11 +215,8 @@
     "_tmp/kv_cache_chunk_03.md",
     "_tmp/kv_cache_chunk_01.md",
     "_tmp/generate_kv_cache.ps1",
-    "Science/Computer Science/Artificial Intelligence/LLMs for Reasoning.md",
     "Science/Computer Science/Artificial Intelligence/1.1 - Neural Networks Expanded.md",
     "Science/Computer Science/Artificial Intelligence/2.0 - CNNs.md",
-    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
-    "Science/Computer Science/Artificial Intelligence/Large Language Models - Architecture and Mechanics.md",
     "_tmp/llms-for-reasoning_chunk_04.md",
     "_tmp/llms-for-reasoning_chunk_03.md",
     "_tmp/llms-for-reasoning_chunk_02.md",
@@ -234,7 +235,6 @@
     "_tmp/clean_date_toc.ps1",
     "_tmp/extract_tags.ps1",
     "_tmp/add_missing_tocs.js",
-    "_tmp/remove_moc_properties.ps1",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",

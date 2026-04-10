@@ -9,20 +9,16 @@ tags: [science, ai, science/cs, kv-cache, ai-hardware, llm-inference, memory-ban
 
 # KV Caches and AI Hardware Architecture
 
-**Metadata:**
-- **Domain:** [[Map of Contents - Science|Science]]
-- **Category:** [[Artificial Intelligence]]
-- **Frameworks:** [[vLLM]], PagedAttention
-- **Hardware:** [[GPU]], [[HBM]], [[SRAM]]
-- **Status:** #complete
+
 - - -
 
-# Table of Contents
-- [[#Introduction to KV Caches and AI Hardware Architecture]]
-- [[#The Anatomy of the KV Cache]]
-- [[#Memory Bandwidth vs Compute Bound Operations]]
-- [[#Scaling Challenges: Multi-GPU and PagedAttention]]
-- [[#Future Architectures and Optimization Techniques]]
+>[!abstract] # Table of Contents
+>- [[#Introduction to KV Caches and AI Hardware Architecture]]
+	- [[#The Anatomy of the KV Cache]]
+	- [[#Memory Bandwidth vs Compute Bound Operations]]
+	- [[#Scaling Challenges: Multi-GPU and PagedAttention]]
+	- [[#Future Architectures and Optimization Techniques]]
+
 
 - - -
 
