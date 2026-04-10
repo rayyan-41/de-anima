@@ -198,15 +198,16 @@
       "graph:Open graph view": false
     }
   },
-  "active": "e3d5bff95974842d",
+  "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
-    "Science/Computer Science/LLMs for Reasoning.md",
-    "_tmp/llms-for-reasoning_chunk_refs.md",
     "_tmp/llms-for-reasoning_chunk_04.md",
-    "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning (Legacy).md",
     "_tmp/llms-for-reasoning_chunk_03.md",
     "_tmp/llms-for-reasoning_chunk_02.md",
     "_tmp/llms-for-reasoning_chunk_01.md",
+    "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning (Legacy).md",
+    "Science/Computer Science/LLMs for Reasoning.md",
+    "Science/Computer Science/Artificial Intelligence/Large Language Models - Architecture and Mechanics.md",
+    "_tmp/llms-for-reasoning_chunk_refs.md",
     "Science/Computer Science/Artificial Intelligence/KV Cache and Hardware for Context and Memory.md",
     "GEMINI.md",
     "VAULT_CONTEXT_GEMINI .md",
@@ -225,7 +226,6 @@
     "Science/Computer Science/Map of Contents - Computer Science.md",
     "Islam/Fiqh/Ibadat/The Prayer of Witr.md",
     "Reason/the Epistemic Gap and the Necessity of Revelation.md",
-    "History/Historical Narratives/Hannibal's Legacy.md",
     "_tmp/audit_results.csv",
     "_tmp/technician_tag_audit.ps1",
     "_tmp/clean_date_toc.ps1",
