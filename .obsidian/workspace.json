@@ -11,15 +11,14 @@
             "id": "94b9e507e00cf3c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Science/Computer Science/AI/KV Caches and AI Hardware Architecture.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "GEMINI.md",
+                "bFile": "GEMINI.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "KV Caches and AI Hardware Architecture"
+              "icon": "diff",
+              "title": "Diff: GEMINI"
             }
           }
         ]
@@ -200,8 +199,9 @@
   },
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
-    "Science/Computer Science/Artificial Intelligence/1.0 - Neural Networks.md",
+    "_tmp/find_candidates_kv.ps1",
     "Science/Computer Science/AI/KV Caches and AI Hardware Architecture.md",
+    "Science/Computer Science/Artificial Intelligence/1.0 - Neural Networks.md",
     "Science/Computer Science/AI",
     "_tmp/write_test.txt",
     "_tmp/kv_cache_chunk_04.md",
@@ -229,7 +229,6 @@
     "Science/Computer Science/Artifical Intelligence/Large Language Model Reasoning.md",
     "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artifical Intelligence/KV Cache and Hardware for Context and Memory.md",
-    "Science/Mathematics/Geometry/Distance Metrics in Mathematics and Computing.md",
     "_tmp/audit_results.csv",
     "_tmp/technician_tag_audit.ps1",
     "_tmp/clean_date_toc.ps1",

@@ -69,7 +69,7 @@ When the user makes a request:
 ### 2. History / → `machiavelli`
 
 - **Persona**: Machiavelli — Systematic, factual, documenting with documentary precision.
-- **Subfolders**: `Medieval and Late Medieval (476- 1799)/`, `Contemporary (1800 - Present)/`, `Biographies/`
+- **Subfolders**: `Early and Late Medieval (476- 1799)/`, `Contemporary (1800 - Present)/`, `Biographies/`, `Historical Narratives/`
 - **Templates**: Empires (Three-Tier Architecture), Biographies (Three-Act), Geopolitical (11-section chronological), General Historical.
 - **Naming**: No filename prefixes. Use clear descriptive titles (for example: `Ottoman Empire.md`, `Ibn Khaldun.md`, `French Revolution.md`).
 - **Tone**: Strictly factual. No dramatization unless user explicitly requests it.
@@ -163,17 +163,17 @@ Each domain has a `_ [Domain] - Map of Contents.md`. Use this structure:
 ### Chunk File Convention & YOLO Execution
 
 To understand how to chunk generation tasks, enforce rate-limits, and correctly format/save/name YOLO chunks, you **MUST** refer to the `yolo_generation_protocol` skill:
-`c:\Users\Pc\.gemini\skills\yolo_generation_protocol\SKILL.md`
+`E:\De Anima\.gemini\skills\yolo_generation_protocol\SKILL.md`
 
 ### Canonical Tag Registry & YAML Frontmatter
 
 To understand the vault's Canonical Tag Registry, valid property combinations (Domains, Categories), and formatting rules, you **MUST** refer to the `obsidian_yaml_enforcer` skill:
-`c:\Users\Pc\.gemini\skills\obsidian_yaml_enforcer\SKILL.md`
+`E:\De Anima\.gemini\skills\obsidian_yaml_enforcer\SKILL.md`
 
 ### Wikilinks & MOC System
 
 To understand how wikilinks are discovered and inserted (`[[wikilinks]]`), and how Maps of Content are maintained, you **MUST** refer to the `obsidian_wikilink_engine` skill:
-`c:\Users\Pc\.gemini\skills\obsidian_wikilink_engine\SKILL.md`
+`E:\De Anima\.gemini\skills\obsidian_wikilink_engine\SKILL.md`
 
 # IV. OPERATIONAL PROTOCOLS
 
@@ -235,7 +235,7 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  ────────────────────────────────────────────────────            │
 │  weaver counts words. Flags warning if UNDER minimum:           │
 │  - Empire/Bio: ≥1,500  │  Geopolitical: ≥5,000                  │
-│  - Fiqh: ≥8,000        │  CS/AI: ≥1,500                         │
+│  - Fiqh: ≥8,000        │  CS/AI: ≥4,000                         │
 │  - General: ≥1,000     │  Aqeedah: ≥3,000                       │
 │                                                                  │
 │  STAGE 6: POST-ASSEMBLY PIPELINE (Automatic)                     │
