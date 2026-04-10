@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Artificial Intelligence/Large Language Models - Architecture and Mechanics.md",
+                "file": "Science/Computer Science/Artificial Intelligence/1.0 - Neural Networks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Large Language Models - Architecture and Mechanics"
+              "title": "1.0 - Neural Networks"
             }
           }
         ]
@@ -201,6 +201,9 @@
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
     "Science/Computer Science/Artificial Intelligence/LLMs for Reasoning.md",
+    "Science/Computer Science/Artificial Intelligence/1.1 - Neural Networks Expanded.md",
+    "Science/Computer Science/Artificial Intelligence/2.0 - CNNs.md",
+    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artificial Intelligence/Large Language Models - Architecture and Mechanics.md",
     "_tmp/llms-for-reasoning_chunk_04.md",
     "_tmp/llms-for-reasoning_chunk_03.md",
@@ -223,9 +226,6 @@
     "Science/Computer Science/Development/Web Development/Senior Developer Tips for Building Websites.md",
     "Science/Computer Science/Development/Tools, Frameworks and Stacks/Flutter and Dart.md",
     "Science/Computer Science/Development/Tools, Frameworks and Stacks/Vite and Tauri.md",
-    "Science/Computer Science/Map of Contents - Computer Science.md",
-    "Islam/Fiqh/Ibadat/The Prayer of Witr.md",
-    "Reason/the Epistemic Gap and the Necessity of Revelation.md",
     "_tmp/audit_results.csv",
     "_tmp/technician_tag_audit.ps1",
     "_tmp/clean_date_toc.ps1",

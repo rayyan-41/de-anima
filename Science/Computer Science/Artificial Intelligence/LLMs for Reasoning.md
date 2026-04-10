@@ -265,7 +265,6 @@ This effectively wraps the LLM in an outer loop of classical search algorithms. 
 Large Language Models do not possess innate consciousness or a deductive logic module. Their reasoning is an optical illusion created by the interaction of multi-head self-attention, immense scale, and carefully orchestrated prompt engineering. By understanding the hardware limits of the KV cache and the software mechanisms of induction heads and Chain of Thought, we recognize that LLM reasoning is fundamentally the act of a high-dimensional statistical engine navigating a geometrical representation of human logic, externalizing its computation one token at a time.    
 
 - - -
-
 ## Related Notes
 - [[Large Language Models - Architecture and Mechanics]]
 - [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]]
