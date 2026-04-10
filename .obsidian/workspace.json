@@ -198,8 +198,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "94b9e507e00cf3c3",
+  "active": "e3d5bff95974842d",
   "lastOpenFiles": [
+    "Science/Computer Science/LLMs for Reasoning.md",
+    "_tmp/llms-for-reasoning_chunk_refs.md",
+    "_tmp/llms-for-reasoning_chunk_04.md",
     "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning (Legacy).md",
     "_tmp/llms-for-reasoning_chunk_03.md",
     "_tmp/llms-for-reasoning_chunk_02.md",
@@ -225,9 +228,6 @@
     "History/Historical Narratives/Hannibal's Legacy.md",
     "_tmp/audit_results.csv",
     "_tmp/technician_tag_audit.ps1",
-    "History/Historical Narratives/Evolution of Intellectual Thought in Europe.md",
-    "History/Historical Narratives/How Svlla influenced Caesar.md",
-    "History/Historical Narratives/History of the Levant under Muslim Rule.md",
     "_tmp/clean_date_toc.ps1",
     "_tmp/extract_tags.ps1",
     "_tmp/add_missing_tocs.js",
