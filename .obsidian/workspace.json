@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning.md",
+                "file": "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning (Legacy).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Large Language Model Reasoning"
+              "title": "Large Language Model Reasoning (Legacy)"
             }
           }
         ]
@@ -201,6 +201,10 @@
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
     "Science/Computer Science/Artificial Intelligence/KV Cache and Hardware for Context and Memory.md",
+    "GEMINI.md",
+    "VAULT_CONTEXT_GEMINI .md",
+    "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning (Legacy).md",
+    "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning.md",
     "Science/Computer Science/Artifical Intelligence/Large Language Model Reasoning.md",
     "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artifical Intelligence/KV Cache and Hardware for Context and Memory.md",
@@ -224,10 +228,6 @@
     "History/Historical Narratives/Map of Contents - Historical Narratives.md",
     "History/Contemporary (1800 - Present)/Map of Contents - Contemporary.md",
     "History/Biographies/Stefan Lazarevic.md",
-    "Reason/Map of Contents - Reason.md",
-    "History/Historical Narratives/Influence of Islamic Golden Age on the West.md",
-    "History/Early and Late Medieval (476- 1799)/Map of Contents - Early and Late Medieval.md",
-    "GEMINI.md",
     "_tmp/clean_date_toc.ps1",
     "_tmp/extract_tags.ps1",
     "_tmp/add_missing_tocs.js",

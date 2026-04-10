@@ -6,7 +6,6 @@ category: Computer Science/Artificial Intelligence
 status: complete
 tags: [science, computer-science, science/artificial-intelligence, llm-reasoning, chain-of-thought, notebooklm, cli]
 ---
-
 # Large Language Model Reasoning: The Mechanics of Machine Thought
 
 The internal processing of a Large Language Model (LLM) when solving complex problems involves mechanisms that transcend simple statistical prediction. To understand the current state of artificial intelligence is to understand the mechanisms of **reasoning**—the ability to derive new information from existing premises through a structured, step-by-step process.
