@@ -9,10 +9,9 @@ TAGS: #science #moc
 | Title | Link | Date Added |
 |-------|------|------------|
 | Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs | [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md|Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]] | 2026-04-08 |
-| Large Language Model Reasoning: The Mechanics of Machine Thought | [[Large Language Model Reasoning.md|Large Language Model Reasoning: The Mechanics of Machine Thought]] | 2026-04-09 |
-| KV Cache and Hardware for Context and Memory | [[KV Cache and Hardware for Context and Memory.md|KV Cache and Hardware for Context and Memory]] | 2026-04-09 |
+| LLMs for Reasoning | [[LLMs for Reasoning.md|LLMs for Reasoning]] | 2026-04-10 |
 
 ---
 
-*Total Notes: 3*
-*Last Updated: 2026-04-09*
+*Total Notes: 2*
+*Last Updated: 2026-04-10*

@@ -239,13 +239,3 @@ Large Language Models have fundamentally rewritten the contract between humanity
 
 **Related Notes:**
 - [[1.0 - Neural Networks]]
-- [[2.0 - CNNs]]
-- [[CS - Software Design Techniques]]
-
-- - -
-*Created on 2026-03-05 by GeminiCLI (Agent: Ibn Haytham)*
-
-## See Also
-
-- [[GEMINI]] — Concept referenced in text.
-- [[_Science - Map of Contents|Science MOC]]
