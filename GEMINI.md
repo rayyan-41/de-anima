@@ -145,7 +145,7 @@ When the user makes a request:
 
 ### Map of Contents (MOC) Template
 
-Each domain has a `_ [Domain] - Map of Contents.md`. Use this structure:
+Each domain has a `Map of Contents - [Domain].md`. Use this structure:
 
 ```markdown
 **Metadata:**
