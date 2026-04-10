@@ -588,4 +588,8 @@ In conclusion, the future of LLM inference and KV cache management is not a sing
 
 ## Related Notes
 
-*Wikilinks will be added by linker*
+- [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]]
+- [[Large Language Model Reasoning]]
+- [[Evolution of Web Development]]
+- [[Map of Contents - Science]]
+
