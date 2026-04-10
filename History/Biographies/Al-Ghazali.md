@@ -18,8 +18,8 @@ tags:
 
 ## Related Notes
 
-- [[BIO - Ibn Sina]]
+- [[Ibn Sina]]
 
 ## See Also
 
-- [[_Biographies - Map of Content|Biographies MOC]]
+- [[Map of Contents - Biographies|Biographies MOC]]

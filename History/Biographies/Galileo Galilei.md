@@ -175,4 +175,4 @@ Galileo was not a saint; he was a brilliantly flawed human being.
 ## See Also
 
 - [[The Holy Roman Empire]] — Historical entity referenced in text.
-- [[_Biographies - Map of Content|Biographies MOC]]
+- [[Map of Contents - Biographies|Biographies MOC]]

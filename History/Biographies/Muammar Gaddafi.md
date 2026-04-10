@@ -13,4 +13,4 @@ tags:
 
 ## See Also
 
-- [[_Biographies - Map of Content|Biographies MOC]]
+- [[Map of Contents - Biographies|Biographies MOC]]
