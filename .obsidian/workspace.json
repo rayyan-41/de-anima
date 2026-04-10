@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Artificial Intelligence/1.0 - Neural Networks.md",
+                "file": "Science/Computer Science/AI/KV Caches and AI Hardware Architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "1.0 - Neural Networks"
+              "title": "KV Caches and AI Hardware Architecture"
             }
           }
         ]
@@ -198,8 +198,9 @@
       "graph:Open graph view": false
     }
   },
-  "active": "e3d5bff95974842d",
+  "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
+    "Science/Computer Science/Artificial Intelligence/1.0 - Neural Networks.md",
     "Science/Computer Science/AI/KV Caches and AI Hardware Architecture.md",
     "Science/Computer Science/AI",
     "_tmp/write_test.txt",
@@ -229,7 +230,6 @@
     "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artifical Intelligence/KV Cache and Hardware for Context and Memory.md",
     "Science/Mathematics/Geometry/Distance Metrics in Mathematics and Computing.md",
-    "Science/Computer Science/Artifical Intelligence/1.0 - Neural Networks.md",
     "_tmp/audit_results.csv",
     "_tmp/technician_tag_audit.ps1",
     "_tmp/clean_date_toc.ps1",
