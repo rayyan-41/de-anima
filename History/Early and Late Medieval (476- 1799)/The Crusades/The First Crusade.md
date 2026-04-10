@@ -88,7 +88,7 @@ In Anatolia, Kilij Arslan I ruled the Sultanate of Rum, frequently at odds with 
 > Jerusalem, a city of profound religious significance to Judaism, Christianity, and Islam, had changed hands multiple times. Captured by the Seljuks from the Fatimids in the 1070s, traditional pilgrimage routes for Western Christians were disrupted. Although historical evidence suggests outright persecution was sporadic rather than systemic, the political instability made the journey significantly more dangerous, fueling the narrative of Christian suffering utilized by the Papacy.
 
 ### The Papacy and Western European Dynamics
-In Western Europe, the late eleventh century was marked by the Investiture Controversy, a profound ideological and political conflict between the Papacy and the EMP - [[The Holy Roman Empire|The Holy Roman Empire]] regarding the authority to appoint church officials. Popes such as Gregory VII and his successor Pope Urban II sought to assert the supremacy of spiritual authority over secular rulers, aiming to reform the Church and consolidate papal power.
+In Western Europe, the late eleventh century was marked by the Investiture Controversy, a profound ideological and political conflict between the Papacy and the [[The Holy Roman Empire]] regarding the authority to appoint church officials. Popes such as Gregory VII and his successor Pope Urban II sought to assert the supremacy of spiritual authority over secular rulers, aiming to reform the Church and consolidate papal power.
 
 Pope Urban II, facing a rival antipope (Clement III) supported by the Holy Roman Emperor Henry IV, required mechanisms to assert his legitimacy and unify the fractured nobility of Western Europe under papal leadership. The societal structure of the West was characterized by an entrenched, militarized aristocracy engaged in endemic localized warfare. The Church had previously attempted to mitigate this violence through movements such as the Peace of God and the Truce of God, which sought to limit warfare on certain days and protect non-combatants, with limited success.
 
@@ -340,4 +340,4 @@ The imagery and narrative of the First Crusade have deeply permeated Western cul
 * **Modern Media:** The term "crusade" itself has been heavily secularized to denote any vigorous moral campaign. In visual media, the Crusades are frequently depicted, though often focusing on later conflicts (like Ridley Scott’s *Kingdom of Heaven*). The First Crusade specifically remains a touchstone for exploring themes of religious extremism, cultural collision, and the devastating human cost of ideological warfare.
 
 ## See Also
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]

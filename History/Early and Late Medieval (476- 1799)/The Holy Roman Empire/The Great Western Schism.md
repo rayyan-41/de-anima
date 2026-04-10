@@ -20,4 +20,4 @@ This schism devastated the spiritual authority of the Church and forced European
 
 ## See Also
 
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]

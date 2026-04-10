@@ -23,7 +23,7 @@ The Arab Spring was not a spontaneous combustion but the inevitable rupture of a
 By late 2010, the Arab world was experiencing a demographic phenomenon where over 60% of the population was under the age of 30. This generation—highly literate and digitally connected—faced a labor market dominated by state patronage and a stagnant private sector. The mismatch between educational attainment and economic opportunity created a volatile layer of "educated unemployed."
 
 **Economic Stagnation and Kleptocracy:**
-Under the regimes of **Hosni Mubarak** (Egypt), **Zine El Abidine Ben Ali** (Tunisia), and **[[BIO - Muammar Gaddafi|Muammar Gaddafi]]** (Libya), economic growth was concentrated within a narrow elite of crony capitalists. Neoliberal reforms had dismantled social safety nets while enriching regime-connected oligarchs. For the average citizen, the "social contract"—jobs and subsidies in exchange for political passivity—was effectively broken.
+Under the regimes of **Hosni Mubarak** (Egypt), **Zine El Abidine Ben Ali** (Tunisia), and **[[Muammar Gaddafi]]** (Libya), economic growth was concentrated within a narrow elite of crony capitalists. Neoliberal reforms had dismantled social safety nets while enriching regime-connected oligarchs. For the average citizen, the "social contract"—jobs and subsidies in exchange for political passivity—was effectively broken.
 
 **Political Calcification:**
 The region was governed by "Presidents-for-Life" architectures. These regimes were not merely authoritarian; they were petrified. Dissent was managed through pervasive secret police (*mukhabarat*), and the total absence of institutional mechanisms for reform meant that any change would have to be external to the system.
@@ -103,4 +103,4 @@ The **Assad** regime's refusal to step down, combined with regional proxy interv
 #### **References**
 - [[Gaddafi's Libya - The Rise and Fall of the Jamahiriya|Gaddafi's Libya - The Rise and Fall of the Jamahiriya]]
 ## See Also
-- [[BIO - Muammar Gaddafi]] — Historical entity referenced in text.
+- [[Muammar Gaddafi]] — Historical entity referenced in text.

@@ -45,7 +45,7 @@ The genesis of Leonhard Euler’s intellectual journey is inseparable from the m
 
 ### The Basel Crucible and the Bernoulli Connection
 
-Euler’s father, Paul Euler, was a pastor of the Reformed Church, a man of modest means but significant intellectual connections. During his own student days at the University of Basel, Paul had resided in the house of BIO - [[BIO - Jacob Bernoulli|Jacob Bernoulli]], the elder statesman of the mathematical dynasty. Through this proximity, Paul became an initiate into the infinitesimal calculus, a secret language then known to only a handful of European scholars. While Paul intended for his son to follow him into the ministry, he unknowingly sowed the seeds of a different vocation by teaching Leonhard the basics of mathematics during his early childhood in Riehen.
+Euler’s father, Paul Euler, was a pastor of the Reformed Church, a man of modest means but significant intellectual connections. During his own student days at the University of Basel, Paul had resided in the house of BIO - [[Jacob Bernoulli]], the elder statesman of the mathematical dynasty. Through this proximity, Paul became an initiate into the infinitesimal calculus, a secret language then known to only a handful of European scholars. While Paul intended for his son to follow him into the ministry, he unknowingly sowed the seeds of a different vocation by teaching Leonhard the basics of mathematics during his early childhood in Riehen.
 
 The pivotal moment in Euler's development occurred when the family returned to Basel for his formal education. Paul Euler maintained a close friendship with Johann Bernoulli, Jacob’s younger brother and successor to the chair of mathematics. Johann, a man of legendary irascibility and unparalleled mathematical intuition, was the preeminent mathematician of his era. Recognizing the young Euler’s burgeoning talent, Johann agreed to a unique arrangement: the "Saturday afternoon lessons."
 
@@ -190,12 +190,12 @@ After lunch, while playing with one of his grandsons, Euler suffered a massive b
 
 ### Legacy: The Master of Us All
 
-The influence of Leonhard Euler on the subsequent generations of scientists is immeasurable. Joseph-Louis Lagrange admitted that Euler was the model for all his work. Pierre-Simon Laplace famously commanded his students: "Read Euler, read Euler, he is the master of us all." Carl Friedrich [[BIO - Gauss|Gauss]], the "Prince of Mathematicians," spent his life expanding on Elerian foundations in Number Theory and Differential Geometry. Later, Bernhard Riemann and others would use Euler’s work as the springboard for General Relativity and Quantum Mechanics.
+The influence of Leonhard Euler on the subsequent generations of scientists is immeasurable. Joseph-Louis Lagrange admitted that Euler was the model for all his work. Pierre-Simon Laplace famously commanded his students: "Read Euler, read Euler, he is the master of us all." Carl Friedrich [[Gauss]], the "Prince of Mathematicians," spent his life expanding on Elerian foundations in Number Theory and Differential Geometry. Later, Bernhard Riemann and others would use Euler’s work as the springboard for General Relativity and Quantum Mechanics.
 
 Euler did not just solve problems; he built the Cathedral of Modern Science. He took the scattered bricks of ancient and early modern knowledge and mortared them with the logic of analysis. Today, every time an engineer balances a bridge, every time a physicist calculates a particle trajectory, and every time a student uses a function, they are walking in the light of the infinite legacy left by the man who was, truly, the Analysis Incarnate.
 
 ## See Also
 
 - [[The Riemann Hypothesis]] — Historical entity referenced in text.
-- [[BIO - Jacob Bernoulli]] — Historical entity referenced in text.
-- [[BIO - Gauss]] — Historical entity referenced in text.
+- [[Jacob Bernoulli]] — Historical entity referenced in text.
+- [[Gauss]] — Historical entity referenced in text.

@@ -37,7 +37,7 @@ Ibn Sina, known to the Latin world as **Avicenna** (c. 980–1037), stands as th
 Abu Ali al-Husayn ibn Abd Allah ibn al-Hasan ibn Ali ibn Sina was born around 980 CE in the village of **Afshana**, near the great cultural capital of **Bukhara** in Transoxiana (modern-day Uzbekistan). His father, Abd Allah, was an official of the Samanid administration, an Isma'ili Muslim whose house was a vibrant center for intellectual debate. This environment, rich with discourse on philosophy, mathematics, and Isma'ili cosmology, served as the first crucible for the young Ibn Sina. The Samanid Empire was then at its cultural peak, fostering a climate where Persian and Arabic traditions merged with the scientific legacies of India and Greece.
 
 **A Prodigious Education**
-By the age of ten, Ibn Sina had mastered the entire **Quran** and reached such proficiency in Arabic literature that he astonished the scholars of Bukhara. His father soon engaged a private tutor to instruct him in Indian arithmetic and logic. However, the young scholar quickly outpaced his instructors. He turned his attention to the *Isagoge* of Porphyry and the works of [[BIO - Euclid|Euclid]] and Ptolemy, studying with an intensity that bordered on the obsessive. In his autobiography, Ibn Sina recounts that when faced with a difficult problem, he would perform ablutions and pray at the mosque until the solution was revealed to him. 
+By the age of ten, Ibn Sina had mastered the entire **Quran** and reached such proficiency in Arabic literature that he astonished the scholars of Bukhara. His father soon engaged a private tutor to instruct him in Indian arithmetic and logic. However, the young scholar quickly outpaced his instructors. He turned his attention to the *Isagoge* of Porphyry and the works of [[Euclid]] and Ptolemy, studying with an intensity that bordered on the obsessive. In his autobiography, Ibn Sina recounts that when faced with a difficult problem, he would perform ablutions and pray at the mosque until the solution was revealed to him. 
 
 By the age of sixteen, Ibn Sina turned his formidable intellect to **Medicine**. Unlike the abstract complexities of metaphysics, he found medicine to be "not one of the difficult sciences," and through his clinical practice and innovative treatments of local notables, his fame began to spread before he reached adulthood. At eighteen, he was granted access to the **Royal Library of the Samanids** (the *Sawan al-Hikma*) after successfully treating the Samanid Emir, Nuh ibn Mansur, for a mysterious illness. It was within this legendary library—organized into specialized chambers for law, grammar, poetry, and philosophy—that Ibn Sina completed his formal "Crucible." He read every volume of the Greek ancients, later stating that by the age of eighteen, he had reached a state of knowledge such that he "learnt nothing more" thereafter, having merely deepened his understanding of the truths he already possessed.
 
@@ -159,5 +159,5 @@ He identified "love-sickness" (*al-ishq*) as a clinical condition, which he diag
 
 ## See Also
 
-- [[BIO - Euclid]] — Historical entity referenced in text.
-- [[_Biographies - Map of Content|Biographies MOC]]
+- [[Euclid]] — Historical entity referenced in text.
+- [[Map of Contents - Biographies|Biographies MOC]]

@@ -85,4 +85,4 @@ The stage was set for an explosion that would consume Bohemia, elevate Sigismund
 ## See Also
 
 - [[The Holy Roman Empire]] — Historical entity referenced in text.
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]

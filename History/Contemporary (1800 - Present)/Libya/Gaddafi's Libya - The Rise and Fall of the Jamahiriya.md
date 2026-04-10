@@ -11,7 +11,7 @@ tags:
 ---
 
 **Abstract:**
-A comprehensive analytical dissection of Libya under the 42-year rule of **[[BIO - Muammar Gaddafi|Muammar Gaddafi]]**. This report serves as a central hub for the Contemporary History section, documenting the transition from a fragmented monarchy to a "State of the Masses" (Jamahiriya), and analyzing the structural stressors that led to the catastrophic 2011 collapse.
+A comprehensive analytical dissection of Libya under the 42-year rule of **[[Muammar Gaddafi]]**. This report serves as a central hub for the Contemporary History section, documenting the transition from a fragmented monarchy to a "State of the Masses" (Jamahiriya), and analyzing the structural stressors that led to the catastrophic 2011 collapse.
 - - -
 ## 1. The Ascent: From the Senussi Wastes to the Al-Fateh Coup
 
@@ -109,5 +109,5 @@ Libya today is the literal embodiment of the "Strongman Paradox." The removal of
 
 ## See Also
 
-- [[BIO - Muammar Gaddafi]] — Historical entity referenced in text.
-- [[_History - Map of Contents|History MOC]]
+- [[Muammar Gaddafi]] — Historical entity referenced in text.
+- [[Map of Contents - History|History MOC]]

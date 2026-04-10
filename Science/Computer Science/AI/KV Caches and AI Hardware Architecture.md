@@ -9,6 +9,14 @@ tags: [science, ai, science/cs, kv-cache, ai-hardware, llm-inference, memory-ban
 
 # KV Caches and AI Hardware Architecture
 
+**Metadata:**
+- **Domain:** [[Map of Contents - Science|Science]]
+- **Category:** [[Artificial Intelligence]]
+- **Frameworks:** [[vLLM]], PagedAttention
+- **Hardware:** [[GPU]], [[HBM]], [[SRAM]]
+- **Status:** #complete
+- - -
+
 # Table of Contents
 - [[#Introduction to KV Caches and AI Hardware Architecture]]
 - [[#The Anatomy of the KV Cache]]
@@ -123,8 +131,6 @@ Furthermore, because moving data costs significantly more energy than computing 
 To mitigate this at the architectural level, researchers developed techniques specifically to shrink the [[KV Cache]] footprint. Multi-Query Attention (MQA) and Grouped-Query Attention (GQA) depart from standard Multi-Head Attention by forcing multiple Query heads to share a single Key and Value head. This drastically reduces the size of the [[KV Cache]] that must be stored and subsequently streamed across the memory bus during decode, trading a minuscule fraction of model accuracy for a massive increase in inference speed and batch size capacity. 
 
 In conclusion, understanding the [[KV Cache]] is the absolute foundation to understanding the economics and engineering of modern artificial intelligence. The transition from the compute-bound prefill phase to the memory-bandwidth-bound decode phase dictates how models are served in production. It explains why inference providers obsess over batching algorithms, quantization, and specialized memory hardware. The future of AI scaling is not merely a question of building faster calculators, but of solving the fundamental physics of moving terabytes of cached context across silicon millimeters in fractions of a second.
-
-- - -
 
 - - -
 
@@ -382,7 +388,7 @@ Furthermore, naive KV cache allocation drastically exacerbates this scarcity. Ea
 
 ### PagedAttention: Virtual Memory for LLMs
 
-To resolve the catastrophic waste of contiguous memory allocation, the vLLM (virtual Large Language Model) framework introduced **PagedAttention**. Drawing direct conceptual inspiration from operating system virtual memory and hardware paging mechanisms, PagedAttention decouples the logical sequence of generated tokens from their physical storage mapping in GPU memory.
+To resolve the catastrophic waste of contiguous memory allocation, the [[vLLM]] (virtual Large Language Model) framework introduced **[[PagedAttention]]**. Drawing direct conceptual inspiration from operating system virtual memory and hardware paging mechanisms, [[PagedAttention]] decouples the logical sequence of generated tokens from their physical storage mapping in GPU memory.
 
 ```mermaid
 graph TD
@@ -480,7 +486,7 @@ flowchart LR
 
 The critical engineering challenge of Tensor Parallelism is the massive inter-device communication overhead. Because the final output of the multi-head attention mechanism requires concatenating and linearly projecting the contributions from all heads, an `All-Reduce` operation must be performed across all participating GPUs at the conclusion of every attention layer (and similarly for the feed-forward network modules). 
 
-To prevent this constant communication from becoming a catastrophic performance bottleneck, modern AI infrastructure relies heavily on proprietary high-speed hardware interconnects like Nvidia's **NVLink** and **NVSwitch**. While standard PCIe Gen 5 offers a theoretical bandwidth of around 64 GB/s per direction, an NVSwitch fabric on an H100-equipped system can provide up to 900 GB/s of bidirectional bandwidth between any pair of GPUs within the node. This immense optical or electrical bandwidth allows the GPUs to share their partial activations almost as quickly as the Tensor Cores can compute them, effectively hiding the latency of distributed execution and allowing the multi-GPU cluster to function seamlessly as a unified, massive compute engine.
+To prevent this constant communication from becoming a catastrophic performance bottleneck, modern AI infrastructure relies heavily on proprietary high-speed hardware interconnects like Nvidia's **[[NVLink]]** and **[[NVSwitch]]**. While standard PCIe Gen 5 offers a theoretical bandwidth of around 64 GB/s per direction, an [[NVSwitch]] fabric on an H100-equipped system can provide up to 900 GB/s of bidirectional bandwidth between any pair of [[GPU]]s within the node. This immense optical or electrical bandwidth allows the [[GPU]]s to share their partial activations almost as quickly as the Tensor Cores can compute them, effectively hiding the latency of distributed execution and allowing the multi-[[GPU]] cluster to function seamlessly as a unified, massive compute engine.
 
 ### RingAttention: Breaking the Sequence Length Barrier
 
@@ -563,7 +569,7 @@ Concurrently, **Neural Processing Units (NPUs)** are driving optimization at the
 
 ### Mixture of Experts (MoE) and the Cache Paradigm
 
-The architectural shift towards **Mixture of Experts (MoE)** introduces profound new complexities into KV cache management. In a standard dense model, every input token activates every single parameter across the network. In an MoE model, a specialized routing network directs each token to a sparse subset of "expert" feed-forward networks. While MoE significantly reduces the active parameter count (and thus the computational cost) per token, its impact on memory subsystem is multifaceted and highly challenging.
+The architectural shift towards **[[Mixture of Experts (MoE)]]** introduces profound new complexities into [[KV Cache]] management. In a standard dense model, every input token activates every single parameter across the network. In an MoE model, a specialized routing network directs each token to a sparse subset of "expert" feed-forward networks. While [[Mixture of Experts (MoE)|MoE]] significantly reduces the active parameter count (and thus the computational cost) per token, its impact on memory subsystem is multifaceted and highly challenging.
 
 First, the total parameter count of the model is vastly larger, demanding more sheer memory capacity just to hold the dormant expert weights. Second, and more critically for the KV cache, the memory access patterns become highly irregular, fragmented, and unpredictable. The KV cache must still store the historical representations for all tokens across the sequence to maintain contextual awareness. However, because subsequent tokens are routed to different experts, the memory fetches required to compute attention are no longer contiguous or predictable.
 

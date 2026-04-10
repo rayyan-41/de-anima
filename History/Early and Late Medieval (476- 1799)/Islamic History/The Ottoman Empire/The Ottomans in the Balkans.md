@@ -488,4 +488,4 @@ The Ottoman presence in the Balkans is thus not a closed chapter of history but 
 ## See Also
 
 - [[Lexicon]] — Historical entity referenced in text.
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]

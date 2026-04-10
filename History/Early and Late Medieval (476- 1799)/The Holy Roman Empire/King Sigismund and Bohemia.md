@@ -144,4 +144,4 @@ The fires of Constance lit a path that would lead, a century later, to Wittenber
 ## See Also
 
 - [[The Holy Roman Empire]] — Historical entity referenced in text.
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]

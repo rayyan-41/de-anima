@@ -16,4 +16,4 @@ tags:
 
 ## See Also
 
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]
