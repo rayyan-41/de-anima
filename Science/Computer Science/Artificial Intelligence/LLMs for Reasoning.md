@@ -1,10 +1,8 @@
 ---
-title: "LLMs for Reasoning"
 date: 2026-04-10
-domain: science
-category: computer-science
 status: complete
-tags: [science, computer-science, science/ai, llm, transformer, attention-mechanism, gpu, chain-of-thought, kv-cache, in-context-learning, embeddings, ai-generated]
+tags: [science, computer-science, science/ai, llm, transformer, attention-mechanism, gpu, chain-of-thought, kv-cache, in-context-learning, embeddings, cli]
+note: ""
 ---
 
 # LLMs for Reasoning

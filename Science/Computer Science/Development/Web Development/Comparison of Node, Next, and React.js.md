@@ -1,17 +1,8 @@
 ---
-title: "Comparison of Node, Next, and React.js"
 date: 2026-04-05
-domain: science
-category: computer-science
 status: complete
-tags:
-  - science
-  - computer-science
-  - web-dev
-  - computation
-  - algorithms
-  - engineering
-  - cli
+tags: [science, computer-science, web-dev, computation, algorithms, engineering, cli]
+note: ""
 ---
 
 # WEB - Comparison of Node.js, React.js, and Next.js: The Full-Stack Ecosystem

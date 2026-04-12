@@ -4,7 +4,7 @@ date: 2024-05-24
 domain: science
 category: Science/AI
 status: complete
-tags: [science, ai, science/cs, kv-cache, ai-hardware, llm-inference, memory-bandwidth, attention-mechanism, paged-attention, distributed-computing, ai-generated]
+tags: [science, ai, science/cs, kv-cache, ai-hardware, llm-inference, memory-bandwidth, attention-mechanism, paged-attention, distributed-computing, cli]
 ---
 
 # KV Caches and AI Hardware Architecture

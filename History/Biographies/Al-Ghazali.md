@@ -1,16 +1,8 @@
 ---
-title: "BIO - Al-Ghazali"
 date: 2026-04-06
-domain: history
-category: biographies
 status: complete
-tags:
-  - history
-  - biography
-  - al-ghazali
-  - islamic-golden-age
-  - theology
-  - cli
+tags: [history, biography, al-ghazali, islamic-golden-age, theology, cli]
+note: ""
 ---
 
 **Real Name:** Abu Hamid Muhammad ibn Muhammad ibn Ahmad Al-Tusi Al-Ghazali

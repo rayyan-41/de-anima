@@ -1,15 +1,8 @@
 ---
-title: "Vite and Tauri"
 date: 2026-04-05
-domain: science
-category: computer-science
 status: complete
-tags:
-  - science
-  - computer-science
-  - web-dev
-  - rust
-  - cli
+tags: [science, computer-science, web-dev, rust, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

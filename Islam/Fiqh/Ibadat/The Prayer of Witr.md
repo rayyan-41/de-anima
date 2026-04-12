@@ -1,18 +1,8 @@
 ---
-title: "The Prayer of Witr"
 date: 2026-04-05
-domain: islam
-category: fiqh
 status: complete
-tags:
-  - islam
-  - fiqh
-  - ibadat
-  - hanafi
-  - maliki
-  - shafii
-  - hanbali
-  - cli
+tags: [islam, fiqh, ibadat, hanafi, maliki, shafii, hanbali, cli]
+note: ""
 ---
 
 # FIQH - The Prayer of Witr: Rulings, Methodologies, and Variations Across the Four Madhabs

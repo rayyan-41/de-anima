@@ -1,15 +1,8 @@
 ---
-title: "Bohemia and Charles IV"
 date: 2026-04-06
-domain: history
-category: medieval-and-late-medieval
 status: complete
-tags:
-  - history
-  - medieval-and-late-medieval
-  - empire
-  - bohemia-and-charles-iv
-  - cli
+tags: [history, medieval-and-late-medieval, empire, bohemia-and-charles-iv, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

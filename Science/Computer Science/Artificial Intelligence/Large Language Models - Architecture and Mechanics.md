@@ -1,17 +1,8 @@
 ---
-title: "Large Language Models - Architecture and Mechanics"
 date: 2026-04-05
-domain: science
-category: computer-science
 status: complete
-tags:
-  - science
-  - computer-science
-  - ai
-  - computation
-  - algorithms
-  - engineering
-  - cli
+tags: [science, computer-science, ai, computation, algorithms, engineering, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

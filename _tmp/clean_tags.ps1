@@ -58,7 +58,7 @@ foreach ($file in $files) {
             if ($t.Length -gt 40) { continue }
             if ($t -match "---") { continue }
             if ($fluffTags -contains $t) { continue }
-            if ($t -eq "ai-generated") { continue }
+            if ($t -eq "cli") { continue }
             if ($t -eq $domain) { continue }
             if ($t -eq $category) { continue }
             if ($t -eq "moc" -or $t -eq "sub-moc") { $cleanedTags += $t; continue }
@@ -78,7 +78,7 @@ foreach ($file in $files) {
             }
         }
         
-        $finalTags += "ai-generated"
+        $finalTags += "cli"
         
         $newTagsYaml = "tags:`n" + ($finalTags | ForEach-Object { "  - $_" } | Out-String)
         $newTagsYaml = $newTagsYaml.TrimEnd()

@@ -1,17 +1,8 @@
 ---
-title: "JavaScript Frameworks"
 date: 2026-04-05
-domain: science
-category: computer-science
 status: complete
-tags:
-  - science
-  - computer-science
-  - web-dev
-  - javascript
-  - frameworks
-  - history
-  - cli
+tags: [science, computer-science, web-dev, javascript, frameworks, history, cli]
+note: ""
 ---
 
 # WEB - JavaScript Frameworks: The Architecture of Modern Interfaces

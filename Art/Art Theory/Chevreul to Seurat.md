@@ -1,13 +1,8 @@
 ---
-title: "Chevreul to Seurat"
 date: 2026-04-05
-domain: art
-category: art-theory
 status: complete
-tags:
-  - art
-  - art-theory
-  - cli
+tags: [art, art-theory, cli]
+note: ""
 ---## The Chemist's Problem
 
 In 1824, Michel Eugène Chevreul walked into the Gobelins Tapestry Works in Paris with what seemed like a simple job: fix the dyes. The royal manufactory was France's pride, weaving tapestries for palaces and cathedrals, but they had a problem that no amount of chemical tinkering could solve. Their black threads looked muddy and weak when woven next to certain blues. The dyers blamed the chemistry. Chevreul, the newly appointed director of dyes, suspected something else entirely.

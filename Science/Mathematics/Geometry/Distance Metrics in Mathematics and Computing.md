@@ -1,16 +1,8 @@
 ---
-title: "Distance Metrics in Mathematics and Computing"
 date: 2026-04-05
-domain: science
-category: mathematics
 status: complete
-tags:
-  - science
-  - mathematics
-  - geometry
-  - computation
-  - algorithms
-  - cli
+tags: [science, mathematics, geometry, computation, algorithms, cli]
+note: ""
 ---
 
 - - -
@@ -20,7 +12,7 @@ Distance metrics emerged from different mathematical and practical needs through
 ## I. Euclidean Distance
 
 ### Origin and First Use
-Euclidean distance derives its name from [[BIO - Euclid|Euclid]] of Alexandria (c. 300 BCE), whose seminal work _Elements_ laid the foundations of classical geometry. While Euclid didn't explicitly formulate the distance formula as we know it today, his geometric principles underpinned the concept. The algebraic formulation emerged much later with the development of coordinate geometry by René Descartes in the 17th century and was fully formalized with the advent of vector spaces in the 19th century.
+Euclidean distance derives its name from [[Euclid|Euclid]] of Alexandria (c. 300 BCE), whose seminal work _Elements_ laid the foundations of classical geometry. While Euclid didn't explicitly formulate the distance formula as we know it today, his geometric principles underpinned the concept. The algebraic formulation emerged much later with the development of coordinate geometry by René Descartes in the 17th century and was fully formalized with the advent of vector spaces in the 19th century.
 ### Definition
 Euclidean distance measures the straight-line distance between two points in Euclidean space. For two points **p** = (p₁, p₂, ..., pₙ) and **q** = (q₁, q₂, ..., qₙ) in n-dimensional space:
 $$d_{Euclidean}(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n}(q_i - p_i)^2}$$

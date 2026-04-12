@@ -1,16 +1,8 @@
 ---
-title: "Evolution of Web Development"
 date: 2026-04-05
-domain: science
-category: computer-science
 status: complete
-tags:
-  - science
-  - computer-science
-  - web-dev
-  - history
-  - computation
-  - cli
+tags: [science, computer-science, web-dev, history, computation, cli]
+note: ""
 ---
 
 # WEB - Evolution of Web Development: A Technical and Historical Odyssey

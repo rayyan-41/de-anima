@@ -1,16 +1,8 @@
 ---
-title: "Flutter and Dart"
 date: 2026-04-05
-domain: science
-category: computer-science
 status: complete
-tags:
-  - science
-  - computer-science
-  - computation
-  - algorithms
-  - engineering
-  - cli
+tags: [science, computer-science, computation, algorithms, engineering, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

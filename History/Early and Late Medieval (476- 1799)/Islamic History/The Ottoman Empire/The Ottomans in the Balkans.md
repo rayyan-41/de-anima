@@ -1,15 +1,8 @@
 ---
-title: "The Ottomans in the Balkans"
 date: 2026-04-06
-domain: history
-category: medieval-and-late-medieval
 status: complete
-tags:
-  - history
-  - medieval-and-late-medieval
-  - empire
-  - the-ottomans-in-the-balkans
-  - cli
+tags: [history, medieval-and-late-medieval, empire, the-ottomans-in-the-balkans, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

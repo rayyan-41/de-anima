@@ -1,14 +1,8 @@
 ---
-title: "Stefan Lazarevic"
 date: 2026-04-06
-domain: history
-category: biographies
 status: complete
-tags:
-  - history
-  - biography
-  - stefan-lazarevic
-  - cli
+tags: [history, biography, stefan-lazarevic, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

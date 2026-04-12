@@ -1,21 +1,8 @@
 ---
-title: "HIST - History of the Levant under Muslim Rule"
 date: 2026-04-06
-domain: history
-category: history
 status: complete
-tags:
-  - history
-  - history
-  - geopolitical
-  - levant
-  - bilad-al-sham
-  - umayyad
-  - abbasid
-  - ayyubid
-  - mamluk
-  - crusades
-  - cli
+tags: [history, history, geopolitical, levant, bilad-al-sham, umayyad, abbasid, ayyubid, mamluk, crusades, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents
@@ -357,8 +344,8 @@ However, the Ottoman conquest did not constitute a traumatic rupture in the hist
 
 ## Related Notes
 
-- [[Timeline of the Levant under Muslim Rule]] — direct chronological reference for this narrative
+- [[History of the Levant under Muslim Rule]] — direct chronological reference for this narrative
 - [[The First Crusade|The First Crusade]] — context on the Latin Christian invasions of the Levant
 - [[The Four Madhabs - History and Methodologies|The Four Madhabs]] — relates to the Sunni institutionalization during the Ayyubid era
 - [[The Ottomans in the Balkans|The Ottomans in the Balkans]] — context on the empire that eventually conquered the Levant
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]

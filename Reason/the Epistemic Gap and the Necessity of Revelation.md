@@ -1,20 +1,8 @@
 ---
-title: "the Epistemic Gap and the Necessity of Revelation"
 date: 2026-04-06
-domain: reason
-category: 
 status: complete
-tags:
-  - reason
-  - epistemology
-  - psychology
-  - revelation
-  - avicenna
-  - al-ghazali
-  - kant
-  - godel
-  - philosophy
-  - cli
+tags: [reason, epistemology, psychology, revelation, avicenna, al-ghazali, kant, godel, philosophy, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

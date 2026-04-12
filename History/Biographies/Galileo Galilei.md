@@ -1,14 +1,8 @@
 ---
-title: "Galileo Galilei"
 date: 2026-04-06
-domain: history
-category: biographies
 status: complete
-tags:
-  - history
-  - biography
-  - galileo-galilei
-  - cli
+tags: [history, biography, galileo-galilei, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

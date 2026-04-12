@@ -87,8 +87,8 @@ files.forEach(file => {
         }
         
         tagsList = [...tagsList, ...oldTags];
-        tagsList = tagsList.filter(t => t !== '[]' && t !== '-' && t !== 'history' && t !== category && t !== structuralTag && t !== 'ai-generated');
-        tagsList = ['history', category, structuralTag, ...tagsList, 'ai-generated'];
+        tagsList = tagsList.filter(t => t !== '[]' && t !== '-' && t !== 'history' && t !== category && t !== structuralTag && t !== 'cli');
+        tagsList = ['history', category, structuralTag, ...tagsList, 'cli'];
         tagsList = [...new Set(tagsList.map(t => t.toLowerCase().replace(/[\s_]+/g, '-')))];
 
         let tagsOutput = '\n' + tagsList.map(t => '  - ' + t).join('\n');

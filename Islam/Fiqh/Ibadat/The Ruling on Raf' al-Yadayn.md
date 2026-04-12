@@ -1,18 +1,8 @@
 ---
-title: "The Ruling on Raf' al-Yadayn"
 date: 2026-04-05
-domain: islam
-category: fiqh
 status: complete
-tags:
-  - islam
-  - fiqh
-  - hanafi
-  - maliki
-  - shafii
-  - hanbali
-  - ibadat
-  - cli
+tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, ibadat, cli]
+note: ""
 ---
 
 # FIQH - The Ruling on Raf' al-Yadayn

@@ -1,17 +1,8 @@
 ---
-title: "Senior Developer Tips for Building Websites"
 date: 2026-04-05
-domain: science
-category: computer-science
 status: complete
-tags:
-  - science
-  - computer-science
-  - web-dev
-  - computation
-  - algorithms
-  - engineering
-  - cli
+tags: [science, computer-science, web-dev, computation, algorithms, engineering, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

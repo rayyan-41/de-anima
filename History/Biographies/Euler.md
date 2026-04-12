@@ -1,14 +1,8 @@
 ---
-title: "Euler"
 date: 2026-04-06
-domain: history
-category: biographies
 status: complete
-tags:
-  - history
-  - biography
-  - euler
-  - cli
+tags: [history, biography, euler, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

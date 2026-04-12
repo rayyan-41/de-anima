@@ -1,15 +1,8 @@
 ---
-title: "The Great Western Schism"
 date: 2026-04-06
-domain: history
-category: medieval-and-late-medieval
 status: complete
-tags:
-  - history
-  - medieval-and-late-medieval
-  - the-great-western-schism
-  - christianity
-  - cli
+tags: [history, medieval-and-late-medieval, the-great-western-schism, christianity, cli]
+note: ""
 ---
 
 ### HIST - The Great Western Schism (1378–1417)

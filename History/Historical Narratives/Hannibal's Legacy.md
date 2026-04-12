@@ -1,21 +1,8 @@
 ---
-title: "HIST - Hannibals Legacy"
 date: 2026-04-06
-domain: history
-category: history
 status: complete
-tags:
-  - history
-  - history
-  - empire
-  - hannibal
-  - second-punic-war
-  - battle-of-cannae
-  - roman-republic
-  - military-history
-  - scipio-africanus
-  - carthage
-  - cli
+tags: [history, history, empire, hannibal, second-punic-war, battle-of-cannae, roman-republic, military-history, scipio-africanus, carthage, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents
@@ -213,4 +200,4 @@ Hannibal’s legacy is defined not merely by the tactical perfection of Cannae, 
 
 ## Related Notes
 
-- [[_History - Map of Contents|History MOC]]
+- [[Map of Contents - History|History MOC]]

@@ -1,14 +1,8 @@
 ---
-title: "Evolution of Intellectual Thought in Europe"
 date: 2026-04-06
-domain: history
-category: history
 status: complete
-tags:
-  - history
-  - history
-  - medieval
-  - cli
+tags: [history, history, medieval, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

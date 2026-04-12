@@ -1,14 +1,8 @@
 ---
-title: "The First Crusade"
 date: 2026-04-06
-domain: history
-category: medieval-and-late-medieval
 status: complete
-tags:
-  - history
-  - medieval-and-late-medieval
-  - crusades
-  - cli
+tags: [history, medieval-and-late-medieval, crusades, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

@@ -1,17 +1,8 @@
 ---
-title: "The Four Madhabs - History and Methodologies"
 date: 2026-04-05
-domain: islam
-category: fiqh
 status: complete
-tags:
-  - islam
-  - fiqh
-  - hanafi
-  - maliki
-  - shafii
-  - hanbali
-  - cli
+tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, cli]
+note: ""
 ---
 
 # FIQH - The Four Madhabs: History, Methodologies, and Interactions

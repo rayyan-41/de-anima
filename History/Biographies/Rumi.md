@@ -1,14 +1,8 @@
 ---
-title: "Rumi"
 date: 2026-04-06
-domain: history
-category: biographies
 status: complete
-tags:
-  - history
-  - biography
-  - rumi
-  - cli
+tags: [history, biography, rumi, cli]
+note: ""
 ---
 
 ## See Also

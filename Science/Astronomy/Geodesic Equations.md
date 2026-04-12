@@ -1,16 +1,8 @@
 ---
-title: "Geodesic Equations"
 date: 2026-04-05
-domain: science
-category: astronomy
 status: complete
-tags:
-  - science
-  - astronomy
-  - computation
-  - algorithms
-  - engineering
-  - cli
+tags: [science, astronomy, computation, algorithms, engineering, cli]
+note: ""
 ---
 
 - - -

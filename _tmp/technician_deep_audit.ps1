@@ -104,7 +104,7 @@ foreach ($file in $files) {
         if ($normMap.ContainsKey($t)) { $t = $normMap[$t] }
         
         # Skip domain/category/modifiers for now
-        if ($t -eq $domain -or $t -eq $category -or $t -eq "ai-generated" -or $t -eq "incomplete" -or $t -eq "original-insight") { continue }
+        if ($t -eq $domain -or $t -eq $category -or $t -eq "cli" -or $t -eq "incomplete" -or $t -eq "original-insight") { continue }
         
         if (-not [string]::IsNullOrWhiteSpace($t) -and $cleanedTopicTags -notcontains $t) {
             $cleanedTopicTags += $t
@@ -118,7 +118,7 @@ foreach ($file in $files) {
     foreach ($t in $cleanedTopicTags) { $finalTags += $t }
     if ($tags -contains "incomplete") { $finalTags += "incomplete" }
     if ($tags -contains "original-insight") { $finalTags += "original-insight" }
-    $finalTags += "ai-generated"
+    $finalTags += "cli"
 
     # Construct New YAML
     $newYaml = "---`n"

@@ -15,7 +15,7 @@ $categoryMap = @{
 
 $allRegistryTags = $domainTags.Clone()
 foreach ($cats in $categoryMap.Values) { $allRegistryTags += $cats }
-$allRegistryTags += @('ai-generated', 'incomplete', 'original-insight')
+$allRegistryTags += @('cli', 'incomplete', 'original-insight')
 
 # Specific Normalization Map
 $normMap = @{
@@ -96,7 +96,7 @@ foreach ($file in $files) {
             }
 
             # Avoid duplication of Domain/Category/Modifiers in the Topic list for now
-            if ($t -eq "ai-generated" -or $t -eq "incomplete" -or $t -eq "original-insight") { continue }
+            if ($t -eq "cli" -or $t -eq "incomplete" -or $t -eq "original-insight") { continue }
             if ($t -eq $domain -or $t -eq $category) { continue }
             
             if (-not [string]::IsNullOrWhiteSpace($t) -and $cleanedTags -notcontains $t) {
@@ -148,7 +148,7 @@ foreach ($file in $files) {
         if ($originalTags -contains "original-insight") { $finalTags += "original-insight" }
 
         # 5. AI Generated
-        $finalTags += "ai-generated"
+        $finalTags += "cli"
 
         # Compare
         $isDifferent = $false
