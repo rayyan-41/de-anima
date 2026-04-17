@@ -1,7 +1,9 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [early and late medieval, moc, cli]
+tags:
+  - moc
+  - cli
 note: ""
 ---
 
@@ -22,9 +24,3 @@ This section indexes the sweeping history from the fall of the Western Roman Emp
 | Ottoman Empire | [[The Ottomans in the Balkans]] | 2026-04-05 |
 | Europe | [[The Great Western Schism]] | 2026-04-05 |
 - - -
-
-*Last MOC Update: 2023-10-24 by GeminiCLI*
-*Next Review: 2024-10-24*
-
-*Last MOC Update: 2023-10-24 by GeminiCLI*
-*Next Review: 2024-10-24*
