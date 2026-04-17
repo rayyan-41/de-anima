@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, philosophy, medicine, islamic-golden-age, cli]
+tags: [history, biography, philosophy, medicine, islamic-golden-age, cli, ai-generated]
 note: ""
 ---
 

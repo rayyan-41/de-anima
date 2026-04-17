@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, stefan-lazarevic, cli]
+tags: [history, biography, stefan-lazarevic, cli, ai-generated]
 note: ""
 ---
 

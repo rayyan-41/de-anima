@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [reason, philosophy, descartes, darwin, god, logic, cli]
+tags: [reason, philosophy, descartes, darwin, god, logic, cli, ai-generated]
 note: ""
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval-and-late-medieval, empire, the-holy-roman-empire, cli]
+tags: [history, medieval-and-late-medieval, empire, the-holy-roman-empire, cli, ai-generated]
 note: ""
 ---
 

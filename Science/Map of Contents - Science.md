@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [science, moc, cli]
+tags: [science, moc, ai-generated]
 note: ""
 ---
 
@@ -22,6 +22,9 @@ The Science domain serves as a repository for empirical knowledge, computation, 
 | computer-science | [[Neural Networks]], [[LLM1 - Large Language Models - Architecture and Mechanics]], [[LLM2 - LLMs for Reasoning]], [[Flutter and Dart]], [[Vite and Tauri]], [[Comparison of Node, Next, and React.js]], [[Evolution of Web Development]], [[JavaScript Frameworks]], [[Senior Developer Tips for Building Websites]], [[The Complete Guide to Building a Website in 2026]], [[AVALsys n8n workflow]], [[Chevreul's Raster Imaging System]] | 2023-10-24 |
 | ai | [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]] | 2023-10-24 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

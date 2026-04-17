@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [reason, logic, epistemology, human-condition, cli]
+tags: [reason, logic, epistemology, human-condition, cli, ai-generated]
 note: ""
 ---
 

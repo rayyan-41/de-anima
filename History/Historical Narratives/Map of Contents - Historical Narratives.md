@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [historical narratives, moc, cli]
+tags: [historical narratives, moc, ai-generated]
 note: ""
 ---
 
@@ -20,6 +20,9 @@ This section indexes the stories, sweeping narrative accounts, and broader thema
 | Intellectual History | [[Evolution of Intellectual Thought in Europe]], [[Influence of Islamic Golden Age on the West]] | 2026-04-05 |
 | Middle East | [[History of the Levant under Muslim Rule]] | 2026-04-05 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

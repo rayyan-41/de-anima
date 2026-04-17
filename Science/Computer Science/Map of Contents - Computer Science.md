@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [computer science, moc, cli]
+tags: [computer science, moc, ai-generated]
 note: ""
 ---
 
@@ -21,6 +21,9 @@ The Computer Science section catalogs software engineering, artificial intellige
 | Web Development | [[Comparison of Node, Next, and React.js]], [[Evolution of Web Development]], [[JavaScript Frameworks]], [[Senior Developer Tips for Building Websites]], [[The Complete Guide to Building a Website in 2026]] | 2026-04-05 |
 | Projects | [[AVALsys n8n workflow]], [[Chevreul's Raster Imaging System]] | 2026-04-05 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [art, moc, cli]
+tags: [art, moc, ai-generated]
 note: ""
 ---
 
@@ -11,16 +11,18 @@ The Art domain dissects the anatomy of aesthetics, techniques, and historical co
 
 **Metadata:**
 - Last Major Reorganization: 2023-10-24
-- Total Notes: 4
+- Total Notes: 3
 - - -
 ## Structure
 | Topic Area | Notes | Last Updated |
 |------------|-------|--------------|
-| Art History | [[Map of Contents - Art History]] | 2026-04-05 |
 | Art Theory | [[Map of Contents - Art Theory]] | 2026-04-05 |
 | art-history | [[Master Painters and Works]] | 2023-10-24 |
 | art-theory | [[Chevreul to Seurat]] | 2023-10-24 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

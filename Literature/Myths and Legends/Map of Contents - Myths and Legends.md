@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [myths and legends, moc, cli]
+tags: [myths and legends, moc, ai-generated]
 note: ""
 ---
 
@@ -18,6 +18,9 @@ The Myths and Legends section explores timeless allegories and narrative lore.
 |------------|-------|--------------|
 | Greek Mythology | [[Orpheus and Eurydice]] | 2026-04-05 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

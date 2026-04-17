@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, history, medieval, cli]
+tags: [history, history, medieval, cli, ai-generated]
 note: ""
 ---
 

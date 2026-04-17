@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [islam, moc, cli]
+tags: [islam, moc, ai-generated]
 note: ""
 ---
 
@@ -22,6 +22,9 @@ The Islam domain covers theology, jurisprudence, and scholarly analysis within t
 | contemporary | [[Contemporary Challenges and Misunderstandings of Sharia]] | 2023-10-24 |
 | fiqh | [[The Prayer of Witr]], [[The Ruling on Raf' al-Yadayn]], [[The Four Madhabs - History and Methodologies]] | 2023-10-24 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

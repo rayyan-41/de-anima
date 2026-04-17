@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, euler, cli]
+tags: [history, biography, euler, cli, ai-generated]
 note: ""
 ---
 

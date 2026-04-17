@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [biographies, moc, cli]
+tags: [biographies, moc, ai-generated]
 note: ""
 ---
 
@@ -29,7 +29,9 @@ The Biographies section isolates the lives of pivotal individuals—scientists, 
 
 | Topic Area | Notes | Last Updated |
 |------------|-------|--------------|
-- - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

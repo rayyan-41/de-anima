@@ -1,7 +1,7 @@
 ---
 date: 2026-04-08
 status: complete
-tags: [science, ai, transformers, diffusion, agentic-ai, llm, slm, attention, rnn, u-net, cli]
+tags: [science, ai, transformers, diffusion, agentic-ai, llm, slm, attention, rnn, u-net, cli, ai-generated]
 note: ""
 ---
 

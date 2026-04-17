@@ -1,7 +1,19 @@
 ---
 date: 2026-04-10
 status: complete
-tags: [science, computer-science, science/ai, llm, transformer, attention-mechanism, gpu, chain-of-thought, kv-cache, in-context-learning, embeddings, cli]
+tags:
+  - science
+  - computer-science
+  - science/ai
+  - llm
+  - transformer
+  - attention-mechanism
+  - gpu
+  - chain-of-thought
+  - kv-cache
+  - in-context-learning
+  - embeddings
+  - cli
 note: ""
 ---
 

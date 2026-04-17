@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [art, art-theory, cli]
+tags: [art, art-theory, cli, ai-generated]
 note: ""
 ---## The Chemist's Problem
 

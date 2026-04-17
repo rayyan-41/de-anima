@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [literature, cli]
+tags: [literature, cli, ai-generated]
 note: ""
 ---She caught the train at the last possible moment, just as it began to inch away from the very end of the platform. With nothing but a small box and a photograph, She leaped onto the vestibule, slipping mid effort, and hit the hard metal floor, inducing a crippling headache that didn't help her already distraught and fragile state.
 

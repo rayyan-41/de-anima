@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: incomplete
-tags: [history, history, cli]
+tags: [history, history, cli, ai-generated]
 note: ""
 ---
 

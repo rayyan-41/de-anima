@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, history, geopolitical, levant, bilad-al-sham, umayyad, abbasid, ayyubid, mamluk, crusades, cli]
+tags: [history, history, geopolitical, levant, bilad-al-sham, umayyad, abbasid, ayyubid, mamluk, crusades, cli, ai-generated]
 note: ""
 ---
 

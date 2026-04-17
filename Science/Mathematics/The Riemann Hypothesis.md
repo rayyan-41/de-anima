@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [science, mathematics, number-theory, millennium-problems, computation, cli]
+tags: [science, mathematics, number-theory, millennium-problems, computation, cli, ai-generated]
 note: ""
 ---
 

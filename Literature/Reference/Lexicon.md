@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [literature, cli]
+tags: [literature, cli, ai-generated]
 note: ""
 ---A personal repository of linguistically significant words and their usage.
 

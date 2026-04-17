@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [literature, moc, cli]
+tags: [literature, moc, ai-generated]
 note: ""
 ---
 
@@ -22,6 +22,9 @@ The Literature domain catalogs written works, myths, legends, and thematic disse
 | myth | [[Orpheus and Eurydice]] | 2023-10-24 |
 | cli | [[Lexicon]], [[Quotes]], [[i. Caedis]] | 2023-10-24 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [art theory, moc, cli]
+tags: [art theory, moc, ai-generated]
 note: ""
 ---
 
@@ -18,6 +18,9 @@ The Art Theory section focuses on the principles, techniques, and theoretical fo
 |------------|-------|--------------|
 | Color Theory | [[Chevreul to Seurat]] | 2026-04-05 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

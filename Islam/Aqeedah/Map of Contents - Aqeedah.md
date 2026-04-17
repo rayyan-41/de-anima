@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [aqeedah, moc, cli]
+tags: [aqeedah, moc, ai-generated]
 note: ""
 ---
 
@@ -18,6 +18,9 @@ The Aqeedah section focuses on Islamic theology, creed, and articles of faith.
 |------------|-------|--------------|
 | Orthodox Theology | [[Orthodox Sunni Critique of Shia Practices]] | 2026-04-05 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

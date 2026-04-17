@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [short stories, moc, cli]
+tags: [short stories, moc, ai-generated]
 note: ""
 ---
 
@@ -18,6 +18,9 @@ The Short Stories section contains brief, potent narrative forms.
 |------------|-------|--------------|
 | Contemporary | [[i. Caedis]] | 2026-04-05 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

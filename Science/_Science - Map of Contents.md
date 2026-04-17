@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [science - map of contents, moc, cli]
+tags: [science - map of contents, moc, ai-generated]
 note: ""
 ---
 
@@ -35,6 +35,9 @@ note: ""
 | ai | [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]] | 2023-10-24 |
 | mathematics | [[Distance Metrics in Mathematics and Computing]], [[Mathematics of Interest]], [[The Riemann Hypothesis]] | 2023-10-24 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, jacob-bernoulli, cli]
+tags: [history, biography, jacob-bernoulli, cli, ai-generated]
 note: ""
 ---
 

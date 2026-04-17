@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [reference, moc, cli]
+tags: [reference, moc, ai-generated]
 note: ""
 ---
 
@@ -19,6 +19,9 @@ The Reference section provides a curated lexicon and collected quotes.
 | Lexicon | [[Lexicon]] | 2026-04-05 |
 | Quotes | [[Quotes]] | 2026-04-05 |
 - - -
+
+*Last MOC Update: 2023-10-24 by GeminiCLI*
+*Next Review: 2024-10-24*
 
 *Last MOC Update: 2023-10-24 by GeminiCLI*
 *Next Review: 2024-10-24*
