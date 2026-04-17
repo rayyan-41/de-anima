@@ -9,20 +9,9 @@ note: ""
 
 The Art domain dissects the anatomy of aesthetics, techniques, and historical contexts of masterworks.
 
-**Metadata:**
-- Last Major Reorganization: 2023-10-24
-- Total Notes: 3
-- - -
 ## Structure
 | Topic Area | Notes | Last Updated |
 |------------|-------|--------------|
-| Art Theory | [[Map of Contents - Art Theory]] | 2026-04-05 |
-| art-history | [[Master Painters and Works]] | 2023-10-24 |
-| art-theory | [[Chevreul to Seurat]] | 2023-10-24 |
+| Art Theory | [[Map of Contents - Art Theory]], [[Chevreul to Seurat]] | 2026-04-17 |
+| Art History | [[Master Painters and Works]] | 2026-04-17 |
 - - -
-
-*Last MOC Update: 2023-10-24 by GeminiCLI*
-*Next Review: 2024-10-24*
-
-*Last MOC Update: 2023-10-24 by GeminiCLI*
-*Next Review: 2024-10-24*

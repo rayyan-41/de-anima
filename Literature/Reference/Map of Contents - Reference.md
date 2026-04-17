@@ -9,19 +9,9 @@ note: ""
 
 The Reference section provides a curated lexicon and collected quotes.
 
-**Metadata:**
-- Last Major Reorganization: 2023-10-24
-- Total Notes: 2
-- - -
 ## Structure
 | Topic Area | Notes | Last Updated |
 |------------|-------|--------------|
-| Lexicon | [[Lexicon]] | 2026-04-05 |
-| Quotes | [[Quotes]] | 2026-04-05 |
+| Lexicon | [[Lexicon]] | 2026-04-17 |
+| Quotes | [[Quotes]] | 2026-04-17 |
 - - -
-
-*Last MOC Update: 2023-10-24 by GeminiCLI*
-*Next Review: 2024-10-24*
-
-*Last MOC Update: 2023-10-24 by GeminiCLI*
-*Next Review: 2024-10-24*
