@@ -4,7 +4,6 @@ status: complete
 tags: [contemporary, moc, cli]
 note: ""
 ---
-
 > *Those who cannot remember the past are condemned to repeat it.* - George Santayana
 
 The Contemporary History section isolates the pivotal events and movements from 1800 to the present. This Map of Contents indexes the modern events for quick reference.
