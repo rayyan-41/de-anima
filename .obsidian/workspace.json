@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/Map of Contents - History.md",
+                "file": "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Map of Contents - History"
+              "title": "Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs"
             }
           }
         ]
@@ -200,14 +200,15 @@
   },
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
+    "Science/Computer Science/Artificial Intelligence/LLM2 - LLMs for Reasoning.md",
+    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
+    "Science/Computer Science/Artificial Intelligence/LLM1 - Large Language Models - Architecture and Mechanics.md",
+    "Science/Computer Science/Artificial Intelligence/Neural Networks.md",
+    "History/Map of Contents - History.md",
     "Islam/Fiqh/The Four Madhabs - History and Methodologies.md",
     "Islam/Fiqh/Map of Contents - Fiqh.md",
-    "Science/Computer Science/Artificial Intelligence/LLMs for Reasoning.md",
     "Science/Computer Science/Artificial Intelligence/KV Caches and AI Hardware Architecture.md",
-    "Science/Computer Science/Artificial Intelligence/Large Language Models - Architecture and Mechanics.md",
-    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "_tmp/find_candidates_kv.ps1",
-    "Science/Computer Science/Artificial Intelligence/1.0 - Neural Networks.md",
     "Science/Computer Science/AI",
     "_tmp/write_test.txt",
     "_tmp/kv_cache_chunk_04.md",
@@ -230,7 +231,6 @@
     "VAULT_CONTEXT_GEMINI .md",
     "Science/Computer Science/Artificial Intelligence/Large Language Model Reasoning.md",
     "Science/Computer Science/Artifical Intelligence/Large Language Model Reasoning.md",
-    "Science/Computer Science/Artifical Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "_tmp/audit_results.csv",
     "_tmp/technician_tag_audit.ps1",
     "_tmp/clean_date_toc.ps1",

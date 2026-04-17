@@ -71,7 +71,7 @@ After computing **z**, it is passed through an *activation function* to produce 
 Where **σ** is an activation function like ReLU, sigmoid, or tanh.
 
 #### 2.2 How do they work (The Code)
-**Note:** this section only serves as an introduction to the code. Most of the grunt work will be covered in the continuation of this topic [[1.0 - Neural Networks|Here]].
+**Note:** this section only serves as an introduction to the code. Most of the grunt work will be covered in the continuation of this topic [[Neural Networks|Here]].
 
 Let's talk about the basic functions.
 - ###### What is a Loss Function?
@@ -95,7 +95,5 @@ Let's talk about the basic functions.
 References:
 [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
 [Gradient descent, how neural networks learn | DL2](https://www.youtube.com/watch?v=IHZwWFHWa-w)
-
 ## See Also
-
 - [[_Science - Map of Contents|Science MOC]]

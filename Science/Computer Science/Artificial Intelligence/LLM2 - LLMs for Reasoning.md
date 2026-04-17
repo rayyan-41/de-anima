@@ -9,11 +9,11 @@ note: ""
 
 ## The Nature and Architecture of Large Language Models
 
-To comprehend how a [[Large Language Models - Architecture and Mechanics|Large Language Model]] (LLM) "reasons," we must first empirically dissect its anatomy. From a scientific standpoint, an LLM is not a reasoning engine in the human, deductive sense; it is a highly sophisticated, multi-dimensional probabilistic automaton. It maps the statistical distribution of human language and reconstructs it. The foundation of this capability is the [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs|Transformer]] architecture, which shifted the paradigm of artificial intelligence from sequential processing to parallelized contextual mapping.
+To comprehend how a [[LLM1 - Large Language Models - Architecture and Mechanics|Large Language Model]] (LLM) "reasons," we must first empirically dissect its anatomy. From a scientific standpoint, an LLM is not a reasoning engine in the human, deductive sense; it is a highly sophisticated, multi-dimensional probabilistic automaton. It maps the statistical distribution of human language and reconstructs it. The foundation of this capability is the [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs|Transformer]] architecture, which shifted the paradigm of artificial intelligence from sequential processing to parallelized contextual mapping.
 
 ### The Transformer: Escaping Sequential Limits
 
-Prior to 2017, natural language processing relied primarily on Recurrent [[1.0 - Neural Networks|Neural Networks]] (RNNs) and Long Short-Term Memory (LSTMs) networks. These architectures processed tokens sequentially, meaning the computation of the $t$-th token depended strictly on the completion of the $t-1$-th token. This created a rigid temporal bottleneck, preventing massive parallelization and limiting the model's ability to retain context over long distances. Information from the beginning of a paragraph would "fade" by the time the network reached the end.
+Prior to 2017, natural language processing relied primarily on Recurrent [[Neural Networks|Neural Networks]] (RNNs) and Long Short-Term Memory (LSTMs) networks. These architectures processed tokens sequentially, meaning the computation of the $t$-th token depended strictly on the completion of the $t-1$-th token. This created a rigid temporal bottleneck, preventing massive parallelization and limiting the model's ability to retain context over long distances. Information from the beginning of a paragraph would "fade" by the time the network reached the end.
 
 The Transformer architecture eliminated recurrence entirely. Instead, it relies on a mechanism called **Self-Attention**. By processing all tokens in a sequence simultaneously, the Transformer allows the model to map dependencies across vast contexts in a single forward pass.
 
@@ -264,6 +264,6 @@ Large Language Models do not possess innate consciousness or a deductive logic m
 
 - - -
 ## Related Notes
-- [[Large Language Models - Architecture and Mechanics]]
+- [[LLM1 - Large Language Models - Architecture and Mechanics]]
 - [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]]
-- [[1.0 - Neural Networks]]
+- [[Neural Networks]]

@@ -229,4 +229,4 @@ Large Language Models have fundamentally rewritten the contract between humanity
 - - -
 
 **Related Notes:**
-- [[1.0 - Neural Networks]]
+- [[Neural Networks]]
