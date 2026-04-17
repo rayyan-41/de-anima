@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "731007065f702fa7",
+        "id": "55380071b2b95c2d",
         "type": "tabs",
         "children": [
           {
-            "id": "94b9e507e00cf3c3",
+            "id": "2fbe5c25ecac51fb",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Reason/An Effort to Understand Iqbal.md",
-                "bFile": "Reason/An Effort to Understand Iqbal.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: An Effort to Understand Iqbal"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -197,7 +193,7 @@
       "graph:Open graph view": false
     }
   },
-  "active": "94b9e507e00cf3c3",
+  "active": "e3d5bff95974842d",
   "lastOpenFiles": [
     "Science/Computer Science/Artificial Intelligence/LLM2 - LLMs for Reasoning.md",
     "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
