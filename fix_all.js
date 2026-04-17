@@ -126,7 +126,7 @@ walkDir(VAULT_ROOT, (filePath) => {
         } else {
             // No frontmatter? Add one.
             if (!content.trim().startsWith('---')) {
-                content = `---\ndate: 2023-10-24\nstatus: complete\ntags: [unassigned, unassigned, ai-generated]\nnote: ""\n---\n\n${content}`;
+                content = `---\ndate: 2023-10-24\nstatus: complete\ntags: [unassigned, unassigned, cli]\nnote: ""\n---\n\n${content}`;
             }
         }
         
@@ -174,14 +174,14 @@ walkDir(VAULT_ROOT, (filePath) => {
                 if (!tagsList[1]) tagsList[1] = cat.toLowerCase();
             }
             
-            if (tagsList.length > 0 && tagsList[tagsList.length - 1] !== 'ai-generated') {
-                if (tagsList.includes('ai-generated')) {
-                    tagsList = tagsList.filter(t => t !== 'ai-generated');
+            if (tagsList.length > 0 && tagsList[tagsList.length - 1] !== 'cli') {
+                if (tagsList.includes('cli')) {
+                    tagsList = tagsList.filter(t => t !== 'cli');
                 }
-                tagsList.push('ai-generated');
+                tagsList.push('cli');
             }
             if (tagsList.length === 0) {
-                tagsList = ['root', 'general', 'ai-generated'];
+                tagsList = ['root', 'general', 'cli'];
             }
             
             // Format new YAML
@@ -224,7 +224,7 @@ mocFiles.forEach(mocPath => {
     if (!yamlMatch) {
         // Remove legacy DATE/TAGS
         content = content.replace(/^(?:DATE|TAGS|Date|Tags):\s*.*(?:\r?\n|$)/gm, '');
-        content = `---\ndate: 2023-10-24\nstatus: complete\ntags: [${domain.toLowerCase()}, moc, ai-generated]\nnote: ""\n---\n\n${content.trimStart()}`;
+        content = `---\ndate: 2023-10-24\nstatus: complete\ntags: [${domain.toLowerCase()}, moc, cli]\nnote: ""\n---\n\n${content.trimStart()}`;
         yamlMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
     }
     
@@ -232,7 +232,7 @@ mocFiles.forEach(mocPath => {
         let fm = yamlMatch[1];
         let dateMatch = fm.match(/date:\s*([^\r\n]+)/);
         let date = dateMatch ? dateMatch[1].trim() : "2023-10-24";
-        let newYaml = `---\ndate: ${date}\nstatus: complete\ntags: [${domain.toLowerCase()}, moc, ai-generated]\nnote: ""\n---`;
+        let newYaml = `---\ndate: ${date}\nstatus: complete\ntags: [${domain.toLowerCase()}, moc, cli]\nnote: ""\n---`;
         content = content.replace(yamlMatch[0], newYaml);
     }
     

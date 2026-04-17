@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [short stories, moc, ai-generated]
+tags: [short stories, moc, cli]
 note: ""
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [islam, aqeedah, orthodox-critique, fiqh, shia-sunni-divide, cli, ai-generated]
+tags: [islam, aqeedah, orthodox-critique, fiqh, shia-sunni-divide, cli]
 note: ""
 ---
 

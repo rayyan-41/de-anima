@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [biographies, moc, ai-generated]
+tags: [biographies, moc, cli]
 note: ""
 ---
 

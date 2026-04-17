@@ -8,7 +8,7 @@ let finalContent = `**Metadata:**
 - Creation Date: 2026-04-01
 - Author: @avicenna (Orchestrated by GeminiCLI)
 - - -
-TAGS: #reason #philosophy #historiography #epistemology #ai-generated
+TAGS: #reason #philosophy #historiography #epistemology #cli
 
 # ARG - The Historical Amnesia of the Islamic Golden Age
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [reason, epistemology, psychology, revelation, avicenna, al-ghazali, kant, godel, philosophy, cli, ai-generated]
+tags: [reason, epistemology, psychology, revelation, avicenna, al-ghazali, kant, godel, philosophy, cli]
 note: ""
 ---
 

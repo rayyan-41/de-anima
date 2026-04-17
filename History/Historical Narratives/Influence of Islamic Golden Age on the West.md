@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, history, medieval, islamic-golden-age, cli, ai-generated]
+tags: [history, history, medieval, islamic-golden-age, cli]
 note: ""
 ---
 

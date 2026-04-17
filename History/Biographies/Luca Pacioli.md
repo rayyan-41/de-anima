@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, luca-pacioli, cli, ai-generated]
+tags: [history, biography, luca-pacioli, cli]
 note: ""
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval-and-late-medieval, empire, the-ottomans-in-the-balkans, cli, ai-generated]
+tags: [history, medieval-and-late-medieval, empire, the-ottomans-in-the-balkans, cli]
 note: ""
 ---
 

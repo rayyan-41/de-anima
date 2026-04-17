@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, mathematics, geometry, computation, algorithms, cli, ai-generated]
+tags: [science, mathematics, geometry, computation, algorithms, cli]
 note: ""
 ---
 

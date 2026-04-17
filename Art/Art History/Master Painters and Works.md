@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [art, art-history, cli, ai-generated]
+tags: [art, art-history, cli]
 note: ""
 ---I would like to believe that I am a fan of art. It's a beautiful form of personal expression. Here, I will list down some works that I find inspirational and truly spectacular in either influence, impact or technical ability.
 # A Sunday Afternoon on the Island of La Grande Jatte

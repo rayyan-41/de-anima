@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [early and late medieval, moc, ai-generated]
+tags: [early and late medieval, moc, cli]
 note: ""
 ---
 

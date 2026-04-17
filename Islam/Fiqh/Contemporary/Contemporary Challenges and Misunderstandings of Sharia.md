@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [islam, contemporary, fiqh, hanafi, maliki, shafii, hanbali, cli, ai-generated]
+tags: [islam, contemporary, fiqh, hanafi, maliki, shafii, hanbali, cli]
 note: ""
 ---
 

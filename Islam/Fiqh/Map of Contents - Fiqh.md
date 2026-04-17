@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [fiqh, moc, ai-generated]
+tags: [fiqh, moc, cli]
 note: ""
 ---
 

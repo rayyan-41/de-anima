@@ -8,7 +8,7 @@ let finalContent = `**Metadata:**
 - Creation Date: 2026-04-01
 - Author: @machiavelli (Orchestrated by GeminiCLI)
 - - -
-TAGS: #history #empire #geopolitical #ottoman #balkans #ai-generated
+TAGS: #history #empire #geopolitical #ottoman #balkans #cli
 
 # HIST - Ottoman Influence and Presence in the Balkans
 

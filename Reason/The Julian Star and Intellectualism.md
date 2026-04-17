@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [reason, philosophy, roman-empire, astronomy, logic, cli, ai-generated]
+tags: [reason, philosophy, roman-empire, astronomy, logic, cli]
 note: ""
 ---
 

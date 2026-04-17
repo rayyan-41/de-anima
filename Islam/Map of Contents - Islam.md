@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [islam, moc, ai-generated]
+tags: [islam, moc, cli]
 note: ""
 ---
 

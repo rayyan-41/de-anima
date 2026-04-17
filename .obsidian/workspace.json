@@ -11,15 +11,14 @@
             "id": "94b9e507e00cf3c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Science/Computer Science/Artificial Intelligence/LLM2 - LLMs for Reasoning.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "Reason/An Effort to Understand Iqbal.md",
+                "bFile": "Reason/An Effort to Understand Iqbal.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "LLM2 - LLMs for Reasoning"
+              "icon": "diff",
+              "title": "Diff: An Effort to Understand Iqbal"
             }
           }
         ]
@@ -200,8 +199,8 @@
   },
   "active": "94b9e507e00cf3c3",
   "lastOpenFiles": [
-    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artificial Intelligence/LLM2 - LLMs for Reasoning.md",
+    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
     "Science/Computer Science/Artificial Intelligence/LLM1 - Large Language Models - Architecture and Mechanics.md",
     "Science/Computer Science/Artificial Intelligence/Neural Networks.md",
     "History/Map of Contents - History.md",

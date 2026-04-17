@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [literature, cli, ai-generated]
+tags: [literature, cli]
 note: ""
 ---
 | Quote                                                                                                                                                                                                 | By                          |

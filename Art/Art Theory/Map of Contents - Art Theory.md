@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [art theory, moc, ai-generated]
+tags: [art theory, moc, cli]
 note: ""
 ---
 

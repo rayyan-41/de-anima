@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [contemporary, moc, ai-generated]
+tags: [contemporary, moc, cli]
 note: ""
 ---
 

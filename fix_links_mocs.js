@@ -62,7 +62,7 @@ walkDir(VAULT_ROOT, (filePath) => {
             // Ensure proper format if it failed before
             let date = "2023-10-24";
             let status = "complete";
-            let tags = "['literature', 'reference', 'ai-generated']";
+            let tags = "['literature', 'reference', 'cli']";
             let note = '""';
             content = `---\ndate: ${date}\nstatus: ${status}\ntags: ${tags}\nnote: ${note}\n---\n\n` + content.replace(/^.*$/m, '');
         } else {
@@ -80,12 +80,12 @@ walkDir(VAULT_ROOT, (filePath) => {
         }
     }
     
-    // Ensure all cli tags are replaced with ai-generated as per instruction (or append ai-generated)
+    // Ensure all cli tags are replaced with cli as per instruction (or append cli)
     let yamlMatch = content.match(/^---\r?\n([\s\S]*?)\r?\n---/);
     if (yamlMatch) {
         let fm = yamlMatch[1];
         if (fm.includes('cli')) {
-             let newFm = fm.replace(/['"]?cli['"]?/g, 'ai-generated');
+             let newFm = fm.replace(/['"]?cli['"]?/g, 'cli');
              content = content.replace(fm, newFm);
         }
     }

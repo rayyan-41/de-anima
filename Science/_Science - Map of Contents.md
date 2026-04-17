@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [science - map of contents, moc, ai-generated]
+tags: [science - map of contents, moc, cli]
 note: ""
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [historical narratives, moc, ai-generated]
+tags: [historical narratives, moc, cli]
 note: ""
 ---
 

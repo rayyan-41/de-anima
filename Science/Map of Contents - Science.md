@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [science, moc, ai-generated]
+tags: [science, moc, cli]
 note: ""
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, galileo-galilei, cli, ai-generated]
+tags: [history, biography, galileo-galilei, cli]
 note: ""
 ---
 

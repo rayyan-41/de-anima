@@ -8,7 +8,7 @@ let finalContent = `**Metadata:**
 - Creation Date: 2026-04-01
 - Author: @machiavelli (Orchestrated by GeminiCLI)
 - - -
-TAGS: #history #philosophy #enlightenment #secularism #ai-generated
+TAGS: #history #philosophy #enlightenment #secularism #cli
 
 # HIST - Evolution of Intellectual Thought in Europe
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, al-ghazali, islamic-golden-age, theology, cli, ai-generated]
+tags: [history, biography, al-ghazali, islamic-golden-age, theology, cli]
 note: ""
 ---
 

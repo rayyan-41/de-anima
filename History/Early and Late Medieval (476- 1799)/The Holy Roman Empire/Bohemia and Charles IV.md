@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval-and-late-medieval, empire, bohemia-and-charles-iv, cli, ai-generated]
+tags: [history, medieval-and-late-medieval, empire, bohemia-and-charles-iv, cli]
 note: ""
 ---
 
