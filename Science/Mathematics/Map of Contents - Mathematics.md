@@ -14,4 +14,5 @@ The Mathematics section catalogs pure and applied mathematical theorems, geometr
 |------------|-------|--------------|
 | General Math | [[Mathematics of Interest]], [[The Riemann Hypothesis]] | 2026-04-17 |
 | Geometry | [[Distance Metrics in Mathematics and Computing]] | 2026-04-17 |
+| Probability & Statistics | [[The Evolution of Limit Theorems]] | 2024-05-24 |
 - - -
