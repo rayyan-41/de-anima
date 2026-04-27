@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "History/Contemporary (1800 - Present)/Map of Contents - Contemporary.md",
+                "file": "Science/Computer Science/Artificial Intelligence/Java and Artificial Intelligence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Map of Contents - Contemporary"
+              "title": "Java and Artificial Intelligence"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "2fbe5c25ecac51fb",
   "lastOpenFiles": [
+    "History/Contemporary (1800 - Present)/Map of Contents - Contemporary.md",
     "History/Map of Contents - History.md",
     "_tmp/clean_mocs.js",
     "_tmp/fix_mocs_final.js",

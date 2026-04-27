@@ -1,7 +1,16 @@
 ---
 date: 2026-04-27
 status: complete
-tags: [science, computer-science, java, large-language-models, orchestration, langchain4j, jvm, rag, cli, ai-generated]
+tags:
+  - science
+  - computer-science
+  - java
+  - large-language-models
+  - orchestration
+  - langchain4j
+  - jvm
+  - rag
+  - cli
 note: ""
 ---
 
@@ -710,7 +719,7 @@ Conversely, the inference and orchestration phase presents an entirely different
 
 ```mermaid
 flowchart TD
-    subgraph Research & Training [Research & Training Layer]
+    subgraph ResearchTraining [Research & Training Layer]
         P1[Python Ecosystem]
         T1[PyTorch / TensorFlow]
         D1[Data Processing: Pandas / Polars]
@@ -725,7 +734,7 @@ flowchart TD
         W[Frozen Weights / GGUF / ONNX]
     end
 
-    subgraph Enterprise Orchestration [Enterprise Orchestration Layer]
+    subgraph EnterpriseOrchestration [Enterprise Orchestration Layer]
         J1[Java / JVM Ecosystem]
         L1[LangChain4j / Spring AI]
         S1[Microservices / Spring Boot]
@@ -738,8 +747,8 @@ flowchart TD
         S1 <--> DB
     end
 
-    Research & Training -->|Export| Artifact
-    Artifact -->|Deployment| Enterprise Orchestration
+    ResearchTraining -->|Export| Artifact
+    Artifact -->|Deployment| EnterpriseOrchestration
 ```
 
 ### The Decoupling: Standardization of Model Artifacts
@@ -785,8 +794,3 @@ However, as AI transitions from the laboratory to the production floorâ€”as
 In this bifurcated future, the most successful engineering organizations will be those that embrace both paradigms: leveraging Python to forge the intelligence, and relying on Java to unleash it upon the world. The architecture of tomorrow is a testament to this structural harmony, ensuring that the profound capabilities of Artificial Intelligence are deployed with the rigor, safety, and resilience required by the enterprise scale.
 
 - - -
-
-## Related Notes
-
-*None*
-
