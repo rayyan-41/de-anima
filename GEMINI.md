@@ -189,23 +189,16 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │                                                                  │
 │  STAGE 2: PRE-FLIGHT GATE (Agent)                                │
 │  ────────────────────────────────                                │
-│  Agent MUST output this before writing anything:                 │
+│  Agent outputs pre-flight checklist (topic, template, headings,  │
+│  estimated sections, word count target, taxonomy, target file).  │
+│  Then IMMEDIATELY run these two tool calls:                      │
 │                                                                  │
-│  ┌─────────────────────────────────────────────┐                 │
-│  │ PRE-FLIGHT CHECKLIST                        │                 │
-│  │ Topic: [state the topic]                    │                 │
-│  │ Template: [which template applies]          │                 │
-│  │ Headings:                                   │                 │
-│  │   1. [Heading 1]                            │                 │
-│  │   2. [Heading 2]                            │                 │
-│  │   ...                                       │                 │
-│  │   N. [Heading N]                            │                 │
-│  │ Estimated sections: [N]                     │                 │
-│  │ Target word count: [N × 1000]               │                 │
-│  │ Target taxonomy: domain/category + tags      │                 │
-│  │ Target file: [full path]                    │                 │
-│  │ Confirmation: "Executing [N] YOLO sessions" │                 │
-│  └─────────────────────────────────────────────┘                 │
+│  ① powershell -File C:\Users\Pc\.gemini\tools\write_manifest.ps1│
+│      -Slug "[slug]" -Headings "[H1],[H2],...,[HN]"              │
+│    → Must return: MANIFEST_WRITTEN (else stop)                   │
+│                                                                  │
+│  ② powershell -File C:\Users\Pc\.gemini\tools\update_pipeline_state.ps1│
+│      -Slug "[slug]" -Stage preflight -Status complete           │
 │                                                                  │
 │  STAGE 3: YOLO EXECUTION (Agent)                                 │
 │  ───────────────────────────────                                 │
@@ -219,49 +212,89 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  ...                                                             │
 │  Heading N → YOLO → writes _tmp/[slug]_chunk_NN.md             │
 │                                                                  │
-│  STAGE 4: ASSEMBLY (weaver)                                     │
-│  ────────────────────────────────                                │
-│  weaver reads all chunk files from _tmp/ in order:              │
-│  - Reads [slug]_chunk_01.md through [slug]_chunk_NN.md          │
-│  - Adds transitions between sections                             │
-│  - Applies canonical YAML frontmatter                             │
-│  - Inserts `- - -` separators                                    │
-│  - Leaves wikilinks/Related Notes for formatter -> linker      │
-│  - Verifies correct subfolder and no-prefix filename policy      │
-│  - Saves the final note to vault                                 │
-│  - DELETES all _tmp/[slug]_chunk_*.md files (cleanup)            │
+│  After all chunks attempted:                                     │
+│  powershell -File ...\update_pipeline_state.ps1                 │
+│      -Slug "[slug]" -Stage yolo -Status complete                │
 │                                                                  │
-│  STAGE 5: WORD COUNT VERIFICATION (weaver)                      │
+│  STAGE 4: ASSEMBLY (weaver)                                      │
+│  ────────────────────────────────                                │
+│  FIRST — verify all chunks exist on disk (mandatory gate):       │
+│                                                                  │
+│  powershell -File C:\Users\Pc\.gemini\tools\verify_chunks.ps1  │
+│      -Slug "[slug]" -ExpectedCount [N] -Mode verify             │
+│    → Must return: ALL_PRESENT (else report missing, do not       │
+│      assemble — retry failed chunks or report to user)           │
+│                                                                  │
+│  THEN assemble:                                                  │
+│  - Read chunks via: verify_chunks.ps1 ... -Mode read            │
+│  - Add transitions between sections                              │
+│  - Apply canonical YAML frontmatter                              │
+│  - Insert `- - -` separators                                     │
+│  - Leave wikilinks/Related Notes for formatter -> linker         │
+│  - Verify correct subfolder and no-prefix filename policy        │
+│  - Save the final note to vault                                  │
+│  - Cleanup: powershell -File ...\cleanup_chunks.ps1 -Slug [slug]│
+│             (also deletes [slug]_manifest.json and _state.json)  │
+│                                                                  │
+│  powershell -File ...\update_pipeline_state.ps1                 │
+│      -Slug "[slug]" -Stage weaver -Status complete              │
+│                                                                  │
+│  STAGE 5: WORD COUNT VERIFICATION (weaver)                       │
 │  ────────────────────────────────────────────────────            │
-│  weaver counts words. Flags warning if UNDER minimum:           │
-│  - Empire/Bio: ≥1,500  │  Geopolitical: ≥5,000                  │
-│  - Fiqh: ≥8,000        │  CS/AI: ≥4,000                         │
-│  - General: ≥1,000     │  Aqeedah: ≥3,000                       │
+│  MANDATORY — call the script, do NOT self-count:                 │
+│                                                                  │
+│  powershell -File C:\Users\Pc\.gemini\tools\validate_wordcount.ps1│
+│      -FilePath "[full note path]"                               │
+│      -MinWords [N] -Template [template-name]                     │
+│                                                                  │
+│  Template minimums:                                              │
+│  - empire/biography: 1500  │  geopolitical: 5000                 │
+│  - fiqh: 8000              │  aqeedah: 3000                      │
+│  - cs/ai (haytham): 4000   │  notebooklm: 4000                  │
+│  - general: 1000                                                 │
+│                                                                  │
+│  → WORDCOUNT_PASS: continue to Stage 6                           │
+│  → WORDCOUNT_FAIL: return note to content agent with deficit     │
+│    count; agent expands thinnest sections, then re-run Stage 5   │
 │                                                                  │
 │  STAGE 6: POST-ASSEMBLY PIPELINE (Automatic)                     │
-│  ───────────────────────────────────────────                      │
+│  ───────────────────────────────────────────                     │
 │  → tagger  validates/corrects tags with relevance weighting      │
-│  → formatter  verifies frontmatter/tags and prepares link policy │
-│  → linker  inserts policy-valid [[wikilinks]], fills Related Notes,│
-│             updates domain MOC                                   │
+│  → formatter  verifies frontmatter/tags, runs validate_tags.ps1: │
+│    powershell -File C:\Users\Pc\.gemini\tools\validate_tags.ps1 │
+│        -TagLine "[comma-separated tags without #]"               │
+│    → PASS: continue │ FAIL: correct and rerun until PASS         │
+│  → linker  FIRST runs get_related_notes.ps1 for candidates:     │
+│    powershell -File C:\Users\Pc\.gemini\tools\get_related_notes.ps1│
+│        -NotePath "[note path]"                                   │
+│        -CoreTags "[core tags from tagger]"                       │
+│        -SupportingTags "[supporting tags from tagger]"           │
+│    Then inserts policy-valid [[wikilinks]], fills Related Notes   │
+│    Then: powershell -File ...\update_moc.ps1 ...                 │
 │                                                                  │
 │  STAGE 7: PIPELINE COMPLETE                                      │
 │  ──────────────────────────                                      │
-│  Note is ready. technician available on-demand for audits.      │
+│  Note is ready. technician available on-demand for audits.       │
 └──────────────────────────────────────────────────────────────────┘
 ```
 
 ### Note Creation Checklist (Enforced by Pipeline)
 
 - [ ] Pre-flight gate completed (heading outline declared).
+- [ ] `write_manifest.ps1` called → `MANIFEST_WRITTEN` confirmed.
+- [ ] `update_pipeline_state.ps1` called → Stage `preflight` marked `complete`.
 - [ ] Each heading written via its own dedicated YOLO session (~1,000 words).
 - [ ] Each heading's output saved to `E:\De Anima\_tmp\[slug]_chunk_[NN].md`
+- [ ] `update_pipeline_state.ps1` called → Stage `yolo` marked `complete`.
+- [ ] `verify_chunks.ps1 -Mode verify` called → `ALL_PRESENT` confirmed before assembly.
 - [ ] weaver assembled all chunks into final note with transitions.
-- [ ] weaver verified word count against template minimum.
+- [ ] `cleanup_chunks.ps1` called (removes chunks + manifest + state files).
+- [ ] `validate_wordcount.ps1` called → `WORDCOUNT_PASS` confirmed.
 - [ ] tagger validated/corrected tags with relevance gating.
-- [ ] formatter validated frontmatter/tags and prepared backlink policy.
+- [ ] `validate_tags.ps1` called by formatter → `PASS` confirmed.
+- [ ] `get_related_notes.ps1` called by linker → candidates ranked before wikilink insertion.
 - [ ] linker inserted policy-valid [[wikilinks]] (minimum 2 where possible), filled Related Notes.
-- [ ] linker updated domain MOC.
+- [ ] `update_moc.ps1` called by linker → `MOC_UPDATED` or `MOC_CREATED` confirmed.
 - [ ] Filename policy followed (clean title, no legacy prefixes such as `EMP -`, `BIO -`, `FIQH -`).
 - [ ] Horizontal separators are `- - -`.
 
