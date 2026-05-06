@@ -129,14 +129,14 @@ The lifecycle of an Artificial Intelligence model typically begins in an experim
 
 While Python excels in expressiveness and mathematical ecosystem support, enterprise production environments demand a different set of guarantees: strict type safety, predictable multi-threading, rigorous security compliance, and seamless integration with decades of existing infrastructure. For many Fortune 500 companies, core banking, global logistics, and large-scale ERP systems are built on the Java Virtual Machine (JVM). Attempting to staple a Python-based Flask or FastAPI microservice to a high-throughput Java architecture often introduces unacceptable latency, operational overhead, and maintenance friction.
 
-| Requirement Domain | Experimental Phase (Python / Jupyter) | Enterprise Production (Java / JVM) |
-| :--- | :--- | :--- |
-| **Primary Goal** | Fast iteration, data exploration, model accuracy. | High availability, resilience, fault tolerance. |
-| **Execution Environment** | Interactive notebooks, ephemeral cloud instances. | Containerized microservices, JVM clusters, Kubernetes. |
-| **Typing System** | Dynamic (Duck typing), flexible but error-prone. | Static, strongly typed, enforced contracts. |
-| **Concurrency** | Single-threaded (GIL constrained), multiprocess workarounds. | Highly concurrent, multithreaded (OS & Virtual Threads). |
-| **Observability** | Basic print statements, ad-hoc logging. | Deep JVM metrics, OpenTelemetry, JMX, Micrometer. |
-| **Security** | Often isolated or loosely secured during R&D. | Strict corporate governance, LDAP/AD integration, deep TLS. |
+| Requirement Domain        | Experimental Phase (Python / Jupyter)                        | Enterprise Production (Java / JVM)                          |
+| :------------------------ | :----------------------------------------------------------- | :---------------------------------------------------------- |
+| **Primary Goal**          | Fast iteration, data exploration, model accuracy.            | High availability, resilience, fault tolerance.             |
+| **Execution Environment** | Interactive notebooks, ephemeral cloud instances.            | Containerized microservices, JVM clusters, Kubernetes.      |
+| **Typing System**         | Dynamic (Duck typing), flexible but error-prone.             | Static, strongly typed, enforced contracts.                 |
+| **Concurrency**           | Single-threaded (GIL constrained), multiprocess workarounds. | Highly concurrent, multithreaded (OS & Virtual Threads).    |
+| **Observability**         | Basic print statements, ad-hoc logging.                      | Deep JVM metrics, OpenTelemetry, JMX, Micrometer.           |
+| **Security**              | Often isolated or loosely secured during R&D.                | Strict corporate governance, LDAP/AD integration, deep TLS. |
 
 ### Type Safety and Contract Enforcement
 
