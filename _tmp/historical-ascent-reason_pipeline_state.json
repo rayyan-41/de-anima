@@ -1,0 +1,12 @@
+﻿{
+    "slug":  "historical-ascent-reason",
+    "created":  "2026-05-11T19:27:38.0141635+05:00",
+    "stages":  {
+                   "weaver":  {
+                                  "status":  "complete",
+                                  "timestamp":  "2026-05-11T19:27:38.0166925+05:00",
+                                  "note":  ""
+                              }
+               },
+    "last_updated":  "2026-05-11T19:27:38.0212014+05:00"
+}

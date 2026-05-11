@@ -1,15 +1,7 @@
 [
-  "calendar",
-  "obsidian-kanban",
-  "obsidian-style-settings",
-  "obsidian-minimal-settings",
-  "obsidian-footnotes",
-  "obsidian-icon-folder",
   "arrows-in-md",
-  "highlightr-plugin",
+  "calendar",
   "dataview",
   "obsidian-file-color",
-  "obsidian-git",
-  "terminal",
-  "obsidian-local-rest-api"
+  "obsidian-footnotes"
 ]
