@@ -974,9 +974,3 @@ No system can be deemed functional without rigorous, empirical testing. In compu
 | **Telemetry** | Inject tracing headers; passively observe the system in production environments. | OpenTelemetry, Sentry, Grafana | Identifies latent bottlenecks, memory leaks, and runtime anomalies under real-world pressure. |
 
 Testing is not an afterthought; it is the scientific method directly applied to software. You must formulate the test (the hypothesis), execute the code (the experiment), and observe the result. Only when telemetry confirms the system operates strictly within defined performance tolerances—such as Largest Contentful Paint (LCP) under 1.2 seconds and Interaction to Next Paint (INP) under 200 milliseconds—can the holistic construction be considered empirically complete.
-
-- - -
-
-## See Also
-
-- [[_Science - Map of Contents|Science MOC]]

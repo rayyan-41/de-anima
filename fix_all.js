@@ -165,6 +165,9 @@ walkDir(VAULT_ROOT, (filePath) => {
                 }).filter(Boolean);
             }
             
+            // Strip legacy ai-generated tag
+            tagsList = tagsList.filter(t => t.toLowerCase() !== 'ai-generated');
+            
             // Ensure valid tags array
             if (tagsList.length < 3) {
                 const relativePath = path.relative(VAULT_ROOT, filePath);

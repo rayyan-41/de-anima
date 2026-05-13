@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [aqeedah, moc, cli]
+tags: [islam, moc, cli]
 note: ""
 ---
 

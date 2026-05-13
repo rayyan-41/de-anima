@@ -96,4 +96,4 @@ References:
 [But what is a neural network? | Deep learning chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
 [Gradient descent, how neural networks learn | DL2](https://www.youtube.com/watch?v=IHZwWFHWa-w)
 ## See Also
-- [[_Science - Map of Contents|Science MOC]]
+- [[Map of Contents - Science]]

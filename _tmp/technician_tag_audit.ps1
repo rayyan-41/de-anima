@@ -33,7 +33,7 @@ $fluffTags = @(
     "insights", "research", "systems", "theory", "data", "concepts", "development", 
     "reasoning", "argument", "perspective", "thought-experiment", "reflection", 
     "chainofthoughts", "evolution", "tooling", "concept", "historical-analysis",
-    "philosophical-analysis", "architecture", "footnote", "study", "general"
+    "philosophical-analysis", "architecture", "footnote", "study", "general", "ai-generated"
 )
 
 $auditReport = @()

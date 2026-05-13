@@ -1,7 +1,7 @@
 ---
 date: 2024-05-24
 status: complete
-tags: [science, mathematics, science/math, limit-theorems, probability-theory, law-of-large-numbers, central-limit-theorem, markov-inequality, chebyshev-inequality, normal-distribution, stochastic-processes, ai-generated]
+tags: [science, mathematics, science/math, limit-theorems, probability-theory, law-of-large-numbers, central-limit-theorem, markov-inequality, chebyshev-inequality, normal-distribution, stochastic-processes, cli]
 note: ""
 ---
 

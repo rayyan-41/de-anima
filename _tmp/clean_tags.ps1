@@ -6,7 +6,7 @@ $fluffTags = @(
     "insights", "research", "systems", "theory", "data", "concepts", "development", 
     "reasoning", "argument", "perspective", "thought-experiment", "reflection", 
     "chainofthoughts", "evolution", "tooling", "concept", "historical-analysis",
-    "philosophical-analysis", "architecture"
+    "philosophical-analysis", "architecture", "ai-generated"
 )
 
 $updatedCount = 0

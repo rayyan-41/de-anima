@@ -28,4 +28,4 @@ This approach ensures that even if the AI "vibes" the description, the **Audit T
 ## See Also
 
 - [[GEMINI]] — Concept referenced in text.
-- [[_Science - Map of Contents|Science MOC]]
+- [[Map of Contents - Science]] — Science MOC

@@ -1,0 +1,271 @@
+﻿=== FULL VAULT STRUCTURAL AUDIT ===
+Generated: 2026-05-11 22:46:32
+Total files scanned: 81
+
+--- 1. MISSING FRONTMATTER ---
+Count: 0
+
+--- 2. MISSING REQUIRED FIELDS (date/status/tags/note) ---
+Count: 2
+  Reason\The Historical Ascent of Reason and the Absolute Idea.md [missing date]
+  Reason\The Historical Ascent of Reason and the Absolute Idea.md [missing note]
+
+--- 3. LEGACY FIELDS (title/domain/category) ---
+Notes with 'title' field: 1
+  Reason\The Historical Ascent of Reason and the Absolute Idea.md
+Notes with 'domain' field: 1
+  Reason\The Historical Ascent of Reason and the Absolute Idea.md
+Notes with 'category' field: 1
+  Reason\The Historical Ascent of Reason and the Absolute Idea.md
+
+--- 4. INVALID STATUS VALUES ---
+Count: 81
+  Art\Map of Contents - Art.md [status='']
+  Art\Art History\Master Painters and Works.md [status='']
+  Art\Art Theory\Chevreul to Seurat.md [status='']
+  Art\Art Theory\Map of Contents - Art Theory.md [status='']
+  History\Map of Contents - History.md [status='']
+  History\Biographies\Al-Ghazali.md [status='']
+  History\Biographies\Euclid.md [status='']
+  History\Biographies\Euler.md [status='']
+  History\Biographies\Galileo Galilei.md [status='']
+  History\Biographies\Gauss.md [status='']
+  History\Biographies\Ibn Sina.md [status='']
+  History\Biographies\Jacob Bernoulli.md [status='']
+  History\Biographies\Luca Pacioli.md [status='']
+  History\Biographies\Map of Contents - Biographies.md [status='']
+  History\Biographies\Muammar Gaddafi.md [status='']
+  History\Biographies\Rumi.md [status='']
+  History\Biographies\Stefan Lazarevic.md [status='']
+  History\Contemporary (1800 - Present)\Map of Contents - Contemporary.md [status='']
+  History\Contemporary (1800 - Present)\Libya\Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md [status='']
+  History\Contemporary (1800 - Present)\Libya\The Arab Spring - A Decade of Upheaval and Transformation.md [status='']
+  History\Early and Late Medieval (476- 1799)\Map of Contents - Early and Late Medieval.md [status='']
+  History\Early and Late Medieval (476- 1799)\Islamic History\Islamic Golden Age Scholars.md [status='']
+  History\Early and Late Medieval (476- 1799)\Islamic History\The Ottoman Empire\The Ottomans in the Balkans.md [status='']
+  History\Early and Late Medieval (476- 1799)\The Crusades\The First Crusade.md [status='']
+  History\Early and Late Medieval (476- 1799)\The Holy Roman Empire\Bohemia and Charles IV.md [status='']
+  History\Early and Late Medieval (476- 1799)\The Holy Roman Empire\King Sigismund and Bohemia.md [status='']
+  History\Early and Late Medieval (476- 1799)\The Holy Roman Empire\The Great Western Schism.md [status='']
+  History\Early and Late Medieval (476- 1799)\The Holy Roman Empire\The Holy Roman Empire.md [status='']
+  History\Historical Narratives\Evolution of Intellectual Thought in Europe.md [status='']
+  History\Historical Narratives\Hannibal's Legacy.md [status='']
+  History\Historical Narratives\History of the Levant under Muslim Rule.md [status='']
+  History\Historical Narratives\How Svlla influenced Caesar.md [status='']
+  History\Historical Narratives\Influence of Islamic Golden Age on the West.md [status='']
+  History\Historical Narratives\Map of Contents - Historical Narratives.md [status='']
+  Islam\Map of Contents - Islam.md [status='']
+  Islam\Aqeedah\Map of Contents - Aqeedah.md [status='']
+  Islam\Aqeedah\Orthodox Sunni Critique of Shia Practices.md [status='']
+  Islam\Fiqh\Map of Contents - Fiqh.md [status='']
+  Islam\Fiqh\The Four Madhabs - History and Methodologies.md [status='']
+  Islam\Fiqh\Contemporary\Contemporary Challenges and Misunderstandings of Sharia.md [status='']
+  Islam\Fiqh\Ibadat\The Prayer of Witr.md [status='']
+  Islam\Fiqh\Ibadat\The Ruling on Raf' al-Yadayn.md [status='']
+  Literature\Map of Contents - Literature.md [status='']
+  Literature\Myths and Legends\Map of Contents - Myths and Legends.md [status='']
+  Literature\Myths and Legends\Orpheus and Eurydice.md [status='']
+  Literature\Reference\Lexicon.md [status='']
+  Literature\Reference\Map of Contents - Reference.md [status='']
+  Literature\Reference\Quotes.md [status='']
+  Literature\Short Stories\i. Caedis.md [status='']
+  Literature\Short Stories\Map of Contents - Short Stories.md [status='']
+  Reason\An Effort to Understand Iqbal.md [status='']
+  Reason\Evolution of Metaphysics in Islam.md [status='']
+  Reason\From Descartes to Darwin - Innate Existence of God.md [status='']
+  Reason\Map of Contents - Reason.md [status='']
+  Reason\the Epistemic Gap and the Necessity of Revelation.md [status='']
+  Reason\The Historical Amnesia of the Islamic Golden Age.md [status='']
+  Reason\The Historical Ascent of Reason and the Absolute Idea.md [status='']
+  Reason\The Julian Star and Intellectualism.md [status='']
+  Science\Map of Contents - Science.md [status='']
+  Science\Astronomy\Geodesic Equations.md [status='']
+  Science\Astronomy\Map of Contents - Astronomy.md [status='']
+  Science\Computer Science\Map of Contents - Computer Science.md [status='']
+  Science\Computer Science\Artificial Intelligence\Java and Artificial Intelligence.md [status='']
+  Science\Computer Science\Artificial Intelligence\LLM1 - Large Language Models - Architecture and Mechanics.md [status='']
+  Science\Computer Science\Artificial Intelligence\LLM2 - LLMs for Reasoning.md [status='']
+  Science\Computer Science\Artificial Intelligence\Neural Networks.md [status='']
+  Science\Computer Science\Artificial Intelligence\Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md [status='']
+  Science\Computer Science\Development\Projects\AVALsys n8n workflow.md [status='']
+  Science\Computer Science\Development\Projects\Chevreul's Raster Imaging System.md [status='']
+  Science\Computer Science\Development\Tools, Frameworks and Stacks\Flutter and Dart.md [status='']
+  Science\Computer Science\Development\Tools, Frameworks and Stacks\Vite and Tauri.md [status='']
+  Science\Computer Science\Development\Web Development\Comparison of Node, Next, and React.js.md [status='']
+  Science\Computer Science\Development\Web Development\Evolution of Web Development.md [status='']
+  Science\Computer Science\Development\Web Development\JavaScript Frameworks.md [status='']
+  Science\Computer Science\Development\Web Development\Senior Developer Tips for Building Websites.md [status='']
+  Science\Computer Science\Development\Web Development\The Complete Guide to Building a Website in 2026.md [status='']
+  Science\Mathematics\Map of Contents - Mathematics.md [status='']
+  Science\Mathematics\Mathematics of Interest.md [status='']
+  Science\Mathematics\The Evolution of Limit Theorems.md [status='']
+  Science\Mathematics\The Riemann Hypothesis.md [status='']
+  Science\Mathematics\Geometry\Distance Metrics in Mathematics and Computing.md [status='']
+
+--- 5. MIXED TAG FORMATS ---
+Count: 0
+
+--- 6. MISSING 'cli' TAG ---
+Count: 0
+
+--- 7. DUPLICATE TAGS WITHIN A NOTE ---
+Count: 5
+  History\Historical Narratives\Evolution of Intellectual Thought in Europe.md [duplicate: history]
+  History\Historical Narratives\Hannibal's Legacy.md [duplicate: history]
+  History\Historical Narratives\History of the Levant under Muslim Rule.md [duplicate: history]
+  History\Historical Narratives\How Svlla influenced Caesar.md [duplicate: history]
+  History\Historical Narratives\Influence of Islamic Golden Age on the West.md [duplicate: history]
+
+--- 8. WRONG TAG ORDER (non-MOCs) ---
+Count: 0
+
+--- 9. ORPHAN WIKILINKS ---
+Count: 20
+  Art\Art History\Master Painters and Works.md -> [[A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png]]
+  Art\Art History\Master Painters and Works.md -> [[School_Of_Athens.webp]]
+  Reason\Map of Contents - Reason.md -> [[Chain Of Thoughts]]
+  Science\Astronomy\Geodesic Equations.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Artificial Intelligence\LLM1 - Large Language Models - Architecture and Mechanics.md -> [[GEMINI]]
+  Science\Computer Science\Artificial Intelligence\Neural Networks.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Projects\AVALsys n8n workflow.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Projects\AVALsys n8n workflow.md -> [[GEMINI]]
+  Science\Computer Science\Development\Projects\Chevreul's Raster Imaging System.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Tools, Frameworks and Stacks\Flutter and Dart.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Tools, Frameworks and Stacks\Vite and Tauri.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Web Development\Comparison of Node, Next, and React.js.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Web Development\Evolution of Web Development.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Web Development\JavaScript Frameworks.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Web Development\Senior Developer Tips for Building Websites.md -> [[_Science - Map of Contents]]
+  Science\Computer Science\Development\Web Development\The Complete Guide to Building a Website in 2026.md -> [[_Science - Map of Contents]]
+  Science\Mathematics\Geometry\Distance Metrics in Mathematics and Computing.md -> [[_Science - Map of Contents]]
+  Science\Mathematics\Mathematics of Interest.md -> [[_Science - Map of Contents]]
+  Science\Mathematics\The Riemann Hypothesis.md -> [[_Science - Map of Contents]]
+
+--- 10. ALL TAG FREQUENCIES ---
+  cli : 81
+  history : 37
+  science : 23
+  moc : 19
+  computer-science : 13
+  computation : 13
+  biography : 11
+  algorithms : 11
+  engineering : 9
+  islam : 9
+  reason : 8
+  literature : 8
+  philosophy : 7
+  medieval-and-late-medieval : 7
+  web-dev : 6
+  fiqh : 5
+  empire : 5
+  logic : 5
+  hanbali : 4
+  shafii : 4
+  hanafi : 4
+  maliki : 4
+  mathematics : 4
+  islamic-golden-age : 4
+  art : 4
+  epistemology : 4
+  ai : 3
+  contemporary : 3
+  crusades : 2
+  al-ghazali : 2
+  ibadat : 2
+  llm : 2
+  medieval : 2
+  astronomy : 2
+  reason/philosophy : 1
+  rnn : 1
+  millennium-problems : 1
+  number-theory : 1
+  euclid : 1
+  gpu : 1
+  stefan-lazarevic : 1
+  geopolitical : 1
+  transformers : 1
+  umayyad : 1
+  central-limit-theorem : 1
+  rust : 1
+  absolute-idea : 1
+  ayyubid : 1
+  the-great-western-schism : 1
+  darwin : 1
+  human-condition : 1
+  medicine : 1
+  euler : 1
+  bilad-al-sham : 1
+  attention : 1
+  agentic-ai : 1
+  science/ai : 1
+  mamluk : 1
+  avicenna : 1
+  geometry : 1
+  normal-distribution : 1
+  chain-of-thought : 1
+  orchestration : 1
+  psychology : 1
+  revelation : 1
+  stochastic-processes : 1
+  military-history : 1
+  abbasid : 1
+  history-of-philosophy : 1
+  carthage : 1
+  hegel : 1
+  iqbal : 1
+  god : 1
+  theology : 1
+  shia-sunni-divide : 1
+  slm : 1
+  rumi : 1
+  the-holy-roman-empire : 1
+  markov-inequality : 1
+  metaphysics : 1
+  chebyshev-inequality : 1
+  kv-cache : 1
+  reference : 1
+  science/math : 1
+  rag : 1
+  frameworks : 1
+  muammar-gaddafi : 1
+  gauss : 1
+  langchain4j : 1
+  embeddings : 1
+  probability-theory : 1
+  galileo-galilei : 1
+  diffusion : 1
+  java : 1
+  hannibal : 1
+  art-theory : 1
+  myth : 1
+  law-of-large-numbers : 1
+  in-context-learning : 1
+  the-ottomans-in-the-balkans : 1
+  jvm : 1
+  attention-mechanism : 1
+  scipio-africanus : 1
+  christianity : 1
+  art-history : 1
+  aqeedah : 1
+  battle-of-cannae : 1
+  descartes : 1
+  transformer : 1
+  javascript : 1
+  limit-theorems : 1
+  roman-empire : 1
+  godel : 1
+  luca-pacioli : 1
+  kant : 1
+  roman-republic : 1
+  levant : 1
+  bohemia-and-charles-iv : 1
+  king-sigismund-and-bohemia : 1
+  u-net : 1
+  large-language-models : 1
+  orthodox-critique : 1
+  jacob-bernoulli : 1
+  dialectic : 1
+  second-punic-war : 1
+
+=== AUDIT COMPLETE ===

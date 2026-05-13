@@ -10,4 +10,4 @@ note: ""
 
 ## See Also
 
-- [[_Science - Map of Contents|Science MOC]]
+- [[Map of Contents - Science|Science MOC]]

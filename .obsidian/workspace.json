@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Computer Science/Development/Tools, Frameworks and Stacks/Vite and Tauri.md",
+                "file": "Reason/The Historical Ascent of Reason and the Absolute Idea.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Vite and Tauri"
+              "title": "The Historical Ascent of Reason and the Absolute Idea"
             }
           }
         ]
@@ -90,12 +90,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "107b4cc5ab26d28a",
+            "id": "c5b2fea933e5f215",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "492b75ac77655eff",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Science/Computer Science/Development/Tools, Frameworks and Stacks/Vite and Tauri.md",
+                "file": "Reason/The Historical Ascent of Reason and the Absolute Idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,38 +115,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Vite and Tauri"
+              "title": "Backlinks for The Historical Ascent of Reason and the Absolute Idea"
             }
           },
           {
-            "id": "07272588c94fc352",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "d90b54808bb6f264",
+            "id": "9cbdab89d16af61d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Reason/The Historical Ascent of Reason and the Absolute Idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from The Historical Ascent of Reason and the Absolute Idea"
             }
           },
           {
-            "id": "d9debee77922a130",
+            "id": "eb577de9b4ea4155",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,6 +147,27 @@
               "title": "Tags"
             }
           },
+          {
+            "id": "f9a540e96002697e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Reason/The Historical Ascent of Reason and the Absolute Idea.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of The Historical Ascent of Reason and the Absolute Idea"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ef6ff30a61e0ce55",
+        "type": "tabs",
+        "children": [
           {
             "id": "00ba3b3bfb0f9a9c",
             "type": "leaf",
@@ -168,6 +186,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": true,
       "command-palette:Open command palette": false,
       "switcher:Open quick switcher": true,
       "canvas:Create new canvas": false,
@@ -175,10 +194,11 @@
       "templates:Insert template": true,
       "workspaces:Manage workspace layouts": true,
       "bases:Create new base": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "7adb17c520de5016",
+  "active": "c5b2fea933e5f215",
   "lastOpenFiles": [
     "Science/Computer Science/Development/Tools, Frameworks and Stacks/Vite and Tauri.md",
     "Science/Computer Science/Map of Contents - Computer Science.md",
@@ -192,41 +212,4 @@
     "_tmp/mocs_data.json",
     "_tmp/extract_mocs.js",
     "History/Historical Narratives/Map of Contents - Historical Narratives.md",
-    "History/Early and Late Medieval (476- 1799)/Map of Contents - Early and Late Medieval.md",
-    "History/Early and Late Medieval (476- 1799)/Islamic History/The Ottoman Empire/The Ottomans in the Balkans.md",
-    "Science/Computer Science/Artificial Intelligence/LLM2 - LLMs for Reasoning.md",
-    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
-    "Science/Computer Science/Artificial Intelligence/LLM1 - Large Language Models - Architecture and Mechanics.md",
-    "Science/Computer Science/Artificial Intelligence/Neural Networks.md",
-    "Islam/Fiqh/The Four Madhabs - History and Methodologies.md",
-    "Islam/Fiqh/Map of Contents - Fiqh.md",
-    "Science/Computer Science/Artificial Intelligence/KV Caches and AI Hardware Architecture.md",
-    "_tmp/find_candidates_kv.ps1",
-    "Science/Computer Science/AI",
-    "_tmp/write_test.txt",
-    "_tmp/kv_cache_chunk_04.md",
-    "_tmp/audit_vault_technician.js",
-    "_tmp/kv_cache_chunk_02.md",
-    "_tmp/kv_cache_chunk_05.md",
-    "_tmp/kv_cache_chunk_03.md",
-    "_tmp/kv_cache_chunk_01.md",
-    "Science/Computer Science/Artificial Intelligence/1.1 - Neural Networks Expanded.md",
-    "Science/Computer Science/Artificial Intelligence/2.0 - CNNs.md",
-    "_tmp/llms-for-reasoning_chunk_04.md",
-    "_tmp/llms-for-reasoning_chunk_03.md",
-    "_tmp/llms-for-reasoning_chunk_02.md",
-    "_tmp/llms-for-reasoning_chunk_01.md",
-    "Art/paintings_source/School_Of_Athens.webp",
-    "Untitled.canvas",
-    "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
-    "Art/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png",
-    "did-you-know-The-School-of-Athens-Raphael.webp",
-    "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte 1.webp",
-    "Pasted image 20251225213804.png",
-    "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte..jpg",
-    "did-you-know-The-School-of-Athens-Raphael 2.webp",
-    "did-you-know-The-School-of-Athens-Raphael 1.webp",
-    "The Grounded Study/Science/Untitled Diagram.svg",
-    "Untitled 1.canvas"
-  ]
-}
+    "History/Early and La

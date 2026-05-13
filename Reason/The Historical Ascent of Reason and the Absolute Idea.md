@@ -1,18 +1,8 @@
 ---
-title: "The Historical Ascent of Reason and the Absolute Idea"
-domain: reason
-category: philosophy
+date: 2026-04-06
 status: complete
-tags:
-  - reason
-  - philosophy
-  - reason/philosophy
-  - hegel
-  - absolute-idea
-  - dialectic
-  - history-of-philosophy
-  - cli
-  - ai-generated
+tags: [reason, philosophy, reason/philosophy, hegel, absolute-idea, dialectic, history-of-philosophy, cli]
+note: ""
 ---
 
 ## The Classical Dawn: Plato, Aristotle, and the Birth of Logic

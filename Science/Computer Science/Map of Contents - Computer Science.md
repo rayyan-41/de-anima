@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [computer science, moc, cli]
+tags: [science, moc, cli]
 note: ""
 ---
 

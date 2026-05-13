@@ -180,4 +180,4 @@ These three distance metrics represent fundamental approaches to quantifying sep
 
 ## See Also
 
-- [[_Science - Map of Contents|Science MOC]]
+- [[Map of Contents - Science]]

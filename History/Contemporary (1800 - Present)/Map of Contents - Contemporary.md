@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [contemporary, moc, cli]
+tags: [history, moc, cli]
 note: ""
 ---
 > *Those who cannot remember the past are condemned to repeat it.* - George Santayana

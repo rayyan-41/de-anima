@@ -718,9 +718,3 @@ Feature flags demand strict scientific discipline. They introduce cyclomatic com
 Building robust websites and distributed systems is not an act of faith; it is an exercise in applied logic and empirical measurement. A senior developer does not trust that code will work; they construct a mechanism that proves it works, alongside a fail-safe for when it inevitably falters. Continuous Integration enforces the standard of proof. Trunk-based development ensures our operational reality remains singular and coherent. Blue-green deployments provide the laboratory for safe transitions, and feature flags give us granular control over our variables in production. 
 
 To deploy defensively is to acknowledge the limits of human foresight. By relying on rigorous automation, immutable artifacts, and observable metrics, we protect the user from our errors and ensure the system remains a reliable conduit of function and information. We must measure carefully, integrate constantly, and release cautiously.
-
-- - -
-
-## See Also
-
-- [[_Science - Map of Contents|Science MOC]]

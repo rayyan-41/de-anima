@@ -14,4 +14,4 @@ Mathematical concepts that I find interesting or want to know more about, tabula
 
 ## See Also
 
-- [[_Science - Map of Contents|Science MOC]]
+- [[Map of Contents - Science]]|Science MOC]]

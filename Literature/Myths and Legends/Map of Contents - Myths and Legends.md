@@ -1,7 +1,7 @@
 ---
 date: 2023-10-24
 status: complete
-tags: [myths and legends, moc, cli]
+tags: [literature, moc, cli]
 note: ""
 ---
 

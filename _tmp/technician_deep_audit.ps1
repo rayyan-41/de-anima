@@ -19,7 +19,7 @@ $normMap = @{
     'islamic-history' = 'history'
     'islamic-golden-age-scholars' = 'islamic-golden-age'
 }
-$fluffTags = @("analysis", "records", "timeline", "documentation", "retrospective", "worldview", "insights", "research", "systems", "theory", "data", "concepts", "development", "reasoning", "argument", "perspective", "thought-experiment", "reflection", "chainofthoughts", "evolution", "tooling", "concept", "historical-analysis", "philosophical-analysis", "architecture", "footnote", "study", "general")
+$fluffTags = @("analysis", "records", "timeline", "documentation", "retrospective", "worldview", "insights", "research", "systems", "theory", "data", "concepts", "development", "reasoning", "argument", "perspective", "thought-experiment", "reflection", "chainofthoughts", "evolution", "tooling", "concept", "historical-analysis", "philosophical-analysis", "architecture", "footnote", "study", "general", "ai-generated")
 
 $updatedCount = 0
 
