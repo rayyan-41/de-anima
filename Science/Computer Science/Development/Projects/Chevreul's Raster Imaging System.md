@@ -38,9 +38,3 @@ CRIS assumes three things as axioms:
 - **Deliverable:** The CRIS engine running as the primary interface of a custom OS environment.
 
 - - -
-**References**
-- [Screens & 2D Graphics: Crash Course Computer Science #23](https://www.youtube.com/watch?v=7Jr0SFMQ4Rs)
-
-## See Also
-
-- [[Map of Contents - Science]]
