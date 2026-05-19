@@ -11,10 +11,15 @@
             "id": "2fbe5c25ecac51fb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Scripts/I.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "I"
             }
           }
         ]
@@ -195,6 +200,10 @@
   },
   "active": "2fbe5c25ecac51fb",
   "lastOpenFiles": [
+    "GEMINI.md",
+    "Scripts/I.md",
+    "Untitled.md",
+    "Scripts",
     "Science/Mathematics/Geometry/Triangles as the basis for Rasterization.md",
     "Science/Computer Science/Development/Projects/Chevreul's Raster Imaging System.md",
     "Science/Computer Science/Map of Contents - Computer Science.md",
@@ -223,14 +232,10 @@
     "Science/Computer Science/AI",
     "_tmp/write_test.txt",
     "_tmp/kv_cache_chunk_04.md",
-    "_tmp/audit_vault_technician.js",
     "_tmp/kv_cache_chunk_02.md",
     "_tmp/kv_cache_chunk_05.md",
     "_tmp/kv_cache_chunk_03.md",
     "_tmp/kv_cache_chunk_01.md",
-    "Science/Computer Science/Artificial Intelligence/1.1 - Neural Networks Expanded.md",
-    "Science/Computer Science/Artificial Intelligence/2.0 - CNNs.md",
-    "_tmp/llms-for-reasoning_chunk_04.md",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",
