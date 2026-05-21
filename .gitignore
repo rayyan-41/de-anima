@@ -12,3 +12,5 @@ Thumbs.db
 
 # Ignore cache / temp
 .obsidian/cache
+
+Scripts/
