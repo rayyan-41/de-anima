@@ -12,6 +12,6 @@ The Reason domain encompasses philosophical inquiry, metaphysical arguments, and
 ## Structure
 | Topic Area | Notes | Last Updated |
 |------------|-------|--------------|
-| Philosophy & Metaphysics | [[An Effort to Understand Iqbal]], [[Evolution of Metaphysics in Islam]], [[From Descartes to Darwin - Innate Existence of God]], [[the Epistemic Gap and the Necessity of Revelation]], [[The Historical Amnesia of the Islamic Golden Age]], [[The Julian Star and Intellectualism]] | 2026-04-17 |
+| Philosophy & Metaphysics | [[An Effort to Understand Iqbal]], [[Evolution of Metaphysics in Islam]], [[From Descartes to Darwin - Innate Existence of God]], [[the Epistemic Gap and the Necessity of Revelation]], [[The Historical Amnesia of the Islamic Golden Age]], [[The Julian Star and Intellectualism]], [[The Transcendental Nature of Love]] | 2026-06-04 |
 | Personal Reflections | [[Chain Of Thoughts]] | 2026-04-17 |
 - - -
