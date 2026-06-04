@@ -17,6 +17,8 @@ tags:
   - transcendence
 ---
 
+> [!abstract] Table of Contents
+
 ## The Biological Imperative: Love as a Core Emotion
 
 To apprehend the transcendental, we must first anchor ourselves in the material. The phenomenon we colloquially term "love" cannot be cleanly divorced from the evolutionary imperatives that birthed it, nor from the neurochemical tempests that sustain it. Before it becomes poetry, before it elevates the soul to contemplate the divine, love is fundamentally a biological imperative—a highly conserved survival mechanism etched into the mammalian brain over millions of years of natural selection. By examining love through the austere lens of evolutionary biology and neuroscience, we uncover not a reduction of its majesty, but the profound physical bedrock upon which our highest aspirations are constructed.
