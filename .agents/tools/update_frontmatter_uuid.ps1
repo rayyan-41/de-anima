@@ -1,3 +1,7 @@
+﻿
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 function Add-FrontmatterUUID {
     param([string]$FilePath)
     $content = Get-Content $FilePath -Raw
@@ -23,3 +27,4 @@ $content"
         Set-Content $FilePath -Value $newContent
     }
 }
+

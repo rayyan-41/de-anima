@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Deletes all chunk files, manifest, and pipeline state files for a given topic
     slug from _tmp/. Called by Weaver after a note is saved to the vault.
@@ -14,8 +14,12 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$Slug,
 
-    [string]$TmpDir = "E:\De Anima\_tmp"
+    [string]$TmpDir = ""
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 if (-not (Test-Path $TmpDir)) {
     Write-Output "TMP_DIR_NOT_FOUND: $TmpDir - nothing to clean"
@@ -54,3 +58,4 @@ if ($failed.Count -gt 0) {
 } else {
     Write-Output "DELETED: $deleted chunk file(s), $sidecarDeleted sidecar file(s) (manifest + state)"
 }
+

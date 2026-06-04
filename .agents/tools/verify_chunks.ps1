@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Verifies all expected chunk files exist in _tmp/ and returns their content concatenated.
 .PARAMETER Slug
@@ -8,8 +8,8 @@
 .PARAMETER TmpDir
     Path to the temp directory. Defaults to "E:\De Anima\_tmp"
 .PARAMETER Mode
-    "verify" — only checks existence, returns missing list
-    "read" — verifies AND returns concatenated content with chunk markers
+    "verify" â€” only checks existence, returns missing list
+    "read" â€” verifies AND returns concatenated content with chunk markers
 .EXAMPLE
     powershell -File verify_chunks.ps1 -Slug "rafa-al-yadayn" -ExpectedCount 10 -Mode verify
     Output: ALL_PRESENT: 10/10
@@ -24,11 +24,15 @@ param(
     [Parameter(Mandatory=$true)]
     [int]$ExpectedCount,
 
-    [string]$TmpDir = "E:\De Anima\_tmp",
+    [string]$TmpDir = "",
 
     [ValidateSet("verify", "read")]
     [string]$Mode = "verify"
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 if (-not (Test-Path $TmpDir)) {
     Write-Error "TMP_DIR_NOT_FOUND: $TmpDir"
@@ -72,3 +76,4 @@ if ($missing.Count -gt 0) {
         Write-Output ($content -join "`n")
     }
 }
+

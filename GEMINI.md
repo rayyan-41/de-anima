@@ -193,11 +193,11 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  estimated sections, word count target, taxonomy, target file).  │
 │  Then IMMEDIATELY run these two tool calls:                      │
 │                                                                  │
-│  ① powershell -File C:\Users\Pc\.antigravity\tools\write_manifest.ps1│
+│  ① powershell -File "E:\De Anima\.agents\tools\write_manifest.ps1"       │
 │      -Slug "[slug]" -Headings "[H1],[H2],...,[HN]"              │
 │    → Must return: MANIFEST_WRITTEN (else stop)                   │
 │                                                                  │
-│  ② powershell -File C:\Users\Pc\.antigravity\tools\update_pipeline_state.ps1│
+│  ② powershell -File "E:\De Anima\.agents\tools\update_pipeline_state.ps1"│
 │      -Slug "[slug]" -Stage preflight -Status complete           │
 │                                                                  │
 │  STAGE 3: YOLO EXECUTION (Agent)                                 │
@@ -213,14 +213,14 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  Heading N → YOLO → writes _tmp/[slug]_chunk_NN.md             │
 │                                                                  │
 │  After all chunks attempted:                                     │
-│  powershell -File ...\update_pipeline_state.ps1                 │
+│  powershell -File "E:\De Anima\.agents\tools\update_pipeline_state.ps1"│
 │      -Slug "[slug]" -Stage yolo -Status complete                │
 │                                                                  │
 │  STAGE 4: ASSEMBLY (weaver)                                      │
 │  ────────────────────────────────                                │
 │  FIRST — verify all chunks exist on disk (mandatory gate):       │
 │                                                                  │
-│  powershell -File C:\Users\Pc\.antigravity\tools\verify_chunks.ps1  │
+│  powershell -File "E:\De Anima\.agents\tools\verify_chunks.ps1"     │
 │      -Slug "[slug]" -ExpectedCount [N] -Mode verify             │
 │    → Must return: ALL_PRESENT (else report missing, do not       │
 │      assemble — retry failed chunks or report to user)           │
@@ -230,20 +230,22 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  - Add transitions between sections                              │
 │  - Apply canonical YAML frontmatter                              │
 │  - Insert `- - -` separators                                     │
+│  - IF note > 4,000 words: Generate Table of Contents (TOC)       │
+│    and place immediately after the YAML frontmatter.             │
 │  - Leave wikilinks/Related Notes for formatter -> linker         │
 │  - Verify correct subfolder and no-prefix filename policy        │
 │  - Save the final note to vault                                  │
-│  - Cleanup: powershell -File ...\cleanup_chunks.ps1 -Slug [slug]│
+│  - Cleanup: powershell -File "E:\De Anima\.agents\tools\cleanup_chunks.ps1" -Slug [slug]│
 │             (also deletes [slug]_manifest.json and _state.json)  │
 │                                                                  │
-│  powershell -File ...\update_pipeline_state.ps1                 │
+│  powershell -File "E:\De Anima\.agents\tools\update_pipeline_state.ps1"│
 │      -Slug "[slug]" -Stage weaver -Status complete              │
 │                                                                  │
 │  STAGE 5: WORD COUNT VERIFICATION (weaver)                       │
 │  ────────────────────────────────────────────────────            │
 │  MANDATORY — call the script, do NOT self-count:                 │
 │                                                                  │
-│  powershell -File C:\Users\Pc\.antigravity\tools\validate_wordcount.ps1│
+│  powershell -File "E:\De Anima\.agents\tools\validate_wordcount.ps1"│
 │      -FilePath "[full note path]"                               │
 │      -MinWords [N] -Template [template-name]                     │
 │                                                                  │
@@ -261,16 +263,16 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  ───────────────────────────────────────────                     │
 │  → tagger  validates/corrects tags with relevance weighting      │
 │  → formatter  verifies frontmatter/tags, runs validate_tags.ps1: │
-│    powershell -File C:\Users\Pc\.antigravity\tools\validate_tags.ps1 │
+│    powershell -File "E:\De Anima\.agents\tools\validate_tags.ps1"    │
 │        -TagLine "[comma-separated tags without #]"               │
 │    → PASS: continue │ FAIL: correct and rerun until PASS         │
 │  → linker  FIRST runs get_related_notes.ps1 for candidates:     │
-│    powershell -File C:\Users\Pc\.antigravity\tools\get_related_notes.ps1│
+│    powershell -File "E:\De Anima\.agents\tools\get_related_notes.ps1"│
 │        -NotePath "[note path]"                                   │
 │        -CoreTags "[core tags from tagger]"                       │
 │        -SupportingTags "[supporting tags from tagger]"           │
 │    Then inserts policy-valid [[wikilinks]], fills Related Notes   │
-│    Then: powershell -File ...\update_moc.ps1 ...                 │
+│    Then: powershell -File "E:\De Anima\.agents\tools\update_moc.ps1" ...                 │
 │                                                                  │
 │  STAGE 7: PIPELINE COMPLETE                                      │
 │  ──────────────────────────                                      │

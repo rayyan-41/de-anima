@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Counts and validates inline citations against the References section of a note.
     Used by the orchestrator as the citation integrity gate in NotebookLM mode.
@@ -31,7 +31,7 @@
     Output:
     INLINE_CITATIONS: 8
     REFERENCE_ENTRIES: 8
-    DENSITY_THRESHOLD: FAIL — 4500 words requires >=25 citations, found 8
+    DENSITY_THRESHOLD: FAIL â€” 4500 words requires >=25 citations, found 8
     CITATION_INTEGRITY: FAIL
     MISSING_REFS: none
 #>
@@ -41,6 +41,10 @@ param(
 
     [int]$WordCount = 0
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 if (-not (Test-Path $FilePath)) {
     Write-Error "FILE_NOT_FOUND: $FilePath"
@@ -49,7 +53,7 @@ if (-not (Test-Path $FilePath)) {
 
 $content = Get-Content $FilePath -Raw -Encoding UTF8
 
-# ── Extract inline citations: all [N] patterns in the note body ───────────────
+# â”€â”€ Extract inline citations: all [N] patterns in the note body â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # Exclude the References section itself to avoid double-counting entry numbers.
 $bodyOnly = $content
 if ($content -match '(?s)(## References\s*\n.+?)(\n## |\Z)') {
@@ -62,7 +66,7 @@ $uniqueInlineNumbers   = $inlineMatches |
     ForEach-Object { [int]$_.Groups[1].Value } |
     Sort-Object -Unique
 
-# ── Extract reference entries from the ## References section ──────────────────
+# â”€â”€ Extract reference entries from the ## References section â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 $refSection = ''
 if ($content -match '(?s)## References\s*\n(.+?)(\n## |\Z)') {
     $refSection = $matches[1]
@@ -73,10 +77,10 @@ $refNumbers    = $refEntries |
     ForEach-Object { [int]$_.Groups[1].Value } |
     Sort-Object -Unique
 
-# ── Identify citation numbers in body that have no matching reference entry ───
+# â”€â”€ Identify citation numbers in body that have no matching reference entry â”€â”€â”€
 $missingRefs = $uniqueInlineNumbers | Where-Object { $refNumbers -notcontains $_ }
 
-# ── Density threshold check (Haytham's citation density table) ───────────────
+# â”€â”€ Density threshold check (Haytham's citation density table) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 $densityResult = ''
 if ($WordCount -gt 0) {
     $required = 0
@@ -85,13 +89,13 @@ if ($WordCount -gt 0) {
     elseif ($WordCount -ge 1000 -and $WordCount -lt 2000) { $required = 8  }
 
     if ($required -gt 0 -and $uniqueInlineNumbers.Count -lt $required) {
-        $densityResult = "DENSITY_THRESHOLD: FAIL — $WordCount words requires >=$required citations, found $($uniqueInlineNumbers.Count)"
+        $densityResult = "DENSITY_THRESHOLD: FAIL â€” $WordCount words requires >=$required citations, found $($uniqueInlineNumbers.Count)"
     } else {
         $densityResult = "DENSITY_THRESHOLD: PASS ($($uniqueInlineNumbers.Count)/$required)"
     }
 }
 
-# ── Output ────────────────────────────────────────────────────────────────────
+# â”€â”€ Output â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 Write-Output "INLINE_CITATIONS: $($uniqueInlineNumbers.Count)"
 Write-Output "REFERENCE_ENTRIES: $($refNumbers.Count)"
 
@@ -109,3 +113,4 @@ if ($missingRefs.Count -gt 0) {
 } else {
     Write-Output "CITATION_INTEGRITY: PASS"
 }
+

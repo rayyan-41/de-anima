@@ -1,6 +1,10 @@
-param(
+﻿param(
     [switch]$VerboseOutput
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 $ErrorActionPreference = 'Stop'
 
@@ -53,7 +57,7 @@ $bannedPatterns = @(
     @{ Name = 'embedded YOLO sleep 15'; Pattern = 'Start-Sleep\s+-Seconds\s+15' },
     @{ Name = 'embedded YOLO sleep 30'; Pattern = 'Start-Sleep\s+-Seconds\s+30' },
     @{ Name = 'embedded YOLO prompt block'; Pattern = 'gemini\s+-y\s+-p\s+"Write\s+a\s+detailed' },
-    @{ Name = 'old non-centralized heading'; Pattern = 'SECTION-BY-SECTION EXECUTION PROTOCOL\s+—\s+MANDATORY' }
+    @{ Name = 'old non-centralized heading'; Pattern = 'SECTION-BY-SECTION EXECUTION PROTOCOL\s+â€”\s+MANDATORY' }
 )
 
 # 1) Ensure required skill files exist
@@ -122,3 +126,4 @@ if ($VerboseOutput) {
     Write-Host "Verified skills: $($requiredSkillFiles.Count)"
 }
 exit 0
+

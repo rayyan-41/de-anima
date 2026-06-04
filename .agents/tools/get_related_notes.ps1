@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Scans the De Anima vault for notes that share tag overlap with a source note.
     Returns a ranked list of candidate notes for backlink insertion.
@@ -28,7 +28,7 @@
     Example: "Ibn Abbas, Al-Nawawi"
 
 .PARAMETER VaultRoot
-    Root of the vault. Defaults to "E:\De Anima"
+    Root of the vault. Defaults to $VaultRoot
 
 .PARAMETER TopN
     Maximum number of results to return. Defaults to 15.
@@ -65,14 +65,18 @@ param(
 
     [string]$ExcludedMentions = "",
 
-    [string]$VaultRoot = "E:\De Anima",
+    [string]$VaultRoot = "",
 
     [int]$TopN = 15,
 
     [int]$MinScore = 1
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+
+# â”€â”€ Helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function Normalize-Name {
     # E-3 fix: normalize entity names for exclusion matching.
@@ -108,7 +112,7 @@ function Parse-TagsFromFrontmatter {
 }
 
 function Parse-CategoryFromTags {
-    # Category is tags[1] (second tag) — no separate category: property in the schema
+    # Category is tags[1] (second tag) â€” no separate category: property in the schema
     param([string[]]$tags)
     if ($tags.Count -ge 2) { return $tags[1].ToLower().Trim() }
     return ""
@@ -122,7 +126,7 @@ function Normalize-Tags {
         Where-Object { $_ -ne '' }
 }
 
-# ── Setup ─────────────────────────────────────────────────────────────────────
+# â”€â”€ Setup â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 if (-not (Test-Path $VaultRoot)) {
     Write-Error "VAULT_NOT_FOUND: $VaultRoot"
@@ -146,7 +150,7 @@ $sourceCategory = Parse-CategoryFromTags $sourceTagsRaw
 $skipDirs   = @('_tmp', '.obsidian', 'paintings_source')
 $sacredFiles = @('GEMINI.md', 'Chain Of Thoughts.md', 'REAS - Chain Of Thoughts.md')
 
-# ── Vault scan ────────────────────────────────────────────────────────────────
+# â”€â”€ Vault scan â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 $allNotes = Get-ChildItem -Path $VaultRoot -Recurse -Filter "*.md" -File -ErrorAction SilentlyContinue |
     Where-Object {
@@ -162,7 +166,7 @@ $allNotes = Get-ChildItem -Path $VaultRoot -Recurse -Filter "*.md" -File -ErrorA
         -not $skip
     }
 
-# ── Score candidates ──────────────────────────────────────────────────────────
+# â”€â”€ Score candidates â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 $candidates    = @()
 $excludedCount = 0
@@ -176,7 +180,7 @@ foreach ($note in $allNotes) {
 
     if ($noteTags.Count -eq 0) { continue }
 
-    # ── E-3 fix: normalize both sides before exclusion matching ─────────────────
+    # â”€â”€ E-3 fix: normalize both sides before exclusion matching â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     # Old code used raw lowercase comparison, causing space-vs-hyphen mismatches
     # (e.g. excluding "Al-Ghazali" failed to match note "Al Ghazali (Biography)").
     # Normalize-Name collapses hyphens and spaces to single space on both sides.
@@ -222,7 +226,7 @@ foreach ($note in $allNotes) {
     }
 }
 
-# ── Sort, deduplicate by path, and trim ───────────────────────────────────────
+# â”€â”€ Sort, deduplicate by path, and trim â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 $sorted = $candidates |
     Sort-Object -Property Score -Descending |
@@ -231,7 +235,7 @@ $sorted = $candidates |
     Sort-Object -Property Score -Descending |
     Select-Object -First $TopN
 
-# ── Output ────────────────────────────────────────────────────────────────────
+# â”€â”€ Output â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 if ($sorted.Count -eq 0) {
     Write-Output "CANDIDATES_FOUND: 0"
@@ -247,3 +251,4 @@ foreach ($c in $sorted) {
 }
 Write-Output "---"
 Write-Output "EXCLUDED_BY_POLICY: $excludedCount"
+

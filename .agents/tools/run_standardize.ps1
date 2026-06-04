@@ -1,5 +1,6 @@
+$VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path
 $domain = "History"
-$notes = @(Get-ChildItem -Path "E:\De Anima\$domain" -Recurse -Filter "*.md" | Where-Object { $_.Name -notmatch "^_.*Map of Content" })
+$notes = @(Get-ChildItem -Path "$VaultRoot\$domain" -Recurse -Filter "*.md" | Where-Object { $_.Name -notmatch "^_.*Map of Content" })
 
 Write-Host "STANDARDIZE: $domain"
 Write-Host "Notes found: $($notes.Count)"
@@ -33,7 +34,7 @@ Read the note at the path above.
 Locate the YAML frontmatter block (between --- markers at the top of the file).
 Find the tags: field. It may be [PLACEHOLDER], missing, or already populated.
 
-Load the obsidian_yaml_enforcer skill from c:\Users\Pc\.gemini\skills\obsidian_yaml_enforcer\SKILL.md.
+Load the obsidian_yaml_enforcer skill from $($VaultRoot)\.gemini\skills\obsidian_yaml_enforcer\SKILL.md.
 Follow its strict rules to build the correct tag array based on the note's actual content.
 
 Rewrite ONLY the tags: line in the frontmatter with the correct array.
@@ -41,7 +42,7 @@ Also ensure title:, date:, domain:, category:, status: fields exist and are vali
 Do not touch any content outside the frontmatter block.
 
 Run validation:
-  powershell -File "C:\Users\Pc\.gemini\tools\validate_tags.ps1" -TagLine "[your constructed tags comma-separated without #]"
+  powershell -File "$($PSScriptRoot)\validate_tags.ps1" -TagLine "[your constructed tags comma-separated without #]"
 
 If PASS - write the corrected frontmatter to the file.
 If FAIL - correct the specific issues flagged and re-run until PASS.
@@ -64,17 +65,17 @@ Only then proceed to link insertion.
 TASK C - WIKILINK INSERTION (@linker logic)
 ========================================
 
-Build a vault index by listing all .md files under E:\De Anima\ recursively,
+Build a vault index by listing all .md files under $($VaultRoot)\ recursively,
 excluding: _tmp/, .obsidian/, paintings_source/, MOC files, sacred files.
 
 Scan the note body for named entities (people, places, concepts, movements, texts,
 historical events) that match existing vault note titles.
 
-Load the obsidian_wikilink_engine skill from c:\Users\Pc\.gemini\skills\obsidian_wikilink_engine\SKILL.md.
+Load the obsidian_wikilink_engine skill from $($VaultRoot)\.gemini\skills\obsidian_wikilink_engine\SKILL.md.
 Follow its exact multi-step execution rules to find entities, but only insert links that satisfy Task B policy rules.
 
 Update the domain MOC:
-  powershell -File "C:\Users\Pc\.gemini\tools\update_moc.ps1" -Domain "$domain" -NoteTitle "[title]" -NoteFilename "$($note.Name)" -Category "[category]"
+  powershell -File "$($PSScriptRoot)\update_moc.ps1" -Domain "$domain" -NoteTitle "[title]" -NoteFilename "$($note.Name)" -Category "[category]"
 ================================================
 TASK D - TABLE OF CONTENTS (for notes > 4,000 words)
 ================================================
@@ -112,24 +113,24 @@ OUTPUT - After completing all tasks, print a compact report:
   TOC: [INSERTED / UPDATED / SKIPPED (under 4k words)]
   STATUS: COMPLETE
 "@
-    Set-Content -Path "E:\De Anima\_tmp\current_prompt.txt" -Value $prompt -Encoding utf8
+    Set-Content -Path "$VaultRoot\_tmp\current_prompt.txt" -Value $prompt -Encoding utf8
     
-    cmd.exe /c "gemini -y -p `"$(Get-Content -Raw "E:\De Anima\_tmp\current_prompt.txt" | Out-String)`" > `"E:\De Anima\_tmp\current_out.txt`" 2> `"E:\De Anima\_tmp\current_err.txt`""
+    cmd.exe /c "gemini -y -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
     $exitCode = $LASTEXITCODE
 
     Start-Sleep -Seconds 15
 
-    $outContent = Get-Content "E:\De Anima\_tmp\current_out.txt" -Raw
+    $outContent = Get-Content "$VaultRoot\_tmp\current_out.txt" -Raw
     if ($exitCode -eq 0 -and $outContent -match "STATUS: COMPLETE") {
         Write-Host "✅ $($note.Name) - Successfully processed"
         $results += "  ✅ $($note.Name) - tags corrected, wikilinks inserted, MOC updated"
         $successCount++
     } else {
         Start-Sleep -Seconds 30
-        cmd.exe /c "gemini -y -p `"$(Get-Content -Raw "E:\De Anima\_tmp\current_prompt.txt" | Out-String)`" > `"E:\De Anima\_tmp\current_out.txt`" 2> `"E:\De Anima\_tmp\current_err.txt`""
+        cmd.exe /c "gemini -y -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
         $exitCode2 = $LASTEXITCODE
         Start-Sleep -Seconds 15
-        $outContent2 = Get-Content "E:\De Anima\_tmp\current_out.txt" -Raw
+        $outContent2 = Get-Content "$VaultRoot\_tmp\current_out.txt" -Raw
 
         if ($exitCode2 -eq 0 -and $outContent2 -match "STATUS: COMPLETE") {
             Write-Host "✅ $($note.Name) - Successfully processed on retry"

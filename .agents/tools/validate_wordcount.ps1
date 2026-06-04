@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Validates a word count from word_count.ps1 output against a template minimum.
     Outputs WORDCOUNT_PASS or WORDCOUNT_FAIL with deficit information.
@@ -39,8 +39,12 @@ param(
 
     [string]$Template = "",
 
-    [string]$ToolsDir = "C:\Users\Pc\.antigravity\tools"
+    [string]$ToolsDir = ""
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 if (-not (Test-Path $FilePath)) {
     Write-Error "WORDCOUNT_ERROR: file not found at $FilePath"
@@ -70,3 +74,4 @@ if ($wordCount -ge $MinWords) {
     Write-Output "WORDCOUNT_FAIL: $deficit words short. Return note to agent for expansion of thinnest sections."
     exit 1
 }
+

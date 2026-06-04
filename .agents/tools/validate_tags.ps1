@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Validates tags against the De Anima canonical tag registry.
     Accepts YAML inline format: "islam, fiqh, prayer, ai-generated"
@@ -20,8 +20,12 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$TagLine
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 
-# Clean input — strip "TAGS:" prefix if present, handle both space and comma separated
+
+# Clean input â€” strip "TAGS:" prefix if present, handle both space and comma separated
 $TagLine = $TagLine -replace '^\s*TAGS:\s*', ''
 # Strip surrounding brackets if YAML inline array: [islam, fiqh, ...]
 $TagLine = $TagLine -replace '^\[', '' -replace '\]$', ''
@@ -34,17 +38,17 @@ $tags = ($TagLine.Trim() -split '\s+') | Where-Object { $_ -ne '' }
 $domainTags = @('art', 'history', 'literature', 'reason', 'science', 'islam')
 
 $categoryMap = @{
-    # Art — plain hyphenated strings matching tagger.md structural tag guidance
+    # Art â€” plain hyphenated strings matching tagger.md structural tag guidance
     'art'        = @('art-history', 'art-theory')
-    # History — unchanged, agents produce these correctly
+    # History â€” unchanged, agents produce these correctly
     'history'    = @('empire', 'biography', 'geopolitical', 'medieval', 'contemporary')
-    # Literature — unchanged
+    # Literature â€” unchanged
     'literature' = @('book', 'myth', 'short-story', 'reference')
-    # Reason — plain strings; tagger.md updated to match (removed reason/ prefix)
+    # Reason â€” plain strings; tagger.md updated to match (removed reason/ prefix)
     'reason'     = @('philosophy', 'logic', 'metaphysics', 'ethics', 'epistemology')
-    # Science — plain strings; tagger.md updated to match (removed science/ prefix)
+    # Science â€” plain strings; tagger.md updated to match (removed science/ prefix)
     'science'    = @('astronomy', 'mathematics', 'computer-science', 'ai', 'web-dev', 'physics')
-    # Islam — unchanged, was already correct
+    # Islam â€” unchanged, was already correct
     'islam'      = @('aqeedah', 'fiqh')
 }
 
@@ -116,3 +120,4 @@ if ($errors.Count -eq 0) {
 } else {
     Write-Output "FAIL: $($errors -join '; ')"
 }
+

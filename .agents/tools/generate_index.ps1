@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Generates a vault-wide index of all notes with their metadata.
     Outputs a structured summary useful for search, auditing, and context loading.
@@ -25,7 +25,7 @@
     - Pre-computed candidate cache for get_related_notes.ps1 (large vaults)
 
 .PARAMETER VaultRoot
-    Root of the vault. Defaults to "E:\De Anima"
+    Root of the vault. Defaults to $VaultRoot
 
 .PARAMETER Domain
     Optional. Filter output to a single domain.
@@ -51,7 +51,7 @@
 #>
 
 param(
-    [string]$VaultRoot = "E:\De Anima",
+    [string]$VaultRoot = "",
 
     [ValidateSet("Art", "History", "Islam", "Literature", "Reason", "Science", "")]
     [string]$Domain = "",
@@ -61,8 +61,12 @@ param(
 
     [switch]$IncludeOrphans
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+
+# â”€â”€ Helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 function Extract-FrontmatterField {
     param([string]$content, [string]$field)
@@ -115,7 +119,7 @@ function Has-ValidFrontmatter {
     return $true
 }
 
-# ── Setup ─────────────────────────────────────────────────────────────────────
+# â”€â”€ Setup â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 if (-not (Test-Path $VaultRoot)) {
     Write-Error "VAULT_NOT_FOUND: $VaultRoot"
@@ -126,7 +130,7 @@ $skipDirs    = @('_tmp', '.obsidian', 'paintings_source')
 $sacredFiles = @('GEMINI.md', 'Chain Of Thoughts.md', 'REAS - Chain Of Thoughts.md')
 $domains     = @('Art', 'History', 'Islam', 'Literature', 'Reason', 'Science')
 
-# ── Scan ──────────────────────────────────────────────────────────────────────
+# â”€â”€ Scan â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 $searchRoot = if ($Domain -ne "") { Join-Path $VaultRoot $Domain } else { $VaultRoot }
 
@@ -141,7 +145,7 @@ $allFiles = Get-ChildItem -Path $searchRoot -Recurse -Filter "*.md" -File -Error
         -not $skip
     }
 
-# ── Build index entries ───────────────────────────────────────────────────────
+# â”€â”€ Build index entries â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 $entries  = @()
 $orphans  = @()
@@ -156,7 +160,7 @@ foreach ($file in $allFiles) {
     $tags    = Extract-Tags $content
     $domain  = Extract-DomainFromTags $tags
     $cat     = Extract-CategoryFromTags $tags
-    # Title falls back to filename — no title: property in schema
+    # Title falls back to filename â€” no title: property in schema
     $title   = [System.IO.Path]::GetFileNameWithoutExtension($file.Name)
     $words   = (($content -replace '(?s)^---.*?---', '') -split '\s+' | Where-Object { $_ -ne '' }).Count
 
@@ -195,7 +199,7 @@ foreach ($file in $allFiles) {
     $domainCounts[$dk]++
 }
 
-# ── Output ────────────────────────────────────────────────────────────────────
+# â”€â”€ Output â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 $today = Get-Date -Format "yyyy-MM-dd HH:mm"
 
@@ -211,12 +215,12 @@ if ($Format -eq "json") {
 }
 
 # Text format
-Write-Output "════════════════════════════════════════════"
+Write-Output "â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
 Write-Output "DE ANIMA VAULT INDEX"
 Write-Output "Generated : $today"
 Write-Output "Vault root: $VaultRoot"
 if ($Domain -ne "") { Write-Output "Filter    : $Domain domain only" }
-Write-Output "════════════════════════════════════════════"
+Write-Output "â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
 Write-Output "TOTAL NOTES: $($entries.Count)"
 Write-Output ""
 Write-Output "BY DOMAIN:"
@@ -224,15 +228,15 @@ foreach ($dk in ($domainCounts.Keys | Sort-Object)) {
     Write-Output "  $($dk.PadRight(12)) $($domainCounts[$dk]) notes"
 }
 Write-Output ""
-Write-Output "════════════════════════════════════════════"
+Write-Output "â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
 Write-Output "NOTE LISTING"
-Write-Output "════════════════════════════════════════════"
+Write-Output "â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
 
 $grouped = $entries | Group-Object -Property Domain | Sort-Object Name
 
 foreach ($group in $grouped) {
     Write-Output ""
-    Write-Output "── $($group.Name.ToUpper()) ($($group.Count) notes) ──"
+    Write-Output "â”€â”€ $($group.Name.ToUpper()) ($($group.Count) notes) â”€â”€"
     foreach ($e in ($group.Group | Sort-Object Category, Title)) {
         $tagStr  = if ($e.Tags.Count -gt 0) { "[" + ($e.Tags -join ", ") + "]" } else { "[no tags]" }
         $wc      = "$($e.WordCount)w"
@@ -245,9 +249,9 @@ foreach ($group in $grouped) {
 
 if ($IncludeOrphans -and $orphans.Count -gt 0) {
     Write-Output ""
-    Write-Output "════════════════════════════════════════════"
+    Write-Output "â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
     Write-Output "ORPHAN NOTES (missing/incomplete frontmatter): $($orphans.Count)"
-    Write-Output "════════════════════════════════════════════"
+    Write-Output "â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
     foreach ($o in $orphans) {
         Write-Output "  $($o.File)"
         Write-Output "    Reason: $($o.Reason)"
@@ -256,3 +260,4 @@ if ($IncludeOrphans -and $orphans.Count -gt 0) {
 
 Write-Output ""
 Write-Output "INDEX COMPLETE: $($entries.Count) notes indexed."
+

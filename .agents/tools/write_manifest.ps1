@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Writes a pre-flight manifest JSON to _tmp/ listing all expected chunk filenames.
     Must be called at the start of YOLO generation before any chunks are written.
@@ -24,8 +24,12 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$Headings,
 
-    [string]$TmpDir = "E:\De Anima\_tmp"
+    [string]$TmpDir = ""
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 if (-not (Test-Path $TmpDir)) {
     New-Item -ItemType Directory -Path $TmpDir -Force | Out-Null
@@ -62,3 +66,4 @@ $manifestPath = Join-Path $TmpDir "${Slug}_manifest.json"
 $manifest | ConvertTo-Json -Depth 5 | Set-Content -Path $manifestPath -Encoding UTF8
 
 Write-Output "MANIFEST_WRITTEN: $manifestPath ($($expected.Count) chunks expected)"
+

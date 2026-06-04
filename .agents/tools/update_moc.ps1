@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Appends a note entry to the specified domain's Map of Contents file.
 .PARAMETER Domain
@@ -10,13 +10,13 @@
 .PARAMETER Category
     The subcategory within the domain (e.g. "Fiqh/Ibadat", "Medieval", "Books")
 .PARAMETER VaultRoot
-    Root of the vault. Defaults to "E:\De Anima"
+    Root of the vault. Defaults to $VaultRoot
 .EXAMPLE
     powershell -File update_moc.ps1 -Domain Islam -NoteTitle "Rafa al-Yadayn (Fiqh)" -NoteFilename "Rafa al-Yadayn (Fiqh).md" -Category "Fiqh/Ibadat"
-    Output: MOC_UPDATED: _Islam - Map of Contents.md — added "Rafa al-Yadayn (Fiqh)"
+    Output: MOC_UPDATED: _Islam - Map of Contents.md â€” added "Rafa al-Yadayn (Fiqh)"
 .NOTES
     Fixes (2026-04-12):
-      C-4: Wikilinks now use filename stem (no .md extension) — Obsidian requires this.
+      C-4: Wikilinks now use filename stem (no .md extension) â€” Obsidian requires this.
       C-5: Duplicate detection normalized to stem on both sides to prevent double-entries.
       C-6: Total Notes counter regex updated to match canonical bullet format "- Total Notes: N".
 #>
@@ -34,13 +34,17 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$Category,
 
-    [string]$VaultRoot = "E:\De Anima"
+    [string]$VaultRoot = ""
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 $mocFilename = "_${Domain} - Map of Contents.md"
 $mocPath = Join-Path $VaultRoot (Join-Path $Domain $mocFilename)
 
-# ── Derive wikilink target: always strip .md extension (Obsidian requirement) ─
+# â”€â”€ Derive wikilink target: always strip .md extension (Obsidian requirement) â”€
 $wikilinkTarget   = [System.IO.Path]::GetFileNameWithoutExtension($NoteFilename)
 $noteFilenameStem = $wikilinkTarget  # reuse for duplicate detection
 
@@ -76,7 +80,7 @@ note: ""
     exit 0
 }
 
-# MOC exists — read it
+# MOC exists â€” read it
 $content = Get-Content $mocPath -Raw -Encoding UTF8
 $today = Get-Date -Format "yyyy-MM-dd"
 
@@ -92,13 +96,13 @@ foreach ($line in $lines) {
         if ($line -match '\[\[(.*?)(\|.*?)?\]\]') {
             $linkFile = $matches[1]
 
-            # ── C-5 fix: normalize both sides to stem before comparing ─────────
+            # â”€â”€ C-5 fix: normalize both sides to stem before comparing â”€â”€â”€â”€â”€â”€â”€â”€â”€
             $linkFileStem = [System.IO.Path]::GetFileNameWithoutExtension($linkFile)
             if ($linkFileStem -eq $noteFilenameStem) {
                 $alreadyExists = $true
             }
 
-            # Check if the target file actually exists — prune dead links.
+            # Check if the target file actually exists â€” prune dead links.
             # Try both with and without .md extension for resilience.
             $exists = Get-ChildItem -Path $domainDir -Filter "$linkFile.md" -Recurse -File `
                           -ErrorAction SilentlyContinue | Select-Object -First 1
@@ -119,7 +123,7 @@ foreach ($line in $lines) {
 $lines = $validLines
 
 if (-not $alreadyExists) {
-    # ── C-4 fix: wikilink uses stem (no .md extension) ───────────────────────
+    # â”€â”€ C-4 fix: wikilink uses stem (no .md extension) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     $newRow = "| $NoteTitle | [[$wikilinkTarget|$NoteTitle]] | $today |"
     if ($lastTableRowIndex -ge 0) {
         $before = $lines[0..$lastTableRowIndex]
@@ -141,7 +145,7 @@ $tableRowCount = ($lines | Where-Object {
     $_ -notmatch '^\|\s*Topic Area\s*\|'  # header row
 }).Count
 
-# ── C-6 fix: match canonical bullet format "- Total Notes: N" ────────────────
+# â”€â”€ C-6 fix: match canonical bullet format "- Total Notes: N" â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 if ($newContent -match '- Total Notes:\s*\d+') {
     $newContent = $newContent -replace '- Total Notes:\s*\d+', "- Total Notes: $tableRowCount"
 } elseif ($newContent -match '\*\*Total Notes:\*\*\s*\d+') {
@@ -159,3 +163,4 @@ if ($alreadyExists) {
 } else {
     Write-Output "MOC_UPDATED: $mocFilename - added '$NoteTitle' (Total Notes: $tableRowCount)"
 }
+

@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Counts words in a markdown file, correctly excluding YAML frontmatter.
 .PARAMETER FilePath
@@ -16,6 +16,10 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$FilePath
 )
+if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
+if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
+if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
+
 
 if (-not (Test-Path $FilePath)) {
     Write-Error "FILE_NOT_FOUND: $FilePath"
@@ -24,7 +28,7 @@ if (-not (Test-Path $FilePath)) {
 
 $lines = Get-Content $FilePath -Encoding UTF8
 
-# ── Correctly strip YAML frontmatter ─────────────────────────────────────────
+# â”€â”€ Correctly strip YAML frontmatter â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # Frontmatter is the block delimited by a leading --- and a closing ---.
 # All lines between (and including) the delimiters are skipped.
 # Lines after the closing --- are body content.
@@ -46,7 +50,7 @@ foreach ($line in $lines) {
             }
             continue
         }
-        # Inside the YAML block — skip property lines (date:, status:, tags:, note:, etc.)
+        # Inside the YAML block â€” skip property lines (date:, status:, tags:, note:, etc.)
         if ($inFrontmatter) { continue }
 
         # No opening --- found at all (legacy file without frontmatter):
@@ -64,3 +68,4 @@ $words     = $bodyText -split '\s+' | Where-Object { $_ -ne '' }
 $wordCount = $words.Count
 
 Write-Output $wordCount
+
