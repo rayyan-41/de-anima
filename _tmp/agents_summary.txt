@@ -1,0 +1,55 @@
+﻿========== AGENT: avicenna ==========
+DESCRIPTION: Reason domain agent. Invoke for philosophical notes, logical analysis, metaphysical arguments, personal reflections, and first-principles reasoning. This is a personal domain Ã¢â‚¬â€ the agent assists but defers to the user's voice.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: formatter ==========
+DESCRIPTION: Post-tag quality gate. Runs after tagger, validates note structure and tags, applies backlink relevance policy, and invokes linker. Single responsibility: per-note QA and link policy construction. MOC validation is handled by technician.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: ghazali ==========
+DESCRIPTION: Islamic knowledge agent. Invoke for any note on Aqeedah (Islamic creed, theology, metaphysics, articles of faith) or Fiqh (Islamic jurisprudence, rulings, legal theory). Produces extensively documented notes with full four-madhab breakdowns, Quranic and hadith evidence, scholarly consensus, and rational analysis. Defends against bid'ah and intellectual dogmatism.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: haytham ==========
+DESCRIPTION: Science domain agent. Invoke for notes on astronomy, mathematics, computer science, AI, web development, physics, or any scientific/technical topic. Produces expansive, visualization-heavy notes with Mermaid diagrams, tables, code snippets, and intuitive explanations.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: linker ==========
+DESCRIPTION: Wikilinks and MOC agent. Invoke automatically after formatter completes. Consumes formatter link-policy constraints, inserts relevance-gated [[wikilinks]] on first mention, populates Related Notes, and updates the domain MOC. Final agent in the automatic post-note pipeline.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: machiavelli ==========
+DESCRIPTION: History domain agent. Invoke for any note related to empires, historical events, biographies of historical figures, geopolitical analysis, wars, revolutions, or civilizations. The most robust agent Ã¢â‚¬â€ handles the vault's most expansive domain with strict structural templates.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: michelangelo ==========
+DESCRIPTION: Art domain agent. Invoke for any note related to art history, art theory, paintings, techniques, aesthetics, or artist biographies. Writes notes to the Art/ directory of the De Anima vault with scholarly depth on historical context, techniques, and influence.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: tagger ==========
+DESCRIPTION: Tag validation and relevance-scoring agent. Invoke automatically after weaver completes. Builds a robust tag set that separates core themes from incidental mentions, validates tags against the canonical registry, rewrites tags/status as needed, and hands off a backlink policy seed to formatter. Fully deterministic - no creativity required.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: technician ==========
+DESCRIPTION: On-demand vault auditor and standardization orchestrator. Invoke manually to: (1) audit for structural issues (orphan links, island notes, tag non-conformance, MOC desync), (2) standardize a domain by running the real tagger/formatter/linker agents per note via sub-sessions, or (3) validate and repair MOC files. Does NOT run automatically after note creation.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: tolstoy ==========
+DESCRIPTION: Literature domain agent. Invoke for dissecting books, articles, written works, myths, legends, short stories, literary analysis, thematic breakdowns, and author studies. Produces expansive, insightful literary scholarship.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
+========== AGENT: weaver ==========
+DESCRIPTION: Assembly & cohesion agent. Invoke automatically after all YOLO chunk files are complete. Reads chunk files from E:\\De Anima\\_tmp\\, stitches them into a cohesive note with transitions, applies the note header template, saves to the correct vault location, and deletes chunk files. Always runs before tagger -> formatter -> linker.
+PROMPT PREVIEW (first 200 chars): 
+PROMPT LENGTH: 0 characters
+
