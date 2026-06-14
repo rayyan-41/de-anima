@@ -11,14 +11,15 @@
             "id": "2fbe5c25ecac51fb",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".agents/tools/audit_skill_sync.ps1",
-                "bFile": ".agents/tools/audit_skill_sync.ps1",
-                "aRef": ""
+                "file": "Science/Research @ Vizant/foundations_of_linear_algerbra.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: audit_skill_sync.ps1"
+              "icon": "lucide-file",
+              "title": "foundations_of_linear_algerbra"
             }
           }
         ]
@@ -197,8 +198,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "c5b2fea933e5f215",
+  "active": "2fbe5c25ecac51fb",
   "lastOpenFiles": [
+    "GEMINI.md",
     "_tmp/agents_review.txt",
     "_tmp/read_agents.py",
     "_tmp/agents_summary.txt",
@@ -213,7 +215,6 @@
     "Reason/An Effort to Understand Iqbal.md",
     "Reason/Map of Contents - Reason.md",
     "Scripts/I.md",
-    "GEMINI.md",
     "Untitled.md",
     "Scripts",
     "Science/Mathematics/Geometry/Triangles as the basis for Rasterization.md",
@@ -227,7 +228,6 @@
     "_tmp/fix_mocs_final.js",
     "_tmp/audit_mocs_intro.js",
     "_tmp/fix_mocs.js",
-    "_tmp/mocs_data.json",
     "History/Historical Narratives/Map of Contents - Historical Narratives.md",
     "History/Early and Late Medieval (476- 1799)/Map of Contents - Early and Late Medieval.md",
     "History/Early and Late Medieval (476- 1799)/Islamic History/The Ottoman Empire/The Ottomans in the Balkans.md",
