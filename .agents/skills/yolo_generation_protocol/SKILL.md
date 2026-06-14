@@ -1,11 +1,6 @@
 ---
-title: "SKILL"
-date: 2026-04-06
-domain: 
-category: 
-status: complete
-tags:
-  - cli
+name: yolo_generation_protocol
+description: Authoritative execution protocol for full-note drafting in the De Anima vault. Governs section-by-section YOLO generation: one gemini session per heading, chunk file naming, 15s pacing, retry-once handling, and handoff to the Weaver agent.
 ---
 
 # YOLO Generation Protocol

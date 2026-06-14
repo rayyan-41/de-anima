@@ -1,4 +1,4 @@
-﻿param(
+param(
     [switch]$VerboseOutput
 )
 if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
@@ -95,7 +95,7 @@ $activeDocs = @(
     'agents\technician.md'
 ) + $domainAgents
 
-$skillRefRegex = 'c:\\Users\\Pc\\.gemini\\skills\\([^\\]+)\\SKILL\.md'
+$skillRefRegex = '\.agents\\skills\\([^\\]+)\\SKILL\.md'
 
 foreach ($doc in $activeDocs) {
     $content = Read-ContentSafe -Path $doc

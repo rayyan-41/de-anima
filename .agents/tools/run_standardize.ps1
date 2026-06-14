@@ -1,5 +1,7 @@
+param(
+    [string]$domain = "History"
+)
 $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path
-$domain = "History"
 $notes = @(Get-ChildItem -Path "$VaultRoot\$domain" -Recurse -Filter "*.md" | Where-Object { $_.Name -notmatch "^_.*Map of Content" })
 
 Write-Host "STANDARDIZE: $domain"
@@ -34,7 +36,7 @@ Read the note at the path above.
 Locate the YAML frontmatter block (between --- markers at the top of the file).
 Find the tags: field. It may be [PLACEHOLDER], missing, or already populated.
 
-Load the obsidian_yaml_enforcer skill from $($VaultRoot)\.gemini\skills\obsidian_yaml_enforcer\SKILL.md.
+Load the obsidian_yaml_enforcer skill from $($VaultRoot)\.agents\skills\obsidian_yaml_enforcer\SKILL.md.
 Follow its strict rules to build the correct tag array based on the note's actual content.
 
 Rewrite ONLY the tags: line in the frontmatter with the correct array.
@@ -71,7 +73,7 @@ excluding: _tmp/, .obsidian/, paintings_source/, MOC files, sacred files.
 Scan the note body for named entities (people, places, concepts, movements, texts,
 historical events) that match existing vault note titles.
 
-Load the obsidian_wikilink_engine skill from $($VaultRoot)\.gemini\skills\obsidian_wikilink_engine\SKILL.md.
+Load the obsidian_wikilink_engine skill from $($VaultRoot)\.agents\skills\obsidian_wikilink_engine\SKILL.md.
 Follow its exact multi-step execution rules to find entities, but only insert links that satisfy Task B policy rules.
 
 Update the domain MOC:

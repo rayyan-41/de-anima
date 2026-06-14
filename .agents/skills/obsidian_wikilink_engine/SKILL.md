@@ -1,11 +1,6 @@
 ---
-title: "SKILL"
-date: 2026-04-06
-domain: 
-category: 
-status: complete
-tags:
-  - cli
+name: obsidian_wikilink_engine
+description: Authoritative link-construction engine for De Anima notes. Optimises for high-signal backlinks, enforces relevance gating, populates Related Notes sections, and updates domain MOCs after link insertion.
 ---
 
 # Obsidian Wikilink Engine
@@ -98,7 +93,7 @@ If fewer than two exist, add what is valid and report warning.
 After link insertion, update MOC via:
 
 ```powershell
-powershell -File "C:\Users\Pc\.gemini\tools\update_moc.ps1" -Domain "[Domain]" -NoteTitle "[Title]" -NoteFilename "[Filename]" -Category "[Category]"
+powershell -File "E:\De Anima\.agents\tools\update_moc.ps1" -Domain "[Domain]" -NoteTitle "[Title]" -NoteFilename "[Filename]" -Category "[Category]"
 ```
 
 Acceptable tool outcomes:

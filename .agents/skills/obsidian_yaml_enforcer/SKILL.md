@@ -1,11 +1,6 @@
 ---
-title: "SKILL"
-date: 2026-04-05
-domain: 
-category: 
-status: complete
-tags:
-  - cli
+name: obsidian_yaml_enforcer
+description: Authoritative YAML frontmatter schema and tag-policy engine for De Anima notes. Ensures every note has valid frontmatter, canonical domain/category fields, and relevance-safe tags in the correct order.
 ---
 # Obsidian YAML Enforcer
 
@@ -108,7 +103,7 @@ Relevance rules:
 After constructing tags, run:
 
 ```powershell
-powershell -File "C:\Users\Pc\.gemini\tools\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
+powershell -File "E:\De Anima\.agents\tools\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
 ```
 
 Interpretation:
