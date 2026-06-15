@@ -7,4 +7,4 @@ Before we begin, I must highlight a fascinating discovery in regards to the hist
 
 Nevertheless, I assume that the reader already knows about the basics of machine learning i.e. neural networks, backpropagation, gradient descent, cosine similarity etc. We will explore why these concepts are important, how they tie into the concept of attention, ultimately setting the ground for attention itself. Let's begin.
 
-# What is Attention
+# The Problem That Arises With Neural Networks
