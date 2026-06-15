@@ -5,4 +5,4 @@ To even take an attempt at understanding what attention is, first we must establ
 I assume that the reader already knows about the basics of machine learning i.e. neural networks, backpropagation, gradient descent, cosine similarity etc. We will explore why these concepts are important, as well as the core idea behind vector embeddings and memory, ultimately setting the ground for attention itself. Let's begin.
 
 # Linear Algebra in n-dimensional space
-Hermann Grassman is a foundational figure in the philosophical and theoretical dimension of Linear Algebra. His work is responsible for enabling us to even think in a dimension higher than three. 
+Hermann Grassman is a foundational figure in the philosophical and theoretical dimension of Linear Algebra. His work is responsible for enabling us to decouple vectors from observable reality. Before his "Theory of Extension", vectors were limited to 3 dimensions, reflecting reality and our observable space. His work established vectors as
