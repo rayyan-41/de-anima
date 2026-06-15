@@ -8,3 +8,13 @@ Before we begin, I must highlight a fascinating discovery in regards to the hist
 Nevertheless, I assume that the reader already knows about the basics of machine learning i.e. neural networks, backpropagation, gradient descent, cosine similarity etc. We will explore why these concepts are important, how they tie into the concept of attention, ultimately setting the ground for attention itself. Let's begin.
 
 # The Problem That Arises With Neural Networks
+Without activation functions inside a neural network, the math that drives backpropagation would collapse.  When you stack a 
+linear equation on top of another, you get just another linear equation: 
+
+Take this equation for example: $$y = Wx + b$$This is what happens when you add the previous layer's equation into this one: 
+$$y = W_2(W_1x + b_1) + b_2$$ $$y = (W_2W_1)x + (W_2b_1 + b_2)$$ $$y = W'x + b'$$ This proves that without an activation function, multiple layers simplify into a single linear transformation, which completely defeats the purpose of a neural network. This is not regression, we do not require a straight line to dissect information accurately, we require a complex and divese set of divisions and weights/biases for each layer to recognize deep rooted pattern. Therefore, we require **Activation Functions**. 
+
+**The Non-Linear Fix:** By adding a non-linear activation function ($f$) after every layer, we prevent the weight matrices ($W_1$, $W_2$) from being factored together. $$y = W_2 f(W_1x + b_1) + b_2$$
+
+In the 1950s-60s, computers resorted to a step function 
+## 2. The Backward Pass & The Chain Rule (Why Derivatives Matter) When a network makes an error, it uses backpropagation to adjust its weights. This relies on the **Chain Rule** from calculus to send the error signal backward. **The Chain Rule for a single weight matrix ($W_1$):** $$\frac{\partial L}{\partial W_1} = \frac{\partial L}{\partial y} \cdot \frac{\partial y}{\partial h} \cdot \frac{\partial h}{\partial W_1}$$ * $\frac{\partial L}{\partial W_1}$ is the final gradient (how much to change the weight). * $\frac{\partial y}{\partial h}$ is the exact point where **the derivative of the activation function** is multiplied into the chain. If the activation function has a derivative of zero, the chain rule multiplies the error signal by zero, the gradient vanishes, and the network stops learning. ---
