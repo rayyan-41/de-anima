@@ -54,4 +54,5 @@ Before getting to attention, let's quickly go over one more thing: how the vecto
 
 To counter this, what we instead do is use **dense embeddings** in which every word is assigned a vector of dimension $d_{dim} = 512$ or more, every entry a random number, not 0 which are then treated as parameters, adjusted by backpropagation. Over training, the model itself would learn all there is to learn about the word in the given context or independently, and we discover something very fascinating: words with similar meanings have similar vectors.  This is what we call **distributional hypothesis**, first discovered by Chomsky's teacher **Zellig Harris**. 
 
-The most important 
+The most important paper in this domain is the "Word2Vec" paper by **Tomas Mikolov** who discovered that words, as vectors, constitute more than just semantic significance; they had underlying directional relationships with other word vectors, and therefore could be added and subtracted to give a resultant vector that represents another word. The most frequently taught example is the $v_{king} - v_{man} + v_{woman} = v_{queen}$ example. 
+
