@@ -9,14 +9,14 @@ Nevertheless, I assume that the reader already knows about the basics of machine
 - - -
 # The Problems That Arise With Neural Networks
 There are two distinct problems that we need to discuss before we proceed to more complex topics. 
-
 #### The Problem of Linearity
-Without activation functions inside a neural network, the math that drives backpropagation would collapse.  When you stack a linear equation on top of another, you get just another linear equation: 
+A neural network without activation functions would completely collapse the math that drives backpropagation.  When you stack a linear equation on top of another, you get just another linear equation: 
+
 Take **this equation for example:** $$y = Wx + b$$This is what happens when you add the previous layer's equation into **this one:** 
 $$y = W_2(W_1x + b_1) + b_2$$ $$y = (W_2W_1)x + (W_2b_1 + b_2)$$ $$y = W'x + b'$$This proves that without an activation function, multiple layers simplify into a single linear transformation, which completely defeats the purpose of a neural network. This is not regression, we do not require a straight line to dissect information accurately, we require complex divisions and weights/biases for each layer to recognize deep rooted patterns. Therefore, we require **Activation Functions**.  
 
 By adding a non-linear activation function ($f$) after every layer, we prevent the weight matrices ($W_1$, $W_2$) from being factored together: $$y = W_2 f(W_1x + b_1) + b_2$$
-Here, *f* denotes an activation function. Many exist, and we will get to the relevant ones in a second. 
+Here, *f* denotes an activation function. Many exist, and we will get to the relevant ones in a second. The takeaway is that activation functions are essential. Now, this dependance results in another problem, arguably the biggest obstacle for NLP so far. 
 
 ### The Problem of The Chain Rule
 When a network makes an error, it uses backpropagation to adjust its weights. It must learn from mistakes. This relies on the Chain Rule from calculus to send the error signal backward. (derivative of the loss function). The Chain Rule for a single weight matrix:
@@ -60,4 +60,5 @@ Every single AI model you download has something called an **Embedding Matrix** 
 $$E \in \mathbb{R}^{|V| \times d_{model}}$$
 - - -
 # Before the Transformer
-So far, we have setup the foundations of what the 
+So far, we have setup the foundations of how machines represent words as numbers and how they learn through the calculus of backpropagation. But language is not just a bag of words; it is a sequence of time. Before 2017, the prevailing logic was that to understand a sentence, a neural network had to read it exactly like a human does: one word at a time, from left to right. This assumption gave rise to Sequence Models.
+### Sequence Models
