@@ -194,12 +194,13 @@
       "templates:Insert template": true,
       "workspaces:Manage workspace layouts": true,
       "bases:Create new base": false,
-      "graph:Open graph view": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "graph:Open graph view": false
     }
   },
   "active": "2fbe5c25ecac51fb",
   "lastOpenFiles": [
+    "Science/Research @ Vizant/Foundations of Attention.md",
     "GEMINI.md",
     "_tmp/agents_review.txt",
     "_tmp/read_agents.py",
