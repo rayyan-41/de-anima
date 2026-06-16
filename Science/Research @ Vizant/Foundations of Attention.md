@@ -6,7 +6,7 @@ To even take an attempt at understanding what attention is, first we must establ
 Before we begin, I must highlight a fascinating discovery in regards to the history of mathematics that I was unfortunately not aware of. Hermann Grassman is a foundational figure in the philosophical and theoretical dimension of Linear Algebra. His work is responsible for enabling us to decouple vectors from observable reality. Before his "Theory of Extension", vectors were limited to 3 dimensions, reflecting reality and our observable space. His work established vectors as pure mathematical tools which we can use to represent complex, multi-faceted data. In fact, this is exactly the concept that makes vector embedding models even work. A 768 or 1000+ dimension vector can only be conceived once vectors themselves are separated from the world and are abstracted enough. I hope this small note sparked an interest in mathematics in you just like it did in me.
 
 Nevertheless, I assume that the reader already knows about the basics of machine learning i.e. neural networks, backpropagation, gradient descent, cosine similarity etc. We will explore why these concepts are important, how they tie into the concept of attention, ultimately setting the ground for attention itself. Let's begin.
-
+- - -
 # The Problems That Arise With Neural Networks
 There are two distinct problems that we need to discuss before we proceed to more complex topics. 
 
@@ -56,3 +56,8 @@ To counter this, what we instead do is use **dense embeddings** in which every w
 
 The most important paper in this domain is the "Word2Vec" paper by **Tomas Mikolov** who discovered that words, as vectors, constitute more than just semantic significance; they had underlying directional relationships with other word vectors, and therefore could be added and subtracted to give a resultant vector that represents another word. The most frequently taught example is the $v_{king} - v_{man} + v_{woman} = v_{queen}$ example. 
 
+Every single AI model you download has something called an **Embedding Matrix** stored inside it. The matrix contains all the worlds learned by the model, in the form of vectors (well, actually tokens, but that is a separate topic. For simplicity, let's assume vectors).  Mathematically it is denoted as:
+$$E \in \mathbb{R}^{|V| \times d_{model}}$$
+- - -
+# Before the Transformer
+So far, we have setup the foundations of what the 
