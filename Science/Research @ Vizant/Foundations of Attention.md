@@ -59,6 +59,6 @@ The most important paper in this domain is the "Word2Vec" paper by **Tomas Mikol
 Every single AI model you download has something called an **Embedding Matrix** stored inside it. The matrix contains all the worlds learned by the model, in the form of vectors (well, actually tokens, but that is a separate topic. For simplicity, let's assume vectors).  Mathematically it is denoted as:
 $$E \in \mathbb{R}^{|V| \times d_{model}}$$
 - - -
-# Before the Transformer
-So far, we have setup the foundations of how machines represent words as numbers and how they learn through the calculus of backpropagation. But language is not just a bag of words; it is a sequence of time. Before 2017, the prevailing logic was that to understand a sentence, a neural network had to read it exactly like a human does: one word at a time, from left to right. This assumption gave rise to Sequence Models.
-### Sequence Models
+# Sequence Models
+So far, we have setup the foundations of how machines represent words as numbers and how they learn through the calculus of backpropagation. But language is not just a bag of words; it is a sequence of time. Before 2017, the prevailing logic was that to understand a sentence, a neural network had to read it exactly like a human does: one word at a time, from left to right. This assumption gave rise to **Sequence Models**.
+
