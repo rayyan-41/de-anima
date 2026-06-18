@@ -3,6 +3,7 @@ date: 2026-04-05
 status: complete
 tags: [literature, cli]
 note: ""
+
 ---A personal repository of linguistically significant words and their usage.
 
 - **Contemporaneous**: Existing or occurring in the same period of time.
