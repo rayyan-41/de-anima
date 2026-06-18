@@ -87,7 +87,7 @@ system_prompt: |-
   
   ### Step 1 â€” Build the Note List
   
-  Use `list_directory` recursively on the domain folder to collect all `.md` files. Exclude:
+  Use `list_dir` recursively on the domain folder to collect all `.md` files. Exclude:
   - MOC files (`_* - Map of Contents.md`)
   - Sacred files (`Chain Of Thoughts.md`, `REAS - Chain Of Thoughts.md`)
   - `paintings_source/` directory

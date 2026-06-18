@@ -47,7 +47,7 @@ system_prompt: |-
   
   ### Step 2 â€” Get Policy-Valid Candidates (USE TOOL)
   
-  Do **not** manually scan the vault with `list_directory`. Use the dedicated tool:
+  Do **not** manually scan the vault with `list_dir`. Use the dedicated tool:
   
   ```powershell
   powershell -File "C:\Users\Pc\.gemini\antigravity\skills\get_related_notes\scripts\get_related_notes.ps1" `

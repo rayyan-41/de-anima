@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     Counts and validates inline citations against the References section of a note.
     Used by the orchestrator as the citation integrity gate in NotebookLM mode.
@@ -89,7 +89,7 @@ if ($WordCount -gt 0) {
     elseif ($WordCount -ge 1000 -and $WordCount -lt 2000) { $required = 8  }
 
     if ($required -gt 0 -and $uniqueInlineNumbers.Count -lt $required) {
-        $densityResult = "DENSITY_THRESHOLD: FAIL â€” $WordCount words requires >=$required citations, found $($uniqueInlineNumbers.Count)"
+        $densityResult = "DENSITY_THRESHOLD: FAIL - $WordCount words requires >=$required citations, found $($uniqueInlineNumbers.Count)"
     } else {
         $densityResult = "DENSITY_THRESHOLD: PASS ($($uniqueInlineNumbers.Count)/$required)"
     }

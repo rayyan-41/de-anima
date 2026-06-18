@@ -57,7 +57,7 @@ $bannedPatterns = @(
     @{ Name = 'embedded YOLO sleep 15'; Pattern = 'Start-Sleep\s+-Seconds\s+15' },
     @{ Name = 'embedded YOLO sleep 30'; Pattern = 'Start-Sleep\s+-Seconds\s+30' },
     @{ Name = 'embedded YOLO prompt block'; Pattern = 'gemini\s+-y\s+-p\s+"Write\s+a\s+detailed' },
-    @{ Name = 'old non-centralized heading'; Pattern = 'SECTION-BY-SECTION EXECUTION PROTOCOL\s+â€”\s+MANDATORY' }
+    @{ Name = 'old non-centralized heading'; Pattern = 'SECTION-BY-SECTION EXECUTION PROTOCOL\s+.\s+MANDATORY' }
 )
 
 # 1) Ensure required skill files exist
@@ -87,8 +87,7 @@ foreach ($agent in $domainAgents) {
 
 # 3) Verify that all skill path references in active architecture docs resolve to existing files
 $activeDocs = @(
-    'GEMINI.md',
-    'VAULT_CONTEXT_GEMINI .md',
+    '..\GEMINI.md',
     'agents\tagger.md',
     'agents\weaver.md',
     'agents\linker.md',
