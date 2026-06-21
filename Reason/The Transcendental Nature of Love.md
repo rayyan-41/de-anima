@@ -1,8 +1,12 @@
 ---
-title: The Transcendental Nature of Love
+title: "The Transcendental Nature of Love"
+domain: reason
+category: philosophy
+status: complete
 tags:
   - reason
   - philosophy
+  - reason/philosophy
   - biology
   - evolutionary-psychology
   - neurochemistry
@@ -11,10 +15,8 @@ tags:
   - aristotle
   - philia
   - plato
-  - symposium
   - al-ghazali
-  - divine-love
-  - transcendence
+  - cli
 ---
 
 > [!abstract] Table of Contents

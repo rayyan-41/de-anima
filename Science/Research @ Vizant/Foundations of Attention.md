@@ -1,3 +1,18 @@
+---
+title: "Foundations of Attention"
+domain: science
+category: ai
+status: complete
+tags:
+  - science
+  - ai
+  - science/ai
+  - linear-algebra
+  - neural-networks
+  - vector-embeddings
+  - sequence-models
+  - cli
+---
 **Rayyan Ahmad Sultan**
 **circa 14th April 2026**
 # Introduction 
@@ -61,4 +76,9 @@ $$E \in \mathbb{R}^{|V| \times d_{model}}$$
 - - -
 # Sequence Models
 So far, we have setup the foundations of how machines represent words as numbers and how they learn through the calculus of backpropagation. But language is not just a bag of words; it is a sequence of time. Before 2017, the prevailing logic was that to understand a sentence, a neural network had to read it exactly like a human does: one word at a time, from left to right. This assumption gave rise to **Sequence Models**.
+
+- - -
+## Related Notes
+- [[Java and Artificial Intelligence]]
+- [[Triangles as the basis for Rasterization]]
 

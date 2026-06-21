@@ -1,17 +1,17 @@
 ---
-title: Triangles as the basis for Rasterization
+title: "Triangles as the basis for Rasterization"
 domain: science
 category: computer-science
 status: complete
 tags:
   - science
   - computer-science
+  - science/cs
   - rasterization
   - digital-geometry
   - barycentric-coordinates
   - scanline-rendering
   - cli
-  - ai-generated
 ---
 
 ## Introduction: The Primitives of Digital Geometry
