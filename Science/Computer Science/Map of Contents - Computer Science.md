@@ -4,7 +4,6 @@ status: complete
 tags: [science, moc, cli]
 note: ""
 ---
-
 > *Somewhere, something incredible is waiting to be known.* - Carl Sagan
 
 The Computer Science section catalogs software engineering, artificial intelligence, development stacks, and architectural designs.
