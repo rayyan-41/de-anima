@@ -74,3 +74,8 @@ $$ \mathbf{h}_t = \tanh(\mathbf{W}_{hh} \mathbf{h}_{t-1} + \mathbf{W}_{xh} \math
     
 	Essentially, the network combines the past ($\mathbf{h}_{t-1}$) with the present ($\mathbf{x}_t$), squishes it through a $\tanh$ function, and outputs the new memory state ($\mathbf{h}_t$).
 
+This elegant equation worked perfectly for reading a sequence. But a fatal flaw was hidden in the math, and it only revealed itself when the network tried to _learn_. Neural networks learn through backpropagation, but standard backpropagation is designed for straight lines, not temporal loops. To train an RNN, researchers had to conceptually "unroll" it. A 20-word sentence became a 20-layer deep network.
+
+Herein lay the trap: because the RNN is a loop, it reuses the **exact same** $\mathbf{W}_{hh}$ matrix at every single time step. When the network rewinds through time to update its weights, the chain rule of calculus dictates that it must multiply that same matrix by itself over and over. If the weight is even slightly less than $1$, say, $0.9$, multiplying it by itself 20 times ($0.9^{20}$) causes the value to plummet to near zero.
+
+The error signal simply vanishes. The network can easily update its understanding of the final words in a sentence, but it suffers total amnesia regarding the beginning. It became mathematically impossible for an RNN to connect a subject at the start of a long paragraph to a verb at the end."
