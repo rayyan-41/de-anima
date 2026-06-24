@@ -5,6 +5,13 @@ tags: [reason, philosophy, reason/philosophy, hegel, absolute-idea, dialectic, h
 note: ""
 ---
 
+> [!abstract] Table of Contents
+> - [[#The Classical Dawn: Plato, Aristotle, and the Birth of Logic]]
+> - [[#The Scholastic Synthesis: Preserving and Elevating Antiquity]]
+> - [[#The Rationalist Fracture: Descartes, Spinoza, and the Subjective Turn]]
+> - [[#The Transcendental Limit: Kant and the Crisis of Pure Reason]]
+> - [[#The Absolute in Action: Paradigm Shifts and Modern Rationality]]
+
 ## The Classical Dawn: Plato, Aristotle, and the Birth of Logic
 
 The historical ascent of reason marks a profound ontological and epistemological rupture in human history. Before the ascendancy of the classical Greek tradition, the cosmos was largely apprehended through *mythos*—a narrative structure of reality where truth was bound to divine caprice, poetic revelation, and localized tradition. The transition from *mythos* to *logos* was not merely the substitution of one vocabulary for another; it was a fundamental reorientation of the human intellect towards the universal, the necessary, and the demonstrable. At the heart of this revolution lay an unprecedented cognitive achievement: the externalization of truth. Truth was no longer a hidden secret guarded by the muses, nor was it the subjective measure of man, as the Sophists proclaimed. Instead, through the monumental efforts of Plato and Aristotle, truth became an objective, structural feature of reality, accessible to the human mind through the disciplined application of reason.

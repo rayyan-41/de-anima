@@ -20,6 +20,13 @@ tags:
 ---
 
 > [!abstract] Table of Contents
+> - [[#The Biological Imperative: Love as a Core Emotion]]
+> - [[#The Necessity of Connection]]
+> - [[#The Philosophical Turn: Schopenhauer's Will to Life]]
+> - [[#Aristotelian Philia: The Virtue of Mutual Good]]
+> - [[#Platonic Eros: The Ascent to Beauty]]
+> - [[#Al-Ghazali and the Architecture of Divine Love]]
+> - [[#Synthesis: Reconciling the Biological and the Divine]]
 
 ## The Biological Imperative: Love as a Core Emotion
 
