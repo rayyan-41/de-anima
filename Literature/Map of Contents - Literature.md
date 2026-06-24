@@ -5,7 +5,7 @@ tags: [literature, moc, cli]
 note: ""
 ---
 
-> *That is part of the beauty of all literature. You discover that your longings are universal longings, that you are not lonely and isolated from anyone. You belong.* - F. Scott Fitzgerald
+> *We read to know we are not alone.* - C.S. Lewis
 
 The Literature domain catalogs written works, myths, legends, and thematic dissections of stories.
 

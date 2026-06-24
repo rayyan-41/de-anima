@@ -5,7 +5,7 @@ tags: [islam, moc, cli]
 note: ""
 ---
 
-> *Knowledge without action is vanity, and action without knowledge is insanity.* - Al-Ghazali
+> *To know the truth as truth, and to follow it; and to know falsehood as falsehood, and to avoid it.* - Al-Ghazali
 
 The Islam domain covers theology, jurisprudence, and scholarly analysis within the Islamic tradition.
 

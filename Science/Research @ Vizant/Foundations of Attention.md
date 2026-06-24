@@ -62,3 +62,15 @@ $$E \in \mathbb{R}^{|V| \times d_{model}}$$
 # Sequence Models
 So far, we have setup the foundations of how machines represent words as numbers and how they learn through the calculus of backpropagation. But language is not just a bag of words; it is a sequence of time. Before 2017, the prevailing logic was that to understand a sentence, a neural network had to read it exactly like a human does: one word at a time, from left to right. This assumption gave rise to **Sequence Models**.
 
+1) **Recurrent Neural Networks**: This neural network was outfitted with *short term memory* in the form of a hidden fixed-sized vector $h_t$. It kept a running summary of everything said so far (as in dissecting the prompt one word at a time from left to right). After the final word, $h_t$ would have a running summary of the entire input. 
+$$ \mathbf{h}_t = \tanh(\mathbf{W}_{hh} \mathbf{h}_{t-1} + \mathbf{W}_{xh} \mathbf{x}_t + \mathbf{b}) $$
+
+	Here is what each piece of that equation is doing:
+	- **$\mathbf{h}_t$**: The new hidden state for the current step. This is the updated "summary."
+	- **$\tanh$**: The hyperbolic tangent activation function. It squishes the resulting calculations into a range between -1 and 1, keeping the values stable as the network loops over and over.
+	- **$\mathbf{W}_{hh} \mathbf{h}_{t-1}$**: This is where the "memory" comes in. The network takes the _previous_ hidden state ($\mathbf{h}_{t-1}$) and multiplies it by a dedicated weight matrix ($\mathbf{W}_{hh}$) to decide what past context to bring forward.
+	- **$\mathbf{W}_{xh} \mathbf{x}_t$**: This handles the _new_ information. The network takes the current input word ($\mathbf{x}_t$) and multiplies it by its own weight matrix ($\mathbf{W}_{xh}$).    
+	- **$\mathbf{b}$**: A standard bias vector to shift the activation function.
+    
+	Essentially, the network combines the past ($\mathbf{h}_{t-1}$) with the present ($\mathbf{x}_t$), squishes it through a $\tanh$ function, and outputs the new memory state ($\mathbf{h}_t$).
+

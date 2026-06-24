@@ -5,7 +5,7 @@ tags: [science, moc, cli]
 note: ""
 ---
 
-> *Somewhere, something incredible is waiting to be known.* - Carl Sagan
+> *The seeker after truth is not one who studies the writings of the ancients... but rather the one who suspects his faith in them and questions what he gathers from them.* - Ibn Haytham
 
 The Science domain serves as a repository for empirical knowledge, computation, and mathematical theory. This Map of Contents organizes the major scientific branches and engineering disciplines studied within the vault.
 
