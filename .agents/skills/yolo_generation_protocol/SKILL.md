@@ -71,7 +71,7 @@ Rules:
 
 For each heading index `NN`:
 
-- Execute a dedicated `gemini -y -p` prompt scoped to that heading only.
+- Execute a dedicated `agy --dangerously-skip-permissions -p` prompt scoped to that heading only.
 - Require output to be written to:
   `E:\De Anima\_tmp\[topic_slug]_chunk_[NN].md`
 

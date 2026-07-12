@@ -205,7 +205,7 @@ Every note creation follows this EXACT pipeline. **No shortcuts. No single-pass 
 │  For EACH heading, agent spawns a dedicated gemini session.      │
 │  Each session writes its output to a chunk file:                 │
 │                                                                  │
-│  gemini -y -p "[prompt]... write output to _tmp/slug_chunk_01"  │
+│  agy --dangerously-skip-permissions -p "[prompt]... write output to _tmp/slug_chunk_01"  │
 │                                                                  │
 │  Heading 1 → YOLO → writes _tmp/[slug]_chunk_01.md             │
 │  Heading 2 → YOLO → writes _tmp/[slug]_chunk_02.md             │

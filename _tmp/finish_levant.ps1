@@ -11,7 +11,7 @@ $levant_prompts = @(
 
 foreach ($prompt in $levant_prompts) {
     Write-Host "Running chunk generation..."
-    gemini -y -p "$prompt"
+    agy --dangerously-skip-permissions -p "$prompt"
     Start-Sleep -Seconds 15
 }
 Write-Host "Levant chunk generation complete."

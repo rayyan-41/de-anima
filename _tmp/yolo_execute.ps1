@@ -7,8 +7,8 @@ $hannibal_prompts = @(
 )
 
 foreach ($prompt in $hannibal_prompts) {
-    Write-Host "Running: gemini -y -p '$prompt'"
-    gemini -y -p "$prompt"
+    Write-Host "Running: agy --dangerously-skip-permissions -p '$prompt'"
+    agy --dangerously-skip-permissions -p "$prompt"
     Write-Host "Waiting 15 seconds..."
     Start-Sleep -Seconds 15
 }
@@ -26,8 +26,8 @@ $levant_prompts = @(
 )
 
 foreach ($prompt in $levant_prompts) {
-    Write-Host "Running: gemini -y -p '$prompt'"
-    gemini -y -p "$prompt"
+    Write-Host "Running: agy --dangerously-skip-permissions -p '$prompt'"
+    agy --dangerously-skip-permissions -p "$prompt"
     Write-Host "Waiting 15 seconds..."
     Start-Sleep -Seconds 15
 }

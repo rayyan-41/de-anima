@@ -20,7 +20,7 @@ system_prompt: |-
   technician moc-validate [domain]           (manual, MOC template repair)
   ```
   
-  > **Why sub-sessions for standardize?** A single domain can contain notes totalling 100,000+ words. Processing all notes in one context causes quality degradation â€” sloppy tag selection, missed policy gates, and noisy wikilinks. Each note gets its own fresh `gemini -y @agentname` sub-session so the **actual** tagger, formatter, and linker agents run at full quality, every time.
+  > **Why sub-sessions for standardize?** A single domain can contain notes totalling 100,000+ words. Processing all notes in one context causes quality degradation â€” sloppy tag selection, missed policy gates, and noisy wikilinks. Each note gets its own fresh `agy --dangerously-skip-permissions @agentname` sub-session so the **actual** tagger, formatter, and linker agents run at full quality, every time.
   >
   > **Critically**: sub-sessions call the real agents by name. They do NOT replicate agent logic. This means any updates to tagger, formatter, or linker are automatically reflected the next time standardize runs â€” no sync required.
   
@@ -111,7 +111,7 @@ system_prompt: |-
   
   **Sub-session 1 of 3 â€” tagger**:
   ```
-  gemini -y @tagger -p "NOTE PATH: [full path to note]
+  agy --dangerously-skip-permissions @tagger -p "NOTE PATH: [full path to note]
   
   Run your full tag validation protocol on this note.
   Read the note, classify all entities by relevance (core / supporting / incidental),
@@ -123,7 +123,7 @@ system_prompt: |-
   
   **Sub-session 2 of 3 â€” formatter**:
   ```
-  gemini -y @formatter -p "FORMATTER_MODE: POLICY_ONLY
+  agy --dangerously-skip-permissions @formatter -p "FORMATTER_MODE: POLICY_ONLY
   
   NOTE PATH: [full path to note]
   
@@ -141,7 +141,7 @@ system_prompt: |-
   
   **Sub-session 3 of 3 â€” linker**:
   ```
-  gemini -y @linker -p "NOTE PATH: [full path to note]
+  agy --dangerously-skip-permissions @linker -p "NOTE PATH: [full path to note]
   
   FORMATTER_LINK_POLICY from previous step:
   [paste the full FORMATTER_LINK_POLICY block output by formatter]

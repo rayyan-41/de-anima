@@ -117,7 +117,7 @@ OUTPUT - After completing all tasks, print a compact report:
 "@
     Set-Content -Path "$VaultRoot\_tmp\current_prompt.txt" -Value $prompt -Encoding utf8
     
-    cmd.exe /c "gemini -y -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
+    cmd.exe /c "agy --dangerously-skip-permissions -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
     $exitCode = $LASTEXITCODE
 
     Start-Sleep -Seconds 15
@@ -129,7 +129,7 @@ OUTPUT - After completing all tasks, print a compact report:
         $successCount++
     } else {
         Start-Sleep -Seconds 30
-        cmd.exe /c "gemini -y -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
+        cmd.exe /c "agy --dangerously-skip-permissions -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
         $exitCode2 = $LASTEXITCODE
         Start-Sleep -Seconds 15
         $outContent2 = Get-Content "$VaultRoot\_tmp\current_out.txt" -Raw

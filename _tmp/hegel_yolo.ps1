@@ -10,7 +10,7 @@ $prompts = @(
 foreach ($prompt in $prompts) {
     Write-Host "Running chunk generation..."
     Out-File -FilePath "E:\De Anima\_tmp\current_prompt.txt" -InputObject $prompt -Encoding utf8
-    Get-Content "E:\De Anima\_tmp\current_prompt.txt" | gemini -y -p " "
+    Get-Content "E:\De Anima\_tmp\current_prompt.txt" | agy --dangerously-skip-permissions -p " "
     Write-Host "Waiting 15 seconds..."
     Start-Sleep -Seconds 15
 }

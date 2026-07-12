@@ -13,7 +13,7 @@ for ($i = 0; $i -lt $prompts.Length; $i++) {
     $prompt = $prompts[$i]
     
     Write-Host "Executing YOLO for chunk $num..."
-    gemini -y -p "$prompt"
+    agy --dangerously-skip-permissions -p "$prompt"
     
     if (Test-Path $file) {
         Write-Host "Success chunk $num. Waiting 15s..."
@@ -21,7 +21,7 @@ for ($i = 0; $i -lt $prompts.Length; $i++) {
     } else {
         Write-Host "Failed chunk $num. Waiting 30s and retrying..."
         Start-Sleep -Seconds 30
-        gemini -y -p "$prompt"
+        agy --dangerously-skip-permissions -p "$prompt"
         if (Test-Path $file) {
             Write-Host "Success chunk $num on retry. Waiting 15s..."
             Start-Sleep -Seconds 15

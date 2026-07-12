@@ -1,0 +1,17 @@
+﻿{
+    "slug":  "sputnik-1",
+    "created":  "2026-07-06T11:12:47.6374575+05:00",
+    "stages":  {
+                   "yolo":  {
+                                "status":  "running",
+                                "timestamp":  "2026-07-06T11:12:53.3242962+05:00",
+                                "note":  ""
+                            },
+                   "preflight":  {
+                                     "status":  "complete",
+                                     "timestamp":  "2026-07-06T11:12:47.6406073+05:00",
+                                     "note":  ""
+                                 }
+               },
+    "last_updated":  "2026-07-06T11:12:53.3288309+05:00"
+}

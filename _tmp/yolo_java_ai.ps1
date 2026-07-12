@@ -24,7 +24,7 @@ for ($i = 0; $i -lt $prompts.Count; $i++) {
     $prompt = "You are Ibn Haytham, Science domain agent. " + $prompts[$i]
     Write-Host "Executing YOLO for Chunk $num..."
     
-    gemini -y -p "$prompt"
+    agy --dangerously-skip-permissions -p "$prompt"
     
     Write-Host "Waiting 15 seconds..."
     Start-Sleep -Seconds 15
@@ -32,7 +32,7 @@ for ($i = 0; $i -lt $prompts.Count; $i++) {
     if (-not (Test-Path $outFile)) {
         Write-Host "Chunk $num missing! Retrying in 30 seconds..."
         Start-Sleep -Seconds 30
-        gemini -y -p "$prompt"
+        agy --dangerously-skip-permissions -p "$prompt"
         Write-Host "Waiting 15 seconds after retry..."
         Start-Sleep -Seconds 15
     }

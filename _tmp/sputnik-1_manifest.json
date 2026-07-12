@@ -1,0 +1,26 @@
+﻿{
+    "slug":  "sputnik-1",
+    "created":  "2026-07-06T11:12:43.2847657+05:00",
+    "stage":  "pre-flight",
+    "expected_count":  3,
+    "expected":  [
+                     {
+                         "index":  "01",
+                         "heading":  "Inception",
+                         "filename":  "sputnik-1_chunk_01.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "02",
+                         "heading":  "Zenith",
+                         "filename":  "sputnik-1_chunk_02.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "03",
+                         "heading":  "Legacy",
+                         "filename":  "sputnik-1_chunk_03.md",
+                         "status":  "pending"
+                     }
+                 ]
+}
