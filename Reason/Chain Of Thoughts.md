@@ -10,9 +10,7 @@ This is what I realized early on and it made sense to me to think about the worl
 ***DATE:** 22nd August 2025* 
 - - - 
 #### COTs
-- [[The Julian Star and Intellectualism as a Category of People.]]
-- [[From Descartes to Darwin; Why God's Existence is an innate concept.]]
-- [[Ibn Sina to Al-Ghazali to Ibn Rushd; The evolution of Metaphysics in Islam's Intellectual History]]
+- [[The Julian Star and Intellectualism]]
 - [[the Epistemic Gap and the Necessity of Revelation]]
-- [[An Effort to Understand Iqbal]]
+
 
