@@ -1,12 +1,8 @@
-﻿---
+---
 name: formatter
 description: "Post-tag quality gate. Runs after tagger, validates note structure and tags, applies backlink relevance policy, and invokes linker. Single responsibility: per-note QA and link policy construction. MOC validation is handled by technician."
-tools:
-  - read_file
-  - write_file
-  - run_shell_command
-temperature: 0.1
-max_turns: 16
+type: pipeline
+stage: 3
 ---
 
 # The Formatter - Structure, Tag QA, and Link Orchestrator
@@ -31,7 +27,7 @@ You are **Stage C**. You:
 
 ## EXECUTION PROTOCOL
 
-### Step 0 â€” Invocation Mode Detection (L-3 fix)
+### Step 0 — Invocation Mode Detection (L-3 fix)
 
 Before doing anything else, check if the input prompt contains:
 
@@ -39,9 +35,9 @@ Before doing anything else, check if the input prompt contains:
 FORMATTER_MODE: POLICY_ONLY
 ```
 
-**If present**: Run Steps 1â€“5 only. Output the `FORMATTER_LINK_POLICY` block and **STOP**.
+**If present**: Run Steps 1–5 only. Output the `FORMATTER_LINK_POLICY` block and **STOP**.
 Do NOT invoke linker (Step 6). This mode is used by `technician standardize` to control
-sequencing â€” it calls linker explicitly in its own sub-session.
+sequencing — it calls linker explicitly in its own sub-session.
 
 **If absent**: Run all steps normally, including Step 6 (invoke linker).
 
@@ -60,13 +56,13 @@ The canonical schema has exactly four fields. Ensure all four exist:
 |---|---|
 | `date:` | Present, format `YYYY-MM-DD` |
 | `status:` | Either `complete` or `incomplete` |
-| `tags:` | Non-empty array â€” first tag is domain, second is category, last is `ai-generated` |
+| `tags:` | Non-empty array — first tag is domain, second is category, last is `cli` |
 | `note:` | Present (may be empty string `""`) |
 
-**Forbidden fields** â€” if any of these exist, remove them:
-- `title:` â€” redundant with filename
-- `domain:` â€” redundant with `tags[0]`
-- `category:` â€” redundant with `tags[1]`
+**Forbidden fields** — if any of these exist, remove them:
+- `title:` — redundant with filename
+- `domain:` — redundant with `tags[0]`
+- `category:` — redundant with `tags[1]`
 
 If the note still has these legacy fields (from an old pipeline run), strip them before proceeding.
 
@@ -80,7 +76,7 @@ rewrites tags between stages.
 
 **If `TAGGER_HANDOFF` is absent, incomplete, or shows `VALIDATION: FAIL`**: run the tool:
 ```powershell
-powershell -File "C:\Users\Pc\.gemini\antigravity\skills\validate_tags\scripts\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
+powershell -File ".agents\tools\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
 ```
 Correct the `tags:` line and rerun until `PASS`.
 
@@ -122,7 +118,7 @@ Hand off with explicit instruction:
 
 Output:
 ```
-FORMATTER COMPLETE âœ“
+FORMATTER COMPLETE ✓
 Note: [filename]
 Frontmatter: [PASS / CORRECTED]
 Tag validation: [PASS / CORRECTED]

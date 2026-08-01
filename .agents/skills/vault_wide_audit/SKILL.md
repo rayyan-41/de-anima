@@ -1,13 +1,14 @@
 ---
 name: vault_wide_audit
-description: Orchestrates a comprehensive two-stage vault alignment. Stage 1 executes a read-only structural health audit (using the technician agent's logic). Stage 2 executes a forced vault-wide standardization pass (correcting Tags, Formatter links, MOCs, and generating TOCs for all notes).
+description: Orchestrates a comprehensive two-stage vault alignment. Stage 1 executes a read-only structural health audit. Stage 2 executes a forced vault-wide standardization pass, correcting tags, links, and MOCs across all notes.
 ---
 
 # Vault-Wide Audit and Alignment Protocol
 
 ## Purpose
 
-This skill is the authoritative protocol for performing a complete vault-wide health check and forceful standard alignment across all domains in the De Anima vault.
+This skill is the authoritative protocol for performing a complete vault-wide health
+check and forced standard alignment across all domains in the De Anima vault.
 
 It consists of two stages:
 1. **Structural Audit (Read-Only)**
@@ -17,47 +18,77 @@ If any local prompt instruction conflicts with this skill, this skill wins.
 
 ## Stage 1: Structural Audit (Read-Only)
 
-In this stage, you act as the Vault Auditor to locate structural decay without modifying files.
+Act as the vault auditor and locate structural decay without modifying any file.
 
-Run the following scripts sequentially to inspect vault health:
+### 1. Configuration Integrity
 
-### 1. Tag Conformance Audit
-Verify all notes comply with the canonical tag registry:
+Verify the agent/skill/tool wiring is internally consistent before trusting anything else:
+
 ```powershell
-powershell -File "E:\De Anima\.agents\tools\audit_skill_sync.ps1" -VerboseOutput
-```
-*(Report any warnings or failures.)*
-
-### 2. Broken & Orphan Link Detection
-Identify missing files that are linked from active notes:
-```powershell
-# Custom command or script to find orphan links if one exists,
-# or inform the user that the linker engine handles this at creation.
+powershell -File ".agents\tools\audit_skill_sync.ps1" -VerboseOutput
 ```
 
-### 3. Island Note Detection
-Identify notes that have zero backlinks or outgoing links, isolating them from the knowledge graph.
+Must return `SKILL SYNC AUDIT: PASS`. A `FAIL` here invalidates the rest of the audit —
+fix the wiring first, because the standardization pass in Stage 2 depends on it.
 
-**Output:** Generate a `VAULT_HEALTH_REPORT` summarizing structural anomalies found.
+### 2. Build the Vault Index
+
+```powershell
+powershell -File ".agents\tools\generate_index.ps1" -IncludeOrphans -Format json
+```
+
+This enumerates every note with its path, word count, and tag array, and flags notes
+with missing or malformed frontmatter. Use the JSON form so the following checks can
+be driven off structured data rather than re-scanning the vault.
+
+### 3. Tag Conformance
+
+For each note in the index, validate its tag array:
+
+```powershell
+powershell -File ".agents\tools\validate_tags.ps1" -TagLine "[the note's tags, comma-separated]"
+```
+
+Report every note that fails — wrong domain/category pairing, too few or too many
+topic tags, missing or misplaced `cli`. Do not fix yet.
+
+### 4. Broken Links, Orphans, and Islands
+
+There is no dedicated link-graph tool. Derive these from the index yourself:
+
+- **Broken links** — collect every `[[target]]` across all notes; report any whose
+  target filename does not appear in the index.
+- **Island notes** — report notes with zero inbound and zero outbound links. These
+  are invisible to the knowledge graph and are the highest-value fix targets.
+
+Delegate to `technician` in AUDIT MODE if you need this analysis at full depth; its
+audit protocol covers the same ground with per-domain reporting.
+
+**Output:** a `VAULT_HEALTH_REPORT` summarizing every structural anomaly found.
+Report before fixing. Never surprise the user with changes.
 
 ## Stage 2: Forced Vault-Wide Standardization (Write)
 
-After the read-only audit, you must trigger the forced standardization engine across the entire vault. This engine iterates over all 6 domains (Art, History, Islam, Literature, Reason, Science) and forces every note through the Tag Validator, Formatter Policy Gate, Wikilink Engine, and TOC generator.
+Only after the read-only audit is reported and the user approves, trigger the
+standardization engine. It iterates over all six domains and forces every note through
+the tag validator, formatter policy gate, wikilink engine, and TOC generator.
 
-Execute the master wrapper script:
 ```powershell
-powershell -File "E:\De Anima\.agents\tools\run_vault_wide_standardize.ps1"
+powershell -File ".agents\tools\run_vault_wide_standardize.ps1"
 ```
 
 > [!WARNING]
-> This stage spawns sub-sessions for every single note in the vault and modifies files forcefully. It may take a significant amount of time and consume substantial API quota.
+> This stage spawns a sub-session for every note in the vault and modifies files
+> in place. It is long-running and not automatically reversible. Confirm with the
+> user before starting, and make sure the vault is committed to git first.
 
 ## Report Contract
 
-Once both stages complete, you must output a final summary:
+Once both stages complete, output:
 
 ```text
 VAULT_WIDE_AUDIT_COMPLETE
+Config Integrity: [PASS|FAIL]
 Health Anomalies Found: [Number]
 Domains Standardized: [List of domains]
 Total Notes Processed: [Number]
@@ -67,6 +98,7 @@ Status: ALIGNED
 
 ## Safety Rules
 
-- Do not attempt to summarize or rewrite note body content during this process.
-- Do not modify sacred files (`Chain Of Thoughts.md`).
-- Only use the designated PowerShell scripts to apply the standard.
+- Do not summarize or rewrite note body content during this process.
+- Do not modify sacred files (`Chain Of Thoughts.md`, `REAS - Chain Of Thoughts.md`).
+- Only use the designated PowerShell tools to apply the standard.
+- Stage 2 requires explicit user approval. Stage 1 never writes.

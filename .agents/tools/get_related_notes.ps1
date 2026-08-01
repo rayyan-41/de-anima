@@ -38,7 +38,7 @@
 
 .EXAMPLE
     powershell -File get_related_notes.ps1 `
-        -NotePath "E:\De Anima\Islam\Fiqh\Ibadat\Rafa al-Yadayn (Fiqh).md" `
+        -NotePath "Islam\Fiqh\Ibadat\Rafa al-Yadayn (Fiqh).md" `
         -CoreTags "islam, fiqh, prayer, salah, hanafi" `
         -SupportingTags "hadith-analysis, shafii" `
         -TopN 10
@@ -46,10 +46,10 @@
     Output:
     CANDIDATES_FOUND: 4
     ---
-    SCORE:5 | MATCH:primary | PATH:E:\De Anima\Islam\Fiqh\Ibadat\Prayer (Fiqh).md | TAGS:islam,fiqh,prayer,ibadat,ai-generated
-    SCORE:3 | MATCH:primary | PATH:E:\De Anima\Islam\Fiqh\Ibadat\Wudu (Fiqh).md | TAGS:islam,fiqh,purification,ibadat,ai-generated
-    SCORE:2 | MATCH:secondary | PATH:E:\De Anima\Islam\Aqeedah\Niyyah (Aqeedah).md | TAGS:islam,aqeedah,intention,ai-generated
-    SCORE:1 | MATCH:secondary | PATH:E:\De Anima\History\Biographies\Ibn Hanbal.md | TAGS:history,biography,hanbali,ai-generated
+    SCORE:5 | MATCH:primary | PATH:Islam\Fiqh\Ibadat\Prayer (Fiqh).md | TAGS:islam,fiqh,prayer,ibadat,cli
+    SCORE:3 | MATCH:primary | PATH:Islam\Fiqh\Ibadat\Wudu (Fiqh).md | TAGS:islam,fiqh,purification,ibadat,cli
+    SCORE:2 | MATCH:secondary | PATH:Islam\Aqeedah\Niyyah (Aqeedah).md | TAGS:islam,aqeedah,intention,cli
+    SCORE:1 | MATCH:secondary | PATH:History\Biographies\Ibn Hanbal.md | TAGS:history,biography,hanbali,cli
     ---
     EXCLUDED_BY_POLICY: 0
 #>
@@ -76,7 +76,7 @@ if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
 if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 
 
-# â”€â”€ Helpers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
 function Normalize-Name {
     # E-3 fix: normalize entity names for exclusion matching.
@@ -112,7 +112,7 @@ function Parse-TagsFromFrontmatter {
 }
 
 function Parse-CategoryFromTags {
-    # Category is tags[1] (second tag) â€” no separate category: property in the schema
+    # Category is tags[1] (second tag) — no separate category: property in the schema
     param([string[]]$tags)
     if ($tags.Count -ge 2) { return $tags[1].ToLower().Trim() }
     return ""
@@ -126,7 +126,7 @@ function Normalize-Tags {
         Where-Object { $_ -ne '' }
 }
 
-# â”€â”€ Setup â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Setup ─────────────────────────────────────────────────────────────────────
 
 if (-not (Test-Path $VaultRoot)) {
     Write-Error "VAULT_NOT_FOUND: $VaultRoot"
@@ -148,9 +148,9 @@ $sourceCategory = Parse-CategoryFromTags $sourceTagsRaw
 
 # Directories and files to skip entirely
 $skipDirs   = @('_tmp', '.obsidian', 'paintings_source')
-$sacredFiles = @('GEMINI.md', 'Chain Of Thoughts.md', 'REAS - Chain Of Thoughts.md')
+$sacredFiles = @('AGENTS.md', 'Chain Of Thoughts.md', 'REAS - Chain Of Thoughts.md')
 
-# â”€â”€ Vault scan â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Vault scan ────────────────────────────────────────────────────────────────
 
 $allNotes = Get-ChildItem -Path $VaultRoot -Recurse -Filter "*.md" -File -ErrorAction SilentlyContinue |
     Where-Object {
@@ -166,7 +166,7 @@ $allNotes = Get-ChildItem -Path $VaultRoot -Recurse -Filter "*.md" -File -ErrorA
         -not $skip
     }
 
-# â”€â”€ Score candidates â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Score candidates ──────────────────────────────────────────────────────────
 
 $candidates    = @()
 $excludedCount = 0
@@ -180,7 +180,7 @@ foreach ($note in $allNotes) {
 
     if ($noteTags.Count -eq 0) { continue }
 
-    # â”€â”€ E-3 fix: normalize both sides before exclusion matching â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    # ── E-3 fix: normalize both sides before exclusion matching ─────────────────
     # Old code used raw lowercase comparison, causing space-vs-hyphen mismatches
     # (e.g. excluding "Al-Ghazali" failed to match note "Al Ghazali (Biography)").
     # Normalize-Name collapses hyphens and spaces to single space on both sides.
@@ -226,7 +226,7 @@ foreach ($note in $allNotes) {
     }
 }
 
-# â”€â”€ Sort, deduplicate by path, and trim â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Sort, deduplicate by path, and trim ───────────────────────────────────────
 
 $sorted = $candidates |
     Sort-Object -Property Score -Descending |
@@ -235,7 +235,7 @@ $sorted = $candidates |
     Sort-Object -Property Score -Descending |
     Select-Object -First $TopN
 
-# â”€â”€ Output â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Output ────────────────────────────────────────────────────────────────────
 
 if ($sorted.Count -eq 0) {
     Write-Output "CANDIDATES_FOUND: 0"

@@ -1,12 +1,8 @@
-﻿---
+---
 name: tagger
 description: "Tag validation and relevance-scoring agent. Invoke automatically after weaver completes. Builds a robust tag set that separates core themes from incidental mentions, validates tags against the canonical registry, rewrites tags/status as needed, and hands off a backlink policy seed to formatter. Fully deterministic - no creativity required."
-tools:
-  - read_file
-  - write_file
-  - run_shell_command
-temperature: 0.1
-max_turns: 12
+type: pipeline
+stage: 2
 ---
 
 # The Tagger - Tag Validation and Relevance Agent
@@ -35,7 +31,7 @@ You are **Stage B** of the post-generation pipeline. You:
 ## THE CANONICAL TAG REGISTRY
 
 To understand valid domain/category combinations and canonical formatting, you **MUST** load and follow the `obsidian_yaml_enforcer` skill located at:
-`E:\De Anima\.agents\skills\obsidian_yaml_enforcer\SKILL.md`
+`.agents\skills\obsidian_yaml_enforcer\SKILL.md`
 
 If this skill is unavailable, fall back to the explicit rules in this file and still run the validation tool.
 
@@ -49,7 +45,7 @@ Read the full note at the path provided by weaver. Do not tag from the title alo
 
 ### Step 2 - Extract Current Frontmatter
 
-Locate `date`, `status`, `tags`, and `note` in YAML frontmatter. There is no `title:`, `domain:`, or `category:` property â€” domain and category are encoded as the first two tags in the `tags:` array. Do not attempt to write or restore those removed fields.
+Locate `date`, `status`, `tags`, and `note` in YAML frontmatter. There is no `title:`, `domain:`, or `category:` property — domain and category are encoded as the first two tags in the `tags:` array. Do not attempt to write or restore those removed fields.
 
 ### Step 3 - Relevance Classification (MANDATORY)
 
@@ -71,19 +67,20 @@ Rules:
 
 Construct:
 ```
-tags: [domain, category, structural-tag, topic1, topic2, ..., ai-generated]
+tags: [domain, category, topic1, topic2, ..., cli]
 ```
 
 Requirements:
-- Include `domain` and `category` tags first.
-- Include exactly one structural tag that fits the note type.
+- Exactly one `domain` tag, first.
+- Exactly one `category` tag, second. The category tag **is** the note's structural
+  classifier — there is no separate structural slot.
 - Add **3-6 core topic tags**.
 - Optionally add **0-4 supporting tags**.
 - Keep total topic tags between **3 and 10**.
 - Prefer normalized, reusable taxonomy terms over one-off aliases.
-- Keep `ai-generated` as the final tag.
+- Keep `cli` as the final tag.
 
-Structural tag examples (these exact strings are validated by `validate_tags.ps1` â€” do not use slash-separated variants):
+Valid category tags per domain (these exact strings are validated by `validate_tags.ps1` — do not use slash-separated variants):
 - **History**: `empire`, `biography`, `geopolitical`, `medieval`, `contemporary`
 - **Islam**: `aqeedah`, `fiqh`
 - **Art**: `art-history`, `art-theory`
@@ -95,12 +92,14 @@ Structural tag examples (these exact strings are validated by `validate_tags.ps1
 
 Run:
 ```powershell
-powershell -File "C:\Users\Pc\.gemini\antigravity\skills\validate_tags\scripts\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
+powershell -File ".agents\tools\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
 ```
 
 Interpretation:
 - `PASS` -> continue
-- `FAIL: ...` -> correct and rerun until PASS
+- `FAIL: ...` -> correct the reported problem and rerun, **at most 3 attempts**
+- Still failing after 3 attempts -> write your best-effort tag array, set `status: incomplete`,
+  and report `TAGGER_UNRESOLVED` with the final validator message. Never loop indefinitely.
 
 ### Step 6 - Rewrite Frontmatter Fields
 
@@ -109,22 +108,22 @@ The canonical frontmatter schema is:
 ---
 date: YYYY-MM-DD
 status: complete
-tags: [domain, category, topic1, topic2, ..., ai-generated]
+tags: [domain, category, topic1, topic2, ..., cli]
 note: ""
 ---
 ```
 
 Replace only:
-- `tags: [...]` â€” with the validated canonical tag array
-- `status:` â€” (`incomplete` â†’ `complete` when appropriate)
+- `tags: [...]` — with the validated canonical tag array
+- `status:` — (`incomplete` → `complete` when appropriate)
 
 **Never touch**:
-- `date:` â€” set at creation, not tagger's concern
-- `note:` â€” user-owned free text field, never overwrite it
+- `date:` — set at creation, not tagger's concern
+- `note:` — user-owned free text field, never overwrite it
 - Any body content, headings, or layout
 
 **Never add**:
-- `title:`, `domain:`, or `category:` as separate properties â€” these were removed from the schema intentionally. Domain and category are the first two tags.
+- `title:`, `domain:`, or `category:` as separate properties — these were removed from the schema intentionally. Domain and category are the first two tags.
 
 ### Step 7 - Prepare Handoff Seed for formatter
 
@@ -148,9 +147,9 @@ so formatter knows to re-run the validator independently.
 
 Output:
 ```
-TAGGER COMPLETE âœ“
+TAGGER COMPLETE ✓
 Note: [filename]
-tags: [tag1, tag2, ..., ai-generated]
+tags: [tag1, tag2, ..., cli]
 Core tags: [N]
 Supporting tags: [N]
 Excluded incidental mentions: [N]

@@ -13,10 +13,10 @@
     Root of the vault. Defaults to $VaultRoot
 .EXAMPLE
     powershell -File update_moc.ps1 -Domain Islam -NoteTitle "Rafa al-Yadayn (Fiqh)" -NoteFilename "Rafa al-Yadayn (Fiqh).md" -Category "Fiqh/Ibadat"
-    Output: MOC_UPDATED: _Islam - Map of Contents.md â€” added "Rafa al-Yadayn (Fiqh)"
+    Output: MOC_UPDATED: _Islam - Map of Contents.md — added "Rafa al-Yadayn (Fiqh)"
 .NOTES
     Fixes (2026-04-12):
-      C-4: Wikilinks now use filename stem (no .md extension) â€” Obsidian requires this.
+      C-4: Wikilinks now use filename stem (no .md extension) — Obsidian requires this.
       C-5: Duplicate detection normalized to stem on both sides to prevent double-entries.
       C-6: Total Notes counter regex updated to match canonical bullet format "- Total Notes: N".
 #>
@@ -44,7 +44,7 @@ if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 $mocFilename = "_${Domain} - Map of Contents.md"
 $mocPath = Join-Path $VaultRoot (Join-Path $Domain $mocFilename)
 
-# â”€â”€ Derive wikilink target: always strip .md extension (Obsidian requirement) â”€
+# ── Derive wikilink target: always strip .md extension (Obsidian requirement) ─
 $wikilinkTarget   = [System.IO.Path]::GetFileNameWithoutExtension($NoteFilename)
 $noteFilenameStem = $wikilinkTarget  # reuse for duplicate detection
 
@@ -55,7 +55,7 @@ if (-not (Test-Path $mocPath)) {
 ---
 date: $today
 status: complete
-tags: [$($Domain.ToLower()), moc, ai-generated]
+tags: [$($Domain.ToLower()), moc, cli]
 note: ""
 ---
 
@@ -80,7 +80,7 @@ note: ""
     exit 0
 }
 
-# MOC exists â€” read it
+# MOC exists — read it
 $content = Get-Content $mocPath -Raw -Encoding UTF8
 $today = Get-Date -Format "yyyy-MM-dd"
 
@@ -96,13 +96,13 @@ foreach ($line in $lines) {
         if ($line -match '\[\[(.*?)(\|.*?)?\]\]') {
             $linkFile = $matches[1]
 
-            # â”€â”€ C-5 fix: normalize both sides to stem before comparing â”€â”€â”€â”€â”€â”€â”€â”€â”€
+            # ── C-5 fix: normalize both sides to stem before comparing ─────────
             $linkFileStem = [System.IO.Path]::GetFileNameWithoutExtension($linkFile)
             if ($linkFileStem -eq $noteFilenameStem) {
                 $alreadyExists = $true
             }
 
-            # Check if the target file actually exists â€” prune dead links.
+            # Check if the target file actually exists — prune dead links.
             # Try both with and without .md extension for resilience.
             $exists = Get-ChildItem -Path $domainDir -Filter "$linkFile.md" -Recurse -File `
                           -ErrorAction SilentlyContinue | Select-Object -First 1
@@ -123,7 +123,7 @@ foreach ($line in $lines) {
 $lines = $validLines
 
 if (-not $alreadyExists) {
-    # â”€â”€ C-4 fix: wikilink uses stem (no .md extension) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    # ── C-4 fix: wikilink uses stem (no .md extension) ───────────────────────
     $newRow = "| $NoteTitle | [[$wikilinkTarget|$NoteTitle]] | $today |"
     if ($lastTableRowIndex -ge 0) {
         $before = $lines[0..$lastTableRowIndex]
@@ -145,7 +145,7 @@ $tableRowCount = ($lines | Where-Object {
     $_ -notmatch '^\|\s*Topic Area\s*\|'  # header row
 }).Count
 
-# â”€â”€ C-6 fix: match canonical bullet format "- Total Notes: N" â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── C-6 fix: match canonical bullet format "- Total Notes: N" ────────────────
 if ($newContent -match '- Total Notes:\s*\d+') {
     $newContent = $newContent -replace '- Total Notes:\s*\d+', "- Total Notes: $tableRowCount"
 } elseif ($newContent -match '\*\*Total Notes:\*\*\s*\d+') {

@@ -1,6 +1,19 @@
-param(
-    [string]$domain = "History"
+﻿param(
+    [string]$domain = "History",
+
+    # Command the harness uses to run one prompt in a fresh agent context.
+    # It receives the prompt file path as its only argument and writes the
+    # agent's output to stdout. Provider-neutral by design.
+    [string]$AgentCommand = $env:DEANIMA_AGENT_CMD
 )
+
+if (-not $AgentCommand) {
+    Write-Error ("STANDARDIZE_ERROR: no agent command configured. " +
+        "Set the DEANIMA_AGENT_CMD environment variable (or pass -AgentCommand) to the " +
+        "command your harness uses to run a single prompt in a fresh context. " +
+        "It is invoked as: <AgentCommand> <path to prompt file>")
+    exit 1
+}
 $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path
 $notes = @(Get-ChildItem -Path "$VaultRoot\$domain" -Recurse -Filter "*.md" | Where-Object { $_.Name -notmatch "^_.*Map of Content" })
 
@@ -13,7 +26,7 @@ foreach ($note in $notes) {
     $i++
 }
 Write-Host "-----------------------------"
-Write-Host "Spawning $($notes.Count) sub-sessions. 15s sleep between each."
+Write-Host "Spawning $($notes.Count) sub-sessions."
 
 $successCount = 0
 $failCount = 0
@@ -79,12 +92,12 @@ Follow its exact multi-step execution rules to find entities, but only insert li
 Update the domain MOC:
   powershell -File "$($PSScriptRoot)\update_moc.ps1" -Domain "$domain" -NoteTitle "[title]" -NoteFilename "$($note.Name)" -Category "[category]"
 ================================================
-TASK D - TABLE OF CONTENTS (for notes > 4,000 words)
+TASK D - TABLE OF CONTENTS (for notes > 2,500 words)
 ================================================
 
 After completing Task C, count the words in the note body (excluding frontmatter).
 
-If the note is OVER 4,000 words:
+If the note is OVER 2,500 words:
 - Extract every ## heading (H2 level) from the note body, in order
 - Generate a Table of Contents in this format:
 
@@ -102,7 +115,7 @@ If the note is OVER 4,000 words:
 - If a Table of Contents section already exists in the note, REPLACE it with the freshly
   generated one (headings may have changed).
 
-If the note is 4,000 words or UNDER - skip this task entirely.
+If the note is 2,500 words or UNDER - skip this task entirely.
 
 OUTPUT - After completing all tasks, print a compact report:
   NOTE: $($note.Name)
@@ -112,15 +125,14 @@ OUTPUT - After completing all tasks, print a compact report:
   WIKILINKS: [N inserted] - [list them briefly]
   RELATED NOTES: [N added]
   MOC: [UPDATED / ALREADY_LISTED / CREATED]
-  TOC: [INSERTED / UPDATED / SKIPPED (under 4k words)]
+  TOC: [INSERTED / UPDATED / SKIPPED (under 2.5k words)]
   STATUS: COMPLETE
 "@
     Set-Content -Path "$VaultRoot\_tmp\current_prompt.txt" -Value $prompt -Encoding utf8
     
-    cmd.exe /c "agy --dangerously-skip-permissions -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
+    & cmd.exe /c "$AgentCommand `"$VaultRoot\_tmp\current_prompt.txt`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
     $exitCode = $LASTEXITCODE
 
-    Start-Sleep -Seconds 15
 
     $outContent = Get-Content "$VaultRoot\_tmp\current_out.txt" -Raw
     if ($exitCode -eq 0 -and $outContent -match "STATUS: COMPLETE") {
@@ -128,11 +140,9 @@ OUTPUT - After completing all tasks, print a compact report:
         $results += "  ✅ $($note.Name) - tags corrected, wikilinks inserted, MOC updated"
         $successCount++
     } else {
-        Start-Sleep -Seconds 30
-        cmd.exe /c "agy --dangerously-skip-permissions -p `"$(Get-Content -Raw "$VaultRoot\_tmp\current_prompt.txt" | Out-String)`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
+        & cmd.exe /c "$AgentCommand `"$VaultRoot\_tmp\current_prompt.txt`" > `"$VaultRoot\_tmp\current_out.txt`" 2> `"$VaultRoot\_tmp\current_err.txt`""
         $exitCode2 = $LASTEXITCODE
-        Start-Sleep -Seconds 15
-        $outContent2 = Get-Content "$VaultRoot\_tmp\current_out.txt" -Raw
+            $outContent2 = Get-Content "$VaultRoot\_tmp\current_out.txt" -Raw
 
         if ($exitCode2 -eq 0 -and $outContent2 -match "STATUS: COMPLETE") {
             Write-Host "✅ $($note.Name) - Successfully processed on retry"

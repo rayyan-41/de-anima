@@ -1,6 +1,6 @@
 ---
 name: yolo_generation_protocol
-description: Authoritative execution protocol for full-note drafting in the De Anima vault. Governs section-by-section YOLO generation: one gemini session per heading, chunk file naming, 15s pacing, retry-once handling, and handoff to the Weaver agent.
+description: Authoritative execution protocol for full-note drafting in the De Anima vault. Governs section-by-section generation - one sub-generation per heading, chunk file naming, retry handling, and handoff to the weaver agent.
 ---
 
 # YOLO Generation Protocol
@@ -16,7 +16,7 @@ If any agent-local instruction conflicts with this skill, this skill wins.
 
 - The user requests a full drafted note.
 - A content agent must write long-form output across multiple headings.
-- The workflow must produce chunk files in `E:\De Anima\_tmp\` for weaver.
+- The workflow must produce chunk files in `_tmp\` for weaver.
 
 ## Do Not Use When
 
@@ -32,13 +32,34 @@ If any agent-local instruction conflicts with this skill, this skill wins.
 - `topic_slug`: lowercase hyphenated slug
 - `expected_count`: number of headings/chunks
 
+## The SPAWN_SECTION Primitive
+
+Section generation is delegated to the harness, which must provide one primitive:
+
+```
+SPAWN_SECTION slug=[topic_slug] index=[NN] <<
+[the section prompt]
+>>
+```
+
+Contract:
+
+- The harness runs the prompt in a **fresh generation context** — no history from
+  previous sections. This is the whole point: it keeps section N+1 from degrading
+  under the accumulated weight of sections 1..N.
+- The harness writes the result to `_tmp\[topic_slug]_chunk_[NN].md` and nothing else.
+- The harness returns success or failure. It does not interpret the content.
+- The calling agent never writes chunk files directly.
+
+The protocol is model- and provider-agnostic. Any backend that satisfies this
+contract is valid. Do not assume a particular CLI, API, or vendor.
+
 ## Non-Negotiable Invariants
 
-- One YOLO call per heading.
+- One `SPAWN_SECTION` call per heading.
 - One chunk file per heading.
 - No merged headings in one chunk.
-- Mandatory 15-second wait between successful YOLO calls.
-- Retry once after failure, with a 30-second wait.
+- Retry once after failure.
 - Continue even if one heading fails after retry; report failures explicitly.
 
 ## Execution Steps
@@ -54,7 +75,16 @@ Before generation starts, output a pre-flight checklist:
 - Estimated sections
 - Target word count (`N * 1000`)
 - Target chunk path pattern
-- Confirmation sentence: `Executing [N] YOLO sessions.`
+- Confirmation sentence: `Executing [N] section generations.`
+
+Then record the plan:
+
+```powershell
+powershell -File ".agents\tools\write_manifest.ps1" -Slug "[topic_slug]" -Headings "[H1],[H2],...,[HN]"
+```
+
+Must return `MANIFEST_WRITTEN`. If it does not, stop and report — do not generate
+sections without a manifest, because weaver uses it to verify completeness.
 
 Generation must not start before this gate is complete.
 
@@ -67,27 +97,25 @@ Rules:
 - Each heading should support roughly 700-1200 words.
 - Preserve chronological order where the domain requires it.
 
-### 3) Spawn Per-Heading YOLO Calls
+### 3) Generate Each Section
 
-For each heading index `NN`:
+For each heading index `NN`, issue one `SPAWN_SECTION` call scoped to that heading only.
 
-- Execute a dedicated `agy --dangerously-skip-permissions -p` prompt scoped to that heading only.
-- Require output to be written to:
-  `E:\De Anima\_tmp\[topic_slug]_chunk_[NN].md`
-
-Prompt requirements for each heading:
+Prompt requirements for each section:
 - Approximate target: 1000 words.
 - Domain-appropriate tone and evidence standard.
-- Section-only output (no preamble, no meta commentary).
+- Section-only output — no preamble, no meta commentary, no restated heading.
 
-### 4) Verify + Pace + Retry
+### 4) Verify and Retry
 
-After each YOLO call:
+After each `SPAWN_SECTION` call:
 
 1. Verify the chunk file exists.
-2. If present: wait 15 seconds before next heading.
-3. If missing: wait 30 seconds and retry once.
-4. If still missing: mark heading as failed and continue.
+2. If missing: retry once.
+3. If still missing: mark the heading as failed and continue to the next.
+
+No pacing delay is required. If a backend imposes rate limits, that is the
+harness's concern, not this protocol's.
 
 ### 5) Completion Contract
 
@@ -100,7 +128,7 @@ Slug: [topic_slug]
 Expected chunks: [N]
 Written chunks: [M]
 Failed chunks: [list or none]
-Chunk path pattern: E:\De Anima\_tmp\[topic_slug]_chunk_[NN].md
+Chunk path pattern: _tmp\[topic_slug]_chunk_[NN].md
 Handoff: weaver
 ```
 
@@ -110,20 +138,21 @@ Handoff: weaver
 - Avoid repeated paragraphs across chunks.
 - Keep factual claims scoped to the heading context.
 - Preserve tables, code blocks, and diagram syntax generated in chunks.
+- Do not emit a Table of Contents inside a chunk — weaver generates it.
 
 ## Safety and Reliability
 
-- Never write chunk files outside `E:\De Anima\_tmp\`.
-- Never overwrite sacred files.
-- Do not hang the run on single-section failure.
+- Never write chunk files outside `_tmp\`.
+- Never overwrite sacred files (see AGENTS.md).
+- Do not hang the run on a single-section failure.
 - Report incomplete chunk sets explicitly for weaver.
 
 ## Quick Checklist
 
 - Pre-flight gate printed
+- `write_manifest.ps1` returned `MANIFEST_WRITTEN`
 - Heading plan finalized
-- One call per heading
-- 15s wait between success calls
-- Retry-once with 30s wait on failure
+- One `SPAWN_SECTION` call per heading
+- Retry-once on failure
 - Completion report emitted
 - Handoff to weaver

@@ -4,7 +4,7 @@
 .PARAMETER FilePath
     Absolute path to the markdown file.
 .EXAMPLE
-    powershell -File word_count.ps1 -FilePath "E:\De Anima\Islam\Fiqh\Rafa al-Yadayn (Fiqh).md"
+    powershell -File word_count.ps1 -FilePath "Islam\Fiqh\Rafa al-Yadayn (Fiqh).md"
     Output: 9247
 .NOTES
     Fix (2026-04-12): Replaced naive single-pass heuristic with a proper two-delimiter
@@ -28,7 +28,7 @@ if (-not (Test-Path $FilePath)) {
 
 $lines = Get-Content $FilePath -Encoding UTF8
 
-# â”€â”€ Correctly strip YAML frontmatter â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+# ── Correctly strip YAML frontmatter ─────────────────────────────────────────
 # Frontmatter is the block delimited by a leading --- and a closing ---.
 # All lines between (and including) the delimiters are skipped.
 # Lines after the closing --- are body content.
@@ -50,7 +50,7 @@ foreach ($line in $lines) {
             }
             continue
         }
-        # Inside the YAML block â€” skip property lines (date:, status:, tags:, note:, etc.)
+        # Inside the YAML block — skip property lines (date:, status:, tags:, note:, etc.)
         if ($inFrontmatter) { continue }
 
         # No opening --- found at all (legacy file without frontmatter):

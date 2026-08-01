@@ -5,7 +5,7 @@
 .PARAMETER Slug
     The topic slug (e.g. "rafa-al-yadayn")
 .PARAMETER TmpDir
-    Path to the temp directory. Defaults to "E:\De Anima\_tmp"
+    Path to the temp directory. Defaults to "_tmp"
 .EXAMPLE
     powershell -File cleanup_chunks.ps1 -Slug "rafa-al-yadayn"
     Output: DELETED: 10 chunk files, 1 manifest, 1 state file

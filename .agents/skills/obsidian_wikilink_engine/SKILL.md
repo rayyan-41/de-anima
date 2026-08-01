@@ -27,7 +27,7 @@ Optional but preferred (from formatter):
 
 ## Vault Index Build
 
-Collect `.md` notes recursively under `E:\De Anima\`.
+Collect `.md` notes recursively from the vault root.
 Exclude:
 - `_tmp/`
 - `.obsidian/`
@@ -42,6 +42,12 @@ Build:
 ## Candidate Discovery
 
 Use two parallel methods:
+
+Both are seeded by the candidate-ranking tool, which the linker runs first:
+
+```powershell
+powershell -File ".agents\tools\get_related_notes.ps1" -NotePath "[note path]" -CoreTags "[core tags]" -SupportingTags "[supporting tags]"
+```
 
 ### Method A: Entity/Title Match
 
@@ -77,7 +83,9 @@ Hard rejects:
 - First-mention rule is absolute.
 - Max one new wikilink per paragraph.
 - Prefer alias links in prose:
-  `[[BIO - Ibn Taymiyyah|Ibn Taymiyyah]]`
+  `[[Ibn Taymiyyah|his critique of kalam]]`
+- Never link to a legacy prefixed filename (`BIO - `, `EMP - `) unless that
+  file genuinely still carries the prefix on disk.
 - Do not over-link repeated mentions.
 
 ## Related Notes Section
@@ -93,7 +101,7 @@ If fewer than two exist, add what is valid and report warning.
 After link insertion, update MOC via:
 
 ```powershell
-powershell -File "E:\De Anima\.agents\tools\update_moc.ps1" -Domain "[Domain]" -NoteTitle "[Title]" -NoteFilename "[Filename]" -Category "[Category]"
+powershell -File ".agents\tools\update_moc.ps1" -Domain "[Domain]" -NoteTitle "[Title]" -NoteFilename "[Filename]" -Category "[Category]"
 ```
 
 Acceptable tool outcomes:

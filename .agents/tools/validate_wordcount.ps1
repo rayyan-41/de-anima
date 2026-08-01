@@ -13,14 +13,14 @@
     Optional. Template name for display in output (e.g. "fiqh", "empire", "cs").
 
 .EXAMPLE
-    powershell -File validate_wordcount.ps1 -FilePath "E:\De Anima\Islam\Fiqh\Tawassul.md" -MinWords 8000 -Template fiqh
+    powershell -File validate_wordcount.ps1 -FilePath "Islam\Fiqh\Tawassul.md" -MinWords 8000 -Template fiqh
     Output:
     WORDCOUNT: 9247
     MINIMUM:   8000 (fiqh)
     WORDCOUNT_PASS
 
 .EXAMPLE
-    powershell -File validate_wordcount.ps1 -FilePath "E:\De Anima\History\Ottoman Empire.md" -MinWords 1500
+    powershell -File validate_wordcount.ps1 -FilePath "History\Ottoman Empire.md" -MinWords 1500
     Output:
     WORDCOUNT: 1102
     MINIMUM:   1500

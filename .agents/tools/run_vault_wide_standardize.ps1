@@ -1,5 +1,8 @@
-param(
-    [switch]$VerboseOutput
+﻿param(
+    [switch]$VerboseOutput,
+
+    # Passed through to run_standardize.ps1; see that script for the contract.
+    [string]$AgentCommand = $env:DEANIMA_AGENT_CMD
 )
 
 $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path

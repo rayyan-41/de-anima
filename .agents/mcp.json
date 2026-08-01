@@ -1,0 +1,11 @@
+{
+  "$comment": "External MCP servers available to De Anima agents. These are research data sources, not model backends - the harness chooses the LLM provider independently.",
+  "mcpServers": {
+    "notebooklm": {
+      "command": "npx",
+      "args": ["-y", "notebooklm-mcp@latest"],
+      "usedBy": ["haytham"],
+      "purpose": "Source-grounded retrieval for NotebookLM mode (see AGENTS.md section VII)."
+    }
+  }
+}

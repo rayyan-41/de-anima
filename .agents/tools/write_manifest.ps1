@@ -11,11 +11,11 @@
     Example: "Overview,Rise to Power,Decline,Legacy"
 
 .PARAMETER TmpDir
-    Path to the temp directory. Defaults to "E:\De Anima\_tmp"
+    Path to the temp directory. Defaults to "_tmp"
 
 .EXAMPLE
     powershell -File write_manifest.ps1 -Slug "ottoman-empire" -Headings "Overview,Rise,Decline,Legacy"
-    Output: MANIFEST_WRITTEN: E:\De Anima\_tmp\ottoman-empire_manifest.json (4 chunks expected)
+    Output: MANIFEST_WRITTEN: _tmp\ottoman-empire_manifest.json (4 chunks expected)
 #>
 param(
     [Parameter(Mandatory=$true)]

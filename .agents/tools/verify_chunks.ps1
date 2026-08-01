@@ -6,10 +6,10 @@
 .PARAMETER ExpectedCount
     How many chunks to expect (e.g. 10)
 .PARAMETER TmpDir
-    Path to the temp directory. Defaults to "E:\De Anima\_tmp"
+    Path to the temp directory. Defaults to "_tmp"
 .PARAMETER Mode
-    "verify" â€” only checks existence, returns missing list
-    "read" â€” verifies AND returns concatenated content with chunk markers
+    "verify" — only checks existence, returns missing list
+    "read" — verifies AND returns concatenated content with chunk markers
 .EXAMPLE
     powershell -File verify_chunks.ps1 -Slug "rafa-al-yadayn" -ExpectedCount 10 -Mode verify
     Output: ALL_PRESENT: 10/10

@@ -1,7 +1,7 @@
 ﻿<#
 .SYNOPSIS
     Writes or updates a pipeline state file in _tmp/ after each stage completes.
-    Enables crash recovery â€” an interrupted pipeline can resume from the last completed stage.
+    Enables crash recovery — an interrupted pipeline can resume from the last completed stage.
 
 .PARAMETER Slug
     The topic slug (e.g. "ottoman-empire").
@@ -18,15 +18,15 @@
     Optional. A short note to record (e.g. "3 of 8 chunks written", "word count short by 400").
 
 .PARAMETER TmpDir
-    Path to the temp directory. Defaults to "E:\De Anima\_tmp"
+    Path to the temp directory. Defaults to "_tmp"
 
 .EXAMPLE
     powershell -File update_pipeline_state.ps1 -Slug "ottoman-empire" -Stage weaver -Status complete
-    Output: PIPELINE_STATE: [ottoman-empire] weaver â†’ complete
+    Output: PIPELINE_STATE: [ottoman-empire] weaver → complete
 
 .EXAMPLE
     powershell -File update_pipeline_state.ps1 -Slug "ottoman-empire" -Stage yolo -Status failed -Note "chunk_05 missing after retry"
-    Output: PIPELINE_STATE: [ottoman-empire] yolo â†’ failed | chunk_05 missing after retry
+    Output: PIPELINE_STATE: [ottoman-empire] yolo → failed | chunk_05 missing after retry
 
 .NOTES
     State file is written to: _tmp/[slug]_pipeline_state.json
@@ -94,5 +94,5 @@ $state = [PSCustomObject]@{
 $state | ConvertTo-Json -Depth 5 | Set-Content -Path $statePath -Encoding UTF8
 
 $noteStr = if ($Note -ne "") { " | $Note" } else { "" }
-Write-Output "PIPELINE_STATE: [$Slug] $Stage â†’ $Status$noteStr"
+Write-Output "PIPELINE_STATE: [$Slug] $Stage → $Status$noteStr"
 
