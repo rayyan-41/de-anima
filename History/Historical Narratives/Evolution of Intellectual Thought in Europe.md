@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval, cli]
+tags: [history, narrative, event, history-of-ideas, evolution-of-intellectual-thought-in-europe, cli]
 note: ""
 ---
 

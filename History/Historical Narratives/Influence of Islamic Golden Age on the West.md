@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval, islamic-golden-age, cli]
+tags: [history, narrative, event, islamic-golden-age, influence-of-islamic-golden-age-on-the-west, cli]
 note: ""
 ---
 

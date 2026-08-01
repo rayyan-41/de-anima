@@ -1,9 +1,22 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [islam, contemporary, fiqh, hanafi, maliki, shafii, hanbali, cli]
+tags: [islam, fiqh, ruling, jurisprudence, contemporary-challenges-and-misunderstandings-of-sharia, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Section 1: Deen vs. Culture: A Methodology for Reclaiming the Sharia]]
+> - [[#Section 2: The Political Origins of Apostasy (Riddah): Historical Realism vs. Theological Dogma]]
+> - [[#Section 3: Divergence of the Four Madhabs on Riddah: From Treason to Intellectual Dissent]]
+> - [[#Section 4: Zina vs. Hirabah: A Jurisprudential Distinction in Cases of Sexual Assault]]
+> - [[#Section 5: Evidence in Rape Cases: Beyond the 'Four Witnesses' Misconception]]
+> - [[#Section 6: The Quranic Witness (2:282): Financial Testimony vs. Judicial Equivalence]]
+> - [[#Section 7: Women's Testimony in Criminal and Personal Law: A Comparative Analysis]]
+> - [[#Section 8: Case Studies and Historical Precedents: Justice in Practice]]
+> - [[#Section 9: Conclusion: Reclaiming the Ethical Spirit of the Sharia]]
+
+- - -
 
 # FIQH - Contemporary Challenges and Misunderstandings of Sharia
 

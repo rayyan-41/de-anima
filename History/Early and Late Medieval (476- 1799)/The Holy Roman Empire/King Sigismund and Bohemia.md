@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval-and-late-medieval, empire, king-sigismund-and-bohemia, cli]
+tags: [history, medieval, empire, empire-and-conquest, king-sigismund-and-bohemia, cli]
 note: ""
 ---
 

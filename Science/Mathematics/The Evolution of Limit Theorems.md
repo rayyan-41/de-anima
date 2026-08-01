@@ -1,7 +1,7 @@
 ---
 date: 2024-05-24
 status: complete
-tags: [science, mathematics, science/math, limit-theorems, probability-theory, law-of-large-numbers, central-limit-theorem, markov-inequality, chebyshev-inequality, normal-distribution, stochastic-processes, cli]
+tags: [science, mathematics, concept, mathematical-foundations, probability, limit-theorems, probability-theory, law-of-large-numbers, central-limit-theorem, markov-inequality, chebyshev-inequality, cli]
 note: ""
 ---
 
@@ -353,4 +353,4 @@ The Central Limit Theorem represents a profound philosophical paradox resolved b
 - - -
 
 ## Related Notes
-- [[Map of Contents - Mathematics]]
+- [[Map of Contents - Science|Science MOC]]

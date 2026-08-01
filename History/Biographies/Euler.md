@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, euler, cli]
+tags: [history, biography, person, biography-and-legacy, euler, cli]
 note: ""
 ---
 

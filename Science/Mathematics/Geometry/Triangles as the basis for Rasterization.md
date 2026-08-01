@@ -1,18 +1,18 @@
 ---
-title: "Triangles as the basis for Rasterization"
-domain: science
-category: computer-science
+date: 2026-08-01
 status: complete
-tags:
-  - science
-  - computer-science
-  - science/cs
-  - rasterization
-  - digital-geometry
-  - barycentric-coordinates
-  - scanline-rendering
-  - cli
+tags: [science, mathematics, concept, computation, software-systems, computer-science, rasterization, digital-geometry, barycentric-coordinates, scanline-rendering, cli]
+note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Introduction: The Primitives of Digital Geometry]]
+> - [[#Mathematical Foundations: The Theoretical Supremacy of the Triangle (Planarity, Convexity, and Simplicity)]]
+> - [[#Barycentric Coordinates and Perspective-Correct Interpolation]]
+> - [[#Algorithmic Rasterization: Edge Equations and Scanline Techniques]]
+> - [[#The Modern Graphics Pipeline: Triangles at Scale]]
+
+- - -
 
 ## Introduction: The Primitives of Digital Geometry
 

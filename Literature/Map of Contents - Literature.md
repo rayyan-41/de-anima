@@ -1,19 +1,23 @@
 ---
-date: 2023-10-24
+date: 2026-08-01
 status: complete
 tags: [literature, moc, cli]
 note: ""
 ---
 
-> *We read to know we are not alone.* - C.S. Lewis
-
-The Literature domain catalogs written works, myths, legends, and thematic dissections of stories.
+**Metadata:**
+- Last Major Reorganization: 2026-08-01
+- Total Notes: 4
+- - -
 
 ## Structure
-| Topic Area        | Notes                                   | Last Updated |
-| ----------------- | --------------------------------------- | ------------ |
-| Myths And Legends | [[Map of Contents - Myths and Legends]] | 2026-04-17   |
-| Short Stories     | [[Map of Contents - Short Stories]]     | 2026-04-17   |
-| Myth              | [[Orpheus and Eurydice]]                | 2026-04-17   |
-| Cli               | [[Lexicon]], [[Quotes]], [[i. Caedis]]  | 2026-04-17   |
+
+| Topic Area | Notes | Last Updated |
+|------------|-------|--------------|
+| myth | [[Orpheus and Eurydice]] | 2026-08-01 |
+| reference | [[Lexicon]], [[Quotes]] | 2026-08-01 |
+| short-story | [[i. Caedis]] | 2026-08-01 |
+
 - - -
+
+*Last MOC Update: 2026-08-01 by De Anima Orchestrator*

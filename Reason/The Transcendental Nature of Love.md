@@ -1,22 +1,8 @@
 ---
-title: "The Transcendental Nature of Love"
-domain: reason
-category: philosophy
+date: 2026-08-01
 status: complete
-tags:
-  - reason
-  - philosophy
-  - reason/philosophy
-  - biology
-  - evolutionary-psychology
-  - neurochemistry
-  - schopenhauer
-  - will-to-life
-  - aristotle
-  - philia
-  - plato
-  - al-ghazali
-  - cli
+tags: [reason, philosophy, concept, history-of-ideas, biology, evolutionary-psychology, neurochemistry, schopenhauer, will-to-life, aristotle, cli]
+note: ""
 ---
 
 > [!abstract] Table of Contents

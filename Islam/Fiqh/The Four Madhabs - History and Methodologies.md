@@ -1,9 +1,22 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, cli]
+tags: [islam, fiqh, ruling, jurisprudence, the-four-madhabs-history-and-methodologies, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Introduction: The Concept of a Madhab and the Historical Context of Islamic Jurisprudence]]
+> - [[#The Hanafi School: History, Methodology, and the Influence of Ahl al-Ray]]
+> - [[#The Maliki School: History, Methodology, and the Amal of Madinah]]
+> - [[#The Shafi'i School: History, Methodology, and the Synthesis of Ray and Hadith]]
+> - [[#The Hanbali School: History, Methodology, and Strict Adherence to Text]]
+> - [[#Epistemological Differences in Usul al-Fiqh]]
+> - [[#Historical Interactions and Debates Between the Imams]]
+> - [[#The Question of Preference: Does One Madhab Hold Supremacy?]]
+> - [[#References and Authentication]]
+
+- - -
 
 # FIQH - The Four Madhabs: History, Methodologies, and Interactions
 

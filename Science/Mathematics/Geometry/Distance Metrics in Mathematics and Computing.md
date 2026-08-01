@@ -1,9 +1,20 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, mathematics, geometry, computation, algorithms, cli]
+tags: [science, mathematics, concept, mathematical-foundations, geometry, computation, distance-metrics-in-mathematics-and-computing, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Historical Development]]
+> - [[#I. Euclidean Distance]]
+> - [[#II. Manhattan Distance]]
+> - [[#III. Haversine Distance]]
+> - [[#Comparative Analysis]]
+> - [[#Applications]]
+> - [[#Conclusion]]
+
+- - -
 
 - - -
 ## Historical Development

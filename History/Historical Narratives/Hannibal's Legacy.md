@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, empire, hannibal, second-punic-war, battle-of-cannae, roman-republic, military-history, scipio-africanus, carthage, cli]
+tags: [history, narrative, empire, empire-and-conquest, military-history, statecraft, second-punic-war, battle-of-cannae, roman-republic, scipio-africanus, carthage, cli]
 note: ""
 ---
 

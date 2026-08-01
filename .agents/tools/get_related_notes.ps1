@@ -120,10 +120,18 @@ function Parse-CategoryFromTags {
 
 function Normalize-Tags {
     param([string]$tagString)
+    # Split on commas AND whitespace, so the function is robust to how the
+    # caller formats the list ("a,b,c", "a, b, c", or "a b c"). Built with an
+    # explicit loop rather than `return <pipeline>`, whose parsing collapsed
+    # the result to a single element and silently returned zero candidates
+    # for every note in the vault.
     if (-not $tagString -or $tagString.Trim() -eq '') { return @() }
-    return ($tagString -split ',') |
-        ForEach-Object { $_.Trim().ToLower().TrimStart('#') } |
-        Where-Object { $_ -ne '' }
+    $out = @()
+    foreach ($part in ($tagString -split '[,\s]+')) {
+        $t = $part.Trim().ToLower().TrimStart('#')
+        if ($t -ne '') { $out += $t }
+    }
+    return $out
 }
 
 # ── Setup ─────────────────────────────────────────────────────────────────────
@@ -134,7 +142,13 @@ if (-not (Test-Path $VaultRoot)) {
 }
 
 $sourceNotePath = $NotePath.ToLower()
-$coreTags       = Normalize-Tags $CoreTags
+if (Test-Path $NotePath) { $sourceNotePath = (Resolve-Path $NotePath).Path.ToLower() }
+# NOTE: the local must NOT be named $coreTags. PowerShell variable names are
+# case-insensitive, so $coreTags and the [string]-typed parameter $CoreTags are
+# the same variable -- assigning the array back into it silently re-coerced it
+# to a space-joined string, so every tag comparison failed and the linker
+# returned zero candidates for every note in the vault.
+$coreList       = Normalize-Tags $CoreTags
 $supportTags    = Normalize-Tags $SupportingTags
 $excluded       = Normalize-Tags $ExcludedMentions
 
@@ -147,7 +161,7 @@ $sourceTagsRaw  = Parse-TagsFromFrontmatter $sourceContent
 $sourceCategory = Parse-CategoryFromTags $sourceTagsRaw
 
 # Directories and files to skip entirely
-$skipDirs   = @('_tmp', '.obsidian', 'paintings_source')
+$skipDirs   = @('_tmp', '.obsidian', 'paintings_source', '.agents', '.git')
 $sacredFiles = @('AGENTS.md', 'Chain Of Thoughts.md', 'REAS - Chain Of Thoughts.md')
 
 # ── Vault scan ────────────────────────────────────────────────────────────────
@@ -196,9 +210,9 @@ foreach ($note in $allNotes) {
     if ($isExcluded) { $excludedCount++; continue }
 
     # Count shared core tags
-    $sharedCore    = ($coreTags | Where-Object { $noteTags -contains $_ }).Count
+    $sharedCore    = @($coreList | Where-Object { $noteTags -contains $_ }).Count
     # Count shared supporting tags
-    $sharedSupport = ($supportTags | Where-Object { $noteTags -contains $_ }).Count
+    $sharedSupport = @($supportTags | Where-Object { $noteTags -contains $_ }).Count
 
     # Determine match tier using formatter policy
     $matchTier = $null
@@ -234,6 +248,7 @@ $sorted = $candidates |
     ForEach-Object { $_.Group | Select-Object -First 1 } |
     Sort-Object -Property Score -Descending |
     Select-Object -First $TopN
+$sorted = @($sorted)   # a single result is a scalar; .Count would be empty
 
 # ── Output ────────────────────────────────────────────────────────────────────
 

@@ -1,9 +1,20 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [islam, fiqh, hanafi, maliki, shafii, hanbali, ibadat, cli]
+tags: [islam, fiqh, ruling, jurisprudence, worship, the-ruling-on-raf-al-yadayn, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Introduction and Etymology]]
+> - [[#Historical Context and the Companions' Positions]]
+> - [[#The Four Madhabs: An Exhaustive Breakdown]]
+> - [[#Points of Agreement and Contention]]
+> - [[#Contemporary Scholars and Modern Discourse]]
+> - [[#Bid'ah Watch: Distinguishing Deen from Cultural Invention]]
+> - [[#Conclusion]]
+
+- - -
 
 # FIQH - The Ruling on Raf' al-Yadayn
 

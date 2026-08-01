@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, computer-science, computation, algorithms, engineering, cli]
+tags: [science, computer-science, concept, computation, algorithms, engineering, avalsys-n8n-workflow, cli]
 note: ""
 ---
 

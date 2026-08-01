@@ -1,8 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags:
-  - literature
+tags: [literature, reference, compendium, language, quotes, manual]
 note: ""
 ---
 

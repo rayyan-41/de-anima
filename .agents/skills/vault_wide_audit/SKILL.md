@@ -52,7 +52,32 @@ powershell -File ".agents\tools\validate_tags.ps1" -TagLine "[the note's tags, c
 Report every note that fails — wrong domain/category pairing, too few or too many
 topic tags, missing or misplaced `cli`. Do not fix yet.
 
-### 4. Broken Links, Orphans, and Islands
+### 4. Map of Contents Integrity
+
+Regenerate each domain MOC from the vault and diff the reported note count against
+the index. A rebuild is non-destructive with respect to content and is the only
+reliable way to detect desync:
+
+```powershell
+powershell -File ".agents\tools\update_moc.ps1" -Domain "[Domain]" -Rebuild
+```
+
+Run for Art, History, Islam, Literature, Science. **Not Reason** — it has no MOC.
+
+### 5. Table of Contents Coverage
+
+Every `cli` note must carry a ToC. Check without writing:
+
+```powershell
+powershell -File ".agents\tools\generate_toc.ps1" -FilePath "[note]" -WhatIfOnly
+```
+
+`TOC_WOULD_WRITE` means the note is missing one. `TOC_SKIPPED: only N content
+heading(s)` means the note is too thin to have one — report those as structural
+findings, since a cli note with fewer than two sections indicates a failed
+generation run.
+
+### 6. Broken Links, Orphans, and Islands
 
 There is no dedicated link-graph tool. Derive these from the index yourself:
 

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, galileo-galilei, cli]
+tags: [history, biography, person, biography-and-legacy, galileo-galilei, cli]
 note: ""
 ---
 
@@ -169,4 +169,4 @@ Galileo was not a saint; he was a brilliantly flawed human being.
 ## See Also
 
 - [[The Holy Roman Empire]] — Historical entity referenced in text.
-- [[Map of Contents - Biographies|Biographies MOC]]
+- [[Map of Contents - History|History MOC]]

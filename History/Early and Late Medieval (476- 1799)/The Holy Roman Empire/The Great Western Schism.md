@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval-and-late-medieval, the-great-western-schism, christianity, cli]
+tags: [history, medieval, event, religion-and-power, the-great-western-schism, cli]
 note: ""
 ---
 

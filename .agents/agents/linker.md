@@ -82,9 +82,17 @@ If `CANDIDATES_FOUND: 1` → report `MINIMUM LINK WARNING: only 1 policy-valid c
 ### Step 3 — Apply Density Cap and Context Check
 
 From the tool's returned candidates:
-- Apply density rule: **at most 1 new wikilink per paragraph**
-- Deprioritize candidates whose names appear only once in the note body in a passing or list context — prefer candidates that appear in analytical sentences
-- Never insert a link for a note that doesn't appear by name anywhere in the body prose
+The tool ranks candidates by **tag overlap**, which is a claim about topical kinship,
+not about wording. Route them to two different destinations:
+
+- **Inline `[[wikilinks]]`** — only for candidates whose title (or a close variant)
+  actually appears in the body prose. Density rule: at most 1 new wikilink per
+  paragraph, first mention only. Prefer names in analytical sentences over passing
+  list entries. Never invent a mention to justify a link.
+- **`## Related Notes`** — every remaining policy-valid candidate goes here.
+
+A note with strong tag kinship but no textual mention is a Related Note, not a missing
+inline link. Do not force it into the prose.
 
 ### Step 4 — Apply the Obsidian Wikilink Engine
 
@@ -98,8 +106,13 @@ If the skill file is unavailable, fall back to these rules: first-mention only, 
 
 Run the MOC update tool:
 
+> Only the five content domains have a MOC. **`Reason/` has none** — its index is the
+> owner's hand-written `Chain Of Thoughts.md`, which is sacred. When linking a Reason
+> note, skip this step and report `MOC: N/A (Reason)`.
+> Never create a nested or sub-category MOC.
+
 ```powershell
-powershell -File ".agents\tools\update_moc.ps1" -Domain "[Domain]" -NoteTitle "[Rafa al-Yadayn (Fiqh)]" -NoteFilename "[Rafa al-Yadayn (Fiqh).md]" -Category "[Fiqh/Ibadat]"
+powershell -File ".agents\tools\update_moc.ps1" -Domain "[Domain]" -NoteTitle "[Note Title]" -NoteFilename "[Note Title.md]" -Category "[the category tag, i.e. tags[1]]"
 ```
 
 The tool:
@@ -109,6 +122,9 @@ The tool:
 - Updates `Last Updated` date
 - Creates the MOC if it doesn't exist
 - Returns `MOC_UPDATED`, `MOC_CREATED`, or `ALREADY_LISTED`
+
+The tool regenerates the MOC from the domain folder rather than editing rows, so the
+counts, grouping, and dead-link pruning stay correct automatically.
 
 ### Step 5.5 — Sacred File Guard (E-4 fix)
 

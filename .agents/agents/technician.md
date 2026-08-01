@@ -197,6 +197,24 @@ FAILED NOTES (require manual attention):
 
 **Purpose**: Read and repair a domain's Map of Contents file against the canonical template. This mode was previously (incorrectly) housed in `formatter` as Mode 2 — it belongs here as a vault-level maintenance task.
 
+### MOC Scope
+
+Only the five content domains carry a MOC: Art, History, Islam, Literature, Science.
+
+- **`Reason/` has no MOC.** Its index is the owner's hand-written
+  `Chain Of Thoughts.md`, which is sacred and must never be touched or replaced.
+- **Nested / sub-category MOCs were retired.** Do not recreate them. If a domain has
+  grown enough to warrant sub-indexes, that is the vault owner's call, not yours.
+
+The fastest and safest repair is a full regeneration, which cannot drift and prunes
+dead links by construction:
+
+```powershell
+powershell -File ".agents\tools\update_moc.ps1" -Domain "[Domain]" -Rebuild
+```
+
+Prefer that over hand-editing rows.
+
 ### Canonical MOC Template
 
 Every domain MOC must conform to:
@@ -205,7 +223,7 @@ Every domain MOC must conform to:
 ---
 date: YYYY-MM-DD
 status: complete
-tags: [[domain], moc, cli]
+tags: [<domain>, moc, cli]
 note: ""
 ---
 

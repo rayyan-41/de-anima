@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [reason, philosophy, reason/philosophy, hegel, absolute-idea, dialectic, history-of-philosophy, cli]
+tags: [reason, philosophy, concept, history-of-ideas, metaphysics, hegel, absolute-idea, history-of-philosophy, cli]
 note: ""
 ---
 

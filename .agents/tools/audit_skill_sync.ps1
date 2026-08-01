@@ -125,24 +125,90 @@ foreach ($a in $REQUIRED_AGENTS) {
     if ($head -notmatch '(?m)^type:')        { Add-Failure "$p has no 'type:' in frontmatter" }
 }
 
-# -- 6. Tag policy agreement -------------------------------------------------
-$validator   = Get-Content '.agents\tools\validate_tags.ps1' -Raw
-$enforcerDoc = '.agents\skills\obsidian_yaml_enforcer\SKILL.md'
-if (Test-Path $enforcerDoc) {
-    $enforcer = Get-Content $enforcerDoc -Raw
+# -- 6. Taxonomy integrity ---------------------------------------------------
+$taxPath = '.agents\taxonomy.json'
+if (-not (Test-Path $taxPath)) {
+    Add-Failure 'Missing tag registry: .agents\taxonomy.json'
+} else {
+    $tax = Get-Content $taxPath -Raw -Encoding UTF8 | ConvertFrom-Json
 
-    # Every category tag listed in the skill's registry table must exist in the validator.
-    foreach ($row in [regex]::Matches($enforcer, '(?m)^\|\s*(?:`(\w[\w-]*)`|\*\(any\)\*)\s*\|(.+?)\|\s*$')) {
-        foreach ($tag in [regex]::Matches($row.Groups[2].Value, '`([a-z][a-z0-9-]*)`')) {
-            $t = $tag.Groups[1].Value
-            if ($validator -notmatch [regex]::Escape("'$t'")) {
-                Add-Failure "Category '$t' is in the enforcer skill but not in validate_tags.ps1"
-            }
+    $domainNames = @($tax.domains.PSObject.Properties.Name)
+    $cats = @()
+    foreach ($d in $domainNames) { $cats += @($tax.domains.$d) }
+    $cats += @($tax.universalCategories)
+    $types  = @($tax.types)
+    $themes = @($tax.themes)
+
+    # The four registries must stay mutually disjoint, otherwise a tag's slot
+    # is ambiguous and validate_tags.ps1 cannot classify it by position.
+    function Test-Disjoint {
+        param([string]$AName, [string[]]$A, [string]$BName, [string[]]$B)
+        $both = @($A | Where-Object { $B -contains $_ })
+        if ($both.Count -gt 0) {
+            Add-Failure "taxonomy.json: '$($both -join ", ")' appears in both $AName and $BName - registries must be disjoint"
         }
     }
-    if ($enforcer -notmatch '`cli`') { Add-Failure 'Enforcer skill no longer designates `cli` as the final tag' }
+    Test-Disjoint 'domains' $domainNames 'categories' $cats
+    Test-Disjoint 'categories' $cats 'types' $types
+    Test-Disjoint 'categories' $cats 'themes' $themes
+    Test-Disjoint 'types' $types 'themes' $themes
+    Test-Disjoint 'domains' $domainNames 'themes' $themes
+
+    # totalRange must agree with the per-slot arity, or valid arrays get rejected.
+    $a = $tax.schema.arity
+    $minSum = $a.domain[0] + $a.category[0] + $a.type[0] + $a.themes[0] + $a.entities[0] + $a.marker[0]
+    $maxSum = $a.domain[1] + $a.category[1] + $a.type[1] + $a.themes[1] + $a.entities[1] + $a.marker[1]
+    if ($tax.schema.totalRange[0] -ne $minSum -or $tax.schema.totalRange[1] -ne $maxSum) {
+        Add-Failure "taxonomy.json: totalRange [$($tax.schema.totalRange -join ',')] disagrees with arity sum [$minSum,$maxSum]"
+    }
+
+    # Every folder a note can live in must map to a category.
+    foreach ($fm in $tax.folderMap.PSObject.Properties) {
+        $cat = $fm.Value
+        if ($cats -notcontains $cat) {
+            Add-Failure "taxonomy.json: folderMap '$($fm.Name)' maps to unknown category '$cat'"
+        }
+        if (-not (Test-Path ($fm.Name.Replace('/', [System.IO.Path]::DirectorySeparatorChar)))) {
+            Add-Failure "taxonomy.json: folderMap references missing folder '$($fm.Name)'"
+        }
+    }
+
+    # The enforcer skill must point at the JSON rather than restate the lists.
+    $enforcerDoc = '.agents\skills\obsidian_yaml_enforcer\SKILL.md'
+    if (Test-Path $enforcerDoc) {
+        $enforcer = Read-Utf8 $enforcerDoc
+        if ($enforcer -notmatch 'taxonomy\.json') {
+            Add-Failure "$enforcerDoc no longer points at .agents\taxonomy.json"
+        }
+    }
+
+    # validate_tags.ps1 must own no tag lists of its own.
+    $validator = Read-Utf8 '.agents\tools\validate_tags.ps1'
+    if ($validator -notmatch 'taxonomy\.json') {
+        Add-Failure 'validate_tags.ps1 no longer reads .agents\taxonomy.json'
+    }
+    foreach ($t in @('art-history', 'aqeedah', 'short-story')) {
+        if ($validator -match "'$t'") {
+            Add-Failure "validate_tags.ps1 hardcodes the category '$t' - it must read taxonomy.json only"
+        }
+    }
 }
-if ($validator -notmatch "'cli'") { Add-Failure "validate_tags.ps1 no longer enforces the 'cli' final tag" }
+
+# -- 7. MOC scope ------------------------------------------------------------
+# Only the five content domains carry a MOC. Reason is indexed by the owner's
+# hand-written Chain Of Thoughts.md, and nested MOCs were retired.
+$mocs = @(Get-ChildItem -Path 'Art','History','Islam','Literature','Reason','Science' `
+            -Recurse -Filter 'Map of Contents*.md' -File -ErrorAction SilentlyContinue)
+foreach ($m in $mocs) {
+    $expectedDomain = ($m.FullName.Substring($VaultRoot.Length + 1) -split ([regex]::Escape([System.IO.Path]::DirectorySeparatorChar)))[0]
+    $expected = Join-Path (Join-Path $VaultRoot $expectedDomain) "Map of Contents - $expectedDomain.md"
+    if ($m.FullName -ne $expected) {
+        Add-Failure "Unexpected Map of Contents (nested MOCs are retired): $($m.FullName.Substring($VaultRoot.Length + 1))"
+    }
+}
+if (Test-Path 'Reason\Map of Contents - Reason.md') {
+    Add-Failure 'Reason must not have a MOC - Chain Of Thoughts.md is its index'
+}
 
 # -- Report ------------------------------------------------------------------
 if ($failures.Count -gt 0) {

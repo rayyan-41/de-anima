@@ -1,9 +1,18 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [islam, aqeedah, orthodox-critique, fiqh, shia-sunni-divide, cli]
+tags: [islam, aqeedah, creed, theology, sectarianism, jurisprudence, orthodox-critique, shia-sunni-divide, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Introduction: The Dialectic of Orthodoxy and Innovation]]
+> - [[#I. Theological Foundations: Imami Shi'ism vs. Fringe Sects]]
+> - [[#II. The Doctrine of Imamah and the Status of the Sahabah]]
+> - [[#III. Istighathah and the Invocation of 'Ya Ali Madad']]
+> - [[#IV. Ritual Mourning and Tatbir (Self-Flagellation)]]
+
+- - -
 
 # AQEEDAH - Orthodox Sunni Critique of Shia Practices
 

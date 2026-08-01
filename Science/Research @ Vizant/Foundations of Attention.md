@@ -1,3 +1,10 @@
+---
+date: 2026-08-01
+status: complete
+tags: [science, research, overview, machine-learning, foundations-of-attention, manual]
+note: ""
+---
+
 **Rayyan Ahmad Sultan**
 **circa 14th April 2026**
 # Introduction 

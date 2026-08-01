@@ -1,9 +1,21 @@
 ---
 date: 2026-04-08
 status: complete
-tags: [science, ai, transformers, diffusion, agentic-ai, llm, slm, attention, rnn, u-net, cli]
+tags: [science, computer-science, concept, artificial-intelligence, machine-learning, transformers, diffusion, agentic-ai, llm, slm, attention, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#1. The Core Problem: Why Did AI Need a Paradigm Shift?]]
+> - [[#2. Intuitive Foundation: From Sequential Reading to Global Attention]]
+> - [[#3. The Mechanics of Transformers: Self-Attention and Parallel Processing]]
+> - [[#4. Scaling Down: The Rise of Small Language Models (SLMs) vs LLMs]]
+> - [[#5. The Intuition of Diffusion: Reversing the Arrow of Entropy]]
+> - [[#6. Formalizing Diffusion: U-Nets, Markov Chains, and Denoising]]
+> - [[#7. Agentic AI: The Convergence of Reasoning (Transformers) and Perception (Diffusion)]]
+> - [[#8. Real-World Applications and Historical Context: The Path Forward]]
+
+- - -
 
 # Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs
 

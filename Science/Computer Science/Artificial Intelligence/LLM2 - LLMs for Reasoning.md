@@ -1,21 +1,17 @@
 ---
 date: 2026-04-10
 status: complete
-tags:
-  - science
-  - computer-science
-  - science/ai
-  - llm
-  - transformer
-  - attention-mechanism
-  - gpu
-  - chain-of-thought
-  - kv-cache
-  - in-context-learning
-  - embeddings
-  - cli
+tags: [science, computer-science, concept, computation, machine-learning, llm, transformer, attention-mechanism, gpu, chain-of-thought, kv-cache, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#The Nature and Architecture of Large Language Models]]
+> - [[#Hardware Foundations of LLM Reasoning]]
+> - [[#Mechanisms of Reasoning: Attention and In-Context Learning]]
+> - [[#Advanced Reasoning: Chain of Thought and Emergent Logic]]
+
+- - -
 
 # LLMs for Reasoning
 

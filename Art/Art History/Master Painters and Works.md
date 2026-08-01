@@ -1,9 +1,11 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [art, art-history, cli]
+tags: [art, art-history, work, aesthetics, master-painters-and-works, cli]
 note: ""
----I would like to believe that I am a fan of art. It's a beautiful form of personal expression. Here, I will list down some works that I find inspirational and truly spectacular in either influence, impact or technical ability.
+---
+
+I would like to believe that I am a fan of art. It's a beautiful form of personal expression. Here, I will list down some works that I find inspirational and truly spectacular in either influence, impact or technical ability.
 # A Sunday Afternoon on the Island of La Grande Jatte
 ![[A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.png]]
 **Painter:** Georges Seurat

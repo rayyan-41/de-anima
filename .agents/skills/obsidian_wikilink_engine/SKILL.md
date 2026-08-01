@@ -57,15 +57,21 @@ Prefer exact and near-exact matches.
 ### Method B: Semantic Tag Overlap
 
 Score candidates by taxonomy overlap:
-- shared core tags
-- shared supporting tags
+- shared theme tags (the primary signal)
+- shared entity tags
 - same category
 - same domain
 
-Suggested score:
-- `+5` per shared core tag
-- `+3` per shared supporting tag
-- `+2` same category
+Scoring is performed by `get_related_notes.ps1`, which computes:
+
+```
+score = (shared core tags x 2) + (shared supporting tags x 1)
+```
+
+Do not re-derive or re-weight this yourself — read the `SCORE:` value the tool
+returns. In this vault "core tags" are the note's **theme** tags and "supporting
+tags" are its **entity** tags, which is why a note with no themes scores against
+nothing and ends up unlinkable.
 
 ## Relevance Gate (Mandatory)
 

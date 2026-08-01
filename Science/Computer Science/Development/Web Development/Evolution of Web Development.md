@@ -1,9 +1,16 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, computer-science, web-dev, history, computation, cli]
+tags: [science, computer-science, concept, computation, web-development, web-dev, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Act I: The Crucible (1989–2000) - The Document Web]]
+> - [[#Act II: The Zenith (2000–2015) - The Social and Application Web]]
+> - [[#Act III: The Legacy (2015–Present) - The Converged Web]]
+
+- - -
 
 # WEB - Evolution of Web Development: A Technical and Historical Odyssey
 

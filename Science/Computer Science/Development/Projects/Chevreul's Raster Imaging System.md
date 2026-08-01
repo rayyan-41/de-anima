@@ -1,9 +1,16 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, computer-science, computation, algorithms, engineering, cli]
+tags: [science, computer-science, concept, computation, algorithms, engineering, chevreul-s-raster-imaging-system, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#I - The Idea]]
+> - [[#II - The Philosophy]]
+> - [[#III - Implementation]]
+
+- - -
 
 - - -
 ## I - The Idea

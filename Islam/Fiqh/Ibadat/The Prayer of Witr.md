@@ -1,9 +1,20 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [islam, fiqh, ibadat, hanafi, maliki, shafii, hanbali, cli]
+tags: [islam, fiqh, ruling, jurisprudence, worship, the-prayer-of-witr, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#1. Linguistic Definition, Spiritual Significance, and the Concept of Witr in Islamic Tradition]]
+> - [[#2. The Legal Status (Hukm) of Witr: Sunnah Mu'akkadah vs. Wajib (Detailed Breakdown of Textual Evidences)]]
+> - [[#3. Detailed Methodology of the Hanafi School: Three Rak'ahs, Connection, and the Wajib Qunut]]
+> - [[#4. Detailed Methodology of the Maliki School: The Separation (Fasl) of Shaf' and Witr, and the Amal of Madinah]]
+> - [[#5. Detailed Methodology of the Shafi'i and Hanbali Schools: Flexibility, Textual Primacy, and Qunut Variations]]
+> - [[#6. Timing of Witr: Optimal Hours, Ramadan Congregations, and Rulings on Qada (Making up Missed Witr)]]
+> - [[#7. Contemporary Application, Avoiding Fanaticism (Ta'assub), and Concluding Reflections]]
+
+- - -
 
 # FIQH - The Prayer of Witr: Rulings, Methodologies, and Variations Across the Four Madhabs
 

@@ -1,9 +1,17 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, contemporary, cli]
+tags: [history, contemporary, event, statecraft, the-arab-spring-a-decade-of-upheaval-and-transformation, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#1. Historical Context: The Structural Tinderbox]]
+> - [[#2. Timeline of Events: The Regional Contagion]]
+> - [[#3. Major Parties Involved: State and Non-State Actors]]
+> - [[#4. Thematic Map: Outcomes and Transitions]]
+
+- - -
 
 **Abstract:**
 A strategic overview of the Arab Spring (2010–2012). This note serves as the primary "Map" for the Contemporary History section, documenting the regional tinderbox, a chronological breakdown of the uprisings, and a systematic classification of the major state and non-state actors involved.

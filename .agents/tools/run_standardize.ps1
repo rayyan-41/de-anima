@@ -92,12 +92,12 @@ Follow its exact multi-step execution rules to find entities, but only insert li
 Update the domain MOC:
   powershell -File "$($PSScriptRoot)\update_moc.ps1" -Domain "$domain" -NoteTitle "[title]" -NoteFilename "$($note.Name)" -Category "[category]"
 ================================================
-TASK D - TABLE OF CONTENTS (for notes > 2,500 words)
+TASK D - TABLE OF CONTENTS (mandatory for all cli notes)
 ================================================
 
 After completing Task C, count the words in the note body (excluding frontmatter).
 
-If the note is OVER 2,500 words:
+For every cli note, regardless of length:
 - Extract every ## heading (H2 level) from the note body, in order
 - Generate a Table of Contents in this format:
 
@@ -115,7 +115,7 @@ If the note is OVER 2,500 words:
 - If a Table of Contents section already exists in the note, REPLACE it with the freshly
   generated one (headings may have changed).
 
-If the note is 2,500 words or UNDER - skip this task entirely.
+Skip only if the note has fewer than two content headings - a ToC would have nothing to list.
 
 OUTPUT - After completing all tasks, print a compact report:
   NOTE: $($note.Name)
@@ -125,7 +125,7 @@ OUTPUT - After completing all tasks, print a compact report:
   WIKILINKS: [N inserted] - [list them briefly]
   RELATED NOTES: [N added]
   MOC: [UPDATED / ALREADY_LISTED / CREATED]
-  TOC: [INSERTED / UPDATED / SKIPPED (under 2.5k words)]
+  TOC: [INSERTED / UPDATED / SKIPPED (fewer than 2 headings)]
   STATUS: COMPLETE
 "@
     Set-Content -Path "$VaultRoot\_tmp\current_prompt.txt" -Value $prompt -Encoding utf8

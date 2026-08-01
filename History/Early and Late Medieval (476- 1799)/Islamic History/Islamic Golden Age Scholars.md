@@ -1,9 +1,10 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, medieval-and-late-medieval, islamic-golden-age, cli]
+tags: [history, medieval, overview, islamic-golden-age, islamic-golden-age-scholars, cli]
 note: ""
 ---
+
 "the-ink-of-the-scholar-is-more-holy-than-the-blood-of-the-martyr."-—-tradition-attributed-to-prophet-muhammad-(pbuh)*
 This master list chronicles the lives and contributions of the intellectual giants who thrived during the Islamic Golden Age. Their work served as a bridge between classical antiquity and the modern world.
 ## The Master List

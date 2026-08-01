@@ -1,135 +1,193 @@
-﻿<#
+<#
 .SYNOPSIS
-    Validates tags against the De Anima canonical tag registry.
-    Accepts YAML inline format: "islam, fiqh, prayer, cli"
-    Also accepts old inline format: "#islam #fiqh #prayer #cli"
-    Also accepts YAML array: "[islam, fiqh, prayer, cli]"
+    Validates a De Anima tag array against the canonical taxonomy.
+
+.DESCRIPTION
+    The tag array is positional:
+
+        [domain, category, type, theme(s), entity(ies), cli]
+
+    - domain    exactly 1, from taxonomy.domains
+    - category  exactly 1, valid for that domain (or a universal category)
+    - type      exactly 1, from taxonomy.types
+    - themes    1-3, from taxonomy.themes  <- the linking substrate
+    - entities  0-6, open vocabulary (kebab-case proper nouns / specifics)
+    - cli       always last
+
+    Map of Contents files are exempt: [domain, moc, cli] is complete and valid.
+
+    Every registry is read from .agents\taxonomy.json. This script contains no
+    tag lists of its own, so the tool and the documentation cannot drift apart.
+
+.PARAMETER TagLine
+    Comma- or space-separated tags, with or without a leading '#', with or
+    without surrounding brackets.
+
+.PARAMETER Explain
+    Print the parsed slot assignment alongside the verdict.
+
 .EXAMPLE
-    powershell -File validate_tags.ps1 -TagLine "islam, fiqh, prayer, salah, hanafi, shafii, ibadat, hadith-analysis, cli"
-    Output: PASS
+    powershell -File validate_tags.ps1 -TagLine "history, biography, biography, islamic-golden-age, al-ghazali, cli"
+    PASS
+
 .EXAMPLE
-    powershell -File validate_tags.ps1 -TagLine "islam, prayer"
-    Output: FAIL: missing category tag; too few topic tags
-.NOTES
-    Fix (2026-04-12): Aligned $categoryMap with the exact tag strings agents produce.
-    Previous version had mismatches for Reason (philosophy vs reason/philosophy),
-    Art (art-history vs art/history), and Science (computer-science vs science/cs)
-    that caused permanent FAIL for those domains.
+    powershell -File validate_tags.ps1 -TagLine "[literature, moc, cli]"
+    PASS
 #>
 param(
     [Parameter(Mandatory=$true)]
-    [string]$TagLine
+    [string]$TagLine,
+
+    [switch]$Explain,
+
+    [string]$TaxonomyPath = ""
 )
-if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
-if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
-if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 
+$VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path
+if (-not $TaxonomyPath) { $TaxonomyPath = Join-Path $PSScriptRoot "..\taxonomy.json" }
 
-# Clean input — strip "TAGS:" prefix if present, handle both space and comma separated
-$TagLine = $TagLine -replace '^\s*TAGS:\s*', ''
-# Strip surrounding brackets if YAML inline array: [islam, fiqh, ...]
-$TagLine = $TagLine -replace '^\[', '' -replace '\]$', ''
-# Normalize: replace commas with spaces, strip # prefixes
+if (-not (Test-Path $TaxonomyPath)) {
+    Write-Output "FAIL: taxonomy not found at $TaxonomyPath"
+    exit 1
+}
+$tax = Get-Content $TaxonomyPath -Raw -Encoding UTF8 | ConvertFrom-Json
+
+$MARKERS     = @($tax.schema.markers)
+$MARKER      = $tax.schema.marker
+$types       = @($tax.types)
+$themes      = @($tax.themes)
+$universal   = @($tax.universalCategories)
+$modifiers   = @($tax.reservedModifiers)
+$domainNames = @($tax.domains.PSObject.Properties.Name)
+
+# Flatten every valid category once.
+$allCategories = @()
+foreach ($d in $domainNames) { $allCategories += @($tax.domains.$d) }
+$allCategories += $universal
+
+# -- Parse --------------------------------------------------------------------
+$TagLine = $TagLine -replace '^\s*\[', '' -replace '\]\s*$', ''
 $TagLine = $TagLine -replace ',', ' ' -replace '#', ''
-$tags = ($TagLine.Trim() -split '\s+') | Where-Object { $_ -ne '' }
-
-
-# --- REGISTRY (no # prefix) ---
-$domainTags = @('art', 'history', 'literature', 'reason', 'science', 'islam')
-
-$categoryMap = @{
-    # Art — plain hyphenated strings matching the tagger agent's category registry
-    'art'        = @('art-history', 'art-theory')
-    # History — unchanged, agents produce these correctly
-    'history'    = @('empire', 'biography', 'geopolitical', 'medieval', 'contemporary')
-    # Literature — unchanged
-    'literature' = @('book', 'myth', 'short-story', 'reference')
-    # Reason — plain strings; tagger agent updated to match (removed reason/ prefix)
-    'reason'     = @('philosophy', 'logic', 'metaphysics', 'ethics', 'epistemology')
-    # Science — plain strings; tagger agent updated to match (removed science/ prefix)
-    'science'    = @('astronomy', 'mathematics', 'computer-science', 'ai', 'web-dev', 'physics')
-    # Islam — unchanged, was already correct
-    'islam'      = @('aqeedah', 'fiqh')
-}
-
-# 'moc' is a valid category in every domain. Map of Contents files are indexes,
-# not topic notes, so they are also exempt from the topic-tag minimum below.
-$universalCategories = @('moc')
-
-# Flatten all category tags for quick lookup
-$allCategoryTags = @()
-foreach ($cats in $categoryMap.Values) {
-    $allCategoryTags += $cats
-}
-$allCategoryTags += $universalCategories
+$tags = @($TagLine.Trim() -split '\s+' | Where-Object { $_ -ne '' } |
+          ForEach-Object { $_.ToLower() })
 
 $errors = @()
 
-# 1. Check for exactly one domain tag
-# @() is required: a single pipeline result is a scalar String, and indexing a
-# String with [0] yields its first character rather than the tag itself.
-$foundDomains = @($tags | Where-Object { $domainTags -contains $_ })
-if ($foundDomains.Count -eq 0) {
-    $errors += "missing domain tag (need one of: $($domainTags -join ', '))"
-} elseif ($foundDomains.Count -gt 1) {
-    $errors += "multiple domain tags found: $($foundDomains -join ', ') - need exactly one"
+if ($tags.Count -eq 0) {
+    Write-Output "FAIL: no tags supplied"
+    exit 1
 }
 
-# 2. Check for exactly one category tag
-$foundCategories = @($tags | Where-Object { $allCategoryTags -contains $_ })
-if ($foundCategories.Count -eq 0) {
-    $errors += "missing category tag"
-} elseif ($foundCategories.Count -gt 1) {
-    $errors += "multiple category tags found: $($foundCategories -join ', ') - need exactly one"
+# -- Duplicates ---------------------------------------------------------------
+$dupes = @($tags | Group-Object | Where-Object { $_.Count -gt 1 } | ForEach-Object { $_.Name })
+if ($dupes.Count -gt 0) { $errors += "duplicate tags: $($dupes -join ', ')" }
+
+# -- Marker must be present, singular, and last ------------------------------
+$foundMarkers = @($tags | Where-Object { $MARKERS -contains $_ })
+if ($foundMarkers.Count -eq 0) {
+    $errors += "missing marker tag (one of: $($MARKERS -join ', '))"
+} elseif ($foundMarkers.Count -gt 1) {
+    $errors += "multiple marker tags: $($foundMarkers -join ', ') - need exactly one"
+} elseif ($MARKERS -notcontains $tags[-1]) {
+    $errors += "marker '$($foundMarkers[0])' must be the last tag"
+}
+$marker = if ($MARKERS -contains $tags[-1]) { $tags[-1] } else { $MARKER }
+
+# -- Slot 1: domain -----------------------------------------------------------
+$domain = $tags[0]
+if ($domainNames -notcontains $domain) {
+    $errors += "position 1 must be a domain (one of: $($domainNames -join ', ')) - found '$domain'"
+    $domain = $null
 }
 
-# 3. Validate category matches domain
-if ($foundDomains.Count -eq 1 -and $foundCategories.Count -eq 1) {
-    $domain = $foundDomains[0]
-    $category = $foundCategories[0]
-    $validCats = $categoryMap[$domain]
-    if ($validCats -and ($universalCategories -notcontains $category) -and ($validCats -notcontains $category)) {
-        $errors += "category '$category' is not valid for domain '$domain' (valid: $(($validCats + $universalCategories) -join ', '))"
+# -- Slot 2: category ---------------------------------------------------------
+$category = if ($tags.Count -ge 2) { $tags[1] } else { $null }
+$isMoc = $false
+
+if (-not $category) {
+    $errors += "position 2 must be a category"
+} elseif ($universal -contains $category) {
+    $isMoc = $true
+} elseif ($allCategories -notcontains $category) {
+    $errors += "position 2 '$category' is not a known category"
+} elseif ($domain -and (@($tax.domains.$domain) -notcontains $category)) {
+    $valid = (@($tax.domains.$domain) + $universal) -join ', '
+    $errors += "category '$category' is not valid for domain '$domain' (valid: $valid)"
+}
+
+# -- MOC files stop here ------------------------------------------------------
+if ($isMoc) {
+    if ($tags.Count -ne 3) {
+        $errors += "a Map of Contents must be exactly [domain, moc, marker] - found $($tags.Count) tags"
+    }
+    if ($errors.Count -gt 0) {
+        Write-Output "FAIL: $($errors -join '; ')"
+        exit 1
+    }
+    if ($Explain) { Write-Output "SLOTS: domain=$domain category=moc marker=$marker (Map of Contents - exempt)" }
+    Write-Output "PASS"
+    exit 0
+}
+
+# -- Slot 3: type -------------------------------------------------------------
+$type = if ($tags.Count -ge 3) { $tags[2] } else { $null }
+if (-not $type) {
+    $errors += "position 3 must be a type"
+} elseif ($types -notcontains $type) {
+    $errors += "position 3 '$type' is not a known type (one of: $($types -join ', '))"
+}
+
+# -- Remaining slots: themes, entities, marker --------------------------------
+$rest = @()
+if ($tags.Count -gt 3) { $rest = @($tags[3..($tags.Count - 1)]) }
+$rest = @($rest | Where-Object { $MARKERS -notcontains $_ -and $modifiers -notcontains $_ })
+
+$foundThemes   = @($rest | Where-Object { $themes -contains $_ })
+$foundEntities = @($rest | Where-Object { $themes -notcontains $_ })
+
+# Themes must lead the tail, before any entity.
+if ($foundThemes.Count -gt 0 -and $foundEntities.Count -gt 0) {
+    $firstEntityAt = [array]::IndexOf($rest, $foundEntities[0])
+    $lastThemeAt   = [array]::IndexOf($rest, $foundThemes[-1])
+    if ($lastThemeAt -gt $firstEntityAt) {
+        $errors += "theme tags must come before entity tags (found '$($foundThemes[-1])' after '$($foundEntities[0])')"
     }
 }
 
-# Map of Contents files are indexes, not topic notes.
-$isMoc = ($foundCategories.Count -eq 1) -and ($universalCategories -contains $foundCategories[0])
-
-# 4. Check topic tags (freeform - anything that isn't domain, category, or modifier)
-$topicTags = @($tags | Where-Object {
-    ($domainTags -notcontains $_) -and
-    ($allCategoryTags -notcontains $_) -and
-    ($_ -ne 'cli') -and
-    ($_ -ne 'incomplete') -and
-    ($_ -ne 'original-insight')
-})
-if ($isMoc) {
-    # no topic-tag floor for Map of Contents files
-} elseif ($topicTags.Count -lt 3) {
-    $errors += "too few topic tags ($($topicTags.Count)) - minimum is 3 (aim for 6-8)"
-} elseif ($topicTags.Count -gt 10) {
-    $errors += "too many topic tags ($($topicTags.Count)) - maximum is 10"
+$minT = $tax.schema.arity.themes[0]
+$maxT = $tax.schema.arity.themes[1]
+if ($foundThemes.Count -lt $minT) {
+    $errors += "too few theme tags ($($foundThemes.Count)) - need at least $minT from the theme registry; themes are what make notes linkable"
+} elseif ($foundThemes.Count -gt $maxT) {
+    $errors += "too many theme tags ($($foundThemes.Count)) - maximum is $maxT"
 }
 
-# 5. Check cli is present and last
-if ($tags -notcontains 'cli') {
-    $errors += "missing 'cli' tag"
-} elseif ($tags[-1] -ne 'cli') {
-    $errors += "'cli' must be the last tag"
+$maxE = $tax.schema.arity.entities[1]
+if ($foundEntities.Count -gt $maxE) {
+    $errors += "too many entity tags ($($foundEntities.Count)) - maximum is $maxE"
 }
 
-# 6. Check for duplicates
-$uniqueTags = $tags | Select-Object -Unique
-if ($uniqueTags.Count -ne $tags.Count) {
-    $duplicates = $tags | Group-Object | Where-Object { $_.Count -gt 1 } | ForEach-Object { $_.Name }
-    $errors += "duplicate tags: $($duplicates -join ', ')"
+foreach ($e in $foundEntities) {
+    if ($e -notmatch '^[a-z0-9]+(-[a-z0-9]+)*$') {
+        $errors += "entity tag '$e' must be lowercase kebab-case"
+    }
 }
 
-# --- OUTPUT ---
-if ($errors.Count -eq 0) {
-    Write-Output "PASS"
-} else {
+# -- Total arity --------------------------------------------------------------
+$min = $tax.schema.totalRange[0]
+$max = $tax.schema.totalRange[1]
+if ($tags.Count -lt $min -or $tags.Count -gt $max) {
+    $errors += "tag count $($tags.Count) outside allowed range $min-$max"
+}
+
+# -- Report -------------------------------------------------------------------
+if ($errors.Count -gt 0) {
     Write-Output "FAIL: $($errors -join '; ')"
+    exit 1
 }
 
+if ($Explain) {
+    Write-Output "SLOTS: domain=$domain category=$category type=$type themes=[$($foundThemes -join ',')] entities=[$($foundEntities -join ',')] marker=$marker"
+}
+Write-Output "PASS"
+exit 0

@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, philosophy, medicine, islamic-golden-age, cli]
+tags: [history, biography, person, history-of-ideas, islamic-golden-age, ibn-sina, cli]
 note: ""
 ---
 
@@ -152,4 +152,4 @@ He identified "love-sickness" (*al-ishq*) as a clinical condition, which he diag
 ## See Also
 
 - [[Euclid]] — Historical entity referenced in text.
-- [[Map of Contents - Biographies|Biographies MOC]]
+- [[Map of Contents - History|History MOC]]

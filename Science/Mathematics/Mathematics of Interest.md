@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, mathematics, reference, computation, algorithms, cli]
+tags: [science, mathematics, concept, mathematical-foundations, history-of-ideas, computation, mathematics-of-interest, cli]
 note: ""
 ---
 

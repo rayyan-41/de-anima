@@ -1,166 +1,163 @@
-﻿<#
+<#
 .SYNOPSIS
-    Appends a note entry to the specified domain's Map of Contents file.
-.PARAMETER Domain
-    The vault domain: Art, History, Islam, Literature, Reason, Science
-.PARAMETER NoteTitle
-    The display title of the note (e.g. "Rafa al-Yadayn (Fiqh)")
-.PARAMETER NoteFilename
-    The filename without path (e.g. "Rafa al-Yadayn (Fiqh).md")
-.PARAMETER Category
-    The subcategory within the domain (e.g. "Fiqh/Ibadat", "Medieval", "Books")
-.PARAMETER VaultRoot
-    Root of the vault. Defaults to $VaultRoot
+    Adds a note to its domain Map of Contents, or rebuilds a MOC from the vault.
+
+.DESCRIPTION
+    Only the six core domains have a MOC. Nested / sub-category MOCs were retired --
+    do not reintroduce them without the vault owner's decision.
+
+    The MOC lives at:  <Domain>\Map of Contents - <Domain>.md
+
+    Notes are grouped by their CATEGORY tag (tags[1]), which is derived from the
+    folder the note lives in. The Topic Area column is the category, so every
+    category occupies exactly one row listing all of its notes.
+
+    -Rebuild regenerates the entire MOC by scanning the domain folder. This is the
+    self-healing path: it cannot drift, prunes dead links by construction, and is
+    safe to run at any time.
+
+.PARAMETER Rebuild
+    Ignore -NoteTitle/-NoteFilename and regenerate the MOC from every note in the domain.
+
 .EXAMPLE
-    powershell -File update_moc.ps1 -Domain Islam -NoteTitle "Rafa al-Yadayn (Fiqh)" -NoteFilename "Rafa al-Yadayn (Fiqh).md" -Category "Fiqh/Ibadat"
-    Output: MOC_UPDATED: _Islam - Map of Contents.md — added "Rafa al-Yadayn (Fiqh)"
-.NOTES
-    Fixes (2026-04-12):
-      C-4: Wikilinks now use filename stem (no .md extension) — Obsidian requires this.
-      C-5: Duplicate detection normalized to stem on both sides to prevent double-entries.
-      C-6: Total Notes counter regex updated to match canonical bullet format "- Total Notes: N".
+    powershell -File update_moc.ps1 -Domain Islam -NoteTitle "Rafa al-Yadayn" -NoteFilename "Rafa al-Yadayn.md" -Category fiqh
+    MOC_UPDATED: Map of Contents - Islam.md - added 'Rafa al-Yadayn' under 'fiqh'
+
+.EXAMPLE
+    powershell -File update_moc.ps1 -Domain Science -Rebuild
+    MOC_REBUILT: Map of Contents - Science.md - 14 notes across 4 categories
 #>
 param(
     [Parameter(Mandatory=$true)]
     [ValidateSet("Art", "History", "Islam", "Literature", "Reason", "Science")]
     [string]$Domain,
 
-    [Parameter(Mandatory=$true)]
-    [string]$NoteTitle,
+    [string]$NoteTitle = "",
+    [string]$NoteFilename = "",
+    [string]$Category = "",
 
-    [Parameter(Mandatory=$true)]
-    [string]$NoteFilename,
-
-    [Parameter(Mandatory=$true)]
-    [string]$Category,
+    [switch]$Rebuild,
 
     [string]$VaultRoot = ""
 )
+
 if (-not $VaultRoot) { $VaultRoot = (Resolve-Path "$PSScriptRoot\..\..").Path }
-if (-not $TmpDir) { $TmpDir = Join-Path $VaultRoot "_tmp" }
-if (-not $ToolsDir) { $ToolsDir = $PSScriptRoot }
 
+$mocFilename = "Map of Contents - $Domain.md"
+$domainDir   = Join-Path $VaultRoot $Domain
+$mocPath     = Join-Path $domainDir $mocFilename
+$today       = Get-Date -Format "yyyy-MM-dd"
 
-$mocFilename = "_${Domain} - Map of Contents.md"
-$mocPath = Join-Path $VaultRoot (Join-Path $Domain $mocFilename)
+if (-not (Test-Path $domainDir)) {
+    Write-Output "MOC_ERROR: domain folder not found at $domainDir"
+    exit 1
+}
 
-# ── Derive wikilink target: always strip .md extension (Obsidian requirement) ─
-$wikilinkTarget   = [System.IO.Path]::GetFileNameWithoutExtension($NoteFilename)
-$noteFilenameStem = $wikilinkTarget  # reuse for duplicate detection
+# -- Helpers ------------------------------------------------------------------
+function Get-NoteTags {
+    param([string]$Path)
+    $raw = Get-Content $Path -Raw -Encoding UTF8 -ErrorAction SilentlyContinue
+    if (-not $raw) { return @() }
+    if ($raw -match '(?s)^---\s*\n(.*?)\n---') {
+        $fm = $matches[1]
+        if ($fm -match '(?m)^tags:\s*\[(.*?)\]\s*$') {
+            return @($matches[1] -split ',' | ForEach-Object { $_.Trim().ToLower() } |
+                     Where-Object { $_ -ne '' })
+        }
+    }
+    return @()
+}
 
-if (-not (Test-Path $mocPath)) {
-    # Create a new MOC with canonical YAML frontmatter
-    $today = Get-Date -Format "yyyy-MM-dd"
-    $mocContent = @"
----
-date: $today
-status: complete
-tags: [$($Domain.ToLower()), moc, cli]
-note: ""
----
+function Write-Moc {
+    param([hashtable]$Groups, [int]$Total)
+    $sb = [System.Text.StringBuilder]::new()
+    [void]$sb.AppendLine("---")
+    [void]$sb.AppendLine("date: $today")
+    [void]$sb.AppendLine("status: complete")
+    [void]$sb.AppendLine("tags: [$($Domain.ToLower()), moc, cli]")
+    [void]$sb.AppendLine('note: ""')
+    [void]$sb.AppendLine("---")
+    [void]$sb.AppendLine("")
+    [void]$sb.AppendLine("**Metadata:**")
+    [void]$sb.AppendLine("- Last Major Reorganization: $today")
+    [void]$sb.AppendLine("- Total Notes: $Total")
+    [void]$sb.AppendLine("- - -")
+    [void]$sb.AppendLine("")
+    [void]$sb.AppendLine("## Structure")
+    [void]$sb.AppendLine("")
+    [void]$sb.AppendLine("| Topic Area | Notes | Last Updated |")
+    [void]$sb.AppendLine("|------------|-------|--------------|")
+    foreach ($cat in ($Groups.Keys | Sort-Object)) {
+        $links = ($Groups[$cat] | Sort-Object | ForEach-Object { "[[$_]]" }) -join ", "
+        [void]$sb.AppendLine("| $cat | $links | $today |")
+    }
+    [void]$sb.AppendLine("")
+    [void]$sb.AppendLine("- - -")
+    [void]$sb.AppendLine("")
+    [void]$sb.AppendLine("*Last MOC Update: $today by De Anima Orchestrator*")
+    # UTF-8 without BOM, to match the rest of the vault.
+    [System.IO.File]::WriteAllText($mocPath, $sb.ToString().TrimEnd() + "`n",
+        (New-Object System.Text.UTF8Encoding($false)))
+}
 
-**Metadata:**
-- Last Major Reorganization: $today
-- Total Notes: 1
-- - -
+function Get-DomainGroups {
+    $groups = @{}
+    $count = 0
+    $notes = Get-ChildItem -Path $domainDir -Recurse -Filter "*.md" -File |
+             Where-Object { $_.Name -notlike "Map of Contents*" -and
+                            $_.FullName -notlike "*\paintings_source\*" -and
+                            $_.BaseName -notlike "*Chain Of Thoughts*" }
+    foreach ($n in $notes) {
+        $tags = Get-NoteTags $n.FullName
+        if ($tags.Count -lt 2) { continue }
+        if ($tags[1] -eq 'moc') { continue }
+        $cat = $tags[1]
+        if (-not $groups.ContainsKey($cat)) { $groups[$cat] = @() }
+        $groups[$cat] += $n.BaseName
+        $count++
+    }
+    return @{ Groups = $groups; Count = $count }
+}
 
-## Structure
-
-| Topic Area | Notes | Last Updated |
-|------------|-------|--------------|
-| $Category | [[$wikilinkTarget|$NoteTitle]] | $today |
-
-- - -
-
-*Last MOC Update: $today by De Anima Orchestrator*
-*Next Review: $((Get-Date).AddMonths(3).ToString("yyyy-MM-dd"))*
-"@
-    Set-Content -Path $mocPath -Value $mocContent -Encoding UTF8
-    Write-Output "MOC_CREATED: $mocFilename - created with '$NoteTitle'"
+# -- Rebuild ------------------------------------------------------------------
+if ($Rebuild) {
+    $r = Get-DomainGroups
+    Write-Moc -Groups $r.Groups -Total $r.Count
+    Write-Output "MOC_REBUILT: $mocFilename - $($r.Count) notes across $($r.Groups.Keys.Count) categories"
     exit 0
 }
 
-# MOC exists — read it
+# -- Incremental add ----------------------------------------------------------
+if (-not $NoteTitle -or -not $NoteFilename) {
+    Write-Output "MOC_ERROR: -NoteTitle and -NoteFilename are required unless -Rebuild is used"
+    exit 1
+}
+
+$stem = [System.IO.Path]::GetFileNameWithoutExtension($NoteFilename)
+
+if (-not (Test-Path $mocPath)) {
+    $r = Get-DomainGroups
+    Write-Moc -Groups $r.Groups -Total $r.Count
+    Write-Output "MOC_CREATED: $mocFilename - built from $($r.Count) notes"
+    exit 0
+}
+
 $content = Get-Content $mocPath -Raw -Encoding UTF8
-$today = Get-Date -Format "yyyy-MM-dd"
-
-# Strategy: loop through lines, prune decrepit links, then append the new row.
-$lines = $content -split "`n"
-$validLines = @()
-$lastTableRowIndex = -1
-$domainDir = Join-Path $VaultRoot $Domain
-$alreadyExists = $false
-
-foreach ($line in $lines) {
-    if ($line.Trim() -match '^\|') {
-        if ($line -match '\[\[(.*?)(\|.*?)?\]\]') {
-            $linkFile = $matches[1]
-
-            # ── C-5 fix: normalize both sides to stem before comparing ─────────
-            $linkFileStem = [System.IO.Path]::GetFileNameWithoutExtension($linkFile)
-            if ($linkFileStem -eq $noteFilenameStem) {
-                $alreadyExists = $true
-            }
-
-            # Check if the target file actually exists — prune dead links.
-            # Try both with and without .md extension for resilience.
-            $exists = Get-ChildItem -Path $domainDir -Filter "$linkFile.md" -Recurse -File `
-                          -ErrorAction SilentlyContinue | Select-Object -First 1
-            if (-not $exists) {
-                $exists = Get-ChildItem -Path $domainDir -Filter $linkFile -Recurse -File `
-                              -ErrorAction SilentlyContinue | Select-Object -First 1
-            }
-            if (-not $exists) {
-                Write-Output "PRUNED_DECREPIT: '$linkFile'"
-                continue # Omit this row from valid lines
-            }
-        }
-        $lastTableRowIndex = $validLines.Count
-    }
-    $validLines += $line
+if ($content -match [regex]::Escape("[[$stem]]")) {
+    Write-Output "ALREADY_LISTED: '$stem' is already in $mocFilename"
+    exit 0
 }
 
-$lines = $validLines
+# A rebuild is cheaper and safer than surgical row editing, and guarantees the
+# counts, grouping, and dead-link pruning all stay correct.
+$r = Get-DomainGroups
+Write-Moc -Groups $r.Groups -Total $r.Count
 
-if (-not $alreadyExists) {
-    # ── C-4 fix: wikilink uses stem (no .md extension) ───────────────────────
-    $newRow = "| $NoteTitle | [[$wikilinkTarget|$NoteTitle]] | $today |"
-    if ($lastTableRowIndex -ge 0) {
-        $before = $lines[0..$lastTableRowIndex]
-        $after = if ($lastTableRowIndex -lt $lines.Count - 1) {
-            $lines[($lastTableRowIndex + 1)..($lines.Count - 1)]
-        } else { @() }
-        $newLines = $before + $newRow + $after
-    } else {
-        $newLines = $lines + "" + $newRow
-    }
-    $lines = $newLines
+$reread = Get-Content $mocPath -Raw -Encoding UTF8
+if ($reread -match [regex]::Escape("[[$stem]]")) {
+    Write-Output "MOC_UPDATED: $mocFilename - added '$stem' under '$Category'"
+    exit 0
 }
 
-# Count actual data rows (exclude header and separator rows)
-$newContent = $lines -join "`n"
-$tableRowCount = ($lines | Where-Object {
-    $_.Trim() -match '^\|' -and
-    $_ -notmatch '\|-{2,}' -and          # separator row
-    $_ -notmatch '^\|\s*Topic Area\s*\|'  # header row
-}).Count
-
-# ── C-6 fix: match canonical bullet format "- Total Notes: N" ────────────────
-if ($newContent -match '- Total Notes:\s*\d+') {
-    $newContent = $newContent -replace '- Total Notes:\s*\d+', "- Total Notes: $tableRowCount"
-} elseif ($newContent -match '\*\*Total Notes:\*\*\s*\d+') {
-    # Fallback for bold format in case it's used
-    $newContent = $newContent -replace '\*\*Total Notes:\*\*\s*\d+', "**Total Notes:** $tableRowCount"
-}
-
-# Update Last MOC Update timestamp
-$newContent = $newContent -replace '\*Last MOC Update:.*?\*', "*Last MOC Update: $today by De Anima Orchestrator*"
-
-Set-Content -Path $mocPath -Value $newContent -Encoding UTF8
-
-if ($alreadyExists) {
-    Write-Output "MOC_PRUNED: $mocFilename - verified '$NoteTitle' already listed, pruned dead links"
-} else {
-    Write-Output "MOC_UPDATED: $mocFilename - added '$NoteTitle' (Total Notes: $tableRowCount)"
-}
-
+Write-Output "MOC_WARNING: $mocFilename rebuilt, but '$stem' was not found on disk in $Domain"
+exit 0

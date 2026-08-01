@@ -1,7 +1,7 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [science, mathematics, number-theory, millennium-problems, computation, cli]
+tags: [science, mathematics, concept, mathematical-foundations, number-theory, computation, millennium-problems, cli]
 note: ""
 ---
 

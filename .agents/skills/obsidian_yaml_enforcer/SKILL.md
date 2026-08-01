@@ -1,6 +1,6 @@
 ---
 name: obsidian_yaml_enforcer
-description: Authoritative frontmatter schema and tag-policy engine for De Anima notes. Ensures every note has valid frontmatter and a canonical, relevance-gated tag array in the correct order.
+description: Authoritative frontmatter schema and tag-policy engine for De Anima notes. Defines the positional tag array - domain, category, type, themes, entities, marker - and how to derive each slot deterministically.
 ---
 
 # Obsidian YAML Enforcer
@@ -8,136 +8,172 @@ description: Authoritative frontmatter schema and tag-policy engine for De Anima
 ## Purpose
 
 This skill is the authoritative schema and tag-policy engine for De Anima notes.
-It ensures every note has valid frontmatter, canonical fields, and relevance-safe tags.
 
 If any local prompt instruction conflicts with this skill, this skill wins.
 
-Every rule below is enforced mechanically by `.agents\tools\validate_tags.ps1`.
-**This document and that script must always agree.** If you find a disagreement,
-report it rather than guessing — one of the two is out of date.
+**The registries live in `.agents\taxonomy.json`, not in this file.** That file is
+read directly by `validate_tags.ps1`. This document explains the *rules*; the JSON
+holds the *values*. When you need the current list of categories, types, or themes,
+read the JSON. Never hardcode a tag list anywhere else.
 
-## Canonical Frontmatter Schema
+## Canonical Frontmatter
 
-Every note must begin with exactly these four fields, in this order:
+Every note carries exactly these four fields, in this order:
 
 ```yaml
 ---
 date: YYYY-MM-DD
 status: [complete|incomplete]
-tags: [domain, category, topic1, topic2, ..., cli]
+tags: [domain, category, type, theme(s), entity(ies), marker]
 note: ""
 ---
 ```
 
-Required fields: `date`, `status`, `tags`, `note`.
+There is **no** `title:`, `domain:`, or `category:` property. The filename is the
+title; domain and category are the first two tags. If you find those legacy fields,
+remove them.
 
-There is **no** `title:`, `domain:`, or `category:` property. The note's title is its
-filename; its domain and category are the first two entries of the `tags` array.
-Do not add, restore, or infer those properties — earlier revisions of this vault used
-them and they were deliberately removed.
+`note:` is a free-text field owned by the user. Never write to it.
 
-## Tag Construction Policy
+## The Tag Array Is Positional
 
-Canonical order:
+Order is part of the schema, not a style preference. `validate_tags.ps1` reads slots
+by position.
 
-1. domain tag (exactly one)
-2. category tag (exactly one)
-3. core topic tags (3-6)
-4. optional supporting topic tags (0-4)
-5. `cli` (always last)
+| # | Slot | Count | Source | Determinism |
+|---|---|---|---|---|
+| 1 | **domain** | exactly 1 | `taxonomy.domains` | mechanical — the top-level folder |
+| 2 | **category** | exactly 1 | `taxonomy.domains[domain]` | mechanical — `taxonomy.folderMap` |
+| 3 | **type** | exactly 1 | `taxonomy.types` | near-mechanical — the note's form |
+| 4 | **themes** | 1–3 | `taxonomy.themes` | judgement, from a closed list |
+| 5 | **entities** | 0–6 | open vocabulary | judgement, kebab-case |
+| 6 | **marker** | exactly 1 | `cli` or `manual` | mechanical — who wrote it |
 
-The category tag **is** the note's structural classifier. There is no separate
-structural-tag slot — adding one produces two category tags and fails validation.
+Total: 5–13 tags.
 
-Formatting rules:
+The four registries are **mutually disjoint by construction** — no string is both a
+category and a type, or a type and a theme. This is what makes a tag's slot
+unambiguous from the tag alone, and it is enforced by `audit_skill_sync.ps1`. If you
+add a value to one registry, it must not collide with any other.
 
-- Plain values in a YAML inline array, no `#` prefix.
-- Lowercase.
-- kebab-case for multi-word tags.
-- No slash-separated forms. Use `art-history`, never `art/history`.
-- No duplicates.
+### Slot 1 — domain
 
-## Canonical Registry
+The top-level folder, lowercased. No judgement.
 
-Allowed domain tags:
+### Slot 2 — category
 
-`art`, `history`, `islam`, `literature`, `reason`, `science`
+Look up the note's folder in `taxonomy.folderMap`, longest prefix wins. A note in
+`History/Early and Late Medieval (476- 1799)/The Crusades/` maps to `medieval`.
+No judgement. If the folder is not in the map, stop and report — do not invent one.
 
-Allowed category tags, by domain — these exact strings and no others:
+### Slot 3 — type
 
-| Domain | Valid category tags |
+What *form* the note takes, independent of subject:
+
+| Type | Use for |
 |---|---|
-| `art` | `art-history`, `art-theory` |
-| `history` | `empire`, `biography`, `geopolitical`, `medieval`, `contemporary` |
-| `islam` | `aqeedah`, `fiqh` |
-| `literature` | `book`, `myth`, `short-story`, `reference` |
-| `reason` | `philosophy`, `logic`, `metaphysics`, `ethics`, `epistemology` |
-| `science` | `astronomy`, `mathematics`, `computer-science`, `ai`, `web-dev`, `physics` |
-| *(any)* | `moc` — Map of Contents files only |
+| `person` | a biography |
+| `empire` | a polity or dynasty |
+| `event` | a war, schism, revolution, discrete happening |
+| `concept` | an idea, theory, mechanism, or method being explained |
+| `work` | a specific book, painting, story, or artefact under analysis |
+| `ruling` | a fiqh ruling |
+| `creed` | an aqeedah / theological position |
+| `technique` | a how-to or procedural note |
+| `compendium` | a lookup table, lexicon, quote collection |
+| `overview` | a survey spanning many subjects |
 
-`moc` is valid in every domain. MOC files are indexes rather than topic notes, so
-they are exempt from the 3-topic-tag minimum: `[literature, moc, cli]` is complete
-and valid.
+### Slot 4 — themes (1–3) — the linking substrate
 
-Normalization rules:
+**This is the most important slot and the one most often done badly.**
 
-- Convert spaces and underscores to hyphens.
-- Collapse any legacy slash form to its flat equivalent (`fiqh/ibadat` → `fiqh`,
-  `science/cs` → `computer-science`, `reason/philosophy` → `philosophy`).
-- Singularize legacy plurals (`books` → `book`, `biographies` → `biography`,
-  `myths-and-legends` → `myth`, `short-stories` → `short-story`).
+Themes come from a closed registry. They are the shared vocabulary that lets
+`get_related_notes.ps1` find genuine relatives — the link policy matches on shared
+core tags, and themes are what two different notes can actually have in common.
+Entity tags almost never repeat across notes, so a note with no themes is a note
+that can never be linked to anything.
 
-Tag quantity constraints:
+Rules:
+- At least one theme is mandatory. Validation fails without one.
+- Pick themes the note **materially develops**, not ones it mentions.
+- Prefer the more specific theme when two apply.
+- If nothing in the registry fits, pick the closest and report the gap. Do not
+  invent a theme — add it to `taxonomy.json` deliberately, as a schema change.
 
-- Core topic tags: 3-6
-- Supporting topic tags: 0-4
-- Total topic tags: 3-10 (validation fails below 3 or above 10)
+### Slot 5 — entities (0–6)
 
-Relevance rules:
+Open vocabulary: proper nouns and specific subjects the note actually analyses —
+`al-ghazali`, `second-punic-war`, `barycentric-coordinates`.
+
+- lowercase kebab-case, `^[a-z0-9]+(-[a-z0-9]+)*$`
+- must not duplicate a domain, category, type, or theme already present
+- **themes must all come before entities** in the array
+
+Entities give precision in search. Themes give recall. You need both.
+
+### Slot 6 — marker
+
+- `cli` — produced by the generation pipeline.
+- `manual` — written by hand by the vault owner.
+
+Never relabel a `manual` note as `cli`. The distinction is what makes it possible to
+filter human writing from generated writing, and only `cli` notes are subject to the
+mandatory Table of Contents rule.
+
+## Map of Contents Files
+
+A MOC is exempt from the schema above. It is exactly three tags:
+
+```yaml
+tags: [<domain>, moc, cli]
+```
+
+Only the core domains have a MOC, and `Reason/` has none at all — its index is the
+owner's hand-written `Chain Of Thoughts.md`. Do not create nested or sub-category
+MOCs.
+
+## Relevance Rules
 
 - Mentions are not tags.
 - Incidental entities must not be tagged.
-- Tag only concepts/figures that are materially analyzed.
+- Tag only what the note materially analyses.
+- A person is tagged only when their role is actually examined, not name-dropped.
 
-## Validation Procedure
-
-After constructing tags, run:
+## Validation
 
 ```powershell
-powershell -File ".agents\tools\validate_tags.ps1" -TagLine "[comma-separated tags without #]"
+powershell -File ".agents\tools\validate_tags.ps1" -TagLine "[comma-separated tags]"
 ```
 
+Add `-Explain` to see how the tool assigned each slot — use this when a failure is
+not obvious.
+
 Interpretation:
+- `PASS` — write the frontmatter.
+- `FAIL` — correct the reported problem and rerun, **at most 3 attempts**.
+- Still failing after 3 — write your best-effort array, set `status: incomplete`,
+  report the final validator message. Never loop indefinitely.
 
-- `PASS`: write frontmatter.
-- `FAIL`: correct the reported problem and rerun, **at most 3 attempts**.
-- Still failing after 3 attempts: write your best-effort array, set `status: incomplete`,
-  and report the final validator message. Never loop indefinitely.
-
-## Rewrite Scope Rules
+## Rewrite Scope
 
 When fixing existing notes:
-
-- You may edit frontmatter fields only.
-- Do not rewrite body prose.
-- Do not alter headings or content sections except for frontmatter normalization.
+- Frontmatter fields only.
+- Never rewrite body prose, headings, or sections.
 
 ## Report Contract
-
-Output a compact machine-readable summary:
 
 ```text
 YAML_ENFORCER_REPORT
 note_path: [path]
 status: [PASS|CORRECTED|UNRESOLVED]
-frontmatter_fields: [list]
 tags_final: [list]
+slots: domain=[..] category=[..] type=[..] themes=[..] entities=[..] marker=[..]
 issues_fixed: [list or none]
 ```
 
 ## Failure Guardrails
 
-- If domain/category cannot be resolved confidently, keep the file unchanged and
-  report explicit uncertainty.
-- Never fabricate taxonomy values.
-- Never drop `cli`.
+- If domain or category cannot be resolved from the folder, leave the file unchanged
+  and report the uncertainty.
+- Never fabricate a registry value.
+- Never drop the marker tag.

@@ -1,16 +1,7 @@
 ---
 date: 2026-04-27
 status: complete
-tags:
-  - science
-  - computer-science
-  - java
-  - large-language-models
-  - orchestration
-  - langchain4j
-  - jvm
-  - rag
-  - cli
+tags: [science, computer-science, concept, computation, software-systems, machine-learning, java, large-language-models, orchestration, langchain4j, jvm, rag, cli]
 note: ""
 ---
 

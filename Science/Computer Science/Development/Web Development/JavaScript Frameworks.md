@@ -1,9 +1,16 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, computer-science, web-dev, javascript, frameworks, history, cli]
+tags: [science, computer-science, concept, computation, web-development, software-systems, web-dev, javascript, frameworks, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Act I: The Crucible (2006–2013) - The Rise of the Declarative UI]]
+> - [[#Act II: The Zenith (2014–2022) - Ecosystem Maturity and Choice]]
+> - [[#Act III: The Legacy (2023–Future) - The Post-Virtual DOM Era]]
+
+- - -
 
 # WEB - JavaScript Frameworks: The Architecture of Modern Interfaces
 

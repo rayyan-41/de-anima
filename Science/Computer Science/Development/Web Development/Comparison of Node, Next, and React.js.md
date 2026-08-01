@@ -1,9 +1,16 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, computer-science, web-dev, computation, algorithms, engineering, cli]
+tags: [science, computer-science, concept, computation, web-development, algorithms, web-dev, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#Act I: The Crucible (2009–2013) - The Runtime and the Library]]
+> - [[#Act II: The Zenith (2016–2022) - The Meta-Framework Synthesis]]
+> - [[#Act III: The Legacy (2023–Future) - The Converged Web]]
+
+- - -
 
 # WEB - Comparison of Node.js, React.js, and Next.js: The Full-Stack Ecosystem
 

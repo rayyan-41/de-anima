@@ -56,7 +56,7 @@ The canonical schema has exactly four fields. Ensure all four exist:
 |---|---|
 | `date:` | Present, format `YYYY-MM-DD` |
 | `status:` | Either `complete` or `incomplete` |
-| `tags:` | Non-empty array — first tag is domain, second is category, last is `cli` |
+| `tags:` | Positional array: `[domain, category, type, theme(s), entity(ies), marker]`. Marker is `cli` or `manual`, always last. |
 | `note:` | Present (may be empty string `""`) |
 
 **Forbidden fields** — if any of these exist, remove them:
@@ -72,7 +72,8 @@ Tagger already ran `validate_tags.ps1` and included the result in its `TAGGER_HA
 
 **If `TAGGER_HANDOFF` contains `VALIDATION: PASS`**: skip the tool call and proceed directly
 to Step 4. Redundant re-validation wastes latency and can create trust conflicts if the LLM
-rewrites tags between stages.
+rewrites tags between stages. Match the key case-sensitively as `VALIDATION:` — that
+is exactly what tagger emits.
 
 **If `TAGGER_HANDOFF` is absent, incomplete, or shows `VALIDATION: FAIL`**: run the tool:
 ```powershell
@@ -84,10 +85,13 @@ Correct the `tags:` line and rerun until `PASS`.
 
 Apply these checks before allowing linker execution:
 
-- Confirm at least 3 non-structural topic tags exist.
-- Confirm the note has a usable **core tag set** for similarity matching.
+- Confirm at least one **theme** tag exists. Themes are the only thing the link
+  policy can match across notes — a note with none is unlinkable. Treat that as a
+  blocking defect, not a warning.
+- Confirm the themes reflect what the note develops, not what it mentions.
 - Ensure names listed under `excluded_mentions` are not used as backlink targets.
-- Reject over-broad tags that would create generic backlinks (for example `history` alone).
+- Never treat the domain or category tag as a matchable topic. Every History note
+  shares `history`; matching on it would link everything to everything.
 
 If needed, rewrite `tags:` and revalidate.
 

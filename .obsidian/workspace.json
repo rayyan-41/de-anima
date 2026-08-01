@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Literature/Reference/Quotes.md",
+                "file": "Science/Research @ Vizant/Foundations of Attention.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quotes"
+              "title": "Foundations of Attention"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "29a6f5f65be8c587",
   "lastOpenFiles": [
+    "Literature/Reference/Quotes.md",
     "Literature/Books/Critique_of_Pure_Reason-Kant.pdf",
     "Literature/Books/crime_and_punishment.pdf",
     "Reason/Map of Contents - Reason.md",
@@ -225,7 +226,6 @@
     "Science/_Science - Map of Contents.md",
     "_tmp/check_tocs.ps1",
     "Literature/Short Stories/Map of Contents - Short Stories.md",
-    "Literature/Reference/Quotes.md",
     "Literature/Reference/Lexicon.md",
     "Literature/Map of Contents - Literature.md",
     "Literature/Reference/Map of Contents - Reference.md",
@@ -235,7 +235,6 @@
     "_tmp/test-topic_manifest.json",
     "_tmp/refactor.py",
     "Scripts",
-    "_tmp/clean_mocs.js",
     "Art/paintings_source/School_Of_Athens.webp",
     "Untitled.canvas",
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte.webp",

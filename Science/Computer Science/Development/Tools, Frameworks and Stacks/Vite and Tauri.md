@@ -1,7 +1,7 @@
 ---
 date: 2026-04-05
 status: complete
-tags: [science, computer-science, web-dev, rust, cli]
+tags: [science, computer-science, concept, computation, web-development, software-systems, web-dev, rust, cli]
 note: ""
 ---
 

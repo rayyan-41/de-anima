@@ -21,7 +21,7 @@ You are **Stage A** of the post-generation pipeline. You:
 3. Assemble them into one cohesive note with transitions
 4. Apply the vault note header
 5. Write the final note to the correct vault location
-6. Generate a Table of Contents for notes over 2,500 words
+6. Generate a Table of Contents (mandatory for every `cli` note)
 7. Delete the chunk files
 8. Verify word count against the template minimum
 
@@ -116,21 +116,19 @@ tags: [PLACEHOLDER]
 note: ""
 ---
 
-[Section 1 content from chunk_01]
+[chunk_01 verbatim — it already begins with its own `## Heading`]
 
 - - -
 
-[Transition sentence(s) to Section 2]
+[Transition sentence(s) into the next section]
 
-## [Section 2 Heading]
-
-[Section 2 content from chunk_02]
+[chunk_02 verbatim — it already begins with its own `## Heading`]
 
 - - -
 
-[Transition sentence(s) to Section 3]
+[Transition sentence(s) into the next section]
 
-## [Section 3 Heading]
+[chunk_03 verbatim — it already begins with its own `## Heading`]
 
 ...
 
@@ -146,7 +144,7 @@ note: ""
 ```markdown
 ...
 
-[Last content section from chunk_NN]
+[chunk_NN verbatim]
 
 - - -
 
@@ -174,7 +172,9 @@ note: ""
 - Do NOT write a `title:`, `domain:`, or `category:` property — domain and category are encoded as the first two tags
 - Do NOT repeat the note title as an H1 heading after the frontmatter — Obsidian renders the title from the filename
 - Every section separated by `- - -` (with spaces)
-- Every section has a `##` heading (preserve the heading from the chunk file)
+- **Never write a `##` heading yourself.** Step 2.5 guarantees every chunk already
+  carries its own H2. Emitting one here would duplicate it and corrupt the ToC.
+  Paste the chunk verbatim and add only the transition prose before it.
 - `## Related Notes` is always the last section (empty — linker fills it)
 
 
@@ -188,7 +188,12 @@ note: ""
 
 Split the assembled note body (everything after the closing `---` of the frontmatter) on whitespace and count tokens. Use this preliminary count for the ToC threshold decision only.
 
-**5b — Generate Table of Contents (if word count > 2,500)**:
+**5b — Generate the Table of Contents (MANDATORY)**:
+
+Every `cli` note gets a Table of Contents. There is no word-count threshold — a
+short note with sections needs navigation just as much as a long one. The only
+case where it is omitted is a note with fewer than two content headings, where a
+ToC would have nothing to list.
 
 1. Extract every `##` heading (H2 level only) from the note body, in order. Skip `## Related Notes` and `## References` — those are structural footers, not content sections.
 2. Build a ToC block using an Obsidian `[!abstract]` callout:
@@ -227,7 +232,18 @@ note: ""
 [body...]
 ```
 
-If the note is **2,500 words or under**, skip the ToC. Report `TOC: SKIPPED (under 2.5k words)` in the handoff.
+Rather than building the callout by hand, call the tool — it applies these rules,
+strips any pre-existing ToC so re-runs refresh cleanly, and writes BOM-less UTF-8:
+
+```powershell
+powershell -File ".agents\tools\generate_toc.ps1" -FilePath "[full path to saved note]"
+```
+
+Run it **after** Step 6 saves the file. Outcomes:
+- `TOC_WRITTEN: [N] headings` — done.
+- `TOC_SKIPPED: only [N] content heading(s)` — the note has fewer than two sections
+  to list. Report it; do not hand-write a ToC to compensate. A note that assembled
+  with fewer than two headings is a signal the section plan was too thin.
 
 ### Step 6 — Save the Note
 
@@ -266,6 +282,19 @@ report the exact deficit to the orchestrator and continue to Step 8. The orchest
 decides whether to regenerate thin sections — **do not block the pipeline and do not
 loop.** The note stays on disk marked incomplete either way.
 
+### Step 7.5 — Notebook Mode: Count Citations (USE TOOL)
+
+Skip unless `NOTEBOOK_MODE = TRUE`. Do not report a citation count you have not
+measured:
+
+```powershell
+powershell -File ".agents\tools\count_citations.ps1" -FilePath "[full path to saved note]"
+```
+
+Report the returned `INLINE_CITATIONS` and `CITATION_INTEGRITY` values verbatim in
+your handoff. On `CITATION_INTEGRITY: FAIL`, flag it for the orchestrator's citation
+gate — do not attempt to fix citations yourself.
+
 ### Step 8 — Clean Up Chunks (USE TOOL)
 
 After the note is saved and verified:
@@ -274,6 +303,16 @@ powershell -File ".agents\tools\cleanup_chunks.ps1" -Slug "[slug]"
 ```
 
 The tool deletes all `[slug]_chunk_*.md` files (including `_chunk_refs.md` if present) and reports count. If any fail, it reports `PARTIAL` — do not block the pipeline.
+
+### Step 8.5 — Record Pipeline State (USE TOOL)
+
+```powershell
+powershell -File ".agents\tools\update_pipeline_state.ps1" -Slug "[slug]" -Stage weaver -Status complete
+```
+
+Run this **before** `cleanup_chunks.ps1` if you want the record to survive; cleanup
+deletes the state file along with the chunks. If you have already cleaned up, skip
+this rather than recreating an orphaned state file.
 
 ### Step 9 — Handoff to tagger
 
@@ -284,8 +323,8 @@ Note saved: [full path]
 Word count: [N] words ([status: OK / WARNING])
 Chunks deleted: [N]/[N]
 Chunk issues fixed: [N] (H1 demotions, frontmatter strips, ToC strips — or "none")
-TOC: [INSERTED (N headings) / SKIPPED (under 2.5k words)]
-Notebook mode: [YES — [N] inline citations detected / NO]
+TOC: [TOC_WRITTEN (N headings) / TOC_SKIPPED (reason)]
+Notebook mode: [NO / YES — [N] inline citations, integrity [PASS|FAIL]]
 → Passing to tagger for robust tag validation (then formatter → linker)
 ```
 

@@ -1,9 +1,18 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, contemporary, cli]
+tags: [history, contemporary, event, statecraft, gaddafi-s-libya-the-rise-and-fall-of-the-jamahiriya, cli]
 note: ""
 ---
+
+> [!abstract] Table of Contents
+> - [[#1. The Ascent: From the Senussi Wastes to the Al-Fateh Coup]]
+> - [[#2. The Jamahiriya Architecture: Direct Democracy and the Green Book]]
+> - [[#3. The Socialist Experiment: Prosperity, Water, and the Oil Rentier State]]
+> - [[#4. The Pariah’s Sword: Global Terrorism and the Pan-African Pivot]]
+> - [[#5. The Reckoning: The Abu Salim Spark and the 2011 Collapse]]
+
+- - -
 
 **Abstract:**
 A comprehensive analytical dissection of Libya under the 42-year rule of **[[Muammar Gaddafi]]**. This report serves as a central hub for the Contemporary History section, documenting the transition from a fragmented monarchy to a "State of the Masses" (Jamahiriya), and analyzing the structural stressors that led to the catastrophic 2011 collapse.

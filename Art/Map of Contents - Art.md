@@ -1,17 +1,22 @@
 ---
-date: 2023-10-24
+date: 2026-08-01
 status: complete
 tags: [art, moc, cli]
 note: ""
 ---
 
-> *The aim of art is to represent not the outward appearance of things, but their inward significance.* - Aristotle
-
-The Art domain dissects the anatomy of aesthetics, techniques, and historical contexts of masterworks.
+**Metadata:**
+- Last Major Reorganization: 2026-08-01
+- Total Notes: 2
+- - -
 
 ## Structure
+
 | Topic Area | Notes | Last Updated |
 |------------|-------|--------------|
-| Art Theory | [[Map of Contents - Art Theory]], [[Chevreul to Seurat]] | 2026-04-17 |
-| Art History | [[Master Painters and Works]] | 2026-04-17 |
+| art-history | [[Master Painters and Works]] | 2026-08-01 |
+| art-theory | [[Chevreul to Seurat]] | 2026-08-01 |
+
 - - -
+
+*Last MOC Update: 2026-08-01 by De Anima Orchestrator*

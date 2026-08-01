@@ -1,19 +1,24 @@
 ---
-date: 2023-10-24
+date: 2026-08-01
 status: complete
 tags: [science, moc, cli]
 note: ""
 ---
 
-> *The seeker after truth is not one who studies the writings of the ancients... but rather the one who suspects his faith in them and questions what he gathers from them.* - Ibn Haytham
-
-The Science domain serves as a repository for empirical knowledge, computation, and mathematical theory. This Map of Contents organizes the major scientific branches and engineering disciplines studied within the vault.
+**Metadata:**
+- Last Major Reorganization: 2026-08-01
+- Total Notes: 21
+- - -
 
 ## Structure
+
 | Topic Area | Notes | Last Updated |
 |------------|-------|--------------|
-| Astronomy | [[Map of Contents - Astronomy]], [[Geodesic Equations]] | 2026-04-17 |
-| Computer Science | [[Map of Contents - Computer Science]], [[Neural Networks]], [[LLM1 - Large Language Models - Architecture and Mechanics]], [[LLM2 - LLMs for Reasoning]], [[Flutter and Dart]], [[Vite and Tauri]], [[Comparison of Node, Next, and React.js]], [[Evolution of Web Development]], [[JavaScript Frameworks]], [[Senior Developer Tips for Building Websites]], [[The Complete Guide to Building a Website in 2026]], [[AVALsys n8n workflow]], [[Chevreul's Raster Imaging System]] | 2026-04-17 |
-| Mathematics | [[Map of Contents - Mathematics]], [[Distance Metrics in Mathematics and Computing]], [[Mathematics of Interest]], [[The Riemann Hypothesis]], [[The Evolution of Limit Theorems]] | 2024-05-24 |
-| AI | [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]] | 2026-04-17 |
+| astronomy | [[Geodesic Equations]] | 2026-08-01 |
+| computer-science | [[AVALsys n8n workflow]], [[Chevreul's Raster Imaging System]], [[Comparison of Node, Next, and React.js]], [[Evolution of Web Development]], [[Flutter and Dart]], [[Java and Artificial Intelligence]], [[JavaScript Frameworks]], [[LLM1 - Large Language Models - Architecture and Mechanics]], [[LLM2 - LLMs for Reasoning]], [[Neural Networks]], [[Senior Developer Tips for Building Websites]], [[The Complete Guide to Building a Website in 2026]], [[Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs]], [[Vite and Tauri]] | 2026-08-01 |
+| mathematics | [[Distance Metrics in Mathematics and Computing]], [[Mathematics of Interest]], [[The Evolution of Limit Theorems]], [[The Riemann Hypothesis]], [[Triangles as the basis for Rasterization]] | 2026-08-01 |
+| research | [[Foundations of Attention]] | 2026-08-01 |
+
 - - -
+
+*Last MOC Update: 2026-08-01 by De Anima Orchestrator*

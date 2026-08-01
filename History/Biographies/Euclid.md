@@ -1,10 +1,10 @@
 ---
 date: 2026-04-06
 status: complete
-tags: [history, biography, euclid, cli]
+tags: [history, biography, person, biography-and-legacy, euclid, cli]
 note: ""
 ---
 
 ## See Also
 
-- [[Map of Contents - Biographies|Biographies MOC]]
+- [[Map of Contents - History|History MOC]]

@@ -1,0 +1,125 @@
+{
+  "$comment": "Single source of truth for De Anima tagging. validate_tags.ps1 reads this file directly; obsidian_yaml_enforcer/SKILL.md documents it; audit_skill_sync.ps1 verifies they agree. Change tags HERE and nowhere else.",
+  "version": 1,
+
+  "schema": {
+    "order": ["domain", "category", "type", "themes", "entities", "marker"],
+    "arity": {
+      "domain": [1, 1],
+      "category": [1, 1],
+      "type": [1, 1],
+      "themes": [1, 3],
+      "entities": [0, 6],
+      "marker": [1, 1]
+    },
+    "$totalRangeComment": "Derived from arity: min 1+1+1+1+0+1 = 5, max 1+1+1+3+6+1 = 13. Keep in sync if arity changes.",
+    "totalRange": [5, 13],
+    "marker": "cli",
+    "$markerComment": "Exactly one marker, always last. 'cli' = produced by the generation pipeline; 'manual' = written by hand. Only cli notes are subject to the mandatory Table of Contents rule.",
+    "markers": ["cli", "manual"]
+  },
+
+  "domains": {
+    "art":        ["art-history", "art-theory"],
+    "history":    ["biography", "medieval", "contemporary", "narrative"],
+    "islam":      ["aqeedah", "fiqh"],
+    "literature": ["book", "myth", "short-story", "reference"],
+    "reason":     ["philosophy"],
+    "science":    ["astronomy", "mathematics", "computer-science", "research"]
+  },
+
+  "universalCategories": ["moc"],
+
+  "folderMap": {
+    "Art/Art History": "art-history",
+    "Art/Art Theory": "art-theory",
+    "History/Biographies": "biography",
+    "History/Contemporary (1800 - Present)": "contemporary",
+    "History/Early and Late Medieval (476- 1799)": "medieval",
+    "History/Historical Narratives": "narrative",
+    "Islam/Aqeedah": "aqeedah",
+    "Islam/Fiqh": "fiqh",
+    "Literature/Books": "book",
+    "Literature/Myths and Legends": "myth",
+    "Literature/Short Stories": "short-story",
+    "Literature/Reference": "reference",
+    "Reason": "philosophy",
+    "Science/Astronomy": "astronomy",
+    "Science/Mathematics": "mathematics",
+    "Science/Computer Science": "computer-science",
+    "Science/Research @ Vizant": "research"
+  },
+
+  "$typesComment": "The FORM of the note. Deliberately disjoint from category and theme names so a tag's slot is unambiguous from the tag alone.",
+  "types": [
+    "person",
+    "empire",
+    "event",
+    "concept",
+    "work",
+    "ruling",
+    "creed",
+    "technique",
+    "compendium",
+    "overview"
+  ],
+
+  "themes": [
+    "history-of-ideas",
+    "biography-and-legacy",
+    "institutions",
+    "language",
+
+    "islamic-golden-age",
+    "military-history",
+    "statecraft",
+    "religion-and-power",
+    "empire-and-conquest",
+    "revolution",
+    "colonialism",
+    "succession-crisis",
+    "trade-and-economy",
+
+    "theology",
+    "jurisprudence",
+    "worship",
+    "sectarianism",
+    "innovation-in-religion",
+    "scriptural-evidence",
+
+    "epistemology",
+    "metaphysics",
+    "ethics",
+    "logic",
+    "consciousness",
+    "free-will",
+    "existence-and-being",
+    "philosophy-of-religion",
+    "philosophy-of-science",
+
+    "computation",
+    "algorithms",
+    "machine-learning",
+    "artificial-intelligence",
+    "probability",
+    "geometry",
+    "number-theory",
+    "mathematical-foundations",
+    "cosmology",
+    "physics",
+    "engineering",
+    "web-development",
+    "software-systems",
+    "data-structures",
+
+    "narrative-craft",
+    "mythology",
+    "tragedy",
+    "symbolism",
+    "aesthetics",
+    "artistic-technique",
+    "literary-criticism"
+  ],
+
+  "reservedModifiers": ["incomplete", "original-insight"]
+}
