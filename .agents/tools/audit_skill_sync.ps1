@@ -37,7 +37,7 @@ function Read-Utf8 {
     return [System.IO.File]::ReadAllText((Resolve-Path $Path).Path, [System.Text.Encoding]::UTF8)
 }
 
-$REQUIRED_AGENTS = @('avicenna','formatter','ghazali','haytham','linker','machiavelli',
+$REQUIRED_AGENTS = @('rousseau','formatter','ghazali','haytham','linker','machiavelli',
                      'michelangelo','tagger','technician','tolstoy','weaver')
 $REQUIRED_SKILLS = @('yolo_generation_protocol','obsidian_yaml_enforcer',
                      'obsidian_wikilink_engine','vault_wide_audit')
