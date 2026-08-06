@@ -86,4 +86,20 @@ This elegant equation worked perfectly for reading a sequence. But a fatal flaw 
 In standard networks, you might recall that activation functions like Sigmoid or $\tanh$ naturally squish gradients toward zero over many layers. RNNs suffer from this same squish, but they introduce a second, fatal compounding factor: the recurrent weight matrix, $\mathbf{W}_{hh}$. Because the RNN is a loop, the chain rule dictates that stepping backward through time requires multiplying the error by $\mathbf{W}_{hh}$. To step back 20 words means multiplying by $\mathbf{W}_{hh}$ 20 times. Combined with the $\tanh$ squish, this repeated exponentiation makes the gradient incredibly volatile, resulting in either a vanishing or exploding gradient. The most important takeaway is that the error signal simply vanishes. The network can easily update its understanding of the final words in a sentence, but it suffers total amnesia regarding the beginning. It became mathematically impossible for an RNN to connect a subject at the start of a long paragraph to a verb at the end.
 
 2) **Long Short-Term Memory Models**: The holy grail of sequence models pre-2017.  Their entire purpose was to fix the vanishing memory of RNNs. They did so by introducing a new mechanism: **gating**. Instead of blindly overwriting their memory at every single time step, LSTMs learned how to forget. By giving the network the ability to selectively drop irrelevant past context and write new, critical information into an internal 'cell state', the vanishing gradient problem was finally tamed.
-Note that it was tamed, not *solved*. 
+
+Note that it was tamed, not *solved*. It happened in the following way: 
+
+LSTMs introduced a core concept called the **cell state** ($\mathbf{C}_t$). Imagine it as a conveyor belt running straight down the entire chain of the unrolled network, with only minor linear interactions. This allows information to flow along it virtually unchanged, drastically improving the flow of gradients during backpropagation.
+
+To control this conveyor belt, the LSTM employs a system of three distinct neural network layers acting as **gates**. These gates decide what information is added to or removed from the cell state. They use a sigmoid ($\sigma$) activation function, outputting numbers between 0 and 1. A zero means "let nothing through" (forgetting), and a one means "let everything through" (remembering).
+
+Here is how the gates operate at each time step:
+
+1. **The Forget Gate (**$\mathbf{f}_t$**):** This is the first step. It looks at the previous hidden state ($\mathbf{h}_{t-1}$) and the current input ($\mathbf{x}_t$) and outputs a number between 0 and 1 for each number in the cell state $\mathbf{C}_{t-1}$. This decides what past information is no longer relevant and should be discarded.
+2. **The Input Gate (**$\mathbf{i}_t$**):** Next, the network decides what _new_ information is going to be stored in the cell state. The input gate decides which values we'll update. Simultaneously, a $\tanh$ layer creates a vector of new candidate values ($\tilde{\mathbf{C}}_t$) that could be added to the state.
+3. **Updating the Cell State:** The old cell state ($\mathbf{C}_{t-1}$) is multiplied by the forget gate ($\mathbf{f}_t$), dropping the information we decided to forget. Then, we add the new candidate values ($\mathbf{i}_t * \tilde{\mathbf{C}}_t$). The cell state has now been successfully updated to $\mathbf{C}_t$.
+4. **The Output Gate (**$\mathbf{o}_t$**):** Finally, the network decides what it's going to output (the new hidden state, $\mathbf{h}_t$). This output will be based on our newly updated cell state, but it will be a filtered version. The output gate decides what parts of the cell state make it to the output, and then the cell state is pushed through a $\tanh$ to ensure values are between -1 and 1.
+
+By using these gates, the LSTM can maintain long-term dependencies much better than a standard RNN, acting like a smart filter that knows exactly what to remember and what to forget as it reads through a sequence.
+- - -
+# Getting to Attention
