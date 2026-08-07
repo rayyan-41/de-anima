@@ -100,6 +100,6 @@ Here is how the gates operate at each time step:
 
 By using these gates, the LSTM can maintain long-term dependencies much better than a standard RNN, acting like a smart filter that knows exactly what to remember and what to forget as it reads through a sequence.
 
-Note that the vanishing gradient problem, as mentioned before, was **tamed**, not *solved*. They carried a second flaw that proved more decisive. Information still threads through the cell state one step at a time, and over truly long sequences early details can still fade. More fundamentally, an LSTM is inherently sequential: step cannot begin until step has finished. There is no way around this, it is baked into the recurrence. And that single fact becomes fatal at scale, because it means the computation cannot be parallelised. 
+Note that the vanishing gradient problem, as mentioned before, was **tamed**, not *solved*. They carried a second flaw that proved more decisive. Information still threads through the cell state one step at a time, and over truly long sequences early details can still fade. More fundamentally, an LSTM is inherently sequential: step cannot begin until step has finished. There is no way around this, it is baked into the recurrence. And that single fact becomes fatal at scale, because it means the computation cannot be parallelized. 
 - - -
 # Getting to Attention
