@@ -109,4 +109,84 @@ The Encode-Decoder network is the most important concept pre-attention because i
 1) Fixes the problem with LSTMs
 2) Introduces a bottleneck, which births Attention
 ### Encoder - Decoder Framework
-The encoder is an LSTM that read the source sentence word for word, updating its internal hidden state as it goes. When it reaches the end, its final hidden state, which is named the **context vector**,
+The encoder is an LSTM that read the source sentence word for word, updating its internal hidden state as it goes. When it reaches the end, its final hidden state, which is named the **context vector**, is taken as a compressed representation of the entire input's meaning. The decoder is a second LSTM that generates the translation one at a time, conditioned by the context vector and on the words it has already produced. At each step it outputs a probability distribution over the whole vocabulary and selects the next word, continuing until it emits a special "end of sentence" token. 
+
+To illustrate how this architecture operates in practice, consider the task of translating the English phrase **"I am ready"** into the French equivalent **"Je suis prêt"**. 
+
+This process is split into two distinct phases, demonstrating exactly how the framework handles sequences without requiring a strict 1:1 input-output mapping.
+##### 1. The Encoding Phase
+The Encoder processes the input sequence one token at a time, continuously updating its internal state:
+*   **Step 1:** The encoder reads the token `"I"`, updating its hidden state. No output is produced.
+*   **Step 2:** The encoder reads `"am"` alongside its previous hidden state, updating its internal state again.
+*   **Step 3:** The encoder reads `"ready"` and its previous state. Since this is the end of the input sequence, the final hidden state is captured as the **Context Vector**. 
+
+This single Context Vector now serves as the dense, mathematical summary of the entire source sentence.
+
+##### 2. The Decoding Phase
+The Decoder takes over. Its initial state is seeded completely by the Context Vector, and it generates the translation step-by-step:
+*   **Step 1:** Triggered by a special `<START>` token and conditioned by the Context Vector, the decoder outputs the highest probability word: `"Je"`.
+*   **Step 2:** Taking its previous output (`"Je"`) as its new input, along with its updated internal state, it predicts the next word: `"suis"`.
+*   **Step 3:** Taking `"suis"` as input, it updates and predicts `"prêt"`.
+*   **Step 4:** Taking `"prêt"` as input, the network recognizes the phrase is complete and outputs the special `<EOS>` (End of Sentence) token, halting the generation.
+
+### Visualizing the Architecture
+
+The following diagram illustrates the flow of information through both LSTM chains, highlighting the critical role of the Context Vector as the singular bridge between them.
+
+```mermaid
+graph TD
+    %% Inputs
+    I1["I"]
+    I2["am"]
+    I3["ready"]
+
+    %% Encoder LSTMs
+    E1["Encoder LSTM<br>(Step 1)"]
+    E2["Encoder LSTM<br>(Step 2)"]
+    E3["Encoder LSTM<br>(Step 3)"]
+
+    %% Encoder Flow
+    I1 --> E1
+    E1 -->|Hidden State| E2
+    I2 --> E2
+    E2 -->|Hidden State| E3
+    I3 --> E3
+
+    %% The Bottleneck / Context Vector
+    E3 -->|Context Vector| D1
+
+    %% Decoder LSTMs
+    D1["Decoder LSTM<br>(Step 1)"]
+    D2["Decoder LSTM<br>(Step 2)"]
+    D3["Decoder LSTM<br>(Step 3)"]
+    D4["Decoder LSTM<br>(Step 4)"]
+
+    %% Decoder Flow (Inputs & States)
+    Start["&lt;START&gt;"] --> D1
+    D1 -->|Hidden State| D2
+    D2 -->|Hidden State| D3
+    D3 -->|Hidden State| D4
+
+    %% Decoder Outputs
+    O1["Je"]
+    O2["suis"]
+    O3["prêt"]
+    O4["&lt;EOS&gt;"]
+
+    D1 -->|Output| O1
+    O1 -.->|Next Input| D2
+    D2 -->|Output| O2
+    O2 -.->|Next Input| D3
+    D3 -->|Output| O3
+    O3 -.->|Next Input| D4
+    D4 -->|Output| O4
+    
+    %% Styling
+    classDef encoder fill:#e1f5fe,stroke:#039be5,stroke-width:2px;
+    classDef decoder fill:#e8f5e9,stroke:#43a047,stroke-width:2px;
+    classDef vector fill:#fff3e0,stroke:#ff9800,stroke-width:2px;
+    
+    class E1,E2,E3 encoder;
+    class D1,D2,D3,D4 decoder;
+```
+#### The Problem
