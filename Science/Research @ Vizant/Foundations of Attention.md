@@ -190,4 +190,8 @@ graph TD
     class D1,D2,D3,D4 decoder;
 ```
 #### The Problem
-The context vector itself had a fixed limit. In keeping with the technology present in 2014, up-to 2017, the LSTM could only properly support context vectors of dimensions 512 to 1024 before the GPU memory limits and parameter explosion made training unfeasible.  
+The context vector itself had a fixed limit. In keeping with the technology present in 2014, up-to 2017, the LSTM could only properly support context vectors of dimensions 512 to 1024 before the GPU memory limits and parameter explosion made training unfeasible, since increased dimensions aren't just for the hidden state, but for each parameter of the model. This means a functional limit of 30-50 words before amnesia kicked in and the context vector had to drop old information in favor of newer information.  
+
+#### The Precursor to Attention
+In 2014, **Dzmitry Bahdanau**, then a master's student visiting Yoshua Bengio's lab in Montreal, together with some of his colleagues, proposed the fix that changed everything. Instead of forcing the entire source through one frozen context vector, why not let the decoder look back at all of the encoder's hidden states, one per source word,  and, at each step of generation, decide for itself which source words matter most right now? The intuition for this method comes from the fact that we, as humans, constantly glance back at the source text when writing an interpretation or translation, to understand which word or feeling to focus on.
+
