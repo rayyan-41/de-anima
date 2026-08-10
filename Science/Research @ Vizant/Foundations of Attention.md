@@ -194,93 +194,41 @@ The context vector itself had a fixed limit. In keeping with the technology pres
 
 #### The Precursor to Attention
 In 2014, **Dzmitry Bahdanau**, then a master's student visiting Yoshua Bengio's lab in Montreal, together with some of his colleagues, proposed the fix that changed everything. Instead of forcing the entire source through one frozen context vector, why not let the decoder look back at all of the encoder's hidden states, one per source word,  and, at each step of generation, decide for itself which source words matter most right now? The intuition for this method comes from the fact that we, as humans, constantly glance back at the source text when writing an interpretation or translation, to understand which word or feeling to focus on.
-
-Here is the mathematical breakdown of Bahdanau Attention, written in a semi-technical, explanatory voice with clean LaTeX formatting so you can easily drop it right into your report.
-
   
+To understand how the Bahdanau Attention mechanism breaks the sequence bottleneck, we have to look at how it calculates a brand new, custom context vector at every single time step of the decoding process. This process is broken down into three sequential calculations: 
+1) Scoring the alignment
+2) Converting those scores into probabilities
+3) Calculating the final weighted sum.
 
-### The Mathematics of Bahdanau Attention
 
-To understand how the Bahdanau Attention mechanism breaks the sequence bottleneck, we have to look at how it calculates a brand new, custom context vector at every single time step of the decoding process.
-
-  
-
-This process is broken down into three sequential calculations: scoring the alignment, converting those scores into probabilities, and calculating the final weighted sum.
-
-  
-
-#### 1. The Alignment Score (The "Energy" Calculation)
-
-At any given decoding step $t$, the decoder has a current hidden state, denoted as $s_t$. Meanwhile, the encoder holds a sequence of hidden states, $h_j$, one for every word $j$ in the source sentence.
-
-  
-
-The first step is to calculate an alignment score, $e_{tj}$, which represents how relevant a specific encoder state $h_j$ is to the current decoder state $s_t$. Bahdanau computes this using a small feed-forward neural network:
-
-  
+At any given decoding step $t$, the decoder has a current hidden state, denoted as $s_t$. Meanwhile, the encoder holds a sequence of hidden states, $h_j$, one for every word $j$ in the source sentence. The first step is to calculate an alignment score, $e_{tj}$, which represents how relevant a specific encoder state $h_j$ is to the current decoder state $s_t$. Bahdanau computes this using a small feed-forward neural network:
 
 $$e_{tj} = v^\top \tanh(W_s s_t + W_h h_j)$$
 
-**What is happening here?**
-
-  
-
-- $W_s$ and $W_h$ are learnable weight matrices that transform the decoder state $s_t$ and the encoder state $h_j$ into a shared mathematical space.
-    
-      
-    
-- They are added together and passed through a $\tanh$ activation function to introduce non-linearity.
-    
-      
-    
+**What is happening here?**  
+- $W_s$ and $W_h$ are learnable weight matrices that transform the decoder state $s_t$ and the encoder state $h_j$ into a shared mathematical space.    
+- They are added together and passed through a $\tanh$ activation function to introduce non-linearity.  
 - Finally, the result is multiplied by a learnable weight vector $v^\top$ to collapse the matrix down into a single scalar number. This number is the raw attention score.
-    
-      
-    
-
-#### 2. The Attention Weights (Softmax Normalization)
-
 The raw alignment scores ($e_{tj}$) can be any real number, which makes them difficult to interpret as a focused "glance." To fix this, the network passes all the raw scores for a given decoding step through a softmax function:
-
-  
 
 $$\alpha_{tj} = \frac{\exp(e_{tj})}{\sum_{k=1}^{T_x} \exp(e_{tk})}$$
 
-**What is happening here?**
-
-  
-
 - The softmax function takes the raw score for the current word $j$ and divides it by the sum of the exponential scores for _all_ words $k$ in the source sequence (where $T_x$ is the total length of the input sequence).
-    
-      
-    
-- This transforms the raw scores into a probability distribution, $\alpha_{tj}$, where every value is between 0 and 1, and all values sum up to exactly 1.0.
-    
-      
-    
+- This transforms the raw scores into a probability distribution, $\alpha_{tj}$, where every value is between 0 and 1, and all values sum up to exactly 1.0.    
 - These are our **attention weights**. They tell the network exactly what percentage of its focus should be applied to each source word.
-    
-      
-    
 
-#### 3. The Dynamic Context Vector
-
-In the original Encoder-Decoder architecture, the context vector was a static, frozen representation of the entire input. In the Bahdanau model, the context vector $c_t$ is dynamic—recalculated from scratch at every single step $t$:
-
+In the original Encoder-Decoder architecture, the context vector was a static, frozen representation of the entire input. In the Bahdanau model, the context vector $c_t$ is dynamic i.e. recalculated from scratch at every single step $t$:
   
 
 $$c_t = \sum_{j=1}^{T_x} \alpha_{tj} h_j$$
 
-**What is happening here?**
 
-  
-
-- The network takes each original encoder hidden state $h_j$ and multiplies it by its corresponding attention weight $\alpha_{tj}$.
-    
-      
-    
-- It then sums all of these weighted states together to produce $c_t$.
-    
-      
-    
+- The network takes each original encoder hidden state $h_j$ and multiplies it by its corresponding attention weight $\alpha_{tj}$.   
+- It then sums all of these weighted states together to produce $c_t$.    
 - Because the weights $\alpha_{tj}$ heavily favor the most relevant words, the resulting context vector $c_t$ is a custom-tailored summary of the input sequence, perfectly highlighting the exact information the decoder needs to generate its next specific word.
+
+- - -
+# To Attention
+For all its power, Bahdanau attention was still bolted onto an LSTM. The encoder and decoder remained recurrent, still sequential, still un-parallelisable, still carrying the residue of the vanishing-gradient problem
+
+Three years later, a group at Google asked the question: what if we tore out the recurrence completely and let attention play every role? What if attention is all you need? 
