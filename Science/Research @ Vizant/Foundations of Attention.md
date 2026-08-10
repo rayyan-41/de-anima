@@ -101,5 +101,12 @@ Here is how the gates operate at each time step:
 By using these gates, the LSTM can maintain long-term dependencies much better than a standard RNN, acting like a smart filter that knows exactly what to remember and what to forget as it reads through a sequence.
 
 Note that the vanishing gradient problem, as mentioned before, was **tamed**, not *solved*. They carried a second flaw that proved more decisive. Information still threads through the cell state one step at a time, and over truly long sequences early details can still fade. More fundamentally, an LSTM is inherently sequential: step cannot begin until step has finished. There is no way around this, it is baked into the recurrence. And that single fact becomes fatal at scale, because it means the computation cannot be parallelized. 
+
+Beyond these scaling limitations, standard LSTMs faced a critical structural flaw when applied to real-world language tasks: they demanded a rigid, one-to-one mapping between input and output steps. If a network was fed a five-word sentence, it naturally wanted to output exactly five states. To achieve breakthroughs in tasks like machine translation, where sequence lengths constantly change, researchers had to decouple the input from the output. This requirement birthed the architectural bridge that would directly set the stage for Attention: the Encoder-Decoder network."
 - - -
-# Getting to Attention
+# Pre-Attention
+The Encode-Decoder network is the most important concept pre-attention because it does two things: 
+1) Fixes the problem with LSTMs
+2) Introduces a bottleneck, which births Attention
+### Encoder - Decoder Framework
+The encoder is an LSTM that read the source sentence word for word, updating its internal hidden state as it goes. When it reaches the end, its final hidden state, which is named the **context vector**,
