@@ -1,0 +1,17 @@
+﻿{
+    "slug":  "go-programming-language",
+    "created":  "2026-08-17T12:49:25.9676939+05:00",
+    "stages":  {
+                   "yolo":  {
+                                "status":  "complete",
+                                "timestamp":  "2026-08-17T12:51:35.7369620+05:00",
+                                "note":  ""
+                            },
+                   "preflight":  {
+                                     "status":  "complete",
+                                     "timestamp":  "2026-08-17T12:49:25.9706443+05:00",
+                                     "note":  ""
+                                 }
+               },
+    "last_updated":  "2026-08-17T12:51:35.7409667+05:00"
+}

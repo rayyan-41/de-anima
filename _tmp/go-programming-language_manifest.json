@@ -1,0 +1,68 @@
+﻿{
+    "slug":  "go-programming-language",
+    "created":  "2026-08-17T12:49:25.5357135+05:00",
+    "stage":  "pre-flight",
+    "expected_count":  10,
+    "expected":  [
+                     {
+                         "index":  "01",
+                         "heading":  "\"I. The Literary Nature of Code",
+                         "filename":  "go-programming-language_chunk_01.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "02",
+                         "heading":  "II. Go as a Text: Syntax and Semantics",
+                         "filename":  "go-programming-language_chunk_02.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "03",
+                         "heading":  "III. The Authors of Go: A Collective Voice",
+                         "filename":  "go-programming-language_chunk_03.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "04",
+                         "heading":  "IV. The Narrative of Concurrency",
+                         "filename":  "go-programming-language_chunk_04.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "05",
+                         "heading":  "V. Minimalism and Clarity: The Aesthetic of Go",
+                         "filename":  "go-programming-language_chunk_05.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "06",
+                         "heading":  "VI. The Canon of Go Literature",
+                         "filename":  "go-programming-language_chunk_06.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "07",
+                         "heading":  "VII. The Philosophy of Simplicity",
+                         "filename":  "go-programming-language_chunk_07.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "08",
+                         "heading":  "VIII. Go in the Broader Literary Landscape",
+                         "filename":  "go-programming-language_chunk_08.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "09",
+                         "heading":  "IX. The Reader as Interpreter: Compilation as Interpretation",
+                         "filename":  "go-programming-language_chunk_09.md",
+                         "status":  "pending"
+                     },
+                     {
+                         "index":  "10",
+                         "heading":  "X. The Legacy and Influence of Go\"",
+                         "filename":  "go-programming-language_chunk_10.md",
+                         "status":  "pending"
+                     }
+                 ]
+}
