@@ -4,22 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "55380071b2b95c2d",
+        "id": "6e4a83f761db0552",
         "type": "tabs",
         "children": [
           {
-            "id": "29a6f5f65be8c587",
+            "id": "768de1475cc02bce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "_tmp/go-programming-language_chunk_09.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "currentVersion": "1.13.7"
               },
-              "icon": "lucide-file",
-              "title": "go-programming-language_chunk_09"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
             }
           }
         ]
@@ -200,38 +197,38 @@
       "graph:Open graph view": false
     }
   },
-  "active": "29a6f5f65be8c587",
+  "active": "768de1475cc02bce",
   "lastOpenFiles": [
-    "Science/Research @ Vizant/Foundations of Attention.md",
-    "Literature/Map of Contents - Literature.md",
-    "_tmp/test.md",
-    "_tmp/test_1.md",
-    "_tmp/test_chunk.md",
-    "Literature/Reference/Quotes.md",
+    "History/Biographies/Al-Ghazali.md",
+    "Science/Computer Science/Development/Tools, Frameworks and Stacks/Methods of Authentication.md",
+    "History/Biographies/Euclid.md",
+    "History/Biographies/Euler.md",
+    "History/Biographies/Ibn Sina.md",
+    "History/Biographies/Galileo Galilei.md",
+    "History/Biographies/Gauss.md",
+    "History/Biographies/Jacob Bernoulli.md",
+    "History/Biographies/Luca Pacioli.md",
+    "History/Biographies/Muammar Gaddafi.md",
+    "History/Biographies/Stefan Lazarevic.md",
+    "History/Biographies/Rumi.md",
+    "Science/Computer Science/Artificial Intelligence/Transformer Models vs Diffusion in Agentic AI, LLMs and SLMs.md",
+    "Science/Mathematics/The Riemann Hypothesis.md",
+    "Science/Mathematics/The Evolution of Limit Theorems.md",
+    "Science/Mathematics/Mathematics of Interest.md",
+    "Science/Computer Science/Artificial Intelligence/Java and Artificial Intelligence.md",
+    "Science/Computer Science/Artificial Intelligence/LLM1 - Large Language Models - Architecture and Mechanics.md",
+    "Science/Computer Science/Artificial Intelligence/LLM2 - LLMs for Reasoning.md",
+    "Science/Computer Science/Artificial Intelligence/Neural Networks.md",
+    "Science/Computer Science/Development/Projects/Chevreul's Raster Imaging System.md",
+    "Science/Computer Science/Development/Web Development/Senior Developer Tips for Building Websites.md",
+    "Science/Computer Science/Development/Projects/AVALsys n8n workflow.md",
+    "_tmp/go-programming-language_chunk_05.md",
+    "_tmp/go-programming-language_chunk_09.md",
+    "_tmp/go-programming-language_chunk_03.md",
     "Literature/Books/Critique_of_Pure_Reason-Kant.pdf",
     "Literature/Books/crime_and_punishment.pdf",
-    "Reason/Map of Contents - Reason.md",
-    "Reason/Chain Of Thoughts.md",
-    "The Julian Star and Intellectualism as a Category of People..md",
-    "Reason/An Effort to Understand Iqbal.md",
-    "Reason/Evolution of Metaphysics in Islam.md",
-    "Reason/From Descartes to Darwin - Innate Existence of God.md",
-    "Reason/the Epistemic Gap and the Necessity of Revelation.md",
-    "Reason/The Historical Amnesia of the Islamic Golden Age.md",
-    "Reason/The Historical Ascent of Reason and the Absolute Idea.md",
-    "Reason/The Julian Star and Intellectualism.md",
-    "Reason/The Transcendental Nature of Love.md",
-    "History/Contemporary (1800 - Present)/Libya/The Arab Spring - A Decade of Upheaval and Transformation.md",
-    "Mustafa is Gay.md",
     "Untitled",
-    "GEMINI.md",
-    "History/Contemporary (1800 - Present)/Libya/Gaddafi's Libya - The Rise and Fall of the Jamahiriya.md",
-    "Reason/_Reason - Map of Contents.md",
-    "Science/Computer Science/Map of Contents - Computer Science.md",
-    "Science/Map of Contents - Science.md",
-    "Science/_Science - Map of Contents.md",
     "_tmp/check_tocs.ps1",
-    "Literature/Short Stories/Map of Contents - Short Stories.md",
     "_tmp/agents_review.txt",
     "_tmp/read_agents.py",
     "_tmp/agents_summary.txt",
@@ -248,7 +245,4 @@
     "Arts/paintings_source/A_Sunday Afternoon_on_the Island_of_La Grande_Jatte..jpg",
     "did-you-know-The-School-of-Athens-Raphael 2.webp",
     "did-you-know-The-School-of-Athens-Raphael 1.webp",
-    "The Grounded Study/Science/Untitled Diagram.svg",
-    "Untitled 1.canvas"
-  ]
-}
+  

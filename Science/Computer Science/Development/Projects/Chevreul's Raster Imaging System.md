@@ -30,18 +30,4 @@ CRIS assumes three things as axioms:
 2. A pixel is not a color, but a **proposal** to the visual cortex, which results in a 'perception'.
 3. Said perception is programmable.
 
-## III - Implementation
-
-### Phase 1: The Foundation (Freestanding Architecture)
-- **Deliverable:** A functional memory arena and type system that compiles without the C++ Standard Library.
-
-### Phase 2: Chevreul's Software Rasterizer (CSR)
-- **Deliverable:** A software renderer capable of drawing primitives (lines, triangles) to a windowed context.
-
-### Phase 3: Perception Programming (Chevreul's Law)
-- **Deliverable:** A real-time filter that adjusts RGB values based on local neighborhood sampling.
-
-### Phase 4: Sovereign Runtime (Kernel Mode)
-- **Deliverable:** The CRIS engine running as the primary interface of a custom OS environment.
-
 - - -

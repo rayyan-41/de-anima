@@ -33,8 +33,6 @@ Convolutional Neural Networks (CNNs), the undeniable champions of image processi
 
 So the core problem emerges clearly: *How can a network look at everything at once, while still understanding the relative position and syntactic importance of each element?* We needed a mechanism that didn't just passively remember the past, but actively **searched** for relevance across the entire input sequence simultaneously. We needed a revolution in how machines process time. We needed to abandon sequential memory entirely and shift to a paradigm of global, parallel attention.
 
-- - -
-
 This naturally prompts the question: if sequential memory is abandoned, what mechanism can simultaneously grasp an entire text without losing the structural meaning of individual elements? To answer this, we must shift our perspective from the linear reading of words to the dynamic allocation of focus.
 
 ## 2. Intuitive Foundation: From Sequential Reading to Global Attention
@@ -261,8 +259,3 @@ How do we physically package a 7-billion parameter SLM (for logic) and a lightwe
 Furthermore, how do we solve the *Context Window* problem in Agentic AI? A Transformer's memory is bounded by its token limit. If an AI software engineer is working on a codebase for six months, how does it remember a bug it fixed on day three? The industry is aggressively experimenting with hybrid architectures—combining the parallel attention of Transformers with the infinite-horizon memory compression of advanced RNN variants (like Mamba or SSMs).      
 
 Ultimately, we are building systems that mirror the bicameral nature of the human mind: the rigid, sequential logic of the left hemisphere mapped to the Transformer, and the continuous, spatial, creative intuition of the right hemisphere mapped to the Diffusion model. By bringing them together, we are not just optimizing code; we are attempting to reverse-engineer the physical mechanics of consciousness itself.
-
-- - -
-
-## Related Notes
-
