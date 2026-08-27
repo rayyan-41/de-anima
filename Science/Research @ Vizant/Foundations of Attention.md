@@ -200,7 +200,6 @@ To understand how the Bahdanau Attention mechanism breaks the sequence bottlenec
 2) Converting those scores into probabilities
 3) Calculating the final weighted sum.
 
-
 At any given decoding step $t$, the decoder has a current hidden state, denoted as $s_t$. Meanwhile, the encoder holds a sequence of hidden states, $h_j$, one for every word $j$ in the source sentence. The first step is to calculate an alignment score, $e_{tj}$, which represents how relevant a specific encoder state $h_j$ is to the current decoder state $s_t$. Bahdanau computes this using a small feed-forward neural network:
 
 $$e_{tj} = v^\top \tanh(W_s s_t + W_h h_j)$$
@@ -229,6 +228,11 @@ $$c_t = \sum_{j=1}^{T_x} \alpha_{tj} h_j$$
 
 - - -
 # To Attention
-For all its power, Bahdanau attention was still bolted onto an LSTM. The encoder and decoder remained recurrent, still sequential, still un-parallelisable, still carrying the residue of the vanishing-gradient problem
+For all its power, Bahdanau attention was still bolted onto an LSTM. The encoder and decoder remained recurrent, still sequential, still un-parallelisable, still limited by the small context vector that could never capture the depth of any text thrown at it.
 
-Three years later, a group at Google asked the question: what if we tore out the recurrence completely and let attention play every role? What if attention is all you need? 
+
+
+
+
+
+Three years later, a group at Google asked the question: what if we tore out the recurrence completely and let attention play every role? *What if attention is all you need?* 
