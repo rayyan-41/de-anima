@@ -39,24 +39,9 @@
   "Science/Computer Science": "LiComputer",
   "Reason/Chain Of Thoughts.md": "LiBrainCircuit",
   "Reason": "LiBrain",
-  "Science": {
-    "iconName": "LiStar",
-    "iconColor": "#e4e708"
-  },
-  "Literature": {
-    "iconName": "LiBook",
-    "iconColor": "#12debc"
-  },
-  "Art": {
-    "iconName": "LiPaintbrushVertical",
-    "iconColor": "#bd00a4"
-  },
-  "Islam": {
-    "iconName": "LiMoon",
-    "iconColor": "#6bc610"
-  },
-  "History": {
-    "iconName": "LiArchive",
-    "iconColor": "#703600"
-  }
+  "Science": "LiStar",
+  "Literature": "LiBook",
+  "Art": "LiPaintbrushVertical",
+  "Islam": "LiMoon",
+  "History": "LiArchive"
 }
