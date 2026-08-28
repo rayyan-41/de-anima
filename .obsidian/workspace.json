@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Science/Research @ Vizant/LR - Attention Is All You Need.md",
+                "file": "Literature/Reference/Quotes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LR - Attention Is All You Need"
+              "title": "Quotes"
             }
           }
         ]
@@ -202,9 +202,9 @@
   },
   "active": "07346f66d4d2bf8f",
   "lastOpenFiles": [
+    "Science/Research @ Vizant/LR - Attention Is All You Need.md",
     "Literature/_templates/Untitled.md",
     "Science/Research @ Vizant/Foundations of Attention.md",
-    "Science/Research @ Vizant/LR - Attention Is All You Need.md",
     "Literature/_templates",
     "_tmp/agent_smoke_formatter.md",
     "AGENTS.md",
