@@ -118,8 +118,20 @@
     "symbolism",
     "aesthetics",
     "artistic-technique",
-    "literary-criticism"
+    "literary-criticism",
+    "philosophy",
+    "rationalism",
+    "empiricism",
+    "political-philosophy",
+    "critique",
+    "enlightenment",
+    "skepticism",
+    "moral-philosophy",
+    "theory-of-knowledge"
   ],
 
-  "reservedModifiers": ["incomplete", "original-insight"]
+  "reservedModifiers": ["incomplete", "original-insight"],
+  "_themeCounts": {
+    "philosophy": 1, "rationalism": 1, "empiricism": 1, "political-philosophy": 1, "critique": 1, "enlightenment": 1, "skepticism": 1, "moral-philosophy": 1, "theory-of-knowledge": 1
+  }
 }
