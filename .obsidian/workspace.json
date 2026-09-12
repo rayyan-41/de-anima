@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reason/Rousseau's and David Hume's profound impact on Immanuel Kant.md",
+                "file": "Literature/Reference/Quotes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Rousseau's and David Hume's profound impact on Immanuel Kant"
+              "title": "Quotes"
             }
           }
         ]
@@ -202,6 +202,9 @@
   },
   "active": "07346f66d4d2bf8f",
   "lastOpenFiles": [
+    "Literature/Reference/Lexicon.md",
+    "Reason/The Julian Star and Intellectualism.md",
+    "Reason/Rousseau's and David Hume's profound impact on Immanuel Kant.md",
     "Reason/Whether pure reason can establish moral obligations without appeal to experience, revelation, or tradition.md",
     "Reason/From Descartes to Darwin - Innate Existence of God.md",
     "Reason/Whether pure reason can establish moral obligations without appeal to experience, revelation, or tradition (2).md",
@@ -214,7 +217,6 @@
     "Literature/_templates",
     "_tmp/agent_smoke_formatter.md",
     "AGENTS.md",
-    "Literature/Reference/Lexicon.md",
     "_tmp/agent_smoke_ghazali.md",
     "_tmp/agent_smoke_haytham.md",
     "_tmp/agent_smoke_linker.md",
@@ -227,8 +229,6 @@
     "_tmp/agent_smoke_weaver.md",
     "History/Biographies/Al-Ghazali.md",
     "Science/Computer Science/Development/Tools, Frameworks and Stacks/Methods of Authentication.md",
-    "History/Biographies/Euclid.md",
-    "History/Biographies/Euler.md",
     "Literature/Books/Critique_of_Pure_Reason-Kant.pdf",
     "Literature/Books/crime_and_punishment.pdf",
     "Untitled",
